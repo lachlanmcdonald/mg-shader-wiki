@@ -1,4 +1,4 @@
-Generates a grid pattern with variable thickness and spacing.
+> Generates a grid pattern with variable thickness and spacing.
 
 ## Parameters
 
