@@ -11,8 +11,6 @@
 3. Under Box, press the **Voxel Shader** option and **Gizmo**
 4. Select the shader in the **Shader List**
 
-> See all [Brush Shaders](/lachlanmcdonald/magicavoxel-shaders/wiki#brush-shaders).
-
 <img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/brush_shader.png" width="400" alt="">
 
 _Relevant buttons in the editor UI._
