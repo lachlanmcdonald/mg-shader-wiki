@@ -1,6 +1,6 @@
 **Brush Shaders** are shaders that allow you to easily to add or remove voxels from your geometry by selecting the area in which you want the shaders to take effect.
 
-### To use a brush shader
+### Using brush shaders
 
 1. Select **Box Mode** [B]
 2. Select 
@@ -12,3 +12,11 @@
 4. Select the shader in the **Shader List**
 
 > See all [Brush Shaders](/lachlanmcdonald/magicavoxel-shaders/wiki#brush-shaders).
+
+<img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/brush_shader.png" width="400" alt="">
+
+_Relevant buttons in the editor UI._
+
+<img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/brush_shader_gizmo.png" width="400" alt="">
+
+_Example of the box gizmo and the brick shader._
