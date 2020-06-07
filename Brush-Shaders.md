@@ -19,4 +19,4 @@ _Relevant buttons in the editor UI._
 
 <img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/brush_shader_gizmo.png" width="400" alt="">
 
-_Example of the box gizmo and the brick shader._
+_Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavoxel-shaders/wiki/Brick-Brush)._
