@@ -1,6 +1,6 @@
 Generates a brick or tile pattern. This shader is used as a [brush](#).
 
-### Parameters
+## Parameters
 
 Brick colors are chosen at random between __Color A__ and __Color B__.
 
