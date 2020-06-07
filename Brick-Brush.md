@@ -1,4 +1,4 @@
-Generates a brick pattern
+Generates a brick or tile pattern.
 
 ### Parameters
 
