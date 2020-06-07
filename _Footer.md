@@ -1,1 +1,0 @@
-[Home](/lachlanmcdonald/magicavoxel-shaders/wiki) – [Shader Brushes](/lachlanmcdonald/magicavoxel-shaders/wiki) – [Shaders](/lachlanmcdonald/magicavoxel-shaders/wiki)
