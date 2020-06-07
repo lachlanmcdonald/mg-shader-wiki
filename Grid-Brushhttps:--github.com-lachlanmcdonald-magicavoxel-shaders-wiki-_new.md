@@ -1,6 +1,6 @@
 Generates a grid pattern with variable thickness and spacing.
 
-#### Parameters
+## Parameters
 
 - **Color A**: Color of the lines
 - **Color B**: Color of the boxes in between the lines
@@ -11,7 +11,7 @@ Generates a grid pattern with variable thickness and spacing.
 
 Setting **Color A** to `0` will result in gaps, instead of lines, and similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
 
-#### Axes Modes
+## Axes Modes
 
 - *Axis Mode* can be used to only generate a grid on a particular axis.
 - When no *Axis Mode* is set, a grid is generated on all axes.
