@@ -4,6 +4,8 @@ Generates a brick or tile pattern. This shader is used as a [brush](#).
 
 Brick colors are chosen at random between __Color A__ and __Color B__.
 
+Setting either of the colors to zero will also result in missing bricks.
+
 - **Width**: Width of the brick
 - **Height**: Height of each brick
 - **Depth**: Depth of each brick
