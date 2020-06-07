@@ -1,0 +1,11 @@
+Generates a brick pattern
+
+### Parameters
+
+Brick colors are chosen at random between __Color A__ and __Color B__.
+
+- **Width**: Width of the brick
+- **Height**: Height of each brick
+- **Depth**: Depth of each brick
+- **Color A**: First color index
+- **Color B**: Last color index
