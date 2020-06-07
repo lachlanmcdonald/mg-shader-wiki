@@ -6,7 +6,7 @@
 
 Voxels are added on top of voxels matching the selected color.
 
-- **Color** Color index for the voxels. If set to `0`, the selected color index is used instead. 
+- **Color**: Color index (if set to `0`, the selected color index is used instead)
 
 ## Axis Modes
 
