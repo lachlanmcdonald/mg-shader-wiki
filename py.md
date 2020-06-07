@@ -1,6 +1,6 @@
-> The `py` and `py2` shaders add a layer of voxel on top of voxels matching the selected color. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
+> The [`py`](py/) and [`py2`](py2/) shaders add a layer of voxel on top of voxels matching the selected color. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
 
-`py` will only add voxels when the adjacent voxels match the selected color. Whereas, `py2` will add voxels if there are adjacent voxels of any color.
+[`py`](py/) will only add voxels when the adjacent voxels match the selected color. Whereas, [`py2`](py2/) will add voxels if there are adjacent voxels of any color.
 
 ## Parameters
 
