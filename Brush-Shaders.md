@@ -1,7 +1,5 @@
 **Brush Shaders** are shaders that allow you to easily to add or remove voxels from your geometry by selecting the area in which you want the shaders to take effect.
 
-### Using brush shaders
-
 1. Select **Box Mode** [B]
 2. Select 
     - **Attach**: shader will only add new voxels
