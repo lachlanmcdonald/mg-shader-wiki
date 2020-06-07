@@ -1,6 +1,4 @@
-> **case** surrounds/encases the voxels which match your selected color with a chosen color.
-
-This shader is similar to the _Dilation_ tool; except you can select an axis mode and target color.
+> **case** surrounds/encases the voxels which match your selected color with a chosen color. This shader is similar to the _Dilation_ tool; except you can select an axis mode and target color.
 
 ## Parameters
 
