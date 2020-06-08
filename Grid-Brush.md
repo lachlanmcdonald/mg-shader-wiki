@@ -1,4 +1,4 @@
-> Generates a grid pattern with variable thickness and spacing.
+> Generates a grid pattern with variable thickness and spacing. This shader is used as a [brush](Brush-Shaders).
 
 ## Parameters
 
