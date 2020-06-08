@@ -11,7 +11,7 @@
 
 Setting **Color A** to `0` will result in gaps, instead of lines, and similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
 
-## Thickness
+### Thickness
 
 <table>
     <tr>
@@ -24,35 +24,34 @@ Setting **Color A** to `0` will result in gaps, instead of lines, and similarly,
     </tr>
 </table>
 
-## Examples
-
-
-
-## Axes Modes
+### Axes Modes
 
 Axis Modes can be used to only generate a grid on a particular axis. When no Axis Mode is set, a grid is generated on all axes.
 
 <table>
     <tr>
-        <td width="50%">
-            <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XYZ.png" alt="Example of no set axis mode">
-        </td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XYZ.png" alt="Example of no set axis mode"></td>
         <td width="50%"></td>
     </tr>
     <tr>
-        <td width="50%">
-            <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_X.png" alt="Example of X-axis mode">
-        </td>
-        <td width="50%">
-            <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Y.png" alt="Example of Y-axis mode">
-        </td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_X.png" alt="Example of X-axis mode"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Y.png" alt="Example of Y-axis mode"></td>
     </tr>
     <tr>
-        <td width="50%">
-            <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XY.png" alt="Example of X & Y-axis mode">
-        </td>
-        <td width="50%">
-            <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Z.png" alt="Example of Z-axis mode">
-        </td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XY.png" alt="Example of X & Y-axis mode"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Z.png" alt="Example of Z-axis mode"></td>
+    </tr>
+</table>
+
+## Examples
+
+<table>
+    <tr>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_1.png" alt="Example 1"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_2.png" alt="Example 2"></td>
+    </tr>
+    <tr>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_3.png" alt="Example 3"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_4.png" alt="Example 4"></td>
     </tr>
 </table>
