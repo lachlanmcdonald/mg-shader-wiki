@@ -1,5 +1,5 @@
-* [Home](home/)
-* [Brush Shaders](brush-shaders/)
-
-    * 
-    * 
+- [Home](home/)
+- [Brush Shaders](brush-shaders/)
+  - [Brick Brush](brick-brush/)
+  - [Grid Brush](grid-brush/)
+  - [Stairs Brush](stairs-brush/)
