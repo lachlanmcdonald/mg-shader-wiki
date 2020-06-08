@@ -8,7 +8,7 @@
       <td>Generate a brick pattern</td>
       <td>
         <ul>
-          <li><code>brush/stairs</code</li>
+          <li><code>brush/bricks</code</li>
         </ul>
       </td>
     </tr>
@@ -18,7 +18,7 @@
       <td>Generate a grid pattern</td>
       <td>
         <ul>
-          <li><code>brush/stairs</code</li>
+          <li><code>brush/grid</code</li>
         </ul>
       </td>
     </tr>
@@ -28,7 +28,7 @@
       <td>Generates stairs</td>
       <td>
         <ul>
-          <li><code>brush/</code</li>
+          <li><code>brush/stairs</code</li>
         </ul>
       </td>
     </tr>
