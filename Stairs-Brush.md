@@ -8,7 +8,7 @@
 
 ## Parameters
 
-- **Alignment**: The rotation of the stairs
+- **Direction**: The facing direction of the stairs
 - **Count**: The number of runs to fit within the brush's dimensions. If the shader's dimensions are not divisible by the count, the depth of each run will be inconsistent.
 - **Height**: The height of each run
 - **X/Y Gap**: The distance between each run of adjacent stairs.
