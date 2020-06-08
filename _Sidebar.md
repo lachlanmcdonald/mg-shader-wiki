@@ -3,3 +3,4 @@
   - [Brick Brush](brick-brush/)
   - [Grid Brush](grid-brush/)
   - [Stairs Brush](stairs-brush/)
+  - [Tiles Brush](tiles-brush/)
