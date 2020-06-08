@@ -1,5 +1,10 @@
 > Generates a grid pattern with variable thickness and spacing. This shader is used as a [brush](Brush-Shaders).
 
+- Parameters
+- Thickness
+- Axes Modes
+- Examples
+
 ## Parameters
 
 - **Color A**: Color of the lines
@@ -11,7 +16,7 @@
 
 Setting **Color A** to `0` will result in gaps, instead of lines, and similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
 
-### Thickness
+## Thickness
 
 <table>
     <tr>
@@ -24,7 +29,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines, and similarly,
     </tr>
 </table>
 
-### Axes Modes
+## Axes Modes
 
 Axis Modes can be used to only generate a grid on a particular axis. When no Axis Mode is set, a grid is generated on all axes.
 
