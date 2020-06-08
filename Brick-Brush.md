@@ -1,4 +1,4 @@
-> Generates a brick or tile pattern. This shader is used as a [brush](Brush-Shaders).
+> Generates alternative rows of bricks or tiles. This shader is used as a [brush](Brush-Shaders).
 
 ## Parameters
 
