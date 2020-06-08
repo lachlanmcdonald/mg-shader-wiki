@@ -1,9 +1,9 @@
 > Generates a grid pattern with variable thickness and spacing. This shader is used as a [brush](Brush-Shaders).
 
-- Parameters
-- Thickness
-- Axes Modes
-- Examples
+- [Parameters](#parameters)
+- [Thickness](#thickness)
+- [Axes Modes](#axes-modes)
+- [Examples](#examples)
 
 ## Parameters
 
