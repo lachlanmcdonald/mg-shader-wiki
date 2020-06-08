@@ -3,7 +3,7 @@
 - [Parameters](#parameters)
 - [Count](#count)
 - [Height](#height)
-- [X/Y Gap](#x-y-gap)
+- [X/Y Gap](#xy-gap)
 - [Z Gap](#z-gap)
 
 ## Parameters
