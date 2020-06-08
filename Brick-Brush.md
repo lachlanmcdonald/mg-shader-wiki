@@ -1,5 +1,9 @@
 > Generates alternative rows of bricks or tiles. This shader is used as a [brush](Brush-Shaders).
 
+- [Parameters](#parameters)
+- [Threshold](#threshold)
+- [Examples](#examples)
+
 ## Parameters
 
 Brick colors are chosen at random between __Color A__ and __Color B__.
@@ -12,3 +16,11 @@ Setting either of the colors to zero will also result in missing bricks.
 - **Color A**: First color index
 - **Color B**: Last color index
 - **Threshold**: Likelihood of a brick being placed. The default of `1.0` means all bricks are placed, and lower values will result in missing bricks
+
+## Threshold
+
+
+
+## Examples
+
+
