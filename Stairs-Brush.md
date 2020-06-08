@@ -1,7 +1,20 @@
 > Generates a slope of stairs. This shader is used as a [brush](Brush-Shaders).
-## Count
 
-The **count** is the height of each runs to fit within the brush's X & Y dimensions. If the shader's dimensions are not divisible by the count, the depth of each run will be inconsistent.
+- [Parameters](#parameters)
+- [Count](#count)
+- [Height](#height)
+- [X/Y Gap](#x-y-gap)
+- [Z Gap](#z-gap)
+
+## Parameters
+
+- **Alignment**: The rotation of the stairs
+- **Count**: The number of runs to fit within the brush's dimensions. If the shader's dimensions are not divisible by the count, the depth of each run will be inconsistent.
+- **Height**: The height of each run
+- **X/Y Gap**: The distance between each run of adjacent stairs.
+- **Z Gap**: The distance between each run and the next run above it.
+
+## Count
 
 <table>
     <tr>
@@ -16,8 +29,6 @@ The **count** is the height of each runs to fit within the brush's X & Y dimensi
 
 ## Height
 
-The **height** is the height of each run.
-
 <table>
     <tr>
         <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_1.png" alt="Example of a height of 1"></td>
@@ -31,8 +42,6 @@ The **height** is the height of each run.
 
 ## X/Y Gap
 
-The **X/Y Gap** is the distance between each run of adjacent stairs.
-
 <table>
     <tr>
         <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_0.png" alt="Example of a X/Y gap of 0"></td>
@@ -45,8 +54,6 @@ The **X/Y Gap** is the distance between each run of adjacent stairs.
 </table>
 
 ## Z Gap
-
-The **Z Gap** is the distance between each run and the next run above it.
 
 <table>
     <tr>
