@@ -14,5 +14,5 @@ The **Direction** is defined below:
 | Value | Summary |
 | ---- | ---- |
 | 0 | Lines are diagonal on the Z-axis |
-| 1 | Lines are diagonal on the Z-axis, but facing the opposite direction |
+| 1 | Lines are diagonal on the Z-axis; facing the opposite direction |
 | 2 | Lines are straight on the Z-axis |
