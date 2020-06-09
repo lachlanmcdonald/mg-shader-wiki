@@ -59,7 +59,7 @@
         <td>Creates an outline where voxels meet a voxel of a different color</td>
     </tr>
     <tr>
-        <th align="left"><a href="Soil-&-Cover"><img width="72" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/soil.png" alt=""></a></th>
+        <th align="left"><a href="Soil-&-Cover"><img width="72" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/soil_2.png" alt=""></a></th>
         <th align="left"><a href="Soil-&-Cover">Soil & Cover</a></th>
         <td>Generates voxels above other voxels; i.e. snow or grass</td>
     </tr>
