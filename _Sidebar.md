@@ -4,4 +4,5 @@
   - [Grid Brush](grid-brush/)
   - [Stairs Brush](stairs-brush/)
   - [Tiles Brush](tiles-brush/)
+  - [Diagonal Line Brush](Diagonal-Line-Brush/)
 - [Volume Shaders](volume-shaders/)
