@@ -1,0 +1,1 @@
+> The **Diagonal Line** brush shader creates parallel 45° lines of alternative widths.
