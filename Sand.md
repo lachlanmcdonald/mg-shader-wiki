@@ -8,3 +8,13 @@ Voxels are added randomly and only added when the voxel beneath has adjacent vox
 Voxels are added on top of voxels matching the selected color.
 
 - **Color**: Color index for the voxels. If set to `0`, the selected color index is used instead.
+
+## Examples
+
+<table>
+    <tr>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/sand1.png" alt=""></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/sand2.png" alt=""></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/sand3.png" alt=""></td>
+    </tr>
+</table>
