@@ -3,6 +3,7 @@
 
 - [Parameters](#parameters)
 - [Axis Modes](#axis-modes)
+- [Examples](#examples)
 
 ## Parameters
 
