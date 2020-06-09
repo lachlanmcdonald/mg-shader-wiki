@@ -1,4 +1,4 @@
-> The **Grid** brush generates a grid pattern with variable thickness and spacing. This shader is used as a [brush](Brush-Shaders).
+> The **Grid** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
 
 - [Parameters](#parameters)
 - [Thickness](#thickness)
