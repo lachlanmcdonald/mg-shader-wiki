@@ -1,4 +1,4 @@
-> The **Diagonal Line** brush shader creates parallel 45° lines of alternating widths.
+> The **Diagonal Line** brush shader generates parallel 45° lines of alternating widths.
 
 - [Parameters](#parameters)
 - [Directions](#directions)
