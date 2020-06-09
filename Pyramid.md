@@ -14,7 +14,12 @@ Voxels are added on top of voxels matching the selected color.
 
 When no axis modes are set, the shader will form a square pyramid. However, if either X or Y axis modes are set, the shader will form a pyramid with the slope facing the X or Y axis, respectively. Setting the Z-axis mode has no effect.
 
-<img width="25%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/py7.png" alt="">
+<table>
+    <tr>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/py7.png" alt=""></td>
+        <td width="50%"></td>
+    </tr>
+</table>
 
 ## Examples
 
