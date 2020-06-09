@@ -9,12 +9,12 @@
 
 - **Color A**: Color of the lines
 - **Color B**: Color of the boxes in between the lines
-- **Thickness**: Thickness of the lines
-- **X Spacing**: Spacing of lines on the X-axis
-- **Y Spacing**: Spacing of lines on the Y-axis
-- **Z Spacing**: Spacing of lines on the Z-axis
+- **Thickness**: Line thickness
+- **X Spacing**: Spacing between lines on the X-axis
+- **Y Spacing**: Spacing between lines on the Y-axis
+- **Z Spacing**: Spacing between lines on the Z-axis
 
-Setting **Color A** to `0` will result in gaps, instead of lines, and similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
+Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
 
 ## Thickness
 
