@@ -13,10 +13,15 @@
 
 <table>
     <tr>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_025.png" alt="">Threshold: <code>0.25</code></td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050.png" alt="">Threshold: <code>0.5</code></td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_075.png" alt="">Threshold: <code>0.75</code></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_025.png" alt=""></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050.png" alt=""></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_075.png" alt=""></td>
     </tr>
+	<tr>
+		<td><code>0.25</code></td>
+		<td><code>0.5</code></td>
+		<td><code>0.75</code></td>
+	</tr>
 </table>
 
 ## Axis modes
@@ -25,8 +30,13 @@ Voxels are replaced across all axes. You can randomize the X, Y, or Z-axis (or a
 
 <table>
     <tr>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_y.png" alt="">Y-axis</td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_xy.png" alt="">X &amp; Y axes</td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_xz.png" alt="">X &amp; Z axes</td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_y.png" alt=""></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_xy.png" alt=""></td>
+        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_xz.png" alt=""></td>
     </tr>
+	<tr>
+		<td>Y-axis</td>
+		<td>X &amp; Y axes</td>
+		<td>X &amp; Z axes</td>
+	</tr>
 </table>
