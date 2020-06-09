@@ -1,4 +1,4 @@
-> The **Brick** brush generates alternative rows of bricks or tiles. This shader is used as a [brush](Brush-Shaders).
+> The **Brick** [brush](Brush-Shaders) generates alternative rows of bricks or tiles.
 
 - [Parameters](#parameters)
 - [Threshold](#threshold)
