@@ -2,7 +2,7 @@
 
 - [Parameters](#parameters)
 - [Thickness](#thickness)
-- [Using Axis Modes](#using-axis-modes)
+- [Axis Modes](#axis-modes)
 - [Examples](#examples)
 
 ## Parameters
@@ -29,7 +29,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
     </tr>
 </table>
 
-## Using Axis Modes
+## Axis Modes
 
 Axis Modes can be used to only generate a grid on a particular axis. When no Axis Mode is set, a grid is generated on all axes.
 
