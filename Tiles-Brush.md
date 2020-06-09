@@ -1,4 +1,4 @@
-> Generates a tile pattern. This shader is used as a [brush](Brush-Shaders).
+> The **Tiles** [brush](Brush-Shaders) generates a tile pattern.
 
 ## Parameters
 
