@@ -2,7 +2,7 @@
 
 - [Parameters](#parameters)
 - [Thickness](#thickness)
-- [Using Axes Modes](#using-axes-modes)
+- [Using Axis Modes](#using-axis-modes)
 - [Examples](#examples)
 
 ## Parameters
@@ -29,7 +29,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
     </tr>
 </table>
 
-## Using Axes Modes
+## Using Axis Modes
 
 Axis Modes can be used to only generate a grid on a particular axis. When no Axis Mode is set, a grid is generated on all axes.
 
@@ -49,6 +49,7 @@ Axis Modes can be used to only generate a grid on a particular axis. When no Axi
 </table>
 
 ## Examples
+
 <table>
     <tr>
         <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/magica_grid_1.png" alt="Example 1"></td>
