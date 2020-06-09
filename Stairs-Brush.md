@@ -1,4 +1,4 @@
-> Generates a slope of stairs. This shader is used as a [brush](Brush-Shaders).
+> The **Stairs** brush generates a slope of stairs. This shader is used as a [brush](Brush-Shaders).
 
 - [Parameters](#parameters)
 - [Count](#count)
