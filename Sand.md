@@ -1,6 +1,5 @@
-> The **sand** and **sand2** shaders add a layer of voxels on top of voxels matching the selected colour.
-> 
-> **sand** will only add voxels when the adjacent voxels match the selected color. Whereas, **sand2** will add voxels if there are adjacent voxels of any color.
+> - The **sand** and **sand2** shaders add a layer of voxels on top of voxels matching the selected colour.
+> - **sand** will only add voxels when the adjacent voxels match the selected color. Whereas, **sand2** will add voxels if there are adjacent voxels of any color.
 
 Voxels are added randomly and only added when the voxel beneath has adjacent voxels, creating the effect of a rough pile of sand. The number of adjacent neighbors affects the randomness, with a higher number of neighbors increasing the odds a voxel will be added.
 
