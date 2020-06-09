@@ -3,4 +3,17 @@
 
 ## Parameters
 
-- **Height**
+- **Height**: Height of the flood
+
+## Examples
+
+<table>
+    <tr>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_1.png" alt=""></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_2.png" alt=""></td>
+    </tr>
+	<tr>
+		<td><code>flood</code></td>
+		<td><code>flood2</code></td>
+	</tr>
+</table>
