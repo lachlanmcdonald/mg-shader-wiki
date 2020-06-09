@@ -1,7 +1,7 @@
 > **noise** replaces all voxels which match your selected color with a randomly chosen color within a range of colors
 
 - [Parameters](#parameters)
-- [Example](#example)
+- [Examples](#examples)
 
 ## Parameters
 
@@ -11,7 +11,7 @@
 - **Y Size**: Size of the noise on the Y-axis
 - **Z Size**: Size of the noise on the Z-axis
 
-## Example
+## Examples
 
 <table>
     <tr>
