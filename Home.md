@@ -1,4 +1,4 @@
-## Brush Shaders
+## [Brush Shaders](brush-shaders)
 
 <table>
   <tbody>
@@ -30,7 +30,7 @@
   </tbody>
 </table>
 
-## Volume Shaders
+## [Volume Shaders](volume-shaders)
 
 <table>
     <tr>
