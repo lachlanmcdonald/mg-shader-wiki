@@ -1,0 +1,1 @@
+All content is released under the [MIT licence](https://github.com/lachlanmcdonald/magicavoxel-shaders/blob/master/LICENSE.md).
