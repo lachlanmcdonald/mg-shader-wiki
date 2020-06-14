@@ -1,6 +1,6 @@
 > The **Brick** [brush](Brush-Shaders) generates alternating rows of randomly colored bricks or tiles.
 > 
-> There are two shaders, **bricks** and **bricks_vert**, which are functionally identically except bricks are offset vertically for **bricks_vert** and horizontally for **bricks**.
+> There are two shaders, **bricks** and **bricks_vert**, which are functionally identical except bricks are offset vertically for **bricks_vert** and horizontally for **bricks**.
 
 - [Parameters](#parameters)
 - [Direction](#direction)
