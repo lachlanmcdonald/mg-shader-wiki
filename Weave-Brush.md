@@ -1,7 +1,7 @@
-> The **Weave [brushes](Brush-Shaders)** generates a weave pattern.
+> The **Weave [brush](Brush-Shaders)** generates a weave pattern.
 
 - [Parameters](#parameters)
-- [Mode](#Mode)
+- [Mode](#mode)
 
 ## Parameters
 
