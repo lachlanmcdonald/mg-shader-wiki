@@ -1,7 +1,7 @@
 > The **Weave [brush](Brush-Shaders)** generates a weave pattern.
 
 - [Parameters](#parameters)
-- [Mode](#mode)
+- [Color Mode](#color-mode)
 
 ## Parameters
 
@@ -14,7 +14,7 @@
 
 Setting any of the colors to `0` will also result in missing voxels.
 
-## Color mode
+## Color Mode
 
 **Mode** determines how the pattern is coloured.
 
