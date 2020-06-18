@@ -12,7 +12,9 @@
 - **Line Color**: Color of the outline between squares
 - **Line Width**: Width of the outline between squares
 
-## Mode
+Setting any of the colors to `0` will also result in missing voxels.
+
+## Color mode
 
 **Mode** determines how the pattern is coloured.
 
