@@ -10,14 +10,16 @@
     <tr>
         <td width="33%">
             <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_horz.png" alt="Example of the bricks shader">
-            <code>bricks</code>
         </td>
         <td width="33%">
             <img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_vert.png" alt="Example of the bricks_vert shader">
-            <code>bricks_vert</code>
         </td>
         <td width="33%"></td>
     </tr>
+        <th width="33%"><code>bricks</code></th>
+        <th width="33%"><code>bricks_vert</code></th>
+        <th width="33%"></th>
+    <tr>
 </table>
 
 ## Parameters
