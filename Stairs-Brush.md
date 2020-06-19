@@ -18,12 +18,12 @@
 
 <table>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_2.png" alt="Example of a count of 2"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_4.png" alt="Example of a count of 4"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_2.png" alt="Example of a Count of 2"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_4.png" alt="Example of a Count of 4"></td>
     </tr>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_6.png" alt="Example of a count of 6"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_8.png" alt="Example of a count of 8"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_6.png" alt="Example of a Count of 6"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_8.png" alt="Example of a Count of 8"></td>
     </tr>
 </table>
 
@@ -31,12 +31,12 @@
 
 <table>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_1.png" alt="Example of a height of 1"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_2.png" alt="Example of a height of 2"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_1.png" alt="Example of a Height of 1"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_2.png" alt="Example of a Height of 2"></td>
     </tr>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_3.png" alt="Example of a height of 3"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_4.png" alt="Example of a height of 4"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_3.png" alt="Example of a Height of 3"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_4.png" alt="Example of a Height of 4"></td>
     </tr>
 </table>
 
@@ -44,12 +44,12 @@
 
 <table>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_0.png" alt="Example of a X/Y gap of 0"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_1.png" alt="Example of a X/Y gap of 1"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_0.png" alt="Example of a X/Y Gap of 0"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_1.png" alt="Example of a X/Y Gap of 1"></td>
     </tr>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_2.png" alt="Example of a X/Y gap of 2"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_3.png" alt="Example of a X/Y gap of 3"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_2.png" alt="Example of a X/Y Gap of 2"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_3.png" alt="Example of a X/Y Gap of 3"></td>
     </tr>
 </table>
 
@@ -57,11 +57,11 @@
 
 <table>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_0.png" alt="Example of a Z gap of 0"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_1.png" alt="Example of a Z gap of 1"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_0.png" alt="Example of a Z Gap of 0"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_1.png" alt="Example of a Z Gap of 1"></td>
     </tr>
     <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_2.png" alt="Example of a Z gap of 2"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_3.png" alt="Example of a Z gap of 3"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_2.png" alt="Example of a Z Gap of 2"></td>
+        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_3.png" alt="Example of a Z Gap of 3"></td>
     </tr>
 </table>
