@@ -7,8 +7,8 @@
 
 ## Parameters
 
-- **Color A**: Color of the lines
-- **Color B**: Color of the boxes in between the lines
+- **Color A**: Color index of the lines
+- **Color B**: Color index of the boxes in between the lines
 - **Thickness**: Line thickness
 - **Size X**: Spacing between lines on the X-axis
 - **Size Y**: Spacing between lines on the Y-axis

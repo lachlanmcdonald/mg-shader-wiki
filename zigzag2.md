@@ -9,8 +9,8 @@
 - **Direction**: Direction of the pattern (see below)
 - **Width A**: Width of the primary lines
 - **Width B**: Width of the secondary lines
-- **Color A**: Color of the primary line
-- **Color B**: Color of the secondary line
+- **Color A**: Color index of the primary line
+- **Color B**: Color index of the secondary line
 
 Setting either of the colors to `0` will result in empty voxels.
 

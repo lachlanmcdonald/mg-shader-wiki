@@ -10,9 +10,9 @@
 - **Width A**: Width of the primary lines
 - **Width B**: Width of the secondary lines
 - **Width C**: Width of the tertiary lines
-- **Color A**: Color of the primary line
-- **Color B**: Color of the secondary line
-- **Color C**: Color of the tertiary line
+- **Color A**: Color index of the primary line
+- **Color B**: Color index of the secondary line
+- **Color C**: Color index of the tertiary line
 
 Setting any of the colors to `0` will result in empty voxels.
 

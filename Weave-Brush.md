@@ -7,9 +7,9 @@
 
 - **Mode**: Color mode (see below)
 - **Size**: Size of the squares
-- **Color A**: Color A
-- **Color B**: Color B
-- **Line Color**: Color of the outline between squares
+- **Color A**: First color index
+- **Color B**: Last color index
+- **Line Color**: Color index of the outline between squares
 - **Line Width**: Width of the outline between squares
 
 Setting either of the colors to `0` will result in empty voxels.
