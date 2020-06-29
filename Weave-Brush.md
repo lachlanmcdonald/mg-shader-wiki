@@ -2,6 +2,7 @@
 
 - [Parameters](#parameters)
 - [Modes](#modes)
+- [Line Width](#line-width)
 
 ## Parameters
 
