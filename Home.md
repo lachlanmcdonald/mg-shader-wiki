@@ -4,7 +4,7 @@
   <tbody>
     <tr>
         <td align="left"><a href="brick-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/brick.png" alt=""></a></td>
-        <th align="left"><a href="brick-brush">Brick Brush</a></th>
+        <th align="left"><a href="brick-brush">Brick Brushes</a></th>
         <td>Generates alternating rows of bricks or tiles</td>
     </tr>
     <tr>
