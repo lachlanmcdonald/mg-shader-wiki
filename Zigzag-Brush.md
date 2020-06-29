@@ -1,38 +1,21 @@
-> The **Zigzag [brush](Brush-Shaders)** generates a zigzag pattern.
-
-- [Parameters](#parameters)
-- [Flip](#flip)
-- [Examples](#examples)
-
-## Parameters
-
-- **Flip**: Flips the pattern
-- **Width A**: Width of the primary lines
-- **Width B**: Width of the secondary lines
-- **Color A**: Color of the primary line
-- **Color B**: Color of the secondary line
-
-Setting either of the colors to `0` will result in missing voxels.
-
-## Flip
+> The **Zigzag [brushes](Brush-Shaders)** generates zigzag patterns.
 
 <table>
+  <tbody>
     <tr>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag_flip__0.png" alt="Example of flip of 0"></td>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag_flip__1.png" alt="Example of flip of 1"></td>
+        <td align="left"><a href="zigzag2"><img width="160" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.2/zigzag2_direction0.png" alt=""></a></td>
+        <th align="left"><a href="zigzag2">zigzag2</a></th>
+        <td>Generates patterns with 2 colors</td>
     </tr>
     <tr>
-        <td>Flip: <code>0</code></td>
-        <td>Flip: <code>1</code></td>
+        <td align="left"><a href="zigzag3"><img width="160" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.2/zigzag3_direction0.png" alt=""></a></td>
+        <th align="left"><a href="zigzag3">zigzag3</a></th>
+        <td>Generates patterns with 3 colors</td>
     </tr>
-</table>
-
-## Examples
-
-<table>
     <tr>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag_1_4.png" alt="Example"></td>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag_2_2.png" alt="Example"></td>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag_2_5.png" alt="Example"></td>
+        <td align="left"><a href="zigzag_range"><img width="160" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.2/zigzag_range_example2.png" alt=""></a></td>
+        <th align="left"><a href="zigzag_range">zigzag_range</a></th>
+        <td>Generates patterns between a range of colours (generates as many lines as there are colors)</td>
     </tr>
+  </tbody>
 </table>
