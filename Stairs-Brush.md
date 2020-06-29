@@ -4,7 +4,7 @@
 - [Count](#count)
 - [Height](#height)
 - [X/Y Gap](#xy-gap)
-- [Z Gap](#z-gap)a
+- [Z Gap](#z-gap)
 
 ## Parameters
 
