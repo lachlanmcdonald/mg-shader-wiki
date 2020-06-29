@@ -11,7 +11,7 @@
 - **Offset Y**: Offset of the tiles in the Y-axis
 - **Offset Z**: Offset of the tiles in the Z-axis
 
-Setting **Color A** or **Color B** to `0` will result in no voxels being placed for those tiles, instead of a color.
+Setting either of the colors to `0` will result in empty voxels.
 
 ## Example
 
