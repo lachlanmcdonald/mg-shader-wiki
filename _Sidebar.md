@@ -1,6 +1,6 @@
 - [Home](home/)
 - [Brush Shaders](brush-shaders/)
-  - [Brick Brushes](brick-brush/)
+  - [Brick Brushes](Brick-Brushes)
   - [Diagonal Line Brush](Diagonal-Line-Brush/)
   - [Grid Brush](grid-brush/)
   - [Stairs Brush](stairs-brush/)
