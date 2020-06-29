@@ -7,9 +7,9 @@
 - **Width**: Width of the tile
 - **Height**: Height of the tile
 - **Depth**: Depth of the tile
-- **X Offset**: Offset of the tiles in the X-axis
-- **Y Offset**: Offset of the tiles in the Y-axis
-- **Z Offset**: Offset of the tiles in the Z-axis
+- **Offset X**: Offset of the tiles in the X-axis
+- **Offset Y**: Offset of the tiles in the Y-axis
+- **Offset Z**: Offset of the tiles in the Z-axis
 
 Setting **Color A** or **Color B** to `0` will result in no voxels being placed for those tiles, instead of a color.
 

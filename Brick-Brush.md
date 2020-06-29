@@ -2,9 +2,12 @@
 > 
 > There are two shaders, **`bricks`** and **`bricks_vert`**, that are functionally identical except bricks are offset vertically for `bricks_vert` and horizontally for `bricks`.
 
+- [Shaders](#shaders)
 - [Parameters](#parameters)
 - [Direction](#direction)
 - [Threshold](#threshold)
+
+## Shaders
 
 <table>
     <tr>

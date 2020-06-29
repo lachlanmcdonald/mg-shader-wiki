@@ -1,10 +1,10 @@
-> The **Stairs** [brush](Brush-Shaders) generates a slope of stairs.
+> The **Stairs** [brushes](Brush-Shaders) generates a slope of stairs. 
 
 - [Parameters](#parameters)
 - [Count](#count)
 - [Height](#height)
 - [X/Y Gap](#xy-gap)
-- [Z Gap](#z-gap)
+- [Z Gap](#z-gap)a
 
 ## Parameters
 
@@ -12,7 +12,7 @@
 - **Count**: The number of runs to fit within the brush's dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent.
 - **Height**: The height of each run
 - **X/Y Gap**: The distance between each run of adjacent stairs.
-- **Z Gap**: The distance between each run and the next run above it.
+- **Z Gap**: The distance between each run and the next run above it (also known as the _rise._)
 
 ## Count
 

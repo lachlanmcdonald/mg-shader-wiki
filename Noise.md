@@ -7,9 +7,9 @@
 
 - **Color A**: First color index
 - **Color B**: Last color index
-- **X Size**: Size of the noise on the X-axis
-- **Y Size**: Size of the noise on the Y-axis
-- **Z Size**: Size of the noise on the Z-axis
+- **Size X**: Size of the noise on the X-axis
+- **Size Y**: Size of the noise on the Y-axis
+- **Size Z**: Size of the noise on the Z-axis
 
 ## Examples
 
