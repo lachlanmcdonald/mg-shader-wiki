@@ -34,7 +34,7 @@
     </tr>
     <tr>
         <td align="left"><a href="diagonal-line-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag.png" alt=""></a></td>
-        <th align="left"><a href="zigzag-brush">Zigzag Brushes</a></th>
+        <th align="left"><a href="Zigzag-Brushes">Zigzag Brushes</a></th>
         <td>Generates zig-zag patterns</td>
     </tr>
   </tbody>

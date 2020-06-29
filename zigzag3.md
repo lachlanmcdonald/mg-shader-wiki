@@ -1,4 +1,4 @@
-> **zigzag3** is a **[Zigzag brush](zigzag-brush)** that generates zigzag patterns between three colors.
+> **zigzag3** is a **[Zigzag brush](Zigzag-Brushes)** that generates zigzag patterns between three colors.
 
 - [Parameters](#parameters)
 - [Direction](#direction)

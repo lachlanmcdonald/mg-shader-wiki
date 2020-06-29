@@ -6,7 +6,7 @@
   - [Stairs Brush](stairs-brush/)
   - [Tiles Brush](tiles-brush/)
   - [Weave Brush](Weave-Brush/)
-  - [Zigzag Brushes](Zigzag-Brush/)
+  - [Zigzag Brushes](Zigzag-Brushes)
 - [Volume Shaders](volume-shaders/)
   - [Case](case)
   - [Flood](flood)
