@@ -1,4 +1,4 @@
-> **stairs** is a **[Stairs brush](Stairs-Brushes)** that generates stairs which extend from the base of the brush.
+> **stairs** is a **[Stairs Brushes](Stairs-Brushes)** that generates stairs which extend from the base of the brush.
 
 - [Parameters](#parameters)
 - [Direction](#direction)

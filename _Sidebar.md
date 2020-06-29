@@ -3,7 +3,7 @@
   - [Brick Brushes](Brick-Brushes)
   - [Diagonal Line Brush](Diagonal-Line-Brush/)
   - [Grid Brush](grid-brush/)
-  - [Stairs Brush](stairs-brush/)
+  - [Stairs Brushes](Stairs-Brushes)
   - [Tiles Brush](tiles-brush/)
   - [Weave Brush](Weave-Brush/)
   - [Zigzag Brushes](Zigzag-Brushes)
