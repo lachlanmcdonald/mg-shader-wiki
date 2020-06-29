@@ -16,7 +16,7 @@ Setting either of the colors to `0` will result in empty voxels.
 
 ## Modes
 
-**Mode** determines how the pattern is coloured:
+**Mode** determines how the pattern is colored:
 
 <table>
     <tr>

@@ -15,7 +15,7 @@
     <tr>
         <td align="left"><a href="zigzag_range"><img width="160" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.2/zigzag_range_example2.png" alt=""></a></td>
         <th align="left"><a href="zigzag_range">zigzag_range</a></th>
-        <td>Generates patterns between a range of colours with a specified thickness (generating as many lines as there are colors)</td>
+        <td>Generates patterns between a range of colors with a specified thickness (generating as many lines as there are colors)</td>
     </tr>
   </tbody>
 </table>
