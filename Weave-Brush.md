@@ -12,7 +12,7 @@
 - **Line Color**: Color of the outline between squares
 - **Line Width**: Width of the outline between squares
 
-Setting any of the colors to `0` will also result in empty voxels.
+Setting either of the colors to `0` will result in empty voxels.
 
 ## Modes
 
