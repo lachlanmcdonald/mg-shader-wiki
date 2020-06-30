@@ -8,6 +8,11 @@
         <td>Generates alternating rows of bricks or tiles</td>
     </tr>
     <tr>
+        <td align="left"><a href="Brick-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass.png" alt=""></a></td>
+        <th align="left"><a href="Grass-Brushes">Grass Brushes</a></th>
+        <td>Generates generates randomly protruding lines of voxels with a constant distribution</td>
+    </tr>
+    <tr>
         <td align="left"><a href="Stairs-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/stairs.png" alt=""></a></td>
         <th align="left"><a href="Stairs-Brushes">Stairs Brushes</a></th>
         <td>Generates a slope of stairs</td>
