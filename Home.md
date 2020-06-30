@@ -1,3 +1,6 @@
+- [Brush Shaders](#brush-shaders)
+- [Volume Shaders](#volume-shaders)
+
 ## [Brush Shaders](brush-shaders)
 
 <table>
@@ -44,6 +47,7 @@
     </tr>
   </tbody>
 </table>
+
 
 ## [Volume Shaders](volume-shaders)
 
