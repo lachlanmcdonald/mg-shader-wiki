@@ -3,8 +3,10 @@
 > There are two shaders, **`grass`** and **`grass_inv`**, that are functionally identical except grass protrude upwards and `grass_inv` extrudes downwards.
 
 - [Parameters](#parameters)
-- [Direction](#direction)
-- [Threshold](#threshold)
+- [Mode](#mode)
+- [Density](#density)
+- [Growth](#growth)
+- [Examples](#examples)
 
 ## Parameters
 
