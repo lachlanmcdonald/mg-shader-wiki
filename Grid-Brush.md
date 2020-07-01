@@ -24,8 +24,16 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
         <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/grid_thickness_2.png" alt="Example of a thickness of 2"></td>
     </tr>
     <tr>
+        <th>Thickness: <code>1</code></th>
+        <th>Thickness: <code>2</code></th>
+    </tr>
+    <tr>
         <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/grid_thickness_3.png" alt="Example of a thickness of 3"></td>
         <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/grid_thickness_4.png" alt="Example of a thickness of 4"></td>
+    </tr>
+    <tr>
+        <th>Thickness: <code>3</code></th>
+        <th>Thickness: <code>4</code></th>
     </tr>
 </table>
 

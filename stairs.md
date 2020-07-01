@@ -17,16 +17,16 @@
         <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction1.png" alt="Example of a direction of 1"></td>
     </tr>
     <tr>
-        <td>Direction: <code>0</code></td>
-        <td>Direction: <code>1</code></td>
+        <th>Direction: <code>0</code></th>
+        <th>Direction: <code>1</code></th>
     </tr>
     <tr>
         <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction2.png" alt="Example of a direction of 2"></td>
         <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction3.png" alt="Example of a direction of 3"></td>
     </tr>
     <tr>
-        <td>Direction: <code>2</code></td>
-        <td>Direction: <code>3</code></td>
+        <th>Direction: <code>2</code></th>
+        <th>Direction: <code>3</code></th>
     </tr>
 </table>
 
@@ -39,8 +39,8 @@
         <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height3.png" alt="Example of a height of 3"></td>
     </tr>
     <tr>
-        <td>Height: <code>1</code></td>
-        <td>Height: <code>2</code></td>
-        <td>Height: <code>3</code></td>
+        <th>Height: <code>1</code></th>
+        <th>Height: <code>2</code></th>
+        <th>Height: <code>3</code></th>
     </tr>
 </table>

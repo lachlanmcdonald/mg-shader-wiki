@@ -18,9 +18,9 @@
         <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_075.png" alt=""></td>
     </tr>
 	<tr>
-		<td><code>0.25</code></td>
-		<td><code>0.5</code></td>
-		<td><code>0.75</code></td>
+		<th>Threshold: <code>0.25</code></th>
+		<th>Threshold: <code>0.5</code></th>
+		<th>Threshold: <code>0.75</code></th>
 	</tr>
 </table>
 
@@ -35,8 +35,8 @@ Voxels are replaced across all axes. You can randomize the X, Y, or Z-axis (or a
         <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_050_xz.png" alt=""></td>
     </tr>
 	<tr>
-		<td>Y-axis</td>
-		<td>X &amp; Y axes</td>
-		<td>X &amp; Z axes</td>
+		<th>Y-axis</th>
+		<th>X &amp; Y axes</th>
+		<th>X &amp; Z axes</th>
 	</tr>
 </table>

@@ -21,16 +21,16 @@ Setting either of the colors to `0` will result in empty voxels.
         <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/zigzag_range_direction1.png" alt="Example of a direction of 1"></td>
     </tr>
     <tr>
-        <td>Direction: <code>0</code></td>
-        <td>Direction: <code>1</code></td>
+        <th>Direction: <code>0</code></th>
+        <th>Direction: <code>1</code></th>
     </tr>
     <tr>
         <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/zigzag_range_direction2.png" alt="Example of a direction of 2"></td>
         <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/zigzag_range_direction3.png" alt="Example of a direction of 3"></td>
     </tr>
     <tr>
-        <td>Direction: <code>2</code></td>
-        <td>Direction: <code>3</code></td>
+        <th>Direction: <code>2</code></th>
+        <th>Direction: <code>3</code></th>
     </tr>
 </table>
 
