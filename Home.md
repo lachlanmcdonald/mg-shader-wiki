@@ -11,7 +11,7 @@
         <td>Generates alternating rows of bricks or tiles</td>
     </tr>
     <tr>
-        <td align="left"><a href="Brick-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass.png" alt=""></a></td>
+        <td align="left"><a href="Grass-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass.png" alt=""></a></td>
         <th align="left"><a href="Grass-Brushes">Grass Brushes</a></th>
         <td>Generates generates randomly protruding lines of voxels with a constant distribution</td>
     </tr>
@@ -21,27 +21,27 @@
         <td>Generates a slope of stairs</td>
     </tr>
     <tr>
-        <td align="left"><a href="grid-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/grid.png" alt=""></a></td>
-        <th align="left"><a href="grid-brush">Grid Brush</a></th>
+        <td align="left"><a href="Grid-Brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/grid.png" alt=""></a></td>
+        <th align="left"><a href="Grid-Brush">Grid Brush</a></th>
         <td>Generates a grid pattern with variable thickness and spacing</td>
     </tr>
     <tr>
-        <td align="left"><a href="tiles-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/tiles.png" alt=""></a></td>
-        <th align="left"><a href="tiles-brush">Tiles Brush</a></th>
+        <td align="left"><a href="Tiles-Brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/tiles.png" alt=""></a></td>
+        <th align="left"><a href="Tiles-Brush">Tiles Brush</a></th>
         <td>Generates a tile pattern</td>
     </tr>
     <tr>
-        <td align="left"><a href="diagonal-line-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/diagonal_lines.png" alt=""></a></td>
-        <th align="left"><a href="diagonal-line-brush">Diagonal Line Brush</a></th>
+        <td align="left"><a href="Diagonal-Line-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/diagonal_lines.png" alt=""></a></td>
+        <th align="left"><a href="Diagonal-Line-Brushes">Diagonal Line Brushes</a></th>
         <td>Generates parallel 45° lines of alternating widths</td>
     </tr>
     <tr>
-        <td align="left"><a href="diagonal-line-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/weave.png" alt=""></a></td>
-        <th align="left"><a href="weave-brush">Weave Brush</a></th>
+        <td align="left"><a href="Weave-Brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/weave.png" alt=""></a></td>
+        <th align="left"><a href="Weave-Brush">Weave Brush</a></th>
         <td>Generates a weave pattern</td>
     </tr>
     <tr>
-        <td align="left"><a href="diagonal-line-brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag.png" alt=""></a></td>
+        <td align="left"><a href="Zigzag-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag.png" alt=""></a></td>
         <th align="left"><a href="Zigzag-Brushes">Zigzag Brushes</a></th>
         <td>Generates zig-zag patterns</td>
     </tr>
