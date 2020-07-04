@@ -5,9 +5,9 @@
 
 ## Parameters
 
-| Parameter | Description |
-| --------- | ----------- |
-| **Color** | Color index |
+Parameter | Description
+--------- | -----------
+**Color** | Color index
 
 ## Axis Modes
 

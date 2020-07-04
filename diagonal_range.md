@@ -5,13 +5,13 @@
 
 ## Parameters
 
-| Parameter | Description |
-| --------- | ----------- |
-| **Direction** | Direction of the lines on the Z-axis (see below) |
-| **Color A** | First color index |
-| **Color B** | Last color index |
-| **Width** | Thickness of the lines |
-| **Offset** | Adjusts the offset of the lines |
+Parameter | Description
+--------- | -----------
+**Direction** | Direction of the lines on the Z-axis (see below)
+**Color A** | First color index
+**Color B** | Last color index
+**Width** | Thickness of the lines
+**Offset** | Adjusts the offset of the lines
 
 Setting either of the colors to `0` will result in empty voxels.
 

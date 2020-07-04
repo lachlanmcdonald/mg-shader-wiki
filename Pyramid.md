@@ -9,9 +9,9 @@
 
 Voxels are added on top of voxels matching the selected color.
 
-| Parameter | Description |
-| --------- | ----------- |
-| **Color** | Color index of added voxels. If set to `0`, the selected color index is used instead |
+Parameter | Description
+--------- | -----------
+**Color** | Color index of added voxels. If set to `0`, the selected color index is used instead
 
 ## Axis Modes
 

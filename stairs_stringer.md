@@ -5,12 +5,12 @@
 
 ## Parameters
 
-| Parameter | Description |
-| --------- | ----------- |
-| **Direction** | The facing direction of the stairs |
-| **Count** | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent |
-| **Height** | The height of each run |
-| **Stringer** | The height of the stringer (the area extending beneath each run) |
+Parameter | Description
+--------- | -----------
+**Direction** | The facing direction of the stairs
+**Count** | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent
+**Height** | The height of each run
+**Stringer** | The height of the stringer (the area extending beneath each run)
 
 ## Direction
 

@@ -6,12 +6,12 @@
 
 ## Parameters
 
-| Parameter | Description |
-| --------- | ----------- |
-| **Direction** | Direction of the pattern (see below) |
-| **Width** | Width of the lines |
-| **Color A** | First color index |
-| **Color B** | Last color index |
+Parameter | Description
+--------- | -----------
+**Direction** | Direction of the pattern (see below)
+**Width** | Width of the lines
+**Color A** | First color index
+**Color B** | Last color index
 
 Setting either of the colors to `0` will result in empty voxels.
 
