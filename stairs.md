@@ -5,9 +5,18 @@
 
 ## Parameters
 
+- **Mode**: Automate one of the parameters (see below)
 - **Direction**: The facing direction of the stairs
 - **Count**: The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent.
 - **Height**: The height of each run
+
+## Mode
+
+| Mode | Description |
+| ---- | ----------- |
+| `0` | All parameters are used as-is |
+| `1` | The **Height** of each run is adjusted to fill the available space (the value of the parameter is ignored). **Count** can still be adjusted. |
+| `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** can still be adjusted. |
 
 ## Direction
 
