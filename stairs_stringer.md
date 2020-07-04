@@ -5,22 +5,22 @@
 
 ## Parameters
 
-| Parameter | Description |
-| --------- | ----------- |
-| **Mode** | Automate one of the parameters (see below) |
-| **Direction** | The facing direction of the stairs |
-| **Count** | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent |
-| **Height** | The height of each run |
-| **Stringer** | The height of the stringer (the area extending beneath each run) |
+Parameter | Description
+--------- | -----------
+**Mode** | Automate one of the parameters (see below)
+**Direction** | The facing direction of the stairs
+**Count** | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent
+**Height** | The height of each run
+**Stringer** | The height of the stringer (the area extending beneath each run)
 
 ## Mode
 
-| Mode | Description |
-| ---- | ----------- |
-| `0` | All parameters are used as-is |
-| `1` | The **Height** of each run is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Stringer** can still be adjusted |
-| `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** and **Stringer** can still be adjusted |
-| `3` | **Stringer** is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Height** can still be adjusted |
+Mode | Description
+---- | -----------
+`0` | All parameters are used as-is
+`1` | The **Height** of each run is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Stringer** can still be adjusted
+`2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** and **Stringer** can still be adjusted
+`3` | **Stringer** is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Height** can still be adjusted
 
 ## Direction
 
