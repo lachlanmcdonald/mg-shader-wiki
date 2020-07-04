@@ -10,7 +10,9 @@ Voxels are added randomly and only added when the voxel beneath has adjacent vox
 
 Voxels are added on top of voxels matching the selected color.
 
-- **Color**: Color index for the voxels. If set to `0`, the selected color index is used instead.
+Parameter | Description
+--------- | -----------
+**Color** | Color index of added voxels. If set to `0`, the selected color index is used instead
 
 ## Examples
 

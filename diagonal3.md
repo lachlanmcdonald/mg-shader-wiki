@@ -5,14 +5,16 @@
 
 ## Parameters
 
-- **Direction**: Direction of the lines on the Z-axis (see below)
-- **Color A**: Color index of the primary line
-- **Color B**: Color index of the secondary line
-- **Color C**: Color index of the tertiary line
-- **Width A**: Thickness of the primary line
-- **Width B**: Thickness of the secondary line
-- **Width C**: Thickness of the tertiary line
-- **Offset**: Adjusts the offset of the lines
+Parameter | Description
+--------- | -----------
+**Direction** | Direction of the lines on the Z-axis (see below)
+**Color A** | Color index of the primary line
+**Color B** | Color index of the secondary line
+**Color C** | Color index of the tertiary line
+**Width A** | Thickness of the primary line
+**Width B** | Thickness of the secondary line
+**Width C** | Thickness of the tertiary line
+**Offset** | Adjusts the offset of the lines
 
 ## Directions
 

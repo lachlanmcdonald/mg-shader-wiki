@@ -6,7 +6,9 @@
 
 ## Parameters
 
-- **Color**: Color index to replace voxels (setting the index to `0` will remove voxels)
+Parameter | Description
+--------- | -----------
+**Color** | Color index to replace voxels (setting the index to `0` will remove voxels)
 
 ## Examples
 

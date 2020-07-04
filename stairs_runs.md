@@ -1,6 +1,7 @@
 > **stairs_runs** is a **[Stairs Brushes](Stairs-Brushes)** that generates only stair runs; with additional options for the size and spacing of the runs.
 
 - [Parameters](#parameters)
+- [Mode](#mode)
 - [Count](#count)
 - [Height](#height)
 - [X/Y Gap](#xy-gap)
@@ -8,21 +9,23 @@
 
 ## Parameters
 
-- **Mode**: Automate one of the parameters (see below)
-- **Direction**: The facing direction of the stairs
-- **Count**: The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent.
-- **Height**: The height of each run
-- **X/Y Gap**: The distance between each run of adjacent stairs.
-- **Z Gap**: The distance between each run and the next run above it (also known as the _rise._)
+| Parameter | Description |
+| --------- | ----------- |
+| **Mode**      | Automate one of the parameters (see below) |
+| **Direction** | The facing direction of the stairs |
+| **Count**     | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent |
+| **Height**    | The height of each run |
+| **X/Y Gap**   | The distance between each run of adjacent stairs |
+| **Z Gap**     | The distance between each run and the next run above it (also known as the _rise._) |
 
 ## Mode
 
 | Mode | Description |
 | ---- | ----------- |
 | `0` | All parameters are used as-is |
-| `1` | The **Height** of each run is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Z Gap** can still be adjusted. |
-| `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** and **Z Gap** can still be adjusted. |
-| `3` | **Z Gap** is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Height** can still be adjusted. |
+| `1` | The **Height** of each run is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Z Gap** can still be adjusted |
+| `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** and **Z Gap** can still be adjusted |
+| `3` | **Z Gap** is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Height** can still be adjusted |
 
 ## Count
 

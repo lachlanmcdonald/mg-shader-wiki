@@ -7,12 +7,14 @@
 
 ## Parameters
 
-- **Color A**: Color index of the lines
-- **Color B**: Color index of the boxes in between the lines
-- **Thickness**: Line thickness
-- **Size X**: Spacing between lines on the X-axis
-- **Size Y**: Spacing between lines on the Y-axis
-- **Size Z**: Spacing between lines on the Z-axis
+Parameter | Description
+--------- | -----------
+**Color A** | Color index of the lines
+**Color B** | Color index of the boxes in between the lines
+**Thickness** | Line thickness
+**Size X** | Spacing between lines on the X-axis
+**Size Y** | Spacing between lines on the Y-axis
+**Size Z** | Spacing between lines on the Z-axis
 
 Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
 

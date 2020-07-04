@@ -10,12 +10,14 @@
 
 ## Parameters
 
-- **Mode**: Color mode (see below)
-- **Density**: Size of the area in which a line should be generated. Increasing density will increase the spacing between lines.
-- **Growth**: Affects the growth of the lines. `0.5` is a fairly evenly-distributed growth. Higher or lower values will overgrow or stymied the heights, respectively.
-- **Seed**: Random seed
-- **Color A**: First color index
-- **Color B**: Last color index
+Parameter | Description
+--------- | -----------
+**Mode** | Color mode (see below)
+**Density** | Size of the area in which a line should be generated. Increasing density will increase the spacing between lines
+**Growth** | Affects the growth of the lines. `0.5` is a fairly evenly-distributed growth. Higher or lower values will overgrow or stymied the heights, respectively
+**Seed** | Random seed
+**Color A** | First color index
+**Color B** | Last color index
 
 Setting either of the colors to `0` will also result in empty voxels.
 
