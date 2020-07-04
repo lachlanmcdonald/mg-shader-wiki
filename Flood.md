@@ -3,7 +3,9 @@
 
 ## Parameters
 
-- **Height**: Height of the flood
+| Parameter | Description |
+| --------- | ----------- |
+| **Height** | Height of the flood |
 
 ## Examples
 

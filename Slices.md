@@ -2,5 +2,7 @@
 
 ## Parameters
 
-- **Offset**: Offset of the segment to remove
-- **Count**: Number of segments to remove
+| Parameter | Description |
+| --------- | ----------- |
+| **Offset** | Offset of the segment to remove |
+| **Count** | Number of segments to remove |

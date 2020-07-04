@@ -5,11 +5,13 @@
 
 ## Parameters
 
-- **Color A**: First color index
-- **Color B**: Last color index
-- **Size X**: Size of the noise on the X-axis
-- **Size Y**: Size of the noise on the Y-axis
-- **Size Z**: Size of the noise on the Z-axis
+| Parameter | Description |
+| --------- | ----------- |
+| **Color A** | First color index |
+| **Color B** | Last color index |
+| **Size X** | Size of the noise on the X-axis |
+| **Size Y** | Size of the noise on the Y-axis |
+| **Size Z** | Size of the noise on the Z-axis |
 
 ## Examples
 
