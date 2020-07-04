@@ -8,11 +8,13 @@
 
 ## Parameters
 
-- **Direction**: The facing direction of the stairs
-- **Count**: The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent.
-- **Height**: The height of each run
-- **X/Y Gap**: The distance between each run of adjacent stairs.
-- **Z Gap**: The distance between each run and the next run above it (also known as the _rise._)
+| Parameter | Description |
+| --------- | ----------- |
+| **Direction** | The facing direction of the stairs |
+| **Count**     | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent |
+| **Height**    | The height of each run |
+| **X/Y Gap**   | The distance between each run of adjacent stairs |
+| **Z Gap**     | The distance between each run and the next run above it (also known as the _rise._) |
 
 ## Count
 
