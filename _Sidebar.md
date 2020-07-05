@@ -18,3 +18,4 @@
   - [Sand](sand)
   - [Slices](slices)
   - [Soil & Cover](soil-&-cover)
+- [Notes](notes)
