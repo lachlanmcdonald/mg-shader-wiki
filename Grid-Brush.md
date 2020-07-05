@@ -1,5 +1,6 @@
 > The **Grid** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Thickness](#thickness)
 - [Axis Modes](#axis-modes)

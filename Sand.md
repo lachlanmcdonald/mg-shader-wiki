@@ -3,6 +3,7 @@
 
 Voxels are added randomly and only added when the voxel beneath has adjacent voxels, creating the effect of a rough pile of sand. The number of adjacent neighbors affects the randomness, with a higher number of neighbors increasing the odds a voxel will be added.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Examples](#examples)
 

@@ -1,5 +1,6 @@
 > **noise** replaces all voxels which match your selected color with a randomly chosen color within a range of colors
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Examples](#examples)
 

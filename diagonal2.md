@@ -1,5 +1,6 @@
 > **diagonal2** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between 2 colors of varying thickness.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Directions](#directions)
 

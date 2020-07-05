@@ -1,5 +1,6 @@
 > **zigzag2** is a **[Zigzag brush](Zigzag-Brushes)** that generates zigzag patterns between two colors.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Direction](#direction)
 - [Examples](#examples)

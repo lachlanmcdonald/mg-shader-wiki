@@ -1,7 +1,9 @@
 > **stairs** is a **[Stairs Brushes](Stairs-Brushes)** that generates stairs which extend from the base of the brush.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Direction](#direction)
+- [Height](#height)
 
 ## Parameters
 

@@ -1,4 +1,16 @@
-### Writing shaders
+<!-- TOC -->
+- [Writing shaders](#writing-shaders)
+- [Observations](#observations)
+  - [Voxel coordinates](#voxel-coordinates)
+  - [`voxel` always refers to original model](#voxel-always-refers-to-original-model)
+  - [Functions must be declared before they are used](#functions-must-be-declared-before-they-are-used)
+  - [Using the `voxel` function beyond the volume size](#using-the-voxel-function-beyond-the-volume-size)
+- [Snippets](#snippets)
+  - [Determine if a axis mode is set](#determine-if-a-axis-mode-is-set)
+  - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
+- [Editing](#editing)
+
+## Writing shaders
 
 Shader files are written in _OpenGL Shader Language_ (GLSL). [The Book of Shaders](https://thebookofshaders.com/) is a good beginners guide to the shader language.
 
@@ -7,7 +19,7 @@ The `map` function in the shader is executed once per voxel:
 - It recieves the location of the voxel as its only argument
 - Should return a float between `0` and `255` representing the voxel color in the palette.
 
-For exammple, the following shader will fill the entire volume with voxels colored from palette index `1`.
+For example, the following shader will fill the entire volume with voxels colored from palette index `1`.
 
 ```glsl
 // xs_begin

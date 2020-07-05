@@ -1,5 +1,6 @@
 > The **Weave [brush](Brush-Shaders)** generates a weave pattern.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Modes](#modes)
 - [Line Width](#line-width)
