@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 - [Shaders](#shaders)
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Direction](#direction)
 - [Threshold](#threshold)
 
@@ -25,9 +25,9 @@
     </tr>
 </table>
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | Facing direction of the bricks
 **Width** | Width of the brick

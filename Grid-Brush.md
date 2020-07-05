@@ -1,14 +1,14 @@
 > The **Grid** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Thickness](#thickness)
 - [Axis Modes](#axis-modes)
 - [Examples](#examples)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Color A** | Color index of the lines
 **Color B** | Color index of the boxes in between the lines

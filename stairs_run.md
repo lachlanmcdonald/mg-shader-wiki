@@ -1,15 +1,15 @@
 > **stairs_runs** is a **[Stairs Brushes](Stairs-Brushes)** that generates only stair runs; with additional options for the size and spacing of the runs.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Count](#count)
 - [Height](#height)
 - [X/Y Gap](#xy-gap)
 - [Z Gap](#z-gap)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | The facing direction of the stairs
 **Count**     | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent

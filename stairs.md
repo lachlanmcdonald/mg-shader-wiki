@@ -1,13 +1,13 @@
 > **stairs** is a **[Stairs Brushes](Stairs-Brushes)** that generates stairs which extend from the base of the brush.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Direction](#direction)
 - [Height](#height)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | The facing direction of the stairs
 **Count** | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent

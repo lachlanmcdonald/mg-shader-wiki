@@ -2,12 +2,12 @@
 > - **flood2** is similar to **flood**, except flooding stops when a voxel is encountered so that exclosed spaces aren't filled.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Examples](#examples)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Height** | Height of the flood
 

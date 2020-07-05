@@ -2,15 +2,15 @@
 > - **pyramid** will only add voxels when the adjacent voxels match the selected color. Whereas, **pyramid2** will add voxels if there are adjacent voxels of any color.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Axis Modes](#axis-modes)
 - [Examples](#examples)
 
-## Parameters
+## Arguments
 
 Voxels are added on top of voxels matching the selected color.
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Color** | Color index of added voxels. If set to `0`, the selected color index is used instead
 

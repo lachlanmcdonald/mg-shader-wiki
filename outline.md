@@ -2,12 +2,12 @@
 > **outline2** produces thinner lines.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Examples](#examples)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Color** | Color index to replace voxels (setting the index to `0` will remove voxels)
 

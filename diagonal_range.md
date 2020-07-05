@@ -1,12 +1,12 @@
 > **diagonal_range** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between a range of colors; with a line for each color in the range.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Directions](#directions)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | Direction of the lines on the Z-axis (see below)
 **Color A** | First color index

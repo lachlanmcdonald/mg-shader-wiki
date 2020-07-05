@@ -1,12 +1,12 @@
 > **diagonal3** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between 3 colors of varying thickness.
 
 <!-- TOC -->
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Directions](#directions)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | Direction of the lines on the Z-axis (see below)
 **Color A** | Color index of the primary line
