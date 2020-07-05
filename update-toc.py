@@ -1,14 +1,14 @@
 from os import path, listdir
 import re
 
-heading_pattern = re.compile(r"""
+HEADING_PATTERN = re.compile(r"""
 	^      # Start of line
 	(\#+)  # Depth of header
 	\s*    # Ignore any whitespace
 	(.+)$  # Match to end of line
 """, re.VERBOSE + re.MULTILINE)
 
-toc_pattern = re.compile(r"""
+TOC_PATTERN = re.compile(r"""
 	<!--\s+TOC\s+-->      # TOC marker
 	(?:\s*-\s+[^\n]+\n)*  # List items
 	\n+					  # New lines
@@ -20,8 +20,8 @@ for f in listdir(path.dirname(__file__)):
 			contents = h.read()
 			new_contents = contents
 
-			headings = heading_pattern.findall(contents)
-			existing_toc = toc_pattern.findall(contents)
+			headings = HEADING_PATTERN.findall(contents)
+			existing_toc = TOC_PATTERN.findall(contents)
 			toc = ['<!-- TOC -->']
 
 			if existing_toc and headings:
