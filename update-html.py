@@ -24,9 +24,9 @@ LIST_TEMPLATE = compiler.compile(u"""
 	<tbody>
 		{{#each items}}
 		<tr>
-			<td valign="top" align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}?cache={{@root.cache}}" alt=""></a></td>
-			<th valign="top" align="left"><a href="{{{href}}}">{{heading}}</a></th>
-			<td valign="top">{{content}}</td>
+			<td valign="center" align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}?cache={{@root.cache}}" alt=""></a></td>
+			<th valign="center" align="left"><a href="{{{href}}}">{{heading}}</a></th>
+			<td valign="center">{{content}}</td>
 		</tr>
 		{{/each}}
 	</tbody>
