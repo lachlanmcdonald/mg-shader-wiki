@@ -1,5 +1,6 @@
 from os import path, listdir
 from pybars import Compiler
+from time import time
 import json
 import re
 
@@ -23,7 +24,7 @@ LIST_TEMPLATE = compiler.compile(u"""
 	<tbody>
 		{{#each items}}
 		<tr>
-			<td align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}" alt=""></a></td>
+			<td height="{{{@root.width}}}" align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}?cache={{@root.cache}}" alt=""></a></td>
 			<th align="left"><a href="{{{href}}}">{{heading}}</a></th>
 			<td>{{content}}</td>
 		</tr>
@@ -47,6 +48,7 @@ def repl(match):
 	assert k in JSON_DATA, '{} not in data ({})'.format(k, f)
 
 	contents = LIST_TEMPLATE({
+		'cache': int(time()),
 		'args': ' '.join(['LIST', k, width]),
 		'items': JSON_DATA[k],
 		'width': width
