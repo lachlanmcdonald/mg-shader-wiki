@@ -1,0 +1,50 @@
+[
+    {
+        "content": "Generates alternating rows of bricks or tiles",
+        "heading": "Brick Brushes",
+        "href": "Brick-Brushes",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/brick.png"
+    },
+    {
+        "content": "Generates generates randomly protruding lines of voxels with a constant distribution",
+        "heading": "Grass Brushes",
+        "href": "Grass-Brushes",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass.png"
+    },
+    {
+        "content": "Generates a slope of stairs",
+        "heading": "Stairs Brushes",
+        "href": "Stairs-Brushes",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/stairs.png"
+    },
+    {
+        "content": "Generates a grid pattern with variable thickness and spacing",
+        "heading": "Grid Brush",
+        "href": "Grid-Brush",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/grid.png"
+    },
+    {
+        "content": "Generates a tile pattern",
+        "heading": "Tiles Brush",
+        "href": "Tiles-Brush",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/tiles.png"
+    },
+    {
+        "content": "Generates parallel 45° lines of alternating widths",
+        "heading": "Diagonal Line Brushes",
+        "href": "Diagonal-Line-Brushes",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/diagonal_lines.png"
+    },
+    {
+        "content": "Generates a weave pattern",
+        "heading": "Weave Brush",
+        "href": "Weave-Brush",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/weave.png"
+    },
+    {
+        "content": "Generates zig-zag patterns",
+        "heading": "Zigzag Brushes",
+        "href": "Zigzag-Brushes",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.0/zigzag.png"
+    }
+]

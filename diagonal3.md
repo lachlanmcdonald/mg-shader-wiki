@@ -1,4 +1,4 @@
-> **diagonal3** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between 3 colors of varying thickness.
+> **diagonal3** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between 3 colors of specified thicknesses.
 
 <!-- TOC -->
 - [Arguments](#arguments)

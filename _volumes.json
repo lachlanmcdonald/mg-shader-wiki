@@ -1,0 +1,56 @@
+[
+    {
+        "content": "Removes a segment of the volume and shuffles voxels to fill its place",
+        "heading": "Slices",
+        "href": "slices",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/slice.png"
+    },
+    {
+        "content": "Surrounds/encases voxels",
+        "heading": "Case",
+        "href": "case",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case.png"
+    },
+    {
+        "content": "Iteratively generate a pyramid",
+        "heading": "Pyramid",
+        "href": "pyramid",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/pyramid.png"
+    },
+    {
+        "content": "Iteratively generate jagged voxels; i.e. piles of sand or cliffs",
+        "heading": "Sand",
+        "href": "sand",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/sand.png"
+    },
+    {
+        "content": "Creates an outline where voxels meet a voxel of a different color",
+        "heading": "Outline",
+        "href": "outline",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline.png"
+    },
+    {
+        "content": "Generates voxels above other voxels; i.e. snow or grass",
+        "heading": "Soil & Cover",
+        "href": "Soil-&-Cover",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/soil_2.png"
+    },
+    {
+        "content": "Randomly generates noise within a range of colors",
+        "heading": "Noise",
+        "href": "noise",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/noise.png"
+    },
+    {
+        "content": "Randomly generates noise with a set threshold",
+        "heading": "Random",
+        "href": "random",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/random.png"
+    },
+    {
+        "content": "Generates a flood effect",
+        "heading": "Flood",
+        "href": "flood",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood.png"
+    }
+]
