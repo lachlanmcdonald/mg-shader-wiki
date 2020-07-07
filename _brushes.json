@@ -46,5 +46,11 @@
         "heading": "Zigzag Brushes",
         "href": "Zigzag-Brushes",
         "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag2.png"
+    },
+    {
+        "content": "Generates prisms, pyramids or tetrahedrons with straight or curved angles",
+        "heading": "Prism Brush",
+        "href": "Prism-Brush",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png"
     }
 ]
