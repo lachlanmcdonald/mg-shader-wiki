@@ -41,11 +41,9 @@ DATA_DIR = path.join(path.dirname(__file__), 'data')
 JSON_DATA = {}
 
 for fp in listdir(DATA_DIR):
-	bn = path.basename(fp)
-
-	if path.splitext(fp)[1] == '.json' and bn.startswith('_'):
+	if path.splitext(fp)[1] == '.json':
 		with open(path.join(DATA_DIR, fp), 'r') as fh:
-			k = path.splitext(bn)[0][1:]
+			k = path.basename(path.splitext(fp)[0][1:])
 			JSON_DATA[k] = json.load(fh)
 
 
