@@ -29,10 +29,10 @@ SAMPLE_PATTERN = re.compile(r"""
 # Template compiler
 compiler = Compiler()
 
-with open(path.join(path.dirname(__file__), 'list.hbs')) as f:
+with open(path.join(path.dirname(__file__), 'templates', 'list.hbs')) as f:
 	LIST_TEMPLATE = compiler.compile(f.read().strip())
 
-with open(path.join(path.dirname(__file__), 'sample.hbs')) as f:
+with open(path.join(path.dirname(__file__), 'templates', 'sample.hbs')) as f:
 	SAMPLES_TEMPLATE = compiler.compile(f.read().strip())
 
 
