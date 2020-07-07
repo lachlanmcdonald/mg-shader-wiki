@@ -40,10 +40,13 @@ with open(path.join(path.dirname(__file__), 'sample.hbs')) as f:
 DATA_DIR = path.join(path.dirname(__file__), 'data')
 JSON_DATA = {}
 
+print("=> Reading JSON")
 for fp in listdir(DATA_DIR):
 	if path.splitext(fp)[1] == '.json':
+		print("   {}".format(fp))
+
 		with open(path.join(DATA_DIR, fp), 'r') as fh:
-			k = path.basename(path.splitext(fp)[0][1:])
+			k = path.splitext(path.basename(fp))[0]
 			JSON_DATA[k] = json.load(fh)
 
 

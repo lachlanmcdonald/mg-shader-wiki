@@ -26,7 +26,7 @@ Setting either of the colors to `0` will also result in empty voxels.
 
 There are 4 distinct color modes for generating voxels, as outlined below:
 
-<!-- SAMPLE grass_mode 2 -->
+<!-- SAMPLE grass_modes 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode0.png" alt="Example of mode of 0"></td>

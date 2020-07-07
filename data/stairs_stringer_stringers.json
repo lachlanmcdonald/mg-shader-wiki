@@ -1,0 +1,20 @@
+[
+    {
+        "alt": "Example of a Stringer of 1",
+        "label": "Stringer",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer1.png",
+        "value": "1"
+    },
+    {
+        "alt": "Example of a Stringer of 2",
+        "label": "Stringer",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer2.png",
+        "value": "2"
+    },
+    {
+        "alt": "Example of a Stringer of 3",
+        "label": "Stringer",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer4.png",
+        "value": "4"
+    }
+]

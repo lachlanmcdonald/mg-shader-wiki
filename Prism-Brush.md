@@ -22,70 +22,79 @@ Argument | Description
 
 ## Modes
 
+<!-- SAMPLE prism_modes 2 -->
 <table>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0.png" alt="Example of mode of 0"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1.png" alt="Example of mode of 1"></td>
-    </tr>
-    <tr>
-        <th>Mode: <code>0</code></th>
-        <th>Mode: <code>1</code></th>
-    </tr>
-    <tr>
-        <td>Linear interpolation (straight edge)</td>
-        <td>Sine interpolation (curved edge)</td>
-    </tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0.png" alt="Example of mode of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1.png" alt="Example of mode of 1"></td>
+	</tr>
+	<tr>
+		<th>Mode: <code>0</code></th>
+		<th>Mode: <code>1</code></th>
+	</tr>
+	<tr>
+		<td valign="top">Linear interpolation (straight edge)</td>
+		<td valign="top">Sine interpolation (curved edge)</td>
+	</tr>
 </table>
+<!-- END -->
 
 ## Widths
 
 ### Mode: `0`
 
+<!-- SAMPLE prism_mode0_widths 2 -->
 <table>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width8.png" alt="Example of mode of 0 and width 8"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width16.png" alt="Example of mode of 0 and width 16"></td>
-    </tr>
-    <tr>
-        <th>Width: <code>8</code></th>
-        <th>Width: <code>16</code></th>
-    </tr>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width20.png" alt="Example of mode of 0 and width 20"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width32.png" alt="Example of mode of 0 and width 32"></td>
-    </tr>
-    <tr>
-        <th>Width: <code>20</code></th>
-        <th>Width: <code>32</code></th>
-    </tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width8.png" alt="Example of mode of 0 and width 8"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width16.png" alt="Example of mode of 0 and width 16"></td>
+	</tr>
+	<tr>
+		<th>Width: <code>8</code></th>
+		<th>Width: <code>16</code></th>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width20.png" alt="Example of mode of 0 and width 20"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width32.png" alt="Example of mode of 0 and width 32"></td>
+	</tr>
+	<tr>
+		<th>Width: <code>20</code></th>
+		<th>Width: <code>32</code></th>
+	</tr>
 </table>
+<!-- END -->
 
 ### Mode: `1`
 
+<!-- SAMPLE prism_mode1_widths 2 -->
 <table>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width8.png" alt="Example of mode of 0 and width 8"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width16.png" alt="Example of mode of 0 and width 16"></td>
-    </tr>
-    <tr>
-        <th>Width: <code>8</code></th>
-        <th>Width: <code>16</code></th>
-    </tr>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width20.png" alt="Example of mode of 0 and width 20"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width32.png" alt="Example of mode of 0 and width 32"></td>
-    </tr>
-    <tr>
-        <th>Width: <code>20</code></th>
-        <th>Width: <code>32</code></th>
-    </tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width8.png" alt="Example of mode of 0 and width 8"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width16.png" alt="Example of mode of 0 and width 16"></td>
+	</tr>
+	<tr>
+		<th>Width: <code>8</code></th>
+		<th>Width: <code>16</code></th>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width20.png" alt="Example of mode of 0 and width 20"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width32.png" alt="Example of mode of 0 and width 32"></td>
+	</tr>
+	<tr>
+		<th>Width: <code>20</code></th>
+		<th>Width: <code>32</code></th>
+	</tr>
 </table>
+<!-- END -->
 
 ## Examples
 
+<!-- SAMPLE prism_examples 2 -->
 <table>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg" alt="Example"></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example1.jpg" alt="Example"></td>
-    </tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg" alt="Example"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example1.jpg" alt="Example"></td>
+	</tr>
 </table>
+<!-- END -->
+

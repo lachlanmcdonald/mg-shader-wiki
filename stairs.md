@@ -25,36 +25,41 @@ Mode | Description
 
 ## Direction
 
+<!-- SAMPLE stairs_directions 3 -->
 <table>
-    <tr>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction0.png" alt="Example of a direction of 0"></td>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction1.png" alt="Example of a direction of 1"></td>
-    </tr>
-    <tr>
-        <th>Direction: <code>0</code></th>
-        <th>Direction: <code>1</code></th>
-    </tr>
-    <tr>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction2.png" alt="Example of a direction of 2"></td>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction3.png" alt="Example of a direction of 3"></td>
-    </tr>
-    <tr>
-        <th>Direction: <code>2</code></th>
-        <th>Direction: <code>3</code></th>
-    </tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction0.png" alt="Example of a direction of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction1.png" alt="Example of a direction of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction2.png" alt="Example of a direction of 2"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>0</code></th>
+		<th>Direction: <code>1</code></th>
+		<th>Direction: <code>2</code></th>
+	</tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction3.png" alt="Example of a direction of 3"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>3</code></th>
+	</tr>
 </table>
+<!-- END -->
 
 ## Height
 
+<!-- SAMPLE stairs_height 3 -->
 <table>
-    <tr>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height1.png" alt="Example of a height of 1"></td>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height2.png" alt="Example of a height of 2"></td>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height3.png" alt="Example of a height of 3"></td>
-    </tr>
-    <tr>
-        <th>Height: <code>1</code></th>
-        <th>Height: <code>2</code></th>
-        <th>Height: <code>3</code></th>
-    </tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height1.png" alt="Example of a height of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height2.png" alt="Example of a height of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height3.png" alt="Example of a height of 3"></td>
+	</tr>
+	<tr>
+		<th>Height: <code>1</code></th>
+		<th>Height: <code>2</code></th>
+		<th>Height: <code>3</code></th>
+	</tr>
 </table>
+<!-- END -->
+
