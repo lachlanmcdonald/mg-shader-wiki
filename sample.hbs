@@ -1,27 +1,25 @@
 <!-- {{args}} -->
 <table>
-	<tbody>
-		{{#each rows}}
-		<tr>
-			{{#each this}}
-			<td width="{{{@root.width}}}"><img width="100%" src="{{{src}}}" alt="{{alt}}"></td>
-			{{/each}}
-		</tr>
-		{{#if @root.has_value_label}}
-		<tr>
-			{{#each this}}
-			<th>{{label}}{{#if value}}{{#if label}}: {{/if}}<code>{{value}}</code>{{/if}}</th>
-			{{/each}}
-		</tr>
-		{{/if}}
-		{{#if @root.has_text}}
-		<tr>
-			{{#each this}}
-			<td valign="top">{{text}}{{{raw}}}</td>
-			{{/each}}
-		</tr>
-		{{/if}}
+	{{#each rows}}
+	<tr>
+		{{#each this}}
+		<td width="{{{@root.width}}}"><img width="100%" src="{{{src}}}" alt="{{alt}}"></td>
 		{{/each}}
-	</tbody>
+	</tr>
+	{{#if @root.has_value_label}}
+	<tr>
+		{{#each this}}
+		<th>{{label}}{{#if value}}{{#if label}}: {{/if}}<code>{{value}}</code>{{/if}}</th>
+		{{/each}}
+	</tr>
+	{{/if}}
+	{{#if @root.has_text}}
+	<tr>
+		{{#each this}}
+		<td valign="top">{{text}}{{{raw}}}</td>
+		{{/each}}
+	</tr>
+	{{/if}}
+	{{/each}}
 </table>
 <!-- END -->

@@ -19,32 +19,30 @@ Argument | Description
 
 <!-- SAMPLE diagonal2_directions 2 -->
 <table>
-	<tbody>
-		<tr>
-			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction0.png" alt="Example of a direction of 0"></td>
-			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction1.png" alt="Example of a direction of 1"></td>
-		</tr>
-		<tr>
-			<th>Direction: <code>0</code></th>
-			<th>Direction: <code>1</code></th>
-		</tr>
-		<tr>
-			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction2.png" alt="Example of a direction of 2"></td>
-			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction3.png" alt="Example of a direction of 3"></td>
-		</tr>
-		<tr>
-			<th>Direction: <code>2</code></th>
-			<th>Direction: <code>3</code></th>
-		</tr>
-		<tr>
-			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction4.png" alt="Example of a direction of 4"></td>
-			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction5.png" alt="Example of a direction of 5"></td>
-		</tr>
-		<tr>
-			<th>Direction: <code>4</code></th>
-			<th>Direction: <code>5</code></th>
-		</tr>
-	</tbody>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction0.png" alt="Example of a direction of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction1.png" alt="Example of a direction of 1"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>0</code></th>
+		<th>Direction: <code>1</code></th>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction2.png" alt="Example of a direction of 2"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction3.png" alt="Example of a direction of 3"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>2</code></th>
+		<th>Direction: <code>3</code></th>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction4.png" alt="Example of a direction of 4"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal2_direction5.png" alt="Example of a direction of 5"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>4</code></th>
+		<th>Direction: <code>5</code></th>
+	</tr>
 </table>
 <!-- END -->
 
