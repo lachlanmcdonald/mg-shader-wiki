@@ -37,11 +37,15 @@ with open(path.join(path.dirname(__file__), 'sample.hbs')) as f:
 
 
 # Load JSON data
+DATA_DIR = path.join(path.dirname(__file__), 'data')
 JSON_DATA = {}
-for fp in listdir(path.dirname(__file__)):
-	if path.splitext(fp)[1] == '.json' and fp.startswith('_'):
-		with open(fp, 'r') as fh:
-			k = path.splitext(fp)[0][1:]
+
+for fp in listdir(DATA_DIR):
+	bn = path.basename(fp)
+
+	if path.splitext(fp)[1] == '.json' and bn.startswith('_'):
+		with open(path.join(DATA_DIR, fp), 'r') as fh:
+			k = path.splitext(bn)[0][1:]
 			JSON_DATA[k] = json.load(fh)
 
 
