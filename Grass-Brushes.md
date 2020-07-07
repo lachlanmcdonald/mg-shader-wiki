@@ -2,15 +2,16 @@
 > 
 > There are two shaders, **`grass`** and **`grass_inv`**, that are functionally identical except grass protrude upwards and `grass_inv` extrudes downwards.
 
-- [Parameters](#parameters)
+<!-- TOC -->
+- [Arguments](#arguments)
 - [Mode](#mode)
 - [Density](#density)
 - [Growth](#growth)
 - [Examples](#examples)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Density** | Size of the area in which a line should be generated. Increasing density will increase the spacing between lines

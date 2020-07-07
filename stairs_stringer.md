@@ -1,5 +1,6 @@
 > **stairs_stringer** is a **[Stairs Brushes](Stairs-Brushes)** that generates stairs with a stringer of a specific height.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Mode](#mode)
 - [Direction](#direction)

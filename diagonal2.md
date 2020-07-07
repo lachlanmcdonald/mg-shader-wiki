@@ -1,11 +1,12 @@
-> **diagonal2** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between 2 colors of varying thickness.
+> **diagonal2** is a **[Diagonal Line Brushes](Diagonal-Line-Brushes)** that generates diagonal patterns between 2 colors of specified thicknesses.
 
-- [Parameters](#parameters)
+<!-- TOC -->
+- [Arguments](#arguments)
 - [Directions](#directions)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | Direction of the lines on the Z-axis (see below)
 **Color A** | Color index of the primary line

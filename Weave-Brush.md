@@ -1,12 +1,13 @@
 > The **Weave [brush](Brush-Shaders)** generates a weave pattern.
 
-- [Parameters](#parameters)
+<!-- TOC -->
+- [Arguments](#arguments)
 - [Modes](#modes)
 - [Line Width](#line-width)
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Size** | Size of the squares

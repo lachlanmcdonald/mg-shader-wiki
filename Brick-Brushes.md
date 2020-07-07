@@ -2,8 +2,9 @@
 > 
 > There are two shaders, **`bricks`** and **`bricks_vert`**, that are functionally identical except bricks are offset vertically for `bricks_vert` and horizontally for `bricks`.
 
+<!-- TOC -->
 - [Shaders](#shaders)
-- [Parameters](#parameters)
+- [Arguments](#arguments)
 - [Direction](#direction)
 - [Threshold](#threshold)
 
@@ -24,9 +25,9 @@
     </tr>
 </table>
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Direction** | Facing direction of the bricks
 **Width** | Width of the brick

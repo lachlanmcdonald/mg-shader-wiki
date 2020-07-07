@@ -1,8 +1,8 @@
 > The **Tiles** [brush](Brush-Shaders) generates a tile pattern.
 
-## Parameters
+## Arguments
 
-Parameter | Description
+Argument | Description
 --------- | -----------
 **Color A** | Tile color
 **Color B** | Alternate tile color

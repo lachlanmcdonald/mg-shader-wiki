@@ -1,5 +1,6 @@
 > **stairs_runs** is a **[Stairs Brushes](Stairs-Brushes)** that generates only stair runs; with additional options for the size and spacing of the runs.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Mode](#mode)
 - [Count](#count)
