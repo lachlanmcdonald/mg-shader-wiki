@@ -14,26 +14,35 @@ Argument | Description
 
 ## Shaders
 
+<!-- SAMPLE flood_shaders 2 -->
 <table>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_1.png" alt=""></td>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_2.png" alt=""></td>
-    </tr>
-	<tr>
-		<th><code>flood</code></th>
-		<th><code>flood2</code></th>
-	</tr>
+	<tbody>
+		<tr>
+			<td width="50%"><img width="100%" src="https: //s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_1.png" alt=""></td>
+			<td width="50%"><img width="100%" src="https: //s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_2.png" alt=""></td>
+		</tr>
+		<tr>
+			<th><code>flood</code></th>
+			<th><code>flood2</code></th>
+		</tr>
+	</tbody>
 </table>
+<!-- END -->
 
 ## Examples
 
+<!-- SAMPLE flood_examples 2 -->
 <table>
-    <tr>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example0.jpg" alt="Example"></td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example1.jpg" alt="Example"></td>
-    </tr>
-	<tr>
-		<td valign="top">Input volume</td>
-		<td valign="top">Using <code>flood</code> to submerge models</td>
-	</tr>
+	<tbody>
+		<tr>
+			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example0.jpg" alt=""></td>
+			<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example1.jpg" alt=""></td>
+		</tr>
+		<tr>
+			<td valign="top">Input volume</td>
+			<td valign="top">Using <code>flood</code> to submerge models</td>
+		</tr>
+	</tbody>
 </table>
+<!-- END -->
+

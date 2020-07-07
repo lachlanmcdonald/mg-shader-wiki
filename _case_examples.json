@@ -1,0 +1,17 @@
+[
+    {
+        "alt": "Example",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/case_example0.jpg",
+        "text": "Input volume"
+    },
+    {
+        "alt": "Example",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/case_example1.jpg",
+        "raw": "Using <code>case</code> and cloud materials to create eerie glows"
+    },
+    {
+        "alt": "Example",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/case_example2.jpg",
+        "raw": "Using <code>case</code> and SSR materials to create a plastic/rubber texture"
+    }
+]
