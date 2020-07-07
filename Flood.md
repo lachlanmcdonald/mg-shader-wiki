@@ -17,8 +17,8 @@ Argument | Description
 <!-- SAMPLE flood_shaders 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https: //s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_1.png" alt=""></td>
-		<td width="50%"><img width="100%" src="https: //s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_2.png" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_1.png" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_2.png" alt=""></td>
 	</tr>
 	<tr>
 		<th><code>flood</code></th>
@@ -29,15 +29,17 @@ Argument | Description
 
 ## Examples
 
-<!-- SAMPLE flood_examples 2 -->
+<!-- SAMPLE flood_examples 3 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example0.jpg" alt=""></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example1.jpg" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example0.jpg" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example1.jpg" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/flood_example2.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td valign="top">Original</td>
-		<td valign="top">Using <code>flood</code> to submerge models</td>
+		<td valign="top">Using <code>flood</code> to submerge models in water using a glass material</td>
+		<td valign="top">Using <code>flood</code> to engulf in fog using cloud materials</td>
 	</tr>
 </table>
 <!-- END -->
