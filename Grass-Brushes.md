@@ -16,7 +16,7 @@ Argument | Description
 **Mode** | Color mode (see below)
 **Density** | Size of the area in which a line should be generated. Increasing density will increase the spacing between lines
 **Growth** | Affects the growth of the lines. `0.5` is a fairly evenly-distributed growth. Higher or lower values will overgrow or stymied the heights, respectively
-**Seed** | Random seed
+**Seed** | Global seed
 **Color A** | First color index
 **Color B** | Last color index
 
@@ -50,7 +50,7 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 	</tr>
 	<tr>
 		<td valign="top">The color of the line is chosen at random.</td>
-		<td valign="top">The color of the line is a gradient between <em>Color A</em> and<em> Color </em>B (regardless of height.)</td>
+		<td valign="top">The color of the line is a gradient between <strong>Color A</strong> and<strong> Color B</strong> (regardless of height.)</td>
 	</tr>
 </table>
 <!-- END -->
