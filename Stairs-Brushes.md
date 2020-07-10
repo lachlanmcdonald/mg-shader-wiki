@@ -2,23 +2,21 @@
 
 <!-- LIST stairs 120 -->
 <table>
-	<tbody>
-		<tr>
-			<td valign="center" align="left"><a href="stairs"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs.png?cache=1594378540" alt=""></a></td>
-			<th valign="center" align="left"><a href="stairs">stairs</a></th>
-			<td valign="center">Generates a slope of stairs of a specified height that extends from the base</td>
-		</tr>
-		<tr>
-			<td valign="center" align="left"><a href="stairs_run"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs_runs.png?cache=1594378540" alt=""></a></td>
-			<th valign="center" align="left"><a href="stairs_run">stairs_run</a></th>
-			<td valign="center">Generates a slope of stairs runs with specified size and spacing</td>
-		</tr>
-		<tr>
-			<td valign="center" align="left"><a href="stairs_stringer"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs_stringer.png?cache=1594378540" alt=""></a></td>
-			<th valign="center" align="left"><a href="stairs_stringer">stairs_stringer</a></th>
-			<td valign="center">Generates a slope of stairs with a stringer of a specified width</td>
-		</tr>
-	</tbody>
+	<tr>
+		<td valign="center" align="left"><a href="stairs"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs.png?cache=1594379674" alt=""></a></td>
+		<th valign="center" align="left"><a href="stairs">stairs</a></th>
+		<td valign="center">Generates a slope of stairs of a specified height that extends from the base</td>
+	</tr>
+	<tr>
+		<td valign="center" align="left"><a href="stairs_run"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs_runs.png?cache=1594379674" alt=""></a></td>
+		<th valign="center" align="left"><a href="stairs_run">stairs_run</a></th>
+		<td valign="center">Generates a slope of stairs runs with specified size and spacing</td>
+	</tr>
+	<tr>
+		<td valign="center" align="left"><a href="stairs_stringer"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs_stringer.png?cache=1594379674" alt=""></a></td>
+		<th valign="center" align="left"><a href="stairs_stringer">stairs_stringer</a></th>
+		<td valign="center">Generates a slope of stairs with a stringer of a specified width</td>
+	</tr>
 </table>
 <!-- END -->
 
