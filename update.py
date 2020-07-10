@@ -26,6 +26,21 @@ SAMPLE_PATTERN = re.compile(r"""
 	<!--\s+END\s+-->[\s\n]*  # END marker
 """, re.DOTALL + re.VERBOSE + re.IGNORECASE)
 
+# Extract headings
+HEADING_PATTERN = re.compile(r"""
+	^      # Start of line
+	(\#+)  # Depth of header
+	\s*    # Ignore any whitespace
+	(.+)$  # Match to end of line
+""", re.VERBOSE + re.MULTILINE)
+
+# Pattern to identify existing TOC
+TOC_PATTERN = re.compile(r"""
+	<!--\s+TOC\s+-->      # TOC marker
+	(?:\s*-\s+[^\n]+\n)*  # List items
+	\n+					  # New lines
+""", re.VERBOSE)
+
 # Template compiler
 compiler = Compiler()
 
@@ -91,6 +106,23 @@ for f in listdir(path.dirname(__file__)):
 			contents = h.read()
 			new_contents = LIST_PATTERN.sub(list_repl, contents)
 			new_contents = SAMPLE_PATTERN.sub(arg_sample_repl, new_contents)
+
+			headings = HEADING_PATTERN.findall(contents)
+			existing_toc = TOC_PATTERN.findall(contents)
+			toc = ['<!-- TOC -->']
+
+			if existing_toc and headings:
+				base_depth = min([len(depth) for depth, _ in headings])
+
+				for depth, heading in headings:
+					indentation = '  ' * (len(depth) - base_depth)
+					anchor = re.sub('\s', '-', re.sub('[^\w\d\s]', '', heading.strip())).lower()
+
+					temp = '{}- [{}](#{})'.format(indentation, heading.strip(), anchor)
+					toc.append(temp)
+
+				toc = '\n'.join(toc) + '\n\n'
+				new_contents = new_contents.replace(existing_toc[0], toc, 1)
 
 		with open(f, 'w', newline='\n') as h:
 			h.write(new_contents)
