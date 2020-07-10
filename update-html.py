@@ -65,7 +65,7 @@ def list_repl(match):
 		'args': ' '.join(['LIST', k, width]),
 		'items': JSON_DATA[k],
 		'width': width
-	})
+	}).strip()
 	return '\n\n' + contents + '\n\n'
 
 
@@ -80,7 +80,7 @@ def arg_sample_repl(match):
 		"has_text": any([ 'raw' in j or 'text' in j for j in JSON_DATA[k]]),
 		'rows': list(chunks(JSON_DATA[k], per_row)),
 		'width': re.sub(r'\.?0+%$', '%', "{:.2f}%".format(100 / per_row))
-	})
+	}).strip()
 	return '\n\n' + contents + '\n\n'
 
 
@@ -92,6 +92,5 @@ for f in listdir(path.dirname(__file__)):
 			new_contents = LIST_PATTERN.sub(list_repl, contents)
 			new_contents = SAMPLE_PATTERN.sub(arg_sample_repl, contents)
 
-		if contents != new_contents:
-			with open(f, 'w') as h:
-				h.write(new_contents)
+		with open(f, 'w', newline='\n') as h:
+			h.write(new_contents)
