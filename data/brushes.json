@@ -30,6 +30,12 @@
         "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles.png"
     },
     {
+        "content": "Generates a puzzle tile pattern",
+        "heading": "Puzzle Tile Brush",
+        "href": "Puzzle-Tiles-Brush",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles_puzzle.png"
+    },
+    {
         "content": "Generates parallel 45° lines of alternating widths",
         "heading": "Diagonal Line Brushes",
         "href": "Diagonal-Line-Brushes",
@@ -46,5 +52,11 @@
         "heading": "Zigzag Brushes",
         "href": "Zigzag-Brushes",
         "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag2.png"
+    },
+    {
+        "content": "Generates prisms, pyramids or tetrahedrons with straight or curved angles",
+        "heading": "Prism Brush",
+        "href": "Prism-Brush",
+        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png"
     }
 ]

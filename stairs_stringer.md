@@ -1,5 +1,6 @@
 > **stairs_stringer** is a **[Stairs Brushes](Stairs-Brushes)** that generates stairs with a stringer of a specific height.
 
+<!-- TOC -->
 - [Parameters](#parameters)
 - [Mode](#mode)
 - [Direction](#direction)
@@ -26,36 +27,41 @@ Mode | Description
 
 ## Direction
 
+<!-- SAMPLE stairs_stringer_directions 2 -->
 <table>
-    <tr>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction0.png" alt="Example of a direction of 0"></td>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction1.png" alt="Example of a direction of 1"></td>
-    </tr>
-    <tr>
-        <th>Direction: <code>0</code></th>
-        <th>Direction: <code>1</code></th>
-    </tr>
-    <tr>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction2.png" alt="Example of a direction of 2"></td>
-        <td width="50%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction3.png" alt="Example of a direction of 3"></td>
-    </tr>
-    <tr>
-        <th>Direction: <code>2</code></th>
-        <th>Direction: <code>3</code></th>
-    </tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction0.png" alt="Example of a direction of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction1.png" alt="Example of a direction of 1"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>0</code></th>
+		<th>Direction: <code>1</code></th>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction2.png" alt="Example of a direction of 2"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction3.png" alt="Example of a direction of 3"></td>
+	</tr>
+	<tr>
+		<th>Direction: <code>2</code></th>
+		<th>Direction: <code>3</code></th>
+	</tr>
 </table>
+<!-- END -->
 
 ## Stringer
 
+<!-- SAMPLE stairs_stringer_stringers 3 -->
 <table>
-    <tr>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer1.png" alt="Example of a Stringer of 1"></td>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer2.png" alt="Example of a Stringer of 2"></td>
-        <td width="33%"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer4.png" alt="Example of a Stringer of 3"></td>
-    </tr>
-    <tr>
-        <th>Stringer: <code>1</code></th>
-        <th>Stringer: <code>2</code></th>
-        <th>Stringer: <code>4</code></th>
-    </tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer1.png" alt="Example of a Stringer of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer2.png" alt="Example of a Stringer of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer4.png" alt="Example of a Stringer of 3"></td>
+	</tr>
+	<tr>
+		<th>Stringer: <code>1</code></th>
+		<th>Stringer: <code>2</code></th>
+		<th>Stringer: <code>4</code></th>
+	</tr>
 </table>
+<!-- END -->
+

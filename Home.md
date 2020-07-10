@@ -46,6 +46,11 @@
 			<th valign="center" align="left"><a href="Zigzag-Brushes">Zigzag Brushes</a></th>
 			<td valign="center">Generates zig-zag patterns</td>
 		</tr>
+		<tr>
+			<td valign="center" align="left"><a href="Prism-Brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png?cache=1594118309" alt=""></a></td>
+			<th valign="center" align="left"><a href="Prism-Brush">Prism Brush</a></th>
+			<td valign="center">Generates prisms, pyramids or tetrahedrons with straight or curved angles</td>
+		</tr>
 	</tbody>
 </table>
 <!-- END -->

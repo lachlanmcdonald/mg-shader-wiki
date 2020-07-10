@@ -1,0 +1,27 @@
+[
+    {
+        "alt": "Example of no set axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XYZ.png",
+        "text": "No set axis mode"
+    },
+    {
+        "alt": "Example of X-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_X.png",
+        "text": "X-axis mode"
+    },
+    {
+        "alt": "Example of Y-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Y.png",
+        "text": "Y-axis mode"
+    },
+    {
+        "alt": "Example of X & Y-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XY.png",
+        "text": "X & Y-axis mode"
+    },
+    {
+        "alt": "Example of Z-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Z.png",
+        "text": "Z-axis mode"
+    }
+]

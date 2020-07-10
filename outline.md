@@ -13,15 +13,18 @@ Argument | Description
 
 ## Examples
 
+<!-- SAMPLE outline_examples 3 -->
 <table>
-    <tr>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline1.png" alt=""></td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline2.png" alt=""></td>
-        <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline3.png" alt=""></td>
-    </tr>
-    <tr>
-        <th>Original</th>
-        <th><code>outline</code></th>
-        <th><code>outline2</code></th>
-    </tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline1.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline2.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/outline3.png" alt=""></td>
+	</tr>
+	<tr>
+		<td valign="top">Original</td>
+		<td valign="top"><code>outline</code></td>
+		<td valign="top"><code>outline2</code></td>
+	</tr>
 </table>
+<!-- END -->
+

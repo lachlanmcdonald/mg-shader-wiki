@@ -1,0 +1,27 @@
+[
+    {
+        "alt": "Example of no set axis mode",
+        "label": "No set axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_xyz.png"
+    },
+    {
+        "alt": "Example of X-axis mode",
+        "label": "X-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_x.png"
+    },
+    {
+        "alt": "Example of X & Y-axis mode",
+        "label": "X & Y-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_xy.png"
+    },
+    {
+        "alt": "Example of Y-axis mode",
+        "label": "Y-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_y.png"
+    },
+    {
+        "alt": "Example of Z-axis mode",
+        "label": "Z-axis mode",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_z.png"
+    }
+]

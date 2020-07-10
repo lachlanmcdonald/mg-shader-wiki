@@ -6,43 +6,56 @@ import re
 
 # LIST template marker pattern
 LIST_PATTERN = re.compile(r"""
-	\s*<!--\s+LIST\s+   # LIST marker
-	([a-z_]+)           # JSON file
+	\s*<!--\s+LIST\s+   # Start of marker
+	([a-z0-9_]+)        # JSON file
 	\s+                 # Mandatory whitespace
 	(\d+)               # Width of image preview
-	\s+-->              # End of LIST marker
+	\s+-->              # End of marker
 	.*?                 # HTML
 	<!--\s+END\s+-->\s* # END marker
 """, re.DOTALL + re.VERBOSE + re.IGNORECASE)
 
-# LIST template
+# SAMPLE table template
+SAMPLE_PATTERN = re.compile(r"""
+	[\s\n]*<!--\s+SAMPLE\s+  # Start of marker
+	([a-z0-9_]+)         # JSON file
+	\s+                  # Mandatory whitespace
+	(\d+)                # Items per row
+	\s+-->               # End of marker
+	.*?                  # HTML
+	<!--\s+END\s+-->[\s\n]*  # END marker
+""", re.DOTALL + re.VERBOSE + re.IGNORECASE)
+
+# Template compiler
 compiler = Compiler()
 
-LIST_TEMPLATE = compiler.compile(u"""
-<!-- {{args}} -->
-<table>
-	<tbody>
-		{{#each items}}
-		<tr>
-			<td valign="center" align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}?cache={{@root.cache}}" alt=""></a></td>
-			<th valign="center" align="left"><a href="{{{href}}}">{{heading}}</a></th>
-			<td valign="center">{{content}}</td>
-		</tr>
-		{{/each}}
-	</tbody>
-</table>
-<!-- END -->
-""")
+with open(path.join(path.dirname(__file__), 'templates', 'list.hbs')) as f:
+	LIST_TEMPLATE = compiler.compile(f.read().strip())
+
+with open(path.join(path.dirname(__file__), 'templates', 'sample.hbs')) as f:
+	SAMPLES_TEMPLATE = compiler.compile(f.read().strip())
+
 
 # Load JSON data
+DATA_DIR = path.join(path.dirname(__file__), 'data')
 JSON_DATA = {}
-for fp in listdir(path.dirname(__file__)):
-	if path.splitext(fp)[1] == '.json' and fp.startswith('_'):
-		with open(fp, 'r') as fh:
-			k = path.splitext(fp)[0][1:]
+
+print("=> Reading JSON")
+for fp in listdir(DATA_DIR):
+	if path.splitext(fp)[1] == '.json':
+		print("   {}".format(fp))
+
+		with open(path.join(DATA_DIR, fp), 'r') as fh:
+			k = path.splitext(path.basename(fp))[0]
 			JSON_DATA[k] = json.load(fh)
 
-def repl(match):
+
+def chunks(j, n):
+	for i in range(0, len(j), n):
+		yield j[i:i + n]
+
+
+def list_repl(match):
 	k = match.group(1)
 	width = match.group(2)
 	assert k in JSON_DATA, '{} not in data ({})'.format(k, f)
@@ -53,15 +66,31 @@ def repl(match):
 		'items': JSON_DATA[k],
 		'width': width
 	})
+	return '\n\n' + contents + '\n\n'
 
-	return '\n' + contents + '\n'
+
+def arg_sample_repl(match):
+	k = match.group(1)
+	per_row = int(match.group(2))
+	assert k in JSON_DATA, '{} not in data ({})'.format(k, f)
+
+	contents = SAMPLES_TEMPLATE({
+		'args': ' '.join(['SAMPLE', k, str(per_row)]),
+		"has_value_label": any([ 'value' in j or 'label' in j for j in JSON_DATA[k]]),
+		"has_text": any([ 'raw' in j or 'text' in j for j in JSON_DATA[k]]),
+		'rows': list(chunks(JSON_DATA[k], per_row)),
+		'width': re.sub(r'\.?0+%$', '%', "{:.2f}%".format(100 / per_row))
+	})
+	return '\n\n' + contents + '\n\n'
+
 
 # Process markdown files
 for f in listdir(path.dirname(__file__)):
 	if path.splitext(f)[1] == '.md' and f.startswith('_') is False:
 		with open(f, 'r') as h:
 			contents = h.read()
-			new_contents = LIST_PATTERN.sub(repl, contents)
+			new_contents = LIST_PATTERN.sub(list_repl, contents)
+			new_contents = SAMPLE_PATTERN.sub(arg_sample_repl, contents)
 
 		if contents != new_contents:
 			with open(f, 'w') as h:
