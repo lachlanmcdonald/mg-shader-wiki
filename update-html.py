@@ -6,23 +6,23 @@ import re
 
 # LIST template marker pattern
 LIST_PATTERN = re.compile(r"""
-	\s*<!--\s+LIST\s+   # Start of marker
-	([a-z0-9_]+)        # JSON file
-	\s+                 # Mandatory whitespace
-	(\d+)               # Width of image preview
-	\s+-->              # End of marker
-	.*?                 # HTML
-	<!--\s+END\s+-->\s* # END marker
+	[\s\n]*<!--\s+LIST\s+    # Start of marker
+	([a-z0-9_]+)             # JSON file
+	\s+                      # Mandatory whitespace
+	(\d+)                    # Width of image preview
+	\s+-->                   # End of marker
+	.*?                      # HTML
+	<!--\s+END\s+-->[\s\n]*  # END marker
 """, re.DOTALL + re.VERBOSE + re.IGNORECASE)
 
 # SAMPLE table template
 SAMPLE_PATTERN = re.compile(r"""
 	[\s\n]*<!--\s+SAMPLE\s+  # Start of marker
-	([a-z0-9_]+)         # JSON file
-	\s+                  # Mandatory whitespace
-	(\d+)                # Items per row
-	\s+-->               # End of marker
-	.*?                  # HTML
+	([a-z0-9_]+)             # JSON file
+	\s+                      # Mandatory whitespace
+	(\d+)                    # Items per row
+	\s+-->                   # End of marker
+	.*?                      # HTML
 	<!--\s+END\s+-->[\s\n]*  # END marker
 """, re.DOTALL + re.VERBOSE + re.IGNORECASE)
 
