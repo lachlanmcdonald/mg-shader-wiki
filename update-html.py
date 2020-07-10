@@ -90,7 +90,7 @@ for f in listdir(path.dirname(__file__)):
 		with open(f, 'r') as h:
 			contents = h.read()
 			new_contents = LIST_PATTERN.sub(list_repl, contents)
-			new_contents = SAMPLE_PATTERN.sub(arg_sample_repl, contents)
+			new_contents = SAMPLE_PATTERN.sub(arg_sample_repl, new_contents)
 
 		with open(f, 'w', newline='\n') as h:
 			h.write(new_contents)
