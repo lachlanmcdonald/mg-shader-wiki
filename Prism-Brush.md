@@ -3,7 +3,7 @@
 <!-- TOC -->
 - [Arguments](#arguments)
 - [Modes](#modes)
-- [Widths](#widths)
+- [Sizes](#sizes)
   - [Mode: `0`](#mode-0)
   - [Mode: `1`](#mode-1)
 - [Examples](#examples)
@@ -13,11 +13,11 @@
 Argument | Description
 --------- | -----------
 **Mode** | Mode (see below)
-**Width X** | Width of the incline on the X-axis (the _step_)
-**Width Y** | Width of the incline on the Y-axis (the _step_)
+**Size X** | Size of the incline on the X-axis (the _step_)
+**Size Y** | Size of the incline on the Y-axis (the _step_)
 
-- Setting both a **Width X** and **Width Y** will result in a tetrahedron (or pyryamid)
-- Setting either **Width X** or **Width Y** to `0` and the other greater than `0` will result in a prism.
+- Setting both a **Size X** and **Size Y** will result in a tetrahedron (or pyryamid)
+- Setting either **Size X** or **Size Y** to `0` and the other greater than `0` will result in a prism.
 - Setting both to `0` will result in a cube.
 
 ## Modes
@@ -39,50 +39,50 @@ Argument | Description
 </table>
 <!-- END -->
 
-## Widths
+## Sizes
 
 ### Mode: `0`
 
-<!-- SAMPLE prism_mode0_widths 2 -->
+<!-- SAMPLE prism_mode0_sizes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width8.png" alt="Example of mode of 0 and width 8"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width16.png" alt="Example of mode of 0 and width 16"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width8.png" alt="Example of mode of 0 and size 8"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width16.png" alt="Example of mode of 0 and size 16"></td>
 	</tr>
 	<tr>
-		<th>Width: <code>8</code></th>
-		<th>Width: <code>16</code></th>
+		<th>Size: <code>8</code></th>
+		<th>Size: <code>16</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width20.png" alt="Example of mode of 0 and width 20"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width32.png" alt="Example of mode of 0 and width 32"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width20.png" alt="Example of mode of 0 and size 20"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width32.png" alt="Example of mode of 0 and size 32"></td>
 	</tr>
 	<tr>
-		<th>Width: <code>20</code></th>
-		<th>Width: <code>32</code></th>
+		<th>Size: <code>20</code></th>
+		<th>Size: <code>32</code></th>
 	</tr>
 </table>
 <!-- END -->
 
 ### Mode: `1`
 
-<!-- SAMPLE prism_mode1_widths 2 -->
+<!-- SAMPLE prism_mode1_sizes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width8.png" alt="Example of mode of 0 and width 8"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width16.png" alt="Example of mode of 0 and width 16"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width8.png" alt="Example of mode of 0 and size 8"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width16.png" alt="Example of mode of 0 and size 16"></td>
 	</tr>
 	<tr>
-		<th>Width: <code>8</code></th>
-		<th>Width: <code>16</code></th>
+		<th>Size: <code>8</code></th>
+		<th>Size: <code>16</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width20.png" alt="Example of mode of 0 and width 20"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width32.png" alt="Example of mode of 0 and width 32"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width20.png" alt="Example of mode of 0 and size 20"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width32.png" alt="Example of mode of 0 and size 32"></td>
 	</tr>
 	<tr>
-		<th>Width: <code>20</code></th>
-		<th>Width: <code>32</code></th>
+		<th>Size: <code>20</code></th>
+		<th>Size: <code>32</code></th>
 	</tr>
 </table>
 <!-- END -->
