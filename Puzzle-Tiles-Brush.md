@@ -88,4 +88,3 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 	</tr>
 </table>
 <!-- END -->
-
