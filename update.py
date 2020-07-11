@@ -41,6 +41,13 @@ TOC_PATTERN = re.compile(r"""
 	\n+					  # New lines
 """, re.VERBOSE)
 
+# Pattern to identify sidebar links
+SIDEBAR_PATTERN = re.compile(r"""
+	[\s\n]*<!--\s+SIDEBAR\s+-->  # Marker
+	.*?                          # HTML
+	<!--\s+END\s+-->[\s\n]*      # END marker
+""", re.DOTALL + re.VERBOSE + re.IGNORECASE)
+
 # Template compiler
 compiler = Compiler()
 
@@ -50,6 +57,8 @@ with open(path.join(path.dirname(__file__), 'templates', 'list.hbs')) as f:
 with open(path.join(path.dirname(__file__), 'templates', 'sample.hbs')) as f:
 	SAMPLES_TEMPLATE = compiler.compile(f.read().strip())
 
+with open(path.join(path.dirname(__file__), 'templates', 'sidebar.hbs')) as f:
+	SIDEBAR_TEMPLATE = compiler.compile(f.read().strip())
 
 # Load JSON data
 DATA_DIR = path.join(path.dirname(__file__), 'data')
@@ -98,15 +107,36 @@ def arg_sample_repl(match):
 	}).strip()
 	return '\n\n' + contents + '\n\n'
 
+def sidebar_repl(match):
+	contents = SIDEBAR_TEMPLATE({
+		'items': [
+			{"label": 'Home', 'href': 'home'},
+			{"label": 'Brush Shaders', 'href': 'Brush-Shaders'},
+			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['brushes']],
+			{"label": 'Primitive Brush Shaders', 'href': 'Brush-Shaders'},
+			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['primitives']],
+			{"label": 'Volume Shaders', 'href': 'Volume-Shaders'},
+			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['volumes']],
+			{"label": 'Notes', 'href': 'notes'},
+		]
+	}).strip()
+	return '\n\n' + contents + '\n\n'
+
 
 # Process markdown files
 for f in listdir(path.dirname(__file__)):
-	if path.splitext(f)[1] == '.md' and f.startswith('_') is False:
+	if path.splitext(f)[1] == '.md':
 		with open(f, 'r') as h:
 			contents = h.read()
+
+			# Templates
 			new_contents = LIST_PATTERN.sub(list_repl, contents)
 			new_contents = SAMPLE_PATTERN.sub(arg_sample_repl, new_contents)
 
+			# Sidebar
+			new_contents = SIDEBAR_PATTERN.sub(sidebar_repl, new_contents)
+
+			# TOC
 			headings = HEADING_PATTERN.findall(contents)
 			existing_toc = TOC_PATTERN.findall(contents)
 			toc = ['<!-- TOC -->']
@@ -125,4 +155,4 @@ for f in listdir(path.dirname(__file__)):
 				new_contents = new_contents.replace(existing_toc[0], toc, 1)
 
 		with open(f, 'w', newline='\n') as h:
-			h.write(new_contents)
+			h.write(new_contents.strip() + '\n')
