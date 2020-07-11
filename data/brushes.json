@@ -12,12 +12,6 @@
         "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/grass.png"
     },
     {
-        "content": "Generates a slope of stairs",
-        "heading": "Stairs Brushes",
-        "href": "Stairs-Brushes",
-        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs.png"
-    },
-    {
         "content": "Generates a grid pattern with variable thickness and spacing",
         "heading": "Grid Brush",
         "href": "Grid-Brush",
@@ -52,11 +46,5 @@
         "heading": "Zigzag Brushes",
         "href": "Zigzag-Brushes",
         "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag2.png"
-    },
-    {
-        "content": "Generates prisms, pyramids or tetrahedrons with straight or curved angles",
-        "heading": "Prism Brush",
-        "href": "Prism-Brush",
-        "preview": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png"
     }
 ]

@@ -1,4 +1,4 @@
-> The **Prism [brush](Brush-Shaders)** generates a prism; pyramid or tetrahedron with straight or curved angles.
+> The **Prism [primitive brush](Brush-Shaders)** generates a prism; pyramid or tetrahedron with straight or curved angles.
 
 <!-- TOC -->
 - [Arguments](#arguments)

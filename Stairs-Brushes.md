@@ -1,4 +1,4 @@
-> The **Stairs** [brushes](Brush-Shaders) generates slopes of stairs.
+> The **Stairs** [primitive brushes](Brush-Shaders) generates slopes of stairs.
 
 <!-- LIST stairs 120 -->
 <table>
