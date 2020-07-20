@@ -113,7 +113,7 @@ bool no_axis_mode = all(equal(ivec3(i_axis), ivec3(0)));
 ### Determine which axis mode is set
 
 ```glsl
-bvec3 axis_mode = equal(ivec3(i_axis), ivec3(0));
+bvec3 axis_mode = equal(ivec3(i_axis), ivec3(1));
 ```
 
 `axis_mode` is a `bvec3` indicating which axis mode is set.
