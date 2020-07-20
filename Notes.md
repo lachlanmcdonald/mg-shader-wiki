@@ -12,7 +12,7 @@
 
 ## Writing shaders
 
-Shader files are written in _OpenGL Shader Language_ (GLSL). [The Book of Shaders](https://thebookofshaders.com/) is a good beginners guide to the shader language.
+Shader files are written in _OpenGL Shader Language_ (GLSL), version _1.10_. [The Book of Shaders](https://thebookofshaders.com/) is a good beginners guide to the shader language.
 
 The `map` function in the shader is executed once per voxel:
 
@@ -30,10 +30,10 @@ float map(vec3 v) {
 	return 1.0;
 }
 ```
-- Shaders must start with the header (`xs_begin` and `xs_end`), even if there are no arguments.
+- Shaders must contain the header (`xs_begin` and `xs_end`), even if there are no arguments.
 - `author` is optional. Whilst there is no standard for it value, a URL or Twitter handle is implied.
 - As shaders return a `float`, the value is rounded. For instance, `0.4999` will result in a voxel palette of `1.0`.
-- Values are clamped between `0` and `255`, so it is safe to return a value of this range
+- Return values are clamped between `0.0` and `255.0`, so it is safe to return a value of this range
 
 ## Observations
 
@@ -96,8 +96,8 @@ float map(vec3 v) {
 **For example:**
 
 ```glsl
-vector(500.0, 500.0, 500.0); // 0.0
-vector(-1.0, -1.0, -1.0); // 0.0
+voxel(500.0, 500.0, 500.0); // 0.0
+voxel(-1.0, -1.0, -1.0); // 0.0
 ```
 
 ## Snippets
@@ -107,13 +107,13 @@ vector(-1.0, -1.0, -1.0); // 0.0
 `no_axis_mode` will be `true` when no axis modes are set, `false` otherwise.
 
 ```glsl
-bool no_axis_mode = all(equal(i_axis, vec3(0.0, 0.0, 0.0)));
+bool no_axis_mode = all(equal(ivec3(i_axis), ivec3(0)));
 ```
 
 ### Determine which axis mode is set
 
 ```glsl
-bvec3 axis_mode = equal(i_axis, vec3(1.0, 1.0, 1.0));
+bvec3 axis_mode = equal(ivec3(i_axis), ivec3(0));
 ```
 
 `axis_mode` is a `bvec3` indicating which axis mode is set.
