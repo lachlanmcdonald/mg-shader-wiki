@@ -111,11 +111,11 @@ def sidebar_repl(match):
 		'items': [
 			{"label": 'Home', 'href': 'home'},
 			{"label": 'Brush Shaders', 'href': 'Brush-Shaders'},
-			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['brushes']],
+			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['list_brushes']],
 			{"label": 'Primitive Brush Shaders', 'href': 'Brush-Shaders'},
-			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['primitives']],
+			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['list_primitives']],
 			{"label": 'Volume Shaders', 'href': 'Volume-Shaders'},
-			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['volumes']],
+			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in JSON_DATA['list_volumes']],
 			{"label": 'Notes', 'href': 'notes'},
 		]
 	}).strip()
