@@ -1,6 +1,6 @@
 > The **Diagonal Line** brush shaders generates parallel 45° lines of varying thicknesses.
 
-<!-- LIST diagonal_lines 160 -->
+<!-- LIST list_diagonal_lines 160 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="diagonal2"><img width="160" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal2.png?cache=1594380712" alt=""></a></td>

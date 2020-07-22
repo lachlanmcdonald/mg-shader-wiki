@@ -76,7 +76,6 @@ def list_repl(match):
 	assert k in JSON_DATA, '{} not in data ({})'.format(k, f)
 
 	contents = LIST_TEMPLATE({
-		'cache': int(time()),
 		'args': ' '.join(['LIST', k, width]),
 		'items': JSON_DATA[k],
 		'width': width
