@@ -1,6 +1,6 @@
 > The **Zigzag [brushes](Brush-Shaders)** generates zigzag patterns.
 
-<!-- LIST zigzags 160 -->
+<!-- LIST list_zigzags 160 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="zigzag2"><img width="160" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag2.png?cache=1594380712" alt=""></a></td>

@@ -2,7 +2,7 @@
 <table>
 	{{#each items}}
 	<tr>
-		<td valign="center" align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}?cache={{@root.cache}}" alt=""></a></td>
+		<td valign="center" align="left"><a href="{{{href}}}"><img width="{{{@root.width}}}" src="{{{preview}}}{{#if cache}}?cache={{cache}}{{/if}}" alt=""></a></td>
 		<th valign="center" align="left"><a href="{{{href}}}">{{heading}}</a></th>
 		<td valign="center">{{content}}</td>
 	</tr>

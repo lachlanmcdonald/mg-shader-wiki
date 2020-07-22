@@ -25,7 +25,7 @@ _Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavo
 
 ## List of shaders
 
-<!-- LIST brushes 120 -->
+<!-- LIST list_brushes 120 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="Brick-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/bricks.png?cache=1594380712" alt=""></a></td>
