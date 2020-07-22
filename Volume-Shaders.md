@@ -15,7 +15,7 @@ Some shaders, like [Pyramid](pyramid) and [Sand](sand), add voxels layer-by-late
 
 ## List of shaders
 
-<!-- LIST volumes 120 -->
+<!-- LIST list_volumes 120 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="slices"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/slice.png?cache=1594482465" alt=""></a></td>

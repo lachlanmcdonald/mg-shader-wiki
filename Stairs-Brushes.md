@@ -1,6 +1,6 @@
 > The **Stairs** [primitive brushes](Brush-Shaders) generates slopes of stairs.
 
-<!-- LIST stairs 120 -->
+<!-- LIST list_stairs 120 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="stairs"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs.png?cache=1594482465" alt=""></a></td>

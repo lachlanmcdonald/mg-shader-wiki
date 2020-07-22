@@ -29,7 +29,7 @@ _Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavo
 
 ### Brush Shaders
 
-<!-- LIST brushes 80 -->
+<!-- LIST list_brushes 80 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="Brick-Brushes"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/bricks.png?cache=1594482465" alt=""></a></td>
@@ -76,7 +76,7 @@ _Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavo
 
 ### Primitive Brush Shaders
 
-<!-- LIST primitives 80 -->
+<!-- LIST list_primitives 80 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="Prism-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png?cache=1594482465" alt=""></a></td>

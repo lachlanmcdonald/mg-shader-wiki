@@ -7,7 +7,7 @@
 
 - [How to use Brush Shaders](brush-shaders)
 
-<!-- LIST brushes 120 -->
+<!-- LIST list_brushes 120 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="Brick-Brushes"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/bricks.png?cache=1594482465" alt=""></a></td>
@@ -56,7 +56,7 @@
 
 - [How to use Brush Shaders](brush-shaders)
 
-<!-- LIST primitives 120 -->
+<!-- LIST list_primitives 120 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="Prism-Brush"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png?cache=1594482465" alt=""></a></td>
@@ -79,7 +79,7 @@
 ## Volume Shaders
 - [How to use Volume Shaders](volume-shaders)
 
-<!-- LIST volumes 120 -->
+<!-- LIST list_volumes 120 -->
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="slices"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/slice.png?cache=1594482465" alt=""></a></td>
