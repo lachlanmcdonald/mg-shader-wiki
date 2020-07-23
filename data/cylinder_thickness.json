@@ -1,0 +1,26 @@
+[
+    {
+        "alt": "Example of a thickness of 25",
+        "label": "Thickness",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025_compressed.jpg",
+        "value": "25"
+    },
+    {
+        "alt": "Example of a thickness of 25",
+        "label": "Thickness",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness050_compressed.jpg",
+        "value": "50"
+    },
+    {
+        "alt": "Example of a thickness of 25",
+        "label": "Thickness",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness075_compressed.jpg",
+        "value": "75"
+    },
+    {
+        "alt": "Example of a thickness of 25",
+        "label": "Thickness",
+        "src": "https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness100_compressed.jpg",
+        "value": "100"
+    }
+]
