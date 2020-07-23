@@ -13,6 +13,7 @@
   - [Prism Brush](Prism-Brush)
   - [Cylinder Brush](Cylinder-Brush)
   - [Stairs Brushes](Stairs-Brushes)
+  - [Greeble Brushes](Greeble-Brushes)
 - [Volume Shaders](Volume-Shaders)
   - [Slices](slices)
   - [Case](case)

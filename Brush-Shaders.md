@@ -93,5 +93,10 @@ _Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavo
 		<th valign="center" align="left"><a href="Stairs-Brushes">Stairs Brushes</a></th>
 		<td valign="center">Generates a slope of stairs</td>
 	</tr>
+	<tr>
+		<td valign="center" align="left"><a href="Greeble-Brushes"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/greebles.png?cache=159" alt=""></a></td>
+		<th valign="center" align="left"><a href="Greeble-Brushes">Greeble Brushes</a></th>
+		<td valign="center">Generates greebles</td>
+	</tr>
 </table>
 <!-- END -->
