@@ -5,8 +5,8 @@
 - alt: Example of a rotation of 1
   label: Rotation
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation1_compressed.jpg
-  value: '1'
+  value: 1
 - alt: Example of a rotation of 2
   label: Rotation
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation2_compressed.jpg
-  value: '2'
+  value: 2

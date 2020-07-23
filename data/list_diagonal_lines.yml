@@ -9,8 +9,7 @@
   href: diagonal3
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal3.png
 - cache: 159
-  content: Generates patterns between a range of colors with a specified thickness
-    (generating as many lines as there are colors)
+  content: Generates patterns between a range of colors with a specified thickness (generating as many lines as there are colors)
   heading: diagonal_range
   href: diagonal_range
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal_range.png

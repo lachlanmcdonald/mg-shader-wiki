@@ -5,12 +5,12 @@
 - alt: Example of a direction of 1
   label: Direction
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_direction_1.png
-  value: '1'
+  value: 1
 - alt: Example of a direction of 2
   label: Direction
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_direction_2.png
-  value: '2'
+  value: 2
 - alt: Example of a direction of 3
   label: Direction
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_direction_3.png
-  value: '3'
+  value: 3
