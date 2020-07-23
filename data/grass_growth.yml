@@ -1,0 +1,16 @@
+- alt: Example of a growth of 0.0
+  label: Growth
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth000.png
+  value: '0.0'
+- alt: Example of a growth of 0.5
+  label: Growth
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth050.png
+  value: '0.5'
+- alt: Example of a growth of 0.75
+  label: Growth
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth075.png
+  value: '0.75'
+- alt: Example of a growth of 1.0
+  label: Growth
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth100.png
+  value: '1.0'
