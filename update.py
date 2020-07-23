@@ -1,13 +1,13 @@
 from os import path, listdir
 from pybars import Compiler
 from time import time
-import json
+import yaml
 import re
 
 # LIST template marker pattern
 LIST_PATTERN = re.compile(r"""
 	[\s\n]*<!--\s+LIST\s+    # Start of marker
-	([a-z0-9_]+)             # JSON file
+	([a-z0-9_]+)             # YAML file
 	\s+                      # Mandatory whitespace
 	(\d+)                    # Width of image preview
 	\s+-->                   # End of marker
@@ -18,7 +18,7 @@ LIST_PATTERN = re.compile(r"""
 # SAMPLE table template
 SAMPLE_PATTERN = re.compile(r"""
 	[\s\n]*<!--\s+SAMPLE\s+  # Start of marker
-	([a-z0-9_]+)             # JSON file
+	([a-z0-9_]+)             # YAML file
 	\s+                      # Mandatory whitespace
 	(\d+)                    # Items per row
 	\s+-->                   # End of marker
@@ -51,18 +51,18 @@ with open(path.join(path.dirname(__file__), 'templates', 'sample.hbs')) as f:
 	SAMPLES_TEMPLATE = compiler.compile(f.read().strip())
 
 
-# Load JSON data
+# Load YAML data
 DATA_DIR = path.join(path.dirname(__file__), 'data')
-JSON_DATA = {}
+YAML_DATA = {}
 
-print("=> Reading JSON")
+print("=> Reading YAML")
 for fp in listdir(DATA_DIR):
-	if path.splitext(fp)[1] == '.json':
+	if path.splitext(fp)[1] == '.yml':
 		print("   {}".format(fp))
 
 		with open(path.join(DATA_DIR, fp), 'r') as fh:
 			k = path.splitext(path.basename(fp))[0]
-			JSON_DATA[k] = json.load(fh)
+			YAML_DATA[k] = yaml.load(fh)
 
 
 def chunks(j, n):
@@ -73,11 +73,11 @@ def chunks(j, n):
 def list_repl(match):
 	k = match.group(1)
 	width = match.group(2)
-	assert k in JSON_DATA, '{} not in data ({})'.format(k, f)
+	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
 
 	contents = LIST_TEMPLATE({
 		'args': ' '.join(['LIST', k, width]),
-		'items': JSON_DATA[k],
+		'items': YAML_DATA[k],
 		'width': width
 	}).strip()
 	return '\n\n' + contents + '\n\n'
@@ -86,13 +86,13 @@ def list_repl(match):
 def arg_sample_repl(match):
 	k = match.group(1)
 	per_row = int(match.group(2))
-	assert k in JSON_DATA, '{} not in data ({})'.format(k, f)
+	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
 
 	contents = SAMPLES_TEMPLATE({
 		'args': ' '.join(['SAMPLE', k, str(per_row)]),
-		"has_value_label": any([ 'value' in j or 'label' in j for j in JSON_DATA[k]]),
-		"has_text": any([ 'raw' in j or 'text' in j for j in JSON_DATA[k]]),
-		'rows': list(chunks(JSON_DATA[k], per_row)),
+		"has_value_label": any([ 'value' in j or 'label' in j for j in YAML_DATA[k]]),
+		"has_text": any([ 'raw' in j or 'text' in j for j in YAML_DATA[k]]),
+		'rows': list(chunks(YAML_DATA[k], per_row)),
 		'width': re.sub(r'\.?0+%$', '%', "{:.2f}%".format(100 / per_row))
 	}).strip()
 	return '\n\n' + contents + '\n\n'
