@@ -1,0 +1,20 @@
+- alt: Example of a depth of 1
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth1.jpg
+  label: Depth
+  value: 1
+- alt: Example of a depth of 32
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth32.jpg
+  label: Depth
+  value: 32
+- alt: 1x1x60
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_1x1x60.jpg
+  value: 1x1x60
+- alt: 256x1x1
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_256x1x1.jpg
+  value: 256x1x1
+- alt: 8x8x18
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_8x8x18.jpg
+  value: 8x8x18
+- alt: 2x64x24
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_2x64x24.jpg
+  value: 2x64x24

@@ -1,0 +1,10 @@
+- alt: Example of mode 0
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode0.jpg
+  label: Mode
+  value: 0
+  text: Voxels overlapping cuboids are removed
+- alt: Example of mode 1
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1.jpg
+  label: Mode
+  value: 1
+  text: Only voxels overlapping cuboids are kept

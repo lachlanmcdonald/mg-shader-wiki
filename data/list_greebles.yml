@@ -1,10 +1,10 @@
 - cache: 159
-  content: Generates greebles of random volumes around a cube
+  content: Generates greebles by randomly generating cuboids and subtracting voxels that overlap
   heading: greebles1
   href: greebles1
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/greebles1.png
 - cache: 159
-  content: Generates greebles of extrusions/intrusions around a cube
+  content: Generates greebles by randomly generating an uneven grid and intruding each cell randomly
   heading: greebles2
   href: greebles2
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/greebles2.png
