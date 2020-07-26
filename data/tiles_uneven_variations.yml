@@ -1,0 +1,12 @@
+- alt: 1x2
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_1x2.png
+  value: 1x2
+- alt: 2x4
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_2x4.png
+  value: 2x4
+- alt: 4x8
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_4x8.png
+  value: 4x8
+- alt: 8x16
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_8x16.png
+  value: 8x16

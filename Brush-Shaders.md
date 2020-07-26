@@ -57,6 +57,11 @@ _Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavo
 		<td valign="center">Generates a puzzle tile pattern</td>
 	</tr>
 	<tr>
+		<td valign="center" align="left"><a href="Uneven-Tiles-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles_uneven.png?cache=159" alt=""></a></td>
+		<th valign="center" align="left"><a href="Uneven-Tiles-Brush">Uneven Tile Brush</a></th>
+		<td valign="center">Generates an uneven tile pattern</td>
+	</tr>
+	<tr>
 		<td valign="center" align="left"><a href="Diagonal-Line-Brushes"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal2.png?cache=159" alt=""></a></td>
 		<th valign="center" align="left"><a href="Diagonal-Line-Brushes">Diagonal Line Brushes</a></th>
 		<td valign="center">Generates parallel 45° lines of alternating widths</td>

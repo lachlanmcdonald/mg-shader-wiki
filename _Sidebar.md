@@ -6,6 +6,7 @@
   - [Grid Brush](Grid-Brush)
   - [Tiles Brush](Tiles-Brush)
   - [Puzzle Tile Brush](Puzzle-Tiles-Brush)
+  - [Uneven Tile Brush](Uneven-Tiles-Brush)
   - [Diagonal Line Brushes](Diagonal-Line-Brushes)
   - [Weave Brush](Weave-Brush)
   - [Zigzag Brushes](Zigzag-Brushes)
