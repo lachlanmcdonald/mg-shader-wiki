@@ -4,6 +4,7 @@
 - [Arguments](#arguments)
 - [Rotation](#rotation)
 - [Thickness](#thickness)
+- [Volume Sizes](#volume-sizes)
 - [Examples](#examples)
 
 ## Arguments
@@ -18,9 +19,9 @@ Argument | Description
 <!-- SAMPLE cylinder_rotation 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation0_compressed.jpg" alt="Example of a rotation of 0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation1_compressed.jpg" alt="Example of a rotation of 1"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation2_compressed.jpg" alt="Example of a rotation of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation0.jpg" alt="Example of a rotation of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation1.jpg" alt="Example of a rotation of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation2.jpg" alt="Example of a rotation of 2"></td>
 	</tr>
 	<tr>
 		<th>Rotation: <code>0</code></th>
@@ -35,16 +36,16 @@ Argument | Description
 <!-- SAMPLE cylinder_thickness 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025_compressed.jpg" alt="Example of a thickness of 25"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness050_compressed.jpg" alt="Example of a thickness of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025.jpg" alt="Example of a thickness of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness050.jpg" alt="Example of a thickness of 25"></td>
 	</tr>
 	<tr>
 		<th>Thickness: <code>25</code></th>
 		<th>Thickness: <code>50</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness075_compressed.jpg" alt="Example of a thickness of 25"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness100_compressed.jpg" alt="Example of a thickness of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness075.jpg" alt="Example of a thickness of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness100.jpg" alt="Example of a thickness of 25"></td>
 	</tr>
 	<tr>
 		<th>Thickness: <code>75</code></th>
@@ -53,25 +54,32 @@ Argument | Description
 </table>
 <!-- END -->
 
-## Examples
+## Volume Sizes
 
-<!-- SAMPLE cylinder_examples 2 -->
+<!-- SAMPLE cylinder_volumes 3 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x10x30_compressed.jpg" alt="Example"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x20x30_compressed.jpg" alt="Example"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x10x30.jpg" alt="30x10x30"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x20x30.jpg" alt="30x20x30"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x30x30.jpg" alt="30x30x30"></td>
 	</tr>
 	<tr>
-		<th>Volume Size: <code>30 10 30</code></th>
-		<th>Volume Size: <code>30 20 30</code></th>
+		<th><code>30x10x30</code></th>
+		<th><code>30x20x30</code></th>
+		<th><code>30x30x30</code></th>
+	</tr>
+</table>
+<!-- END -->
+
+## Examples
+
+<!-- SAMPLE cylinder_examples 1 -->
+<table>
+	<tr>
+		<td width="100%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_example0.jpg" alt="Example"></td>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x30x30_compressed.jpg" alt="Example"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_example0.jpg" alt="Example"></td>
-	</tr>
-	<tr>
-		<th>Volume Size: <code>30 30 30</code></th>
-		<th>Example</th>
+		<td valign="top">Warp Pipe</td>
 	</tr>
 </table>
 <!-- END -->
