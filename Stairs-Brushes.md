@@ -8,8 +8,8 @@
 		<td valign="center">Generates a slope of stairs of a specified height that extends from the base</td>
 	</tr>
 	<tr>
-		<td valign="center" align="left"><a href="stairs_run"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs_runs.png?cache=201" alt=""></a></td>
-		<th valign="center" align="left"><a href="stairs_run">stairs_run</a></th>
+		<td valign="center" align="left"><a href="stairs_runs"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs_runs.png?cache=201" alt=""></a></td>
+		<th valign="center" align="left"><a href="stairs_runs">stairs_runs</a></th>
 		<td valign="center">Generates a slope of stairs runs with specified size and spacing</td>
 	</tr>
 	<tr>
