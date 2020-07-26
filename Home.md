@@ -2,6 +2,7 @@
 - [Brush Shaders](#brush-shaders)
 - [Primitive Brush Shaders](#primitive-brush-shaders)
 - [Volume Shaders](#volume-shaders)
+- [Notes](#notes)
 
 ## Brush Shaders
 
@@ -138,3 +139,7 @@
 	</tr>
 </table>
 <!-- END -->
+
+## Notes
+
+- [Shader authoring notes and insights](Notes)
