@@ -1,0 +1,9 @@
+- alt: 30x10x30
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x10x30.jpg
+  value: 30x10x30
+- alt: 30x20x30
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x20x30.jpg
+  value: 30x20x30
+- alt: 30x30x30
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x30x30.jpg
+  value: 30x30x30

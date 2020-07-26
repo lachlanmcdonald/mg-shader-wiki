@@ -51,4 +51,3 @@ Setting either of the colors to `0` will result in empty voxels.
 	</tr>
 </table>
 <!-- END -->
-

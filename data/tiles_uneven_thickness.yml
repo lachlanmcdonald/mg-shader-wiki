@@ -1,0 +1,12 @@
+- alt: Example of thickness of 0
+  label: Thickness
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_thickness0.png
+  value: '0'
+- alt: Example of thickness of 1
+  label: Thickness
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_thickness1.png
+  value: 1
+- alt: Example of thickness of 2
+  label: Thickness
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_thickness2.png
+  value: 2

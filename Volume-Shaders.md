@@ -64,4 +64,3 @@ Some shaders, like [Pyramid](pyramid) and [Sand](sand), add voxels layer-by-late
 	</tr>
 </table>
 <!-- END -->
-

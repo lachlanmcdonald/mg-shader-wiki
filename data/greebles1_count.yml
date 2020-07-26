@@ -1,0 +1,16 @@
+- alt: Example of a count of 16
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count16.jpg
+  label: Count
+  value: 16
+- alt: Example of a count of 32
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count32.jpg
+  label: Count
+  value: 32
+- alt: Example of a count of 64
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count64.jpg
+  label: Count
+  value: 64
+- alt: Example of a count of 128
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count128.jpg
+  label: Count
+  value: 128

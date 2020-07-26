@@ -115,4 +115,3 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 	</tr>
 </table>
 <!-- END -->
-

@@ -1,0 +1,16 @@
+- alt: Example of mode 0
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_mode0.jpg
+  label: Mode
+  value: 0
+  text: Cells are intruded from the surface
+- alt: Example of mode 1
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_mode1.jpg
+  label: Mode
+  value: 1
+  text: Cells are added instead of intruded, creating a hollow shell
+- alt: Example of mode 2
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_mode2.jpg
+  label: Mode
+  value: 2
+  text: Only cells at the edges are removed
+

@@ -72,4 +72,3 @@ Brick colors are chosen at random between __Color A__ and __Color B__. Setting e
 	</tr>
 </table>
 <!-- END -->
-
