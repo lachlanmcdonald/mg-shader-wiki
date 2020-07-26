@@ -37,6 +37,28 @@ float map(vec3 v) {
 
 ## Observations
 
+### Type casting
+
+Some hardware cannot cast betwen `int` and `float` without an explicit command, i.e.:
+
+```glsl
+float a = 1.0;
+int b = int(a * 2.0); // will work on all hardware
+int b = a * 2.0;      // will not work on all hardware
+
+float c = 2 * 6;        // will not work on all hardware
+float c = float(2 * 6); // will work on all hardware
+```
+
+Similarly, a function must always return the expected _return type_ (cannot be casted):
+
+```glsl
+float a() {
+	return float(1); // will work
+	return 1;        // will not work
+}
+```
+
 ### Voxel coordinates
 
 The `map` function is passed the center-point of the voxel. So, a voxel as position `0`, `0`, `0` will be passed to the `map` function as `vec3(0.5, 0.5, 0.5)`.
