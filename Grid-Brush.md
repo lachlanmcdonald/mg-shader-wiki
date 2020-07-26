@@ -54,17 +54,17 @@ Axis Modes can be used to only generate a grid on a particular axis. When no Axi
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Y.png" alt="Example of Y-axis mode"></td>
 	</tr>
 	<tr>
-		<td valign="top">No set axis mode</td>
-		<td valign="top">X-axis mode</td>
-		<td valign="top">Y-axis mode</td>
+		<th>No set axis mode</th>
+		<th>X-axis mode</th>
+		<th>Y-axis mode</th>
 	</tr>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XY.png" alt="Example of X &amp; Y-axis mode"></td>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Z.png" alt="Example of Z-axis mode"></td>
 	</tr>
 	<tr>
-		<td valign="top">X &amp; Y-axis mode</td>
-		<td valign="top">Z-axis mode</td>
+		<th>X &amp; Y-axis mode</th>
+		<th>Z-axis mode</th>
 	</tr>
 </table>
 <!-- END -->
