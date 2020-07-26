@@ -114,6 +114,14 @@ Axis modes can use used to only add cuboids on certain axes.
 		<th><code>8x8x18</code></th>
 		<th><code>2x64x24</code></th>
 	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1_1x1x78.jpg" alt="1x1x78"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1_45x1x1.jpg" alt="45x1x1"></td>
+	</tr>
+	<tr>
+		<th><code>1x1x78</code></th>
+		<th><code>45x1x1</code></th>
+	</tr>
 </table>
 <!-- END -->
 
