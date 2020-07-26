@@ -83,4 +83,3 @@ Axis Modes can be used to only generate a grid on a particular axis. When no Axi
 	</tr>
 </table>
 <!-- END -->
-

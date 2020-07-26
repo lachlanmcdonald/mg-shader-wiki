@@ -54,4 +54,3 @@ Axis modes can use used to only add voxels on certain axes.
 	</tr>
 </table>
 <!-- END -->
-

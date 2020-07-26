@@ -1,16 +1,16 @@
 - alt: Example of a density of 1
   label: Density
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density1.png
-  value: '1'
+  value: 1
 - alt: Example of a density of 2
   label: Density
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density2.png
-  value: '2'
+  value: 2
 - alt: Example of a density of 3
   label: Density
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density3.png
-  value: '3'
+  value: 3
 - alt: Example of a density of 4
   label: Density
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density4.png
-  value: '4'
+  value: 4

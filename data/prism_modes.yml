@@ -7,4 +7,4 @@
   label: Mode
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1.png
   text: Sine interpolation (curved edge)
-  value: '1'
+  value: 1

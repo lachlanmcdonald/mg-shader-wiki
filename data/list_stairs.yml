@@ -1,6 +1,5 @@
 - cache: 159
-  content: Generates a slope of stairs of a specified height that extends from the
-    base
+  content: Generates a slope of stairs of a specified height that extends from the base
   heading: stairs
   href: stairs
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs.png
