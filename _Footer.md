@@ -1,1 +1,1 @@
-All content is released under the [MIT licence](https://github.com/lachlanmcdonald/magicavoxel-shaders/blob/master/LICENSE.md).
+All content within this wiki is licenced under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) licence.
