@@ -1,0 +1,16 @@
+- cache: 159
+  content: Generates zigzag patterns with 2 colors of a specified thickness
+  heading: zigzag2
+  href: zigzag2
+  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag2.png
+- cache: 159
+  content: Generates zigzag patterns with 3 colors of a specified thickness
+  heading: zigzag3
+  href: zigzag3
+  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag3.png
+- cache: 159
+  content: Generates zigzag patterns between a range of colors with a specified thickness
+    (generating as many lines as there are colors)
+  heading: zigzag_range
+  href: zigzag_range
+  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag_range.png
