@@ -10,7 +10,7 @@
   value: 1
 - alt: Example of a mode of 2
   label: Mode
-  raw: Tiles are colored at between <strong>Color A</strong> and <strong>Color B</strong> in a repeating sequence.
+  raw: Tiles are colored between <strong>Color A</strong> and <strong>Color B</strong> in a repeating sequence.
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode2.png
   value: 2
 - alt: Example of a mode of 3

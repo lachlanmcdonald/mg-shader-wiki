@@ -38,7 +38,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 	<tr>
 		<td valign="top">Tiles are colored at random between <strong>Color A</strong> and <strong>Color B</strong>.</td>
 		<td valign="top">Tiles are colored between depending on their size; between <strong>Color A</strong> and <strong>Color B</strong> for small to large, respectively.</td>
-		<td valign="top">Tiles are colored at between <strong>Color A</strong> and <strong>Color B</strong> in a repeating sequence.</td>
+		<td valign="top">Tiles are colored between <strong>Color A</strong> and <strong>Color B</strong> in a repeating sequence.</td>
 	</tr>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode3.png" alt="Example of a mode of 3"></td>
