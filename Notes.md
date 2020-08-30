@@ -17,7 +17,7 @@ Shader files are written in _OpenGL Shader Language_ (GLSL), version _1.10_. [Th
 The `map` function in the shader is executed once per voxel:
 
 - It recieves the location of the voxel as its only argument
-- Should return a float between `0` and `255` representing the voxel color in the palette.
+- Should return a float between `0.0` and `255.0` representing the voxel color in the palette.
 
 For example, the following shader will fill the entire volume with voxels colored from palette index `1`.
 
@@ -32,8 +32,8 @@ float map(vec3 v) {
 ```
 - Shaders must contain the header (`xs_begin` and `xs_end`), even if there are no arguments.
 - `author` is optional. Whilst there is no standard for it value, a URL or Twitter handle is implied.
-- As shaders return a `float`, the value is rounded. For instance, `0.4999` will result in a voxel palette of `1.0`.
-- Return values are clamped between `0.0` and `255.0`, so it is safe to return a value of this range
+- As shaders return a `float`, the value is rounded-up. For instance, `0.4999` will result in a voxel palette of `1.0`.
+- Return values are clamped between `0.0` and `255.0`, so it is safe to return a value outside of this range
 
 ## Observations
 
@@ -66,7 +66,7 @@ The `map` function is passed the center-point of the voxel. So, a voxel as posit
 If this is undesirable, you can floor the entire `vec3` in one operation:
 
 ```glsl
-v = floor(v);
+vec3 v = floor(v);
 ```
 
 Which is a more concise way to write:
