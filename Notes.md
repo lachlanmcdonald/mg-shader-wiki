@@ -1,6 +1,7 @@
 <!-- TOC -->
 - [Writing shaders](#writing-shaders)
 - [Observations](#observations)
+  - [Type casting](#type-casting)
   - [Voxel coordinates](#voxel-coordinates)
   - [`voxel` always refers to original model](#voxel-always-refers-to-original-model)
   - [Functions must be declared before they are used](#functions-must-be-declared-before-they-are-used)

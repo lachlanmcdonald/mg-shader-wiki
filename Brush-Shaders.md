@@ -2,6 +2,7 @@
 
 <!-- TOC -->
 - [How to use a Brush Shader](#how-to-use-a-brush-shader)
+- [Restricting voxels (painting existing voxels)](#restricting-voxels-painting-existing-voxels)
 - [List of shaders](#list-of-shaders)
   - [Brush Shaders](#brush-shaders)
   - [Primitive Brush Shaders](#primitive-brush-shaders)
