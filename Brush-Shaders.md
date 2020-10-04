@@ -17,13 +17,44 @@
 3. Under Box, press the **Voxel Shader** option and **Gizmo**
 4. Select the shader in the **Shader List**
 
-<img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/brush_shader.png" width="400" alt="">
+<table>
+	<tr>
+		<td valign="top"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_box.png" width="160" alt=""></td>
+		<td valign="top"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_shaders.png" width="160" alt=""></td>
+	</tr>
+</table>
 
 _Relevant buttons in the editor UI._
 
 <img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/brush_shader_gizmo.png" width="400" alt="">
 
 _Example of the box gizmo and the [brick brush shader](/lachlanmcdonald/magicavoxel-shaders/wiki/Brick-Brushes)._
+
+## Restricting voxels (painting existing voxels)
+
+By default, [Brush Shaders](Brush-Shaders) are used with the **Box Mode**, however, the **Paint** mode can also be used to replace voxels with the chosen color.
+
+1. Right-click your chosen color and select **Voxel select by color**
+2. Select **Box Mode** [B]
+3. Select **Paint**
+4. Under Box, press the **Voxel Shader** option and **Gizmo**
+5. Select the shader in the **Shader List**
+6. Draw a box over the volume; only the selected voxels will be updated.
+
+<table>
+	<tr>
+		<td valign="top"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_palette.png" width="160" alt=""></td>
+		<td valign="top"><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_paint.png" width="160" alt=""></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_sel1.png" alt=""></td>
+		<td><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_sel2.png" alt=""></td>
+		<td><img src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/ui/mv_sel3.png" alt=""></td>
+	</tr>
+</table>
 
 ## List of shaders
 
