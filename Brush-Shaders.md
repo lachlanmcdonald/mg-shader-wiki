@@ -9,7 +9,7 @@
 
 ## How to use a Brush Shader
 
-1. Select **Voxel Shader Mode** [B]
+1. Select **Voxel Shader Mode** [C]
 2. Select either:
     - **Attach**: to only add new voxels
     - **Erase**: to only erase existing voxels
@@ -27,10 +27,10 @@
 
 By default, [Brush Shaders](Brush-Shaders) are used with the **Voxel Shader Mode**, however, the **Paint** mode can also be used to replace voxels with the chosen color.
 
-1. Right-click your chosen color and select **Voxel select by color**
-2. Select **Voxel Shader Mode** [B]
+1. Right-click your chosen color and select **Inverse**
+2. Right-click any other color and select **Voxel Selection by Color**
+2. Select **Voxel Shader Mode** [C]
 3. Select **Paint**
-4. Under Box, press the **Voxel Shader** option and **Gizmo**
 5. Select the shader in the **Shader List**
 6. Draw a box over the volume; only the selected voxels will be updated.
 
