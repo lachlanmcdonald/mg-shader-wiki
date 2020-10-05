@@ -10,7 +10,7 @@
   - [Diagonal Line Brushes](Diagonal-Line-Brushes)
   - [Weave Brush](Weave-Brush)
   - [Zigzag Brushes](Zigzag-Brushes)
-- [Primitive Brush Shaders](Brush-Shaders)
+- [Primitive Brush Shaders](#primitive-brush-shaders)
   - [Prism Brush](Prism-Brush)
   - [Cylinder Brush](Cylinder-Brush)
   - [Stairs Brushes](Stairs-Brushes)
