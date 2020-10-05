@@ -10,7 +10,20 @@
 
 ## Shaders
 
-
+<table>
+	<tr>
+		<td width="50%">
+			<img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_horz.png" alt="Example of the bricks shader">
+		</td>
+		<td width="50%">
+			<img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_vert.png" alt="Example of the bricks_vert shader">
+		</td>
+	</tr>
+	<tr>
+		<th><code>bricks</code></th>
+		<th><code>bricks_vert</code></th>
+	</tr>
+</table>
 
 ## Arguments
 
