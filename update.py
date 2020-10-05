@@ -1,6 +1,7 @@
 from os import path, listdir
 from pybars import Compiler
 from time import time
+import sys
 import yaml
 import re
 
@@ -71,7 +72,7 @@ for fp in listdir(DATA_DIR):
 
 		with open(path.join(DATA_DIR, fp), 'r') as fh:
 			k = path.splitext(path.basename(fp))[0]
-			YAML_DATA[k] = yaml.load(fh)
+			YAML_DATA[k] = yaml.safe_load(fh)
 
 
 def chunks(j, n):
@@ -123,7 +124,7 @@ def sidebar_repl(match):
 
 
 # Process markdown files
-for f in listdir(path.dirname(__file__)):
+for f in listdir(path.dirname(path.realpath(sys.argv[0]))):
 	if path.splitext(f)[1] == '.md':
 		with open(f, 'r') as h:
 			contents = h.read()
