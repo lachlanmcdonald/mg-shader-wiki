@@ -112,6 +112,12 @@ float map(vec3 v) {
 }
 ```
 
+### Limit on array size
+
+There are platform-dependant limits on the size of arrays. When an array size exceeds this limit, MagicaVoxel will not display an error but no voxels will be added by the shader. However, in some circumstances random voxels will appear.
+
+It is best not to initaialise arrays with more than 255 elements. 
+
 ### Using the `voxel` function beyond the volume size
 
 `voxel()` for retrieving a color index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check wether the `x`, `y` or `z` co-ordinates will be out-of-bounds before calling `voxel`.
