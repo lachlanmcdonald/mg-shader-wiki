@@ -10,6 +10,8 @@
 - [Snippets](#snippets)
   - [Determine if a axis mode is set](#determine-if-a-axis-mode-is-set)
   - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
+  - [`mix()` for selected colours](#mix-for-selected-colours)
+  - [Determine if the provided color is one of the selected colors](#determine-if-the-provided-color-is-one-of-the-selected-colors)
 - [Editing](#editing)
   - [Testing shaders in MagicaVoxel](#testing-shaders-in-magicavoxel)
   - [Visual Studio Code](#visual-studio-code)
@@ -151,6 +153,28 @@ bvec3 axis_mode = equal(ivec3(i_axis), ivec3(1));
 `axis_mode` is a `bvec3` indicating which axis mode is set.
 
 **For example:** `axis_mode.x` will be `true` if the X-axis mode is set.
+
+### `mix()` for selected colours
+
+```glsl
+float pal_mix(float p) {
+	float f = floor(mix(0.0, float(i_num_color_sels), p));
+	return color_sel(f);
+}
+```
+
+### Determine if the provided color is one of the selected colors
+
+```glsl
+bool is_sel_color(float p) {
+	for (int i = 0; i < i_num_color_sels; i += 1) {
+		if (p == color_sel(float(i))) {
+			return true;
+		}
+	}
+	return false;
+}
+```
 
 ## Editing
 
