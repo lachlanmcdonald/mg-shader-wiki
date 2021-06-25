@@ -15,7 +15,7 @@
 
 Shader files are written in _OpenGL Shader Language_ (GLSL), version _1.10_. [The Book of Shaders](https://thebookofshaders.com/) is a good beginners guide to the shader language.
 
-The `map` function in the shader is executed once per voxel:
+Each shader has a `map` function which is executed once per voxel:
 
 - It recieves the location of the voxel as its only argument
 - Should return a float between `0.0` and `255.0` representing the voxel color in the palette.
@@ -40,7 +40,9 @@ float map(vec3 v) {
 
 ### Type casting
 
-Some hardware cannot cast betwen `int` and `float` without an explicit command, i.e.:
+Some hardware cannot coercion betwen `int` and `float`, and instead require an explicit command. You should always explicity cast from `int` to `float` and vice versa.
+
+i.e.
 
 ```glsl
 float a = 1.0;
@@ -51,7 +53,7 @@ float c = 2 * 6;        // will not work on all hardware
 float c = float(2 * 6); // will work on all hardware
 ```
 
-Similarly, a function must always return the expected _return type_ (cannot be casted):
+Similarly, a function must always return the expected _return type_ (the value is not coerced):
 
 ```glsl
 float a() {
@@ -70,7 +72,7 @@ If this is undesirable, you can floor the entire `vec3` in one operation:
 vec3 v = floor(v);
 ```
 
-Which is a more concise way to write:
+Which is the same as below but more concise:
 
 ```glsl
 v.x = floor(v.x);
@@ -122,8 +124,6 @@ It is best not to initaialise arrays with more than 255 elements.
 
 `voxel()` for retrieving a color index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check wether the `x`, `y` or `z` co-ordinates will be out-of-bounds before calling `voxel`.
 
-**For example:**
-
 ```glsl
 voxel(500.0, 500.0, 500.0); // 0.0
 voxel(-1.0, -1.0, -1.0); // 0.0
@@ -150,6 +150,18 @@ bvec3 axis_mode = equal(ivec3(i_axis), ivec3(1));
 **For example:** `axis_mode.x` will be `true` if the X-axis mode is set.
 
 ## Editing
+
+### Testing shaders in MagicaVoxel
+
+By default, shaders are loaded from MagicaVoxel's `shader` director. However, you can set a new path by changing the `dir_xs_shader` parameter within `config/config.txt` and specifying the new path:
+
+i.e.
+
+```
+dir_xs_shader		: "/Users/lachlan/magicavoxel-shaders/shader"
+```
+
+### Visual Studio Code
 
 In **Visual Studio Code**, GLSL shader syntax-highlighting can be enabled with the [Shader languages support for VS Code](https://marketplace.visualstudio.com/items?itemName=slevesque.shader) extension.
 
