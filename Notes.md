@@ -5,11 +5,14 @@
   - [Voxel coordinates](#voxel-coordinates)
   - [`voxel` always refers to original model](#voxel-always-refers-to-original-model)
   - [Functions must be declared before they are used](#functions-must-be-declared-before-they-are-used)
+  - [Limit on array size](#limit-on-array-size)
   - [Using the `voxel` function beyond the volume size](#using-the-voxel-function-beyond-the-volume-size)
 - [Snippets](#snippets)
   - [Determine if a axis mode is set](#determine-if-a-axis-mode-is-set)
   - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
 - [Editing](#editing)
+  - [Testing shaders in MagicaVoxel](#testing-shaders-in-magicavoxel)
+  - [Visual Studio Code](#visual-studio-code)
 
 ## Writing shaders
 
