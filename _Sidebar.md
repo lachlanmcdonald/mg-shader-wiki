@@ -2,7 +2,7 @@
 - [Home](home)
 - [Brush Shaders](Brush-Shaders)
   - [Brick Brushes](Brick-Brushes)
-  - [Grass Brushes](Grass-Brushes)
+  - [Grass Brush](Grass-Brush)
   - [Grid Brush](Grid-Brush)
   - [Tiles Brush](Tiles-Brush)
   - [Puzzle Tile Brush](Puzzle-Tiles-Brush)

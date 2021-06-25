@@ -61,8 +61,8 @@ By default, [Brush Shaders](Brush-Shaders) are used with the **Voxel Shader Mode
 		<td valign="center">Generates alternating rows of bricks or tiles</td>
 	</tr>
 	<tr>
-		<td valign="center" align="left"><a href="Grass-Brushes"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/grass.png?cache=201" alt=""></a></td>
-		<th valign="center" align="left"><a href="Grass-Brushes">Grass Brushes</a></th>
+		<td valign="center" align="left"><a href="Grass-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/grass.png?cache=201" alt=""></a></td>
+		<th valign="center" align="left"><a href="Grass-Brush">Grass Brush</a></th>
 		<td valign="center">Generates generates randomly protruding lines of voxels with a constant distribution</td>
 	</tr>
 	<tr>
