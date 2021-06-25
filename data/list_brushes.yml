@@ -5,8 +5,8 @@
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/bricks.png
 - cache: 201
   content: Generates generates randomly protruding lines of voxels with a constant distribution
-  heading: Grass Brushes
-  href: Grass-Brushes
+  heading: Grass Brush
+  href: Grass-Brush
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/grass.png
 - cache: 201
   content: Generates a grid pattern with variable thickness and spacing
