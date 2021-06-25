@@ -1,4 +1,4 @@
-> The **Grass [brushes](Brush-Shaders)** generates randomly protruding lines of voxels with a constant distribution; similar to grass, small plants or similar surfaces. The height of the grass is affected by the brushes height.
+> The **Grass [brushes](Brush-Shaders)** generates randomly protruding lines of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
 > 
 > There are two shaders, **`grass`** and **`grass_inv`**, that are functionally identical except grass protrude upwards and `grass_inv` extrudes downwards.
 
