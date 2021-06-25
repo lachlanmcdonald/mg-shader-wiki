@@ -1,19 +1,15 @@
-> The **Tiles** [brush](Brush-Shaders) generates a tile pattern.
+> The **Tiles** [brush](Brush-Shaders) generates a tile pattern using the first and last selected color from the palette.
 
 ## Arguments
 
 Argument | Description
 --------- | -----------
-**Color A** | Tile color
-**Color B** | Alternate tile color
 **Width** | Width of the tile
 **Height** | Height of the tile
 **Depth** | Depth of the tile
 **Offset X** | Offset of the tiles in the X-axis
 **Offset Y** | Offset of the tiles in the Y-axis
 **Offset Z** | Offset of the tiles in the Z-axis
-
-Setting either of the colors to `0` will result in empty voxels.
 
 ## Example
 
