@@ -1,4 +1,4 @@
-> **greebles1** is a **[primitive brush](Diagonal-Line-Brushes)** that generates greebles by randomly generating cuboids and subtracting voxels that overlap.
+> **greebles1** is a **[greeble brush](Greeble-Brushes)** that generates greebles by randomly generating cuboids and subtracting voxels that overlap.
 
 <!-- TOC -->
 - [Arguments](#arguments)
