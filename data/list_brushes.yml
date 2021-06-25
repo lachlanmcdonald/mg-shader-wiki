@@ -29,10 +29,10 @@
   href: Uneven-Tiles-Brush
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles_uneven.png
 - cache: 201
-  content: Generates parallel 45° lines of alternating widths
-  heading: Diagonal Line Brushes
-  href: Diagonal-Line-Brushes
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal2.png
+  content: Generates parallel 45° lines of alternating widths and colors
+  heading: Diagonal Line Brush
+  href: Diagonal-Line-Brush
+  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal3.png
 - cache: 201
   content: Generates a weave pattern
   heading: Weave Brush

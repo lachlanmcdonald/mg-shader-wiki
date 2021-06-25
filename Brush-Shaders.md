@@ -86,9 +86,9 @@ By default, [Brush Shaders](Brush-Shaders) are used with the **Voxel Shader Mode
 		<td valign="center">Generates an uneven tile pattern</td>
 	</tr>
 	<tr>
-		<td valign="center" align="left"><a href="Diagonal-Line-Brushes"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal2.png?cache=201" alt=""></a></td>
-		<th valign="center" align="left"><a href="Diagonal-Line-Brushes">Diagonal Line Brushes</a></th>
-		<td valign="center">Generates parallel 45° lines of alternating widths</td>
+		<td valign="center" align="left"><a href="Diagonal-Line-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal3.png?cache=201" alt=""></a></td>
+		<th valign="center" align="left"><a href="Diagonal-Line-Brush">Diagonal Line Brush</a></th>
+		<td valign="center">Generates parallel 45° lines of alternating widths and colors</td>
 	</tr>
 	<tr>
 		<td valign="center" align="left"><a href="Weave-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/weave.png?cache=201" alt=""></a></td>
