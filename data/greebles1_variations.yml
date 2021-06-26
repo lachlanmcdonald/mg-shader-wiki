@@ -1,9 +1,7 @@
-- alt: Example of a depth of 1
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth1.jpg
+- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth1.jpg
   label: Depth
   value: 1
-- alt: Example of a depth of 32
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth32.jpg
+- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth32.jpg
   label: Depth
   value: 32
 - alt: 1x1x60

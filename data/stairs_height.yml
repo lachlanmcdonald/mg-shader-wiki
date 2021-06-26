@@ -1,12 +1,9 @@
-- alt: Example of a height of 1
-  label: Height
+- label: Height
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height1.png
   value: 1
-- alt: Example of a height of 2
-  label: Height
+- label: Height
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height2.png
   value: 2
-- alt: Example of a height of 3
-  label: Height
+- label: Height
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height3.png
   value: 3

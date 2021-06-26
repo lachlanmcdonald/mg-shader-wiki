@@ -45,9 +45,9 @@ The widths of the lines are independant of the number of selected colours from t
 <!-- SAMPLE diagonal_directions 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction0.png" alt="Example of a direction of 0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction1.png" alt="Example of a direction of 1"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction2.png" alt="Example of a direction of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction0.png" alt="Example of a 'Direction' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction1.png" alt="Example of a 'Direction' value of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction2.png" alt="Example of a 'Direction' value of 2"></td>
 	</tr>
 	<tr>
 		<th>Direction: <code>0</code></th>
@@ -55,9 +55,9 @@ The widths of the lines are independant of the number of selected colours from t
 		<th>Direction: <code>2</code></th>
 	</tr>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction3.png" alt="Example of a direction of 3"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction4.png" alt="Example of a direction of 4"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction5.png" alt="Example of a direction of 5"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction3.png" alt="Example of a 'Direction' value of 3"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction4.png" alt="Example of a 'Direction' value of 4"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction5.png" alt="Example of a 'Direction' value of 5"></td>
 	</tr>
 	<tr>
 		<th>Direction: <code>3</code></th>

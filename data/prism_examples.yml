@@ -1,4 +1,2 @@
-- alt: Example
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg
-- alt: Example
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example1.jpg
+- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg
+- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example1.jpg

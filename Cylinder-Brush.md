@@ -19,9 +19,9 @@ Argument | Description
 <!-- SAMPLE cylinder_rotation 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation0.jpg" alt="Example of a rotation of 0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation1.jpg" alt="Example of a rotation of 1"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation2.jpg" alt="Example of a rotation of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation0.jpg" alt="Example of a 'Rotation' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation1.jpg" alt="Example of a 'Rotation' value of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation2.jpg" alt="Example of a 'Rotation' value of 2"></td>
 	</tr>
 	<tr>
 		<th>Rotation: <code>0</code></th>
@@ -36,16 +36,16 @@ Argument | Description
 <!-- SAMPLE cylinder_thickness 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025.jpg" alt="Example of a thickness of 25"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness050.jpg" alt="Example of a thickness of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025.jpg" alt="Example of a 'Thickness' value of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness050.jpg" alt="Example of a 'Thickness' value of 50"></td>
 	</tr>
 	<tr>
 		<th>Thickness: <code>25</code></th>
 		<th>Thickness: <code>50</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness075.jpg" alt="Example of a thickness of 25"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness100.jpg" alt="Example of a thickness of 25"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness075.jpg" alt="Example of a 'Thickness' value of 75"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness100.jpg" alt="Example of a 'Thickness' value of 100"></td>
 	</tr>
 	<tr>
 		<th>Thickness: <code>75</code></th>

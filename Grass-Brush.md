@@ -27,8 +27,8 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 <!-- SAMPLE grass_modes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode0.png" alt="Example of mode of 0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode1.png" alt="Example of mode of 1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode0.png" alt="Example of a 'Mode' value of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode1.png" alt="Example of a 'Mode' value of 1"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>0</code></th>
@@ -39,8 +39,8 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 		<td valign="top">The color of each voxel in the line is chosen at random.</td>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode2.png" alt="Example of mode of 2"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode3.png" alt="Example of mode of 3"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode2.png" alt="Example of a 'Mode' value of 2"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode3.png" alt="Example of a 'Mode' value of 3"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>2</code></th>
@@ -58,16 +58,16 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 <!-- SAMPLE grass_density 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density1.png" alt="Example of a density of 1"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density2.png" alt="Example of a density of 2"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density1.png" alt="Example of a 'Density' value of 1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density2.png" alt="Example of a 'Density' value of 2"></td>
 	</tr>
 	<tr>
 		<th>Density: <code>1</code></th>
 		<th>Density: <code>2</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density3.png" alt="Example of a density of 3"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density4.png" alt="Example of a density of 4"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density3.png" alt="Example of a 'Density' value of 3"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_density4.png" alt="Example of a 'Density' value of 4"></td>
 	</tr>
 	<tr>
 		<th>Density: <code>3</code></th>
@@ -81,16 +81,16 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 <!-- SAMPLE grass_growth 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth000.png" alt="Example of a growth of 0.0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth050.png" alt="Example of a growth of 0.5"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth000.png" alt="Example of a 'Growth' value of 0.0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth050.png" alt="Example of a 'Growth' value of 0.5"></td>
 	</tr>
 	<tr>
 		<th>Growth: <code>0.0</code></th>
 		<th>Growth: <code>0.5</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth075.png" alt="Example of a growth of 0.75"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth100.png" alt="Example of a growth of 1.0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth075.png" alt="Example of a 'Growth' value of 0.75"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth100.png" alt="Example of a 'Growth' value of 1.0"></td>
 	</tr>
 	<tr>
 		<th>Growth: <code>0.75</code></th>

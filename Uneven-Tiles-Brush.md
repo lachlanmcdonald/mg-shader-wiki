@@ -26,9 +26,9 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 <!-- SAMPLE tiles_uneven_modes 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode0.png" alt="Example of a mode of 0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode1.png" alt="Example of a mode of 1"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode2.png" alt="Example of a mode of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode0.png" alt="Example of a 'Mode' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode1.png" alt="Example of a 'Mode' value of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode2.png" alt="Example of a 'Mode' value of 2"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>0</code></th>
@@ -41,8 +41,8 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 		<td valign="top">Tiles are colored between <strong>Color A</strong> and <strong>Color B</strong> in a repeating sequence.</td>
 	</tr>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode3.png" alt="Example of a mode of 3"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode4.png" alt="Example of a mode of 4"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode3.png" alt="Example of a 'Mode' value of 3"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode4.png" alt="Example of a 'Mode' value of 4"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>3</code></th>

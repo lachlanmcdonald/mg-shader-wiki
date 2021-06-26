@@ -25,8 +25,8 @@ Argument | Description
 <!-- SAMPLE prism_modes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0.png" alt="Example of mode of 0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1.png" alt="Example of mode of 1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0.png" alt="Example of a 'Mode' value of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1.png" alt="Example of a 'Mode' value of 1"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>0</code></th>
@@ -92,8 +92,8 @@ Argument | Description
 <!-- SAMPLE prism_examples 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg" alt="Example"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example1.jpg" alt="Example"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example1.jpg" alt=""></td>
 	</tr>
 </table>
 <!-- END -->

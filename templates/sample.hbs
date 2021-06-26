@@ -3,7 +3,15 @@
 	{{#each rows}}
 	<tr>
 		{{#each this}}
-		<td width="{{{@root.width}}}"><img width="100%" src="{{{src}}}" alt="{{alt}}"></td>
+		<td width="{{{@root.width}}}"><img width="100%" src="{{{src}}}" alt="
+			{{~#if alt~}}
+			{{~alt~}}
+			{{~else~}}
+				{{~#if value~}}
+				Example of a '{{label}}' value of {{value~}}
+				{{~else}}{{~/if~}}
+			{{~/if~}}
+		"></td>
 		{{/each}}
 	</tr>
 	{{#if @root.has_value_label}}

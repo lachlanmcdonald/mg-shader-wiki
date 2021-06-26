@@ -24,9 +24,9 @@ There are 3 distinct color modes for generating voxels, as outlined below:
 <!-- SAMPLE sand_modes 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode0.png" alt="Example of mode of 0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode1.png" alt="Example of mode of 1"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode2.png" alt="Example of mode of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode0.png" alt="Example of a 'Mode' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode1.png" alt="Example of a 'Mode' value of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode2.png" alt="Example of a 'Mode' value of 2"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>0</code></th>

@@ -1,25 +1,20 @@
-- alt: Example of a mode of 0
-  label: Mode
+- label: Mode
   raw: Tiles are colored at random between <strong>Color A</strong> and <strong>Color B</strong>.
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode0.png
   value: '0'
-- alt: Example of a mode of 1
-  label: Mode
+- label: Mode
   raw: Tiles are colored between depending on their size; between <strong>Color A</strong> and <strong>Color B</strong> for small to large, respectively.
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode1.png
   value: 1
-- alt: Example of a mode of 2
-  label: Mode
+- label: Mode
   raw: Tiles are colored between <strong>Color A</strong> and <strong>Color B</strong> in a repeating sequence.
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode2.png
   value: 2
-- alt: Example of a mode of 3
-  label: Mode
+- label: Mode
   raw: Tiles are either colored as <strong>Color A</strong> or <strong>Color B</strong> at random.
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode3.png
   value: 3
-- alt: Example of a mode of 4
-  label: Mode
+- label: Mode
   raw: Tiles alternate between <strong>Color A</strong> and <strong>Color B</strong>.
   src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/tiles_uneven_mode4.png
   value: 4

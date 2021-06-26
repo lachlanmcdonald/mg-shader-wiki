@@ -26,8 +26,8 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 <!-- SAMPLE tiles_puzzle_modes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode0.png" alt="Example of a mode of 0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode1.png" alt="Example of a mode of 1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode0.png" alt="Example of a 'Mode' value of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode1.png" alt="Example of a 'Mode' value of 1"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>0</code></th>
@@ -38,8 +38,8 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 		<td valign="top">Tiles are either colored as <strong>Color A</strong> or <strong>Color B</strong>.</td>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode2.png" alt="Example of a mode of 2"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode3.png" alt="Example of a mode of 3"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode2.png" alt="Example of a 'Mode' value of 2"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode3.png" alt="Example of a 'Mode' value of 3"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>2</code></th>
@@ -50,7 +50,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 		<td valign="top">Similar to mode <code>0</code>, only tiles directed towards the Y axis are randomly colored. Remaining tiles become <strong>Line Color</strong>.</td>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode4.png" alt="Example of a mode of 4"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_mode4.png" alt="Example of a 'Mode' value of 4"></td>
 	</tr>
 	<tr>
 		<th>Mode: <code>4</code></th>

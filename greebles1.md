@@ -24,8 +24,8 @@ Argument | Description
 <!-- SAMPLE greebles1_modes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode0.jpg" alt="Example of mode 0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1.jpg" alt="Example of mode 1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode0.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1.jpg" alt="Example of a 'Mode' value of 1"></td>
 	</tr>
 	<tr>
 		<th>Mode</th>
@@ -68,16 +68,16 @@ Axis modes can use used to only add cuboids on certain axes.
 <!-- SAMPLE greebles1_count 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count16.jpg" alt="Example of a count of 16"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count32.jpg" alt="Example of a count of 32"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count16.jpg" alt="Example of a 'Count' value of 16"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count32.jpg" alt="Example of a 'Count' value of 32"></td>
 	</tr>
 	<tr>
 		<th>Count: <code>16</code></th>
 		<th>Count: <code>32</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count64.jpg" alt="Example of a count of 64"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count128.jpg" alt="Example of a count of 128"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count64.jpg" alt="Example of a 'Count' value of 64"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count128.jpg" alt="Example of a 'Count' value of 128"></td>
 	</tr>
 	<tr>
 		<th>Count: <code>64</code></th>
@@ -91,8 +91,8 @@ Axis modes can use used to only add cuboids on certain axes.
 <!-- SAMPLE greebles1_variations 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth1.jpg" alt="Example of a depth of 1"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth32.jpg" alt="Example of a depth of 32"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth1.jpg" alt="Example of a 'Depth' value of 1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth32.jpg" alt="Example of a 'Depth' value of 32"></td>
 	</tr>
 	<tr>
 		<th>Depth: <code>1</code></th>
