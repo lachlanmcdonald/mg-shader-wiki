@@ -1,0 +1,20 @@
+- label: Mode
+  raw: Tiles are colored at random between the selected colors.
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_mode_0.png
+  value: '0'
+- label: Mode
+  raw: Tiles are colored at random using only the first and last selected color.
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_mode_1.png
+  value: 1
+- label: Mode
+  raw: Similar to mode <code>0</code>, but only tiles directed towards the X-axis are colored. Remaining tiles become <strong>Line Color</strong>.
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_mode_2.png
+  value: 2
+- label: Mode
+  raw: Similar to mode <code>0</code>, but only tiles directed towards the Y-axis are colored. Remaining tiles become <strong>Line Color</strong>.
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_mode_3.png
+  value: 3
+- label: Mode
+  raw: Similar to mode <code>0</code>, but tiles directed towards the X-axis selected from the first half of the selected colors, and Y-axis the selected from the second half of the selected colours.
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_mode_4.png
+  value: 4
