@@ -1,0 +1,12 @@
+- label: mode
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_0.png
+  value: '0'
+  text: Brick colors are chosen at random
+- label: mode
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_1.png
+  value: '1'
+  text: Brick are colored as a gradient of the selected colors along the z-axis
+- label: mode
+  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_2.png
+  value: '2'
+  raw: Same as mode <code>1</code> but in reverse

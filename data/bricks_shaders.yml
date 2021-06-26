@@ -1,6 +1,0 @@
-- alt: Example of the bricks shader
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_horz.png
-  value: bricks
-- alt: Example of the bricks_vert shader
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/3cf75dcc-5b1c-465b-81fc-8b4526c4363a/bricks_vert.png
-  value: bricks_vert
