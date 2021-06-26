@@ -29,14 +29,14 @@ Argument | Description
 <!-- SAMPLE brick_mode 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_0.png" alt="Example of a 'mode' value of 0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_1.png" alt="Example of a 'mode' value of 1"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_2.png" alt="Example of a 'mode' value of 2"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_0.png" alt="Example of a 'Mode' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_1.png" alt="Example of a 'Mode' value of 1"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_2.png" alt="Example of a 'Mode' value of 2"></td>
 	</tr>
 	<tr>
-		<th>mode: <code>0</code></th>
-		<th>mode: <code>1</code></th>
-		<th>mode: <code>2</code></th>
+		<th>Mode: <code>0</code></th>
+		<th>Mode: <code>1</code></th>
+		<th>Mode: <code>2</code></th>
 	</tr>
 	<tr>
 		<td valign="top">Brick colors are chosen at random</td>

@@ -1,19 +1,19 @@
-- cache: 201
+- cache: 202
   content: Generates prisms, pyramids or tetrahedrons with straight or curved angles
   heading: Prism Brush
   href: Prism-Brush
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/prism.png
-- cache: 201
+- cache: 202
   content: Generates cylinders and tubes
   heading: Cylinder Brush
   href: Cylinder-Brush
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/cylinder.png
-- cache: 201
+- cache: 202
   content: Generates a slope of stairs
   heading: Stairs Brushes
   href: Stairs-Brushes
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/stairs.png
-- cache: 201
+- cache: 202
   content: Generates greebles
   heading: Greeble Brushes
   href: Greeble-Brushes
