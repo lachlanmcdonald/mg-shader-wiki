@@ -7,15 +7,23 @@ Argument | Description
 **Width** | Width of the tile
 **Height** | Height of the tile
 **Depth** | Depth of the tile
-**Offset X** | Offset of the tiles in the X-axis
-**Offset Y** | Offset of the tiles in the Y-axis
-**Offset Z** | Offset of the tiles in the Z-axis
+**Offset X** | Offset of the tiles on the X-axis
+**Offset Y** | Offset of the tiles on the Y-axis
+**Offset Z** | Offset of the tiles on the Z-axis
 
 ## Example
 
+<!-- SAMPLE tiles_examples 3 -->
 <table>
-    <tr>
-        <td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/tiles.png" alt="Example"></td>
-        <td width="50%"></td>
-    </tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_2_2_2.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_2_4_2.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_10_5_1.png" alt=""></td>
+	</tr>
+	<tr>
+		<td valign="top">2x2x2</td>
+		<td valign="top">2x4x2</td>
+		<td valign="top">10x5x1</td>
+	</tr>
 </table>
+<!-- END -->
