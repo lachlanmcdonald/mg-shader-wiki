@@ -18,4 +18,4 @@ Most shaders need to generate pseudo-random numbers to create noise or variation
 
 Shaders with a **Seed** argument allows you to give the shader a new starting number, allowing you to generate different randomness each time.
 
-THis is often not necessary for small scenes. However, if you are generating the same pattern over multiple objects, it can be used to make sure every object does not look the same.
+This is often not necessary for small scenes. However, if you are using a shader over multiple objects, it can be used to make sure every object does not look the same.
