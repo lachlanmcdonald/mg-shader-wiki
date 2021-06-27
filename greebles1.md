@@ -99,28 +99,44 @@ Axis modes can use used to only add cuboids on certain axes.
 		<th>Depth: <code>32</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_1x1x60.jpg" alt="1x1x60"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_256x1x1.jpg" alt="256x1x1"></td>
+		<td valign="top"></td>
+		<td valign="top"></td>
 	</tr>
 	<tr>
-		<th><code>1x1x60</code></th>
-		<th><code>256x1x1</code></th>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_1x1x60.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_256x1x1.jpg" alt=""></td>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_8x8x18.jpg" alt="8x8x18"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_2x64x24.jpg" alt="2x64x24"></td>
+		<th></th>
+		<th></th>
 	</tr>
 	<tr>
-		<th><code>8x8x18</code></th>
-		<th><code>2x64x24</code></th>
+		<td valign="top">1x1x60</td>
+		<td valign="top">256x1x1</td>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1_1x1x78.jpg" alt="1x1x78"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1_45x1x1.jpg" alt="45x1x1"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_8x8x18.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_2x64x24.jpg" alt=""></td>
 	</tr>
 	<tr>
-		<th><code>1x1x78</code></th>
-		<th><code>45x1x1</code></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<td valign="top">8x8x18</td>
+		<td valign="top">2x64x24</td>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1_1x1x78.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1_45x1x1.jpg" alt=""></td>
+	</tr>
+	<tr>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<td valign="top">1x1x78</td>
+		<td valign="top">45x1x1</td>
 	</tr>
 </table>
 <!-- END -->

@@ -67,14 +67,14 @@ There are 5 distinct color modes for generating patterns:
 <!-- SAMPLE tiles_puzzle_variations 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_4x4.png" alt="Example of a '' value of 4x4"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_2x8.png" alt="Example of a '' value of 2x8"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_8x8.png" alt="Example of a '' value of 8x8"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_4x4.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_2x8.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_8x8.png" alt=""></td>
 	</tr>
 	<tr>
-		<th><code>4x4</code></th>
-		<th><code>2x8</code></th>
-		<th><code>8x8</code></th>
+		<td valign="top">4x4</td>
+		<td valign="top">2x8</td>
+		<td valign="top">8x8</td>
 	</tr>
 </table>
 <!-- END -->

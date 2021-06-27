@@ -63,14 +63,14 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 <!-- SAMPLE tiles_uneven_variations 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x4.png" alt="Example of a '' value of 2x4"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x12.png" alt="Example of a '' value of 2x12"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_4x8.png" alt="Example of a '' value of 4x8"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x4.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x12.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_4x8.png" alt=""></td>
 	</tr>
 	<tr>
-		<th><code>2x4</code></th>
-		<th><code>2x12</code></th>
-		<th><code>4x8</code></th>
+		<td valign="top">2x4</td>
+		<td valign="top">2x12</td>
+		<td valign="top">4x8</td>
 	</tr>
 </table>
 <!-- END -->
@@ -105,11 +105,6 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 		<th>Noise: <code>0.0</code></th>
 		<th>Noise: <code>0.25</code></th>
 		<th>Noise: <code>0.5</code></th>
-	</tr>
-	<tr>
-		<td valign="top">Tiles are colored at random between the selected colors.</td>
-		<td valign="top">Tiles are colored between depending on their size between the selected colors.</td>
-		<td valign="top">Tiles are colored between the selected colors in a repeating pattern along the X-axis</td>
 	</tr>
 </table>
 <!-- END -->
