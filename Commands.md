@@ -1,6 +1,6 @@
 > The following page outlines the shader commands for use in MagicaVoxel's console.
-> 
-> Since the addition of the shader UI, default parameters and error-checking has been removed from the scripts. All arguments are required.
+
+Since the addition of the shader UI, default parameters and error-checking has been removed from the scripts. All arguments are required. This page is to be used in combination with the [shader documentation](https://github.com/lachlanmcdonald/magicavoxel-shaders/wiki).
 
 - [bricks](#bricks)
 - [bricks_vert](#bricks_vert)
@@ -43,18 +43,18 @@
 xs brush/bricks [Mode] [Direction] [Width] [Height] [Depth] [Grout Size] [Grout Color] [Offset] [Noise] [Threshold]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Direction** | Integer | `0` | 0-3
-`2` | **Width** | Integer | `5` | 1-256
-`3` | **Height** | Integer | `2` | 1-256
-`4` | **Depth** | Integer | `2` | 1-256
-`5` | **Grout Size** | Integer | `1` | 0-256
-`6` | **Grout Color** | Integer | `1` | 0-255
-`7` | **Offset** | Integer | `0` | 0-256
-`8` | **Noise** | Float | `0` | 0-1
-`9` | **Threshold** | Float | `1` | 0-1
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Direction** | Integer | `0` | 0-3
+2 | **Width** | Integer | `5` | 1-256
+3 | **Height** | Integer | `2` | 1-256
+4 | **Depth** | Integer | `2` | 1-256
+5 | **Grout Size** | Integer | `1` | 0-256
+6 | **Grout Color** | Integer | `1` | 0-255
+7 | **Offset** | Integer | `0` | 0-256
+8 | **Noise** | Float | `0` | 0-1
+9 | **Threshold** | Float | `1` | 0-1
 
 Example:
 
@@ -68,18 +68,18 @@ xs brush/bricks 0 0 5 2 2 1 1 0 0 1
 xs brush/bricks_vert [Mode] [Direction] [Height] [Depth] [Width] [Grout Size] [Grout Color] [Offset] [Noise] [Threshold]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Direction** | Integer | `0` | 0-3
-`2` | **Height** | Integer | `5` | 1-256
-`3` | **Depth** | Integer | `2` | 1-256
-`4` | **Width** | Integer | `3` | 1-256
-`5` | **Grout Size** | Integer | `1` | 0-256
-`6` | **Grout Color** | Integer | `1` | 0-255
-`7` | **Offset** | Integer | `0` | 0-256
-`8` | **Noise** | Float | `0` | 0-1
-`9` | **Threshold** | Float | `1` | 0-1
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Direction** | Integer | `0` | 0-3
+2 | **Height** | Integer | `5` | 1-256
+3 | **Depth** | Integer | `2` | 1-256
+4 | **Width** | Integer | `3` | 1-256
+5 | **Grout Size** | Integer | `1` | 0-256
+6 | **Grout Color** | Integer | `1` | 0-255
+7 | **Offset** | Integer | `0` | 0-256
+8 | **Noise** | Float | `0` | 0-1
+9 | **Threshold** | Float | `1` | 0-1
 
 Example:
 
@@ -93,15 +93,15 @@ xs brush/bricks_vert 0 0 5 2 3 1 1 0 0 1
 xs brush/diagonal [Direction] [Width A] [Width B] [Width C] [Width D] [Offset] [Shuffle]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Direction** | Integer | `0` | 0-5
-`1` | **Width A** | Integer | `2` | 0-32
-`2` | **Width B** | Integer | `0` | 0-32
-`3` | **Width C** | Integer | `0` | 0-32
-`4` | **Width D** | Integer | `0` | 0-32
-`5` | **Offset** | Integer | `0` | 0-256
-`6` | **Shuffle** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Direction** | Integer | `0` | 0-5
+1 | **Width A** | Integer | `2` | 0-32
+2 | **Width B** | Integer | `0` | 0-32
+3 | **Width C** | Integer | `0` | 0-32
+4 | **Width D** | Integer | `0` | 0-32
+5 | **Offset** | Integer | `0` | 0-256
+6 | **Shuffle** | Integer | `0` | 0-256
 
 Example:
 
@@ -115,13 +115,13 @@ xs brush/diagonal 0 2 0 0 0 0 0
 xs brush/grass [Direction] [Mode] [Density] [Growth] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Direction** | Integer | `0` | 0-3
-`1` | **Mode** | Integer | `0` | 0-4
-`2` | **Density** | Integer | `2` | 1-256
-`3` | **Growth** | Float | `0.5` | 0-1
-`4` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Direction** | Integer | `0` | 0-3
+1 | **Mode** | Integer | `0` | 0-4
+2 | **Density** | Integer | `2` | 1-256
+3 | **Growth** | Float | `0.5` | 0-1
+4 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -135,14 +135,14 @@ xs brush/grass 0 0 2 0.5 1
 xs brush/grid [Color A] [Color B] [Thickness] [Size X] [Size Y] [Size Z]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Color A** | Integer | `1` | 0-255
-`1` | **Color B** | Integer | `2` | 0-255
-`2` | **Thickness** | Integer | `1` | 1-256
-`3` | **Size X** | Integer | `1` | 1-256
-`4` | **Size Y** | Integer | `1` | 1-256
-`5` | **Size Z** | Integer | `1` | 1-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Color A** | Integer | `1` | 0-255
+1 | **Color B** | Integer | `2` | 0-255
+2 | **Thickness** | Integer | `1` | 1-256
+3 | **Size X** | Integer | `1` | 1-256
+4 | **Size Y** | Integer | `1` | 1-256
+5 | **Size Z** | Integer | `1` | 1-256
 
 Example:
 
@@ -156,12 +156,12 @@ xs brush/grid 1 2 1 1 1 1
 xs primitive/stairs [Mode] [Direction] [Count] [Height]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Direction** | Integer | `0` | 0-3
-`2` | **Count** | Integer | `5` | 1-256
-`3` | **Height** | Integer | `1` | 1-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Direction** | Integer | `0` | 0-3
+2 | **Count** | Integer | `5` | 1-256
+3 | **Height** | Integer | `1` | 1-256
 
 Example:
 
@@ -175,14 +175,14 @@ xs primitive/stairs 0 0 5 1
 xs primitive/stairs_runs [Mode] [Direction] [Count] [Height] [X/Y Gap] [Z Gap]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-3
-`1` | **Direction** | Integer | `0` | 0-3
-`2` | **Count** | Integer | `5` | 1-256
-`3` | **Height** | Integer | `1` | 1-256
-`4` | **X/Y Gap** | Integer | `0` | 0-256
-`5` | **Z Gap** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-3
+1 | **Direction** | Integer | `0` | 0-3
+2 | **Count** | Integer | `5` | 1-256
+3 | **Height** | Integer | `1` | 1-256
+4 | **X/Y Gap** | Integer | `0` | 0-256
+5 | **Z Gap** | Integer | `0` | 0-256
 
 Example:
 
@@ -196,13 +196,13 @@ xs primitive/stairs_runs 0 0 5 1 0 0
 xs primitive/stairs_stringer [Mode] [Direction] [Count] [Height] [Stringer]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-3
-`1` | **Direction** | Integer | `0` | 0-3
-`2` | **Count** | Integer | `5` | 1-256
-`3` | **Height** | Integer | `1` | 1-256
-`4` | **Stringer** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-3
+1 | **Direction** | Integer | `0` | 0-3
+2 | **Count** | Integer | `5` | 1-256
+3 | **Height** | Integer | `1` | 1-256
+4 | **Stringer** | Integer | `0` | 0-256
 
 Example:
 
@@ -216,14 +216,14 @@ xs primitive/stairs_stringer 0 0 5 1 0
 xs brush/tiles [Width] [Height] [Depth] [Offset X] [Offset Y] [Offset Z]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Width** | Integer | `2` | 1-256
-`1` | **Height** | Integer | `2` | 1-256
-`2` | **Depth** | Integer | `2` | 1-256
-`3` | **Offset X** | Integer | `0` | 0-256
-`4` | **Offset Y** | Integer | `0` | 0-256
-`5` | **Offset Z** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Width** | Integer | `2` | 1-256
+1 | **Height** | Integer | `2` | 1-256
+2 | **Depth** | Integer | `2` | 1-256
+3 | **Offset X** | Integer | `0` | 0-256
+4 | **Offset Y** | Integer | `0` | 0-256
+5 | **Offset Z** | Integer | `0` | 0-256
 
 Example:
 
@@ -237,15 +237,15 @@ xs brush/tiles 2 2 2 0 0 0
 xs brush/tiles_puzzle [Mode] [Size X] [Size Y] [Line Color] [Line Width] [Noise] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-4
-`1` | **Size X** | Integer | `4` | 1-256
-`2` | **Size Y** | Integer | `4` | 1-256
-`3` | **Line Color** | Integer | `16` | 0-255
-`4` | **Line Width** | Integer | `1` | 0-256
-`5` | **Noise** | Float | `0` | 0-1
-`6` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-4
+1 | **Size X** | Integer | `4` | 1-256
+2 | **Size Y** | Integer | `4` | 1-256
+3 | **Line Color** | Integer | `16` | 0-255
+4 | **Line Width** | Integer | `1` | 0-256
+5 | **Noise** | Float | `0` | 0-1
+6 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -259,15 +259,15 @@ xs brush/tiles_puzzle 0 4 4 16 1 0 1
 xs brush/tiles_uneven [Mode] [Min] [Max] [Line Color] [Line Width] [Noise] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-5
-`1` | **Min** | Integer | `4` | 1-256
-`2` | **Max** | Integer | `8` | 1-256
-`3` | **Line Color** | Integer | `16` | 0-255
-`4` | **Line Width** | Integer | `1` | 0-256
-`5` | **Noise** | Float | `0` | 0-1
-`6` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-5
+1 | **Min** | Integer | `4` | 1-256
+2 | **Max** | Integer | `8` | 1-256
+3 | **Line Color** | Integer | `16` | 0-255
+4 | **Line Width** | Integer | `1` | 0-256
+5 | **Noise** | Float | `0` | 0-1
+6 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -281,13 +281,13 @@ xs brush/tiles_uneven 0 4 8 16 1 0 1
 xs brush/weave [Mode] [Size] [Line Color] [Line Width] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Size** | Integer | `4` | 1-256
-`2` | **Line Color** | Integer | `10` | 0-255
-`3` | **Line Width** | Integer | `1` | 0-256
-`4` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Size** | Integer | `4` | 1-256
+2 | **Line Color** | Integer | `10` | 0-255
+3 | **Line Width** | Integer | `1` | 0-256
+4 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -301,13 +301,13 @@ xs brush/weave 0 4 10 1 1
 xs brush/zigzag2 [Direction] [Width A] [Width B] [Color A] [Color B]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Direction** | Integer | `0` | 0-3
-`1` | **Width A** | Integer | `2` | 1-256
-`2` | **Width B** | Integer | `2` | 1-256
-`3` | **Color A** | Integer | `1` | 0-255
-`4` | **Color B** | Integer | `9` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Direction** | Integer | `0` | 0-3
+1 | **Width A** | Integer | `2` | 1-256
+2 | **Width B** | Integer | `2` | 1-256
+3 | **Color A** | Integer | `1` | 0-255
+4 | **Color B** | Integer | `9` | 0-255
 
 Example:
 
@@ -321,15 +321,15 @@ xs brush/zigzag2 0 2 2 1 9
 xs brush/zigzag3 [Direction] [Width A] [Width B] [Width C] [Color A] [Color B] [Color C]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Direction** | Integer | `0` | 0-3
-`1` | **Width A** | Integer | `2` | 1-256
-`2` | **Width B** | Integer | `2` | 1-256
-`3` | **Width C** | Integer | `2` | 1-256
-`4` | **Color A** | Integer | `1` | 0-255
-`5` | **Color B** | Integer | `9` | 0-255
-`6` | **Color C** | Integer | `18` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Direction** | Integer | `0` | 0-3
+1 | **Width A** | Integer | `2` | 1-256
+2 | **Width B** | Integer | `2` | 1-256
+3 | **Width C** | Integer | `2` | 1-256
+4 | **Color A** | Integer | `1` | 0-255
+5 | **Color B** | Integer | `9` | 0-255
+6 | **Color C** | Integer | `18` | 0-255
 
 Example:
 
@@ -343,12 +343,12 @@ xs brush/zigzag3 0 2 2 2 1 9 18
 xs brush/zigzag_range [Direction] [Width] [Color A] [Color B]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Direction** | Integer | `0` | 0-3
-`1` | **Width** | Integer | `2` | 1-256
-`2` | **Color A** | Integer | `1` | 0-255
-`3` | **Color B** | Integer | `9` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Direction** | Integer | `0` | 0-3
+1 | **Width** | Integer | `2` | 1-256
+2 | **Color A** | Integer | `1` | 0-255
+3 | **Color B** | Integer | `9` | 0-255
 
 Example:
 
@@ -362,9 +362,9 @@ xs brush/zigzag_range 0 2 1 9
 xs case [Color]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Color** | Integer | `1` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Color** | Integer | `1` | 0-255
 
 Example:
 
@@ -378,11 +378,11 @@ xs case 1
 xs cover [Headroom] [Noise] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Headroom** | Integer | `1` | 1-256
-`1` | **Noise** | Float | `0` | 0-1
-`2` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Headroom** | Integer | `1` | 1-256
+1 | **Noise** | Float | `0` | 0-1
+2 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -396,9 +396,9 @@ xs cover 1 0 1
 xs flood [Height]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Height** | Integer | `1` | 1-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Height** | Integer | `1` | 1-256
 
 Example:
 
@@ -412,9 +412,9 @@ xs flood 1
 xs flood2 [Height]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Height** | Integer | `1` | 1-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Height** | Integer | `1` | 1-256
 
 Example:
 
@@ -428,13 +428,13 @@ xs flood2 1
 xs noise [Target Color] [Size X] [Size Y] [Size Z] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Target Color** | Integer | `1` | 0-255
-`1` | **Size X** | Integer | `1` | 1-256
-`2` | **Size Y** | Integer | `1` | 1-256
-`3` | **Size Z** | Integer | `1` | 1-256
-`4` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Target Color** | Integer | `1` | 0-255
+1 | **Size X** | Integer | `1` | 1-256
+2 | **Size Y** | Integer | `1` | 1-256
+3 | **Size Z** | Integer | `1` | 1-256
+4 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -448,9 +448,9 @@ xs noise 1 1 1 1 1
 xs outline [Color]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Color** | Integer | `1` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Color** | Integer | `1` | 0-255
 
 Example:
 
@@ -464,9 +464,9 @@ xs outline 1
 xs outline2 [Color]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Color** | Integer | `1` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Color** | Integer | `1` | 0-255
 
 Example:
 
@@ -480,10 +480,10 @@ xs outline2 1
 xs primitive/cylinder [Rotation] [Thickness]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Rotation** | Integer | `0` | 0-2
-`1` | **Thickness** | Integer | `50` | 0-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Rotation** | Integer | `0` | 0-2
+1 | **Thickness** | Integer | `50` | 0-100
 
 Example:
 
@@ -497,14 +497,14 @@ xs primitive/cylinder 0 50
 xs primitive/greebles1 [Mode] [Count] [Width] [Height] [Depth] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-1
-`1` | **Count** | Integer | `32` | 1-256
-`2` | **Width** | Integer | `4` | 1-256
-`3` | **Height** | Integer | `4` | 1-256
-`4` | **Depth** | Integer | `4` | 1-256
-`5` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-1
+1 | **Count** | Integer | `32` | 1-256
+2 | **Width** | Integer | `4` | 1-256
+3 | **Height** | Integer | `4` | 1-256
+4 | **Depth** | Integer | `4` | 1-256
+5 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -518,13 +518,13 @@ xs primitive/greebles1 0 32 4 4 4 1
 xs primitive/greebles2 [Mode] [Min] [Max] [Depth] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Min** | Integer | `4` | 1-256
-`2` | **Max** | Integer | `8` | 1-256
-`3` | **Depth** | Integer | `2` | 1-256
-`4` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Min** | Integer | `4` | 1-256
+2 | **Max** | Integer | `8` | 1-256
+3 | **Depth** | Integer | `2` | 1-256
+4 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -538,11 +538,11 @@ xs primitive/greebles2 0 4 8 2 1
 xs primitive/prism [Mode] [Size X] [Size Y]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-1
-`1` | **Size X** | Integer | `12` | 0-256
-`2` | **Size Y** | Integer | `12` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-1
+1 | **Size X** | Integer | `12` | 0-256
+2 | **Size Y** | Integer | `12` | 0-256
 
 Example:
 
@@ -556,10 +556,10 @@ xs primitive/prism 0 12 12
 xs pyramid [Noise] [Seed]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Noise** | Float | `0` | 0-1
-`1` | **Seed** | Integer | `1` | 1-100
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Noise** | Float | `0` | 0-1
+1 | **Seed** | Integer | `1` | 1-100
 
 Example:
 
@@ -573,10 +573,10 @@ xs pyramid 0 1
 xs random [Threshold] [Color]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Threshold** | Float | `0.5` | 0-1
-`1` | **Color** | Integer | `1` | 0-255
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Threshold** | Float | `0.5` | 0-1
+1 | **Color** | Integer | `1` | 0-255
 
 Example:
 
@@ -590,10 +590,10 @@ xs random 0.5 1
 xs sand [Mode] [Threshold]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Threshold** | Float | `0` | 0-1
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Threshold** | Float | `0` | 0-1
 
 Example:
 
@@ -607,10 +607,10 @@ xs sand 0 0
 xs sand2 [Mode] [Threshold]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Mode** | Integer | `0` | 0-2
-`1` | **Threshold** | Float | `0` | 0-1
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Mode** | Integer | `0` | 0-2
+1 | **Threshold** | Float | `0` | 0-1
 
 Example:
 
@@ -624,10 +624,10 @@ xs sand2 0 0
 xs slice_x [Offset] [Count]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Offset** | Integer | `0` | 0-256
-`1` | **Count** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Offset** | Integer | `0` | 0-256
+1 | **Count** | Integer | `0` | 0-256
 
 Example:
 
@@ -641,10 +641,10 @@ xs slice_x 0 0
 xs slice_y [Offset] [Count]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Offset** | Integer | `0` | 0-256
-`1` | **Count** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Offset** | Integer | `0` | 0-256
+1 | **Count** | Integer | `0` | 0-256
 
 Example:
 
@@ -658,10 +658,10 @@ xs slice_y 0 0
 xs slice_z [Offset] [Count]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Offset** | Integer | `0` | 0-256
-`1` | **Count** | Integer | `0` | 0-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Offset** | Integer | `0` | 0-256
+1 | **Count** | Integer | `0` | 0-256
 
 Example:
 
@@ -675,10 +675,10 @@ xs slice_z 0 0
 xs soil [Color] [Headroom]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Color** | Integer | `1` | 0-255
-`1` | **Headroom** | Integer | `1` | 1-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Color** | Integer | `1` | 0-255
+1 | **Headroom** | Integer | `1` | 1-256
 
 Example:
 
@@ -692,10 +692,10 @@ xs soil 1 1
 xs soil_replace [Color] [Headroom]
 ```
 
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Color** | Integer | `1` | 0-255
-`1` | **Headroom** | Integer | `1` | 1-256
+Position | Argument | Type | Default | Range
+-------- | -------- | ---- | ------- | -----
+0 | **Color** | Integer | `1` | 0-255
+1 | **Headroom** | Integer | `1` | 1-256
 
 Example:
 
@@ -704,4 +704,4 @@ xs soil_replace 1 1
 ```
 [Top](#)
 
-<sub>This page was last generated: 2021-06-27 23:00:05.245178</sub>
+<sub>This page was last generated: 2021-06-27 23:07:41.659323</sub>
