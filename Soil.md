@@ -18,8 +18,8 @@ Argument | Description
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/soil_headroom_10.png" alt=""></td>
 	</tr>
 	<tr>
-		<td valign="top">A <strong>Headroom</strong> of <code>1</code> checks that at least 1 voxel higher to make sure there is room.</td>
-		<td valign="top">A <strong>Headroom</strong> of <code>10</code> checks that at least 10 voxels higher to make sure there is room. Resulting in gaps where there is overhang from other voxels.</td>
+		<td valign="top">A <strong>Headroom</strong> of <code>1</code> checks that 1 voxel higher to make sure there is room.</td>
+		<td valign="top">A <strong>Headroom</strong> of <code>10</code> checks that 10 voxels higher to make sure there is room. Resulting in gaps where there is overhang from other voxels.</td>
 	</tr>
 </table>
 <!-- END -->
