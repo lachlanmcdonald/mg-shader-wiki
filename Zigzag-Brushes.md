@@ -19,3 +19,5 @@
 	</tr>
 </table>
 <!-- END -->
+
+> **Note:** Zigzag brushes have not yet been updated to use the new color selection system.
