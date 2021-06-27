@@ -29,7 +29,7 @@ Argument | Description
 
 ## Axis modes
 
-By default, voxels are replaced across all axes. But this can be restricted to the X, Y, or Z-axis (or a combination) with the [Axis Modes](Terms):
+By default, voxels are replaced across all axes. But this can be restricted to the X, Y, or Z-axis (or a combination) with the [Axis Modes](Terms#axis-modes):
 
 <table>
     <tr>

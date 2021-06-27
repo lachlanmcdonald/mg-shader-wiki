@@ -13,7 +13,7 @@ Argument | Description
 
 ## Axis Modes
 
-[Axis Modes](Terms) can use used ensure voxels are only added to certain axes:
+[Axis Modes](Terms#axis-modes) can use used ensure voxels are only added to certain axes:
 
 <!-- SAMPLE case_axis 3 -->
 <table>

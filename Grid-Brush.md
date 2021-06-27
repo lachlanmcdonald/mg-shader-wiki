@@ -44,7 +44,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
 
 ## Axis Modes
 
-[Axis Modes](Terms) can use used ensure voxels are only generated on certain axes:
+[Axis Modes](Terms#axis-modes) can use used ensure voxels are only generated on certain axes:
 
 <!-- SAMPLE grid_axis 3 -->
 <table>
