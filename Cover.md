@@ -2,6 +2,10 @@
 >
 > This shader is similar to the [`soil`](Soil) shader, except `cover` adds a layer to all voxels, where `soil` only works on the selected colours.
 
+<!-- TOC -->
+- [Arguments](#arguments)
+- [Examples](#examples)
+
 ## Arguments
 
 Argument | Description

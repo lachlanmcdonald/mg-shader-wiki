@@ -2,6 +2,10 @@
 > 
 > This shader is similar to the [`cover`](Cover) shader, except `cover` adds a layer to all voxels, where these shaders only works on the selected colours.
 
+<!-- TOC -->
+- [Arguments](#arguments)
+- [Headroom](#headroom)
+
 ## Arguments
 
 Argument | Description
