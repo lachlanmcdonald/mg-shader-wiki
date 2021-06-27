@@ -1,26 +1,16 @@
-> - The **soil**, **soil_replace** shaders adds a layer of voxels of a chosen color on top of voxels matching your selected color.
-> - The **cover** shader adds a layer of voxels of a chosen color on top of all voxels in the volume.
+> The **Soil & Cover** shaders generate voxels above other voxels; i.e. snow or grass.
 
-## Arguments
-
-Voxels are added on top of voxels matching the selected color.
-
-Argument | Description
---------- | -----------
-**Color** | Color index
-**Headroom** | The number of voxels of space that must be available above the surface voxel. Setting to a higher value will stop voxels from forming in gaps
-
-## Examples
-
-<!-- SAMPLE soil_examples 3 -->
+<!-- LIST list_soil_cover 120 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/cover_example0.jpg" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/cover_example1.jpg" alt=""></td>
+		<td valign="center" align="left"><a href="soil"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/soil_icon.png" alt=""></a></td>
+		<th valign="center" align="left"><a href="soil">soil</a></th>
+		<td valign="center">Adds a layer of voxels of a color on top of voxels matching the selected colors</td>
 	</tr>
 	<tr>
-		<td valign="top">Input volume</td>
-		<td valign="top">Using <code>cover</code> to create the effect of a layer of snow</td>
+		<td valign="center" align="left"><a href="cover"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover_icon.png" alt=""></a></td>
+		<th valign="center" align="left"><a href="cover">cover</a></th>
+		<td valign="center">Adds a layer of voxels of the selected colors on top of all voxels in the volume.</td>
 	</tr>
 </table>
 <!-- END -->
