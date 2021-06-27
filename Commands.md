@@ -1,4 +1,6 @@
 > The following page outlines the shader commands for use in MagicaVoxel's console.
+> 
+> Since the addition of the shader UI, default parameters and error-checking has been removed from the scripts. All arguments are required.
 
 - [bricks](#bricks)
 - [bricks_vert](#bricks_vert)
@@ -12,9 +14,9 @@
 - [tiles_puzzle](#tiles_puzzle)
 - [tiles_uneven](#tiles_uneven)
 - [weave](#weave)
-- [zigzag](#zigzag)
 - [zigzag2](#zigzag2)
 - [zigzag3](#zigzag3)
+- [zigzag_range](#zigzag_range)
 - [case](#case)
 - [cover](#cover)
 - [flood](#flood)
@@ -293,27 +295,10 @@ Example:
 xs brush/weave 0 4 10 1 1
 ```
 [Top](#)
-# zigzag
-
-```
-xs brush/zigzag [Direction] [Width]
-```
-
-ID | Argument | Type | Default | Range
--- | -------- | ---- | ------- | -----
-`0` | **Direction** | Integer | `0` | 0-3
-`1` | **Width** | Integer | `2` | 1-256
-
-Example:
-
-```
-xs brush/zigzag 0 2
-```
-[Top](#)
 # zigzag2
 
 ```
-xs brush/zigzag2 [Direction] [Width A] [Width B]
+xs brush/zigzag2 [Direction] [Width A] [Width B] [Color A] [Color B]
 ```
 
 ID | Argument | Type | Default | Range
@@ -321,17 +306,19 @@ ID | Argument | Type | Default | Range
 `0` | **Direction** | Integer | `0` | 0-3
 `1` | **Width A** | Integer | `2` | 1-256
 `2` | **Width B** | Integer | `2` | 1-256
+`3` | **Color A** | Integer | `1` | 0-255
+`4` | **Color B** | Integer | `9` | 0-255
 
 Example:
 
 ```
-xs brush/zigzag2 0 2 2
+xs brush/zigzag2 0 2 2 1 9
 ```
 [Top](#)
 # zigzag3
 
 ```
-xs brush/zigzag3 [Direction] [Width A] [Width B] [Width C]
+xs brush/zigzag3 [Direction] [Width A] [Width B] [Width C] [Color A] [Color B] [Color C]
 ```
 
 ID | Argument | Type | Default | Range
@@ -340,11 +327,33 @@ ID | Argument | Type | Default | Range
 `1` | **Width A** | Integer | `2` | 1-256
 `2` | **Width B** | Integer | `2` | 1-256
 `3` | **Width C** | Integer | `2` | 1-256
+`4` | **Color A** | Integer | `1` | 0-255
+`5` | **Color B** | Integer | `9` | 0-255
+`6` | **Color C** | Integer | `18` | 0-255
 
 Example:
 
 ```
-xs brush/zigzag3 0 2 2 2
+xs brush/zigzag3 0 2 2 2 1 9 18
+```
+[Top](#)
+# zigzag_range
+
+```
+xs brush/zigzag_range [Direction] [Width] [Color A] [Color B]
+```
+
+ID | Argument | Type | Default | Range
+-- | -------- | ---- | ------- | -----
+`0` | **Direction** | Integer | `0` | 0-3
+`1` | **Width** | Integer | `2` | 1-256
+`2` | **Color A** | Integer | `1` | 0-255
+`3` | **Color B** | Integer | `9` | 0-255
+
+Example:
+
+```
+xs brush/zigzag_range 0 2 1 9
 ```
 [Top](#)
 # case
@@ -694,3 +703,5 @@ Example:
 xs soil_replace 1 1
 ```
 [Top](#)
+
+<sub>This page was last generated: 2021-06-27 23:00:05.245178</sub>
