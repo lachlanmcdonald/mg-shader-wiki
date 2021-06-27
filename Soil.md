@@ -8,3 +8,18 @@ Argument | Description
 --------- | -----------
 **Color** | Color index
 **Headroom** | The number of voxels of space that must be available above the surface voxel. Setting to a higher value will stop voxels from forming in gaps
+
+## Headroom
+
+<!-- SAMPLE soil_headroom 2 -->
+<table>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/soil_headroom_1.png" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/soil_headroom_10.png" alt=""></td>
+	</tr>
+	<tr>
+		<td valign="top">A <strong>Headroom</strong> of <code>1</code> checks that at least 1 voxel higher to make sure there is room.</td>
+		<td valign="top">A <strong>Headroom</strong> of <code>10</code> checks that at least 10 voxels higher to make sure there is room. Resulting in gaps where there is overhang from other voxels.</td>
+	</tr>
+</table>
+<!-- END -->
