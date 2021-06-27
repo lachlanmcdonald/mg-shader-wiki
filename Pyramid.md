@@ -17,7 +17,7 @@ Argument | Description
 
 ## Axis Modes
 
-When no axis modes are set, the shader will form a square pyramid. However, if either X or Y-axis modes are set, the shader will form a pyramid with the slope facing the X or Y axis, respectively. Setting the Z-axis mode has no effect.
+When no [Axis Modes](Terms) are set, the shader will form a square pyramid. However, if either X or Y-Axis Modes are set, the shader will form a pyramid with the slope facing the X or Y axis, respectively. Setting the Z-axis mode has no effect.
 
 <!-- SAMPLE pyramid_axis 3 -->
 <table>

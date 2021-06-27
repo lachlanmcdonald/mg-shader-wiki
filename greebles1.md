@@ -3,10 +3,10 @@
 <!-- TOC -->
 - [Arguments](#arguments)
 - [Modes](#modes)
-- [Axis Modes](#axis-modes)
 - [Count](#count)
 - [Width, Height & Depth](#width-height--depth)
 - [Examples](#examples)
+- [Axis Modes](#axis-modes)
 
 ## Arguments
 
@@ -34,31 +34,6 @@ Argument | Description
 	<tr>
 		<td valign="top">Voxels overlapping cuboids are removed</td>
 		<td valign="top">Only voxels overlapping cuboids are kept</td>
-	</tr>
-</table>
-<!-- END -->
-
-## Axis Modes
-
-Axis modes can use used to only add cuboids on certain axes.
-
-<!-- SAMPLE greebles1_axis 2 -->
-<table>
-	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_x.jpg" alt="Example of X-axis mode"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_y.jpg" alt="Example of Y-axis mode"></td>
-	</tr>
-	<tr>
-		<th>X-axis mode</th>
-		<th>Y-axis mode</th>
-	</tr>
-	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_xy.jpg" alt="Example of X &amp; Y-axis mode"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_z.jpg" alt="Example of Z-axis mode"></td>
-	</tr>
-	<tr>
-		<th>X &amp; Y-axis mode</th>
-		<th>Z-axis mode</th>
 	</tr>
 </table>
 <!-- END -->
@@ -150,6 +125,31 @@ Axis modes can use used to only add cuboids on certain axes.
 	</tr>
 	<tr>
 		<th>Borg Cube</th>
+	</tr>
+</table>
+<!-- END -->
+
+## Axis Modes
+
+[Axis Modes](Terms) can use used ensure voxels are only generated on certain axes:
+
+<!-- SAMPLE greebles1_axis 2 -->
+<table>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_x.jpg" alt="Example of X-axis mode"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_y.jpg" alt="Example of Y-axis mode"></td>
+	</tr>
+	<tr>
+		<th>X-axis mode</th>
+		<th>Y-axis mode</th>
+	</tr>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_xy.jpg" alt="Example of X &amp; Y-axis mode"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_z.jpg" alt="Example of Z-axis mode"></td>
+	</tr>
+	<tr>
+		<th>X &amp; Y-axis mode</th>
+		<th>Z-axis mode</th>
 	</tr>
 </table>
 <!-- END -->

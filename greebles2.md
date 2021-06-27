@@ -3,8 +3,8 @@
 <!-- TOC -->
 - [Arguments](#arguments)
 - [Modes](#modes)
-- [Axis Modes](#axis-modes)
 - [Width, Height & Depth](#width-height--depth)
+- [Axis Modes](#axis-modes)
 
 ## Arguments
 
@@ -15,7 +15,6 @@ Argument | Description
 **Max** | Maximum cell size
 **Depth** | Maximum depth
 **Seed** | Global seed
-
 
 ## Modes
 
@@ -39,9 +38,26 @@ Argument | Description
 </table>
 <!-- END -->
 
+## Width, Height & Depth
+
+<!-- SAMPLE greebles2_variations 3 -->
+<table>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_1x3x4.jpg" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_4x4x4.jpg" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_mode2_4x1x7.jpg" alt=""></td>
+	</tr>
+	<tr>
+		<td valign="top">1x3x4</td>
+		<td valign="top">4x4x4</td>
+		<td valign="top">4x1x7</td>
+	</tr>
+</table>
+<!-- END -->
+
 ## Axis Modes
 
-Axis modes can use used to only add cuboids on certain axes.
+[Axis Modes](Terms) can use used ensure voxels are only generated on certain axes:
 
 <!-- SAMPLE greebles2_axis 2 -->
 <table>
@@ -60,23 +76,6 @@ Axis modes can use used to only add cuboids on certain axes.
 	<tr>
 		<th>X &amp; Y-axis mode</th>
 		<th>Z-axis mode</th>
-	</tr>
-</table>
-<!-- END -->
-
-## Width, Height & Depth
-
-<!-- SAMPLE greebles2_variations 3 -->
-<table>
-	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_1x3x4.jpg" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_4x4x4.jpg" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_mode2_4x1x7.jpg" alt=""></td>
-	</tr>
-	<tr>
-		<td valign="top">1x3x4</td>
-		<td valign="top">4x4x4</td>
-		<td valign="top">4x1x7</td>
 	</tr>
 </table>
 <!-- END -->

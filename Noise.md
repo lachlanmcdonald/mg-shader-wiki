@@ -34,7 +34,7 @@ Argument | Description
 
 ## Axis Modes
 
-Axis modes can use used to only add noise on certain axes:
+[Axis Modes](Terms) can use used ensure voxels are only generated on certain axes:
 
 <!-- SAMPLE noise_axis 3 -->
 <table>
