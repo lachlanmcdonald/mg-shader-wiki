@@ -1,4 +1,4 @@
-> **random** replaces voxels which match your selected colors, at random, with a chosen color.
+> **random** replaces voxels which match the selected colors, at random, with a chosen color.
 
 <!-- TOC -->
 - [Arguments](#arguments)
@@ -29,7 +29,7 @@ Argument | Description
 
 ## Axis modes
 
-Voxels are replaced across all axes. You can randomize the X, Y, or Z-axis (or a combination) with the axis mode.
+By default, voxels are replaced across all axes. But this can be restricted to the X, Y, or Z-axis (or a combination) with the axis modes:
 
 <table>
     <tr>

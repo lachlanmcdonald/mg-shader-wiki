@@ -1,4 +1,4 @@
-> **Volume Shaders** are shaders that apply to your entire volume.
+> **Volume Shaders** are shaders that apply to the entire volume.
 
 <!-- TOC -->
 - [How to use a Brush Shader](#how-to-use-a-brush-shader)

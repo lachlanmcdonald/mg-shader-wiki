@@ -1,4 +1,4 @@
-> **Brush Shaders** are shaders that allow you to easily to add or remove voxels from your volume by selecting the area in which you want the shaders to take effect.
+> **Brush Shaders** are shaders that allow you to easily to add or remove voxels from the volume by selecting the area in which you want the shaders to take effect.
 
 <!-- TOC -->
 - [How to use a Brush Shader](#how-to-use-a-brush-shader)
@@ -29,7 +29,7 @@ By default, [Brush Shaders](Brush-Shaders) are used with the **Voxel Shader Mode
 
 However, the **Paint** mode can also be used to replace only selected voxels. For example, to apply the [brick pattern](Brick-Brushes) to existing volumes.
 
-1. Right-click your chosen color and select **Inverse**
+1. Right-click the chosen color and select **Inverse**
 2. Right-click any of the selected colors and select **Voxel Selection by Color**
 2. Select **Voxel Shader Mode** [C]
 3. Select **Paint**
