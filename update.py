@@ -117,7 +117,9 @@ def sidebar_repl(match):
 			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in YAML_DATA['list_primitives']],
 			{"label": 'Volume Shaders', 'href': 'Volume-Shaders'},
 			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in YAML_DATA['list_volumes']],
-			{"label": 'Notes', 'href': 'notes'},
+			{"label": 'Notes', 'href': 'Notes'},
+			{"label": 'Terms', 'href': 'Terms'},
+			{"label": 'Commands', 'href': 'Commands'},
 		]
 	}).strip()
 	return '\n\n' + contents + '\n\n'
