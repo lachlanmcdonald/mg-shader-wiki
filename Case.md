@@ -1,4 +1,4 @@
-> **case** surrounds/encases the voxels which match your selected color with a chosen color. This shader is similar to the _Dilation_ tool; except you can select an axis mode and target color.
+> **case** surrounds/encases the voxels which match your selected colors with a chosen color. This shader is similar to the _Dilation_ tool; except you can select an axis mode and target specific colors.
 
 <!-- TOC -->
 - [Arguments](#arguments)
@@ -18,20 +18,22 @@ Axis modes can use used to only add voxels on certain axes.
 <!-- SAMPLE case_axis 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_xyz.png" alt="Example of no set axis mode"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_x.png" alt="Example of X-axis mode"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_xy.png" alt="Example of X &amp; Y-axis mode"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case.png" alt="Original"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case_all.png" alt="Example of no set axis mode"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case_x.png" alt="Example of X-axis mode"></td>
 	</tr>
 	<tr>
+		<th>Original</th>
 		<th>No set axis mode</th>
 		<th>X-axis mode</th>
+	</tr>
+	<tr>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case_xy.png" alt="Example of X &amp; Y-axis mode"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case_y.png" alt="Example of Y-axis mode"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case_z.png" alt="Example of Z-axis mode"></td>
+	</tr>
+	<tr>
 		<th>X &amp; Y-axis mode</th>
-	</tr>
-	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_y.png" alt="Example of Y-axis mode"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/case_z.png" alt="Example of Z-axis mode"></td>
-	</tr>
-	<tr>
 		<th>Y-axis mode</th>
 		<th>Z-axis mode</th>
 	</tr>
