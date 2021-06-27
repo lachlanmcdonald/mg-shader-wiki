@@ -1,8 +1,8 @@
 - content: Adds a layer of voxels of a color on top of voxels matching the selected colors
-  heading: soil
-  href: soil
+  heading: Soil
+  href: Soil
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/soil_icon.png
 - content: Adds a layer of voxels of the selected colors on top of all voxels in the volume.
-  heading: cover
-  href: cover
+  heading: Cover
+  href: Cover
   preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover_icon.png

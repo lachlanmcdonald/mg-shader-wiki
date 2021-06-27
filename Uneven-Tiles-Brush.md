@@ -1,4 +1,4 @@
-> The **tiles_uneven** [brush](Brush-Shaders) generates a uneven pattern of tiles; where the dimensions of the tiles varies.
+> The **`tiles_uneven`** [brush](Brush-Shaders) generates a uneven pattern of tiles; where the dimensions of the tiles varies.
 
 <!-- TOC -->
 - [Arguments](#arguments)

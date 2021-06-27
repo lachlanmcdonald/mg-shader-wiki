@@ -1,4 +1,4 @@
-> The **Weave [brush](Brush-Shaders)** generates a weave pattern using the selected colors.
+> The **`weave` [brush](Brush-Shaders)** generates a weave pattern using the selected colors.
 
 <!-- TOC -->
 - [Arguments](#arguments)

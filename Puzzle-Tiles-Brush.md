@@ -1,4 +1,4 @@
-> The **tiles_puzzle** [brush](Brush-Shaders) generates a puzzle-like pattern of tiles.
+> The **`tiles_puzzle`** [brush](Brush-Shaders) generates a puzzle-like pattern of tiles.
 
 <!-- TOC -->
 - [Arguments](#arguments)

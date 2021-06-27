@@ -1,4 +1,4 @@
-> The **Grass [brush](Brush-Shaders)** generates randomly protruding lines of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
+> The **`grass`** [brush](Brush-Shaders) generates randomly protruding lines of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
 >
 > The color of the voxels is determined by the selected colors in the palette.
 

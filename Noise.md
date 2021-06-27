@@ -1,4 +1,4 @@
-> **noise** replaces all voxels which match a specified color with a randomly chosen color from the selected colors in the palette.
+> The **`noise`** shader replaces all voxels which match a specified color with a randomly chosen color from the selected colors in the palette.
 
 <!-- TOC -->
 - [Arguments](#arguments)

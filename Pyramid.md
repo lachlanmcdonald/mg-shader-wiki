@@ -1,4 +1,4 @@
-> The **pyramid** shader add a layer of voxel on top of voxels matching the selected colors. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
+> The **`pyramid`** shader add a layer of voxel on top of voxels matching the selected colors. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
 
 <!-- TOC -->
 - [Arguments](#arguments)

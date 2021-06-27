@@ -1,4 +1,4 @@
-> **random** replaces voxels which match the selected colors, at random, with a chosen color.
+> The **`random`** shader replaces voxels which match the selected colors, at random, with a chosen color.
 
 <!-- TOC -->
 - [Arguments](#arguments)

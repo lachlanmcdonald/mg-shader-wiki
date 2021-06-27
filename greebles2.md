@@ -1,4 +1,4 @@
-> **greebles2** is a **[greeble brush](Greeble-Brushes)** that generates greebles by randomly generating an uneven grid and then randomly intruding each cell.
+> **`greebles2`** is a **[greeble brush](Greeble-Brushes)** that generates greebles by randomly generating an uneven grid and then randomly intruding each cell.
 
 <!-- TOC -->
 - [Arguments](#arguments)

@@ -1,4 +1,4 @@
-> The **Grid** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
+> The **`grid`** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
 
 <!-- TOC -->
 - [Arguments](#arguments)

@@ -1,4 +1,4 @@
-> The **Diagonal Line [brush](Brush-Shaders)** generates repeating diagonal (45° lines) of varying thicknesses determined by the selected colors in the palette.
+> The **`diagonal`** [brush](Brush-Shaders) generates repeating diagonal (45° lines) of varying thicknesses determined by the selected colors in the palette.
 
 <!-- TOC -->
 - [Arguments](#arguments)
