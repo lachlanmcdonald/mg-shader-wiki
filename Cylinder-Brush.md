@@ -1,4 +1,4 @@
-> The **cylinder [primitive brush](Brush-Shaders)** generates a cylinder or tube.
+> The **`cylinder`** [primitive brush](Brush-Shaders) generates a cylinder or tube.
 
 <!-- TOC -->
 - [Arguments](#arguments)
