@@ -1,8 +1,8 @@
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover.png
+- src: /0.11.0/cover.png
   text: Original
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover_1.png
+- src: /0.11.0/cover_1.png
   raw: <code>cover</code> with a single selected color
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover_4.png
+- src: /0.11.0/cover_4.png
   raw: <code>cover</code> with multiple selected colors
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover_noise_50.png
+- src: /0.11.0/cover_noise_50.png
   raw: <code>cover</code> with multiple selected colors and a <code>noise</code> value of <code>0.5</code>

@@ -1,12 +1,12 @@
 - label: Thickness
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025.jpg
+  src: /0.10.6/cylinder_thickness025.jpg
   value: 25
 - label: Thickness
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness050.jpg
+  src: /0.10.6/cylinder_thickness050.jpg
   value: 50
 - label: Thickness
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness075.jpg
+  src: /0.10.6/cylinder_thickness075.jpg
   value: 75
 - label: Thickness
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness100.jpg
+  src: /0.10.6/cylinder_thickness100.jpg
   value: 100

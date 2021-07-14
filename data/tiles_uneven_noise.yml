@@ -1,12 +1,12 @@
 - label: Noise
   text: Tiles are colored at random between the selected colors.
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_0.png
+  src: /0.11.0/tiles_uneven_noise_0.png
   value: '0.0'
 - label: Noise
   text: Tiles are colored between depending on their size between the selected colors.
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_25.png
+  src: /0.11.0/tiles_uneven_noise_25.png
   value: '0.25'
 - label: Noise
   text: Tiles are colored between the selected colors in a repeating pattern along the X-axis
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_50.png
+  src: /0.11.0/tiles_uneven_noise_50.png
   value: '0.5'

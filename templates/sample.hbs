@@ -3,7 +3,7 @@
 	{{#each rows}}
 	<tr>
 		{{#each this}}
-		<td width="{{{@root.width}}}"><img width="100%" src="{{{src}}}" alt="
+		<td width="{{{@root.width}}}"><img width="100%" src="{{{@root.image_base}}}{{{src}}}" alt="
 			{{~#if alt~}}
 			{{~alt~}}
 			{{~else~}}

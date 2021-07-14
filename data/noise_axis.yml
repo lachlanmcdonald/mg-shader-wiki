@@ -1,15 +1,15 @@
 - alt: Example of no set axis mode
   label: No set axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_no_axis.png
+  src: /0.11.0/noise_no_axis.png
 - alt: Example of X-axis mode
   label: X-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_no_axis.png
+  src: /0.11.0/noise_no_axis.png
 - alt: Example of X & Y-axis mode
   label: X & Y-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_xy_axis.png
+  src: /0.11.0/noise_xy_axis.png
 - alt: Example of Y-axis mode
   label: Y-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_y_axis.png
+  src: /0.11.0/noise_y_axis.png
 - alt: Example of Z-axis mode
   label: Z-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_z_axis.png
+  src: /0.11.0/noise_z_axis.png

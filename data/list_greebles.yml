@@ -2,9 +2,9 @@
   content: Generates greebles by randomly generating cuboids and subtracting voxels that overlap
   heading: greebles1
   href: greebles1
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/greebles1.png
+  preview: /icons1/greebles1.png
 - cache: 202
   content: Generates greebles by randomly generating an uneven grid and then randomly intruding each cell
   heading: greebles2
   href: greebles2
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/greebles2.png
+  preview: /icons1/greebles2.png

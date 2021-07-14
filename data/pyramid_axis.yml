@@ -1,12 +1,12 @@
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_rect.png
+- src: /0.11.0/pyramid_rect.png
   text: Original
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_rect_no_axis.png
+- src: /0.11.0/pyramid_rect_no_axis.png
   text: No axis mode
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_rect_x.png
+- src: /0.11.0/pyramid_rect_x.png
   text: X-axis mode
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_circle.png
+- src: /0.11.0/pyramid_circle.png
   text: Original
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_circle_no_axis.png
+- src: /0.11.0/pyramid_circle_no_axis.png
   text: No axis mode
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_circle_x_axis.png
+- src: /0.11.0/pyramid_circle_x_axis.png
   text: X-axis mode

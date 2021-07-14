@@ -2,44 +2,44 @@
   content: Generates alternating rows of bricks or tiles
   heading: Brick Brushes
   href: Brick-Brushes
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/bricks.png
+  preview: /icons1/bricks.png
 - cache: 202
   content: Generates generates randomly protruding lines of voxels with a constant distribution
   heading: Grass Brush
   href: Grass-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/grass.png
+  preview: /icons1/grass.png
 - cache: 202
   content: Generates a grid pattern with variable thickness and spacing
   heading: Grid Brush
   href: Grid-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/grid.png
+  preview: /icons1/grid.png
 - cache: 202
   content: Generates a tile pattern
   heading: Tiles Brush
   href: Tiles-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles.png
+  preview: /icons1/tiles.png
 - cache: 202
   content: Generates a puzzle tile pattern
   heading: Puzzle Tile Brush
   href: Puzzle-Tiles-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles_puzzle.png
+  preview: /icons1/tiles_puzzle.png
 - cache: 202
   content: Generates an uneven tile pattern
   heading: Uneven Tile Brush
   href: Uneven-Tiles-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/tiles_uneven.png
+  preview: /icons1/tiles_uneven.png
 - cache: 202
   content: Generates parallel 45° lines of alternating widths and colors
   heading: Diagonal Line Brush
   href: Diagonal-Line-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/diagonal3.png
+  preview: /icons1/diagonal3.png
 - cache: 202
   content: Generates a weave pattern
   heading: Weave Brush
   href: Weave-Brush
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/weave.png
+  preview: /icons1/weave.png
 - cache: 202
   content: Generates zig-zag patterns
   heading: Zigzag Brushes
   href: Zigzag-Brushes
-  preview: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/zigzag2.png
+  preview: /icons1/zigzag2.png
