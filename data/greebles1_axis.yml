@@ -1,12 +1,12 @@
 - alt: Example of X-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_x.jpg
+  src: /0.10.6/greebles1_axis_x.jpg
   label: X-axis mode
 - alt: Example of Y-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_y.jpg
+  src: /0.10.6/greebles1_axis_y.jpg
   label: Y-axis mode
 - alt: Example of X & Y-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_xy.jpg
+  src: /0.10.6/greebles1_axis_xy.jpg
   label: X & Y-axis mode
 - alt: Example of Z-axis mode
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_z.jpg
+  src: /0.10.6/greebles1_axis_z.jpg
   label: Z-axis mode

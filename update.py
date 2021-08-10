@@ -1,6 +1,5 @@
 from os import path, listdir
 from pybars import Compiler
-from time import time
 import sys
 import yaml
 import re
@@ -49,6 +48,8 @@ SIDEBAR_PATTERN = re.compile(r"""
 	<!--\s+END\s+-->[\s\n]*      # END marker
 """, re.DOTALL + re.VERBOSE + re.IGNORECASE)
 
+IMAGE_BASE_URL = 'https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders'
+
 # Template compiler
 compiler = Compiler()
 
@@ -86,6 +87,7 @@ def list_repl(match):
 	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
 
 	contents = LIST_TEMPLATE({
+		'image_base': IMAGE_BASE_URL,
 		'args': ' '.join(['LIST', k, width]),
 		'items': YAML_DATA[k],
 		'width': width
@@ -99,6 +101,7 @@ def arg_sample_repl(match):
 	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
 
 	contents = SAMPLES_TEMPLATE({
+		'image_base': IMAGE_BASE_URL,
 		'args': ' '.join(['SAMPLE', k, str(per_row)]),
 		"has_value_label": any([ 'value' in j or 'label' in j for j in YAML_DATA[k]]),
 		"has_text": any([ 'raw' in j or 'text' in j for j in YAML_DATA[k]]),
@@ -117,9 +120,9 @@ def sidebar_repl(match):
 			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in YAML_DATA['list_primitives']],
 			{"label": 'Volume Shaders', 'href': 'Volume-Shaders'},
 			*[{'label': x['heading'], 'href': x['href'], 'indent': '  '} for x in YAML_DATA['list_volumes']],
-			{"label": 'Notes', 'href': 'Notes'},
-			{"label": 'Terms', 'href': 'Terms'},
 			{"label": 'Commands', 'href': 'Commands'},
+			{"label": 'Terms', 'href': 'terms'},
+			{"label": 'Notes', 'href': 'notes'},
 		]
 	}).strip()
 	return '\n\n' + contents + '\n\n'

@@ -25,7 +25,7 @@
   - [Noise](noise)
   - [Random](random)
   - [Flood](flood)
-- [Notes](Notes)
-- [Terms](Terms)
 - [Commands](Commands)
+- [Terms](terms)
+- [Notes](notes)
 <!-- END -->

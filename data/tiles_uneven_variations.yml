@@ -1,6 +1,6 @@
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x4.png
+- src: /0.11.0/tiles_uneven_2x4.png
   text: 2x4
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x12.png
+- src: /0.11.0/tiles_uneven_2x12.png
   text: 2x12
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_4x8.png
+- src: /0.11.0/tiles_uneven_4x8.png
   text: 4x8

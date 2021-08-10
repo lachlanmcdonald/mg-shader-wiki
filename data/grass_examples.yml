@@ -1,8 +1,8 @@
 - alt: Example
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_example0.png
+  src: /0.10.3/grass_example0.png
 - alt: Example
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_example1.png
+  src: /0.10.3/grass_example1.png
 - alt: Example
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_example2.png
+  src: /0.10.3/grass_example2.png
 - alt: Example
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_example3.png
+  src: /0.10.3/grass_example3.png

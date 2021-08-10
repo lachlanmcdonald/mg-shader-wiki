@@ -1,6 +1,6 @@
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_1x3x4.jpg
+- src: /0.10.6/greebles2_axis_1x3x4.jpg
   text: 1x3x4
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_4x4x4.jpg
+- src: /0.10.6/greebles2_axis_4x4x4.jpg
   text: 4x4x4
-- src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_mode2_4x1x7.jpg
+- src: /0.10.6/greebles2_axis_mode2_4x1x7.jpg
   text: 4x1x7

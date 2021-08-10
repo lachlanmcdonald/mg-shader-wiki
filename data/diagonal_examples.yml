@@ -1,6 +1,6 @@
 - raw: An example of 6 colors and a <strong>Width A</strong> of <code>1</code>, creating a pattern of 6 lines each 1 voxel wide.
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/diagonal_1_0_0_0.png
+  src: /0.11.0/diagonal_1_0_0_0.png
 - raw: An example of 2 colors and <strong>Widths</strong> of <code>1</code>, <code>2</code>, <code>3</code>, and <code>4</code>.
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/diagonal_1_2_3_4.png
+  src: /0.11.0/diagonal_1_2_3_4.png
 - raw: An example of 6 colors and a <strong>Width A</strong> of <code>1</code> and <strong>Width B</strong> of <code>3</code>, creating a pattern of 6 colors each alternative between 1 and 3 voxels wide.
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/diagonal_1_3_0_0.png
+  src: /0.11.0/diagonal_1_3_0_0.png

@@ -1,9 +1,9 @@
 - alt: Example of a size of 1x1x1
   label: Example of a size of 1x1x1
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_size_1_1_1.png
+  src: /0.11.0/noise_size_1_1_1.png
 - alt: Example of a size of 2x2x8
   label: Example of a size of 2x2x8
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_size_2_2_8.png
+  src: /0.11.0/noise_size_2_2_8.png
 - alt: Example of a size of 4x10x1
   label: Example of a size of 4x10x1
-  src: https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_size_4_10_1.png
+  src: /0.11.0/noise_size_4_10_1.png
