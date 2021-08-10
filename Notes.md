@@ -1,6 +1,7 @@
 <!-- TOC -->
 - [Writing shaders](#writing-shaders)
 - [Observations](#observations)
+  - [Overloading existing functions](#overloading-existing-functions)
   - [Type casting](#type-casting)
   - [Voxel coordinates](#voxel-coordinates)
   - [`voxel` always refers to original model](#voxel-always-refers-to-original-model)
@@ -37,11 +38,31 @@ float map(vec3 v) {
 }
 ```
 - Shaders must contain the header (`xs_begin` and `xs_end`), even if there are no arguments.
-- `author` is optional. Whilst there is no standard for it value, a URL or Twitter handle is implied.
+- `author` is optional. Whilst there is no standard for it value, a URL or Twitter handle is customary.
 - As shaders return a `float`, the value is rounded-up. For instance, `0.4999` will result in a voxel palette of `1.0`.
-- Return values are clamped between `0.0` and `255.0`, so it is safe to return a value outside of this range
+- Return values are clamped between `0.0` and `255.0`, so it is safe to return a value outside of this range.
 
 ## Observations
+
+### Overloading existing functions
+
+Some hardware will not allow the extension of exiting functions with a different signature. For maximum portability, a function's name should never match an existing function.
+
+For instance, the following code (which attempts to create a new version of `mod` to work with only `int`s) will not work on all systems:
+
+```glsl
+int mod(int a, int b) {
+	return int(mod(float(a), float(b)));
+}
+```
+
+Instead, it should be given a different name:
+
+```glsl
+int imod(int a, int b) {
+	return int(mod(float(a), float(b)));
+}
+```
 
 ### Type casting
 
