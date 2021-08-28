@@ -51,12 +51,12 @@ Noise will accumulate. For example, for a value of `0.1`, the original pattern i
 <!-- SAMPLE pyramid_noise 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_noise_0.png" alt="Example of a 'Noise' value of 0.0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_noise_50.png" alt="Example of a 'Noise' value of 0.5"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_noise_0.png" alt="Example of a 'Noise' value of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_noise_50.png" alt="Example of a 'Noise' value of 50"></td>
 	</tr>
 	<tr>
-		<th>Noise: <code>0.0</code></th>
-		<th>Noise: <code>0.5</code></th>
+		<th>Noise: <code>0</code></th>
+		<th>Noise: <code>50</code></th>
 	</tr>
 </table>
 <!-- END -->

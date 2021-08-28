@@ -97,14 +97,14 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 <!-- SAMPLE tiles_uneven_noise 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_0.png" alt="Example of a 'Noise' value of 0.0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_25.png" alt="Example of a 'Noise' value of 0.25"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_50.png" alt="Example of a 'Noise' value of 0.5"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_0.png" alt="Example of a 'Noise' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_25.png" alt="Example of a 'Noise' value of 25"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_50.png" alt="Example of a 'Noise' value of 50"></td>
 	</tr>
 	<tr>
-		<th>Noise: <code>0.0</code></th>
-		<th>Noise: <code>0.25</code></th>
-		<th>Noise: <code>0.5</code></th>
+		<th>Noise: <code>0</code></th>
+		<th>Noise: <code>25</code></th>
+		<th>Noise: <code>50</code></th>
 	</tr>
 	<tr>
 		<td valign="top">Tiles are colored at random between the selected colors.</td>

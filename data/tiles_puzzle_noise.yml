@@ -1,9 +1,9 @@
 - label: Noise
   src: /0.11.0/tiles_puzzle_noise_0.png
-  value: '0.0'
+  value: '0'
 - label: Noise
   src: /0.11.0/tiles_puzzle_noise_25.png
-  value: 0.25
+  value: 25
 - label: Noise
   src: /0.11.0/tiles_puzzle_noise_50.png
-  value: 0.5
+  value: 50
