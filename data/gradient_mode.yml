@@ -1,0 +1,24 @@
+- label: Mode
+  text: Interweaved noise
+  src: /0.11.2/gradient_mode0_compressed.jpg
+  value: '0'
+- label: Mode
+  text: Random noise
+  src: /0.11.2/gradient_mode1_compressed.jpg
+  value: '1'
+- label: Mode
+  text: Randomised scanlines
+  src: /0.11.2/gradient_mode2_compressed.jpg
+  value: '2'
+- label: Mode
+  text: Even scanlines
+  src: /0.11.2/gradient_mode3_compressed.jpg
+  value: '3'
+- label: Mode
+  text: Waveform noise
+  src: /0.11.2/gradient_mode4_compressed.jpg
+  value: '4'
+- label: Mode
+  text: Ordered Dithering (using a 4x4 Bayer Matrix)
+  src: /0.11.2/gradient_mode5_compressed.jpg
+  value: '5'

@@ -1,13 +1,13 @@
 > **zigzag3** is a **[Zigzag brush](Zigzag-Brushes)** that generates zigzag patterns between three colors.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Direction](#direction)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Direction** | Direction of the pattern (see below)
 **Width A** | Width of the primary lines

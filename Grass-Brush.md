@@ -1,23 +1,23 @@
-> The **`grass`** [brush](Brush-Shaders) generates randomly protruding lines of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
+> The **Grass [brush](Brush-Shaders)** generates random lines of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
 >
 > The color of the voxels is determined by the selected colors in the palette.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Mode](#mode)
 - [Density](#density)
 - [Growth](#growth)
 - [Examples](#examples)
 - [Notes](#notes)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
-**Direction** | When `0`, voxels are added upwards. When `1`, voxels are added downwards. 
+**Direction** | When `0`, line extends upwards. When `1`, line hangs downwards
 **Mode** | Color mode (see below)
 **Density** | Size of the area in which a line should be generated. Increasing density will increase the spacing between lines
-**Growth** | Affects the growth of the lines. `0.5` is a fairly evenly-distributed growth. Higher or lower values will overgrow or stymied the heights, respectively
+**Growth** | Affects the growth of the lines. `50` is a evenly-distributed growth. Higher or lower values will overgrow or stymied the growth, respectively
 **Seed** | Global seed
 
 ## Mode
@@ -81,20 +81,20 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 <!-- SAMPLE grass_growth 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth000.png" alt="Example of a 'Growth' value of 0.0"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth050.png" alt="Example of a 'Growth' value of 0.5"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth000.png" alt="Example of a 'Growth' value of 0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth050.png" alt="Example of a 'Growth' value of 50"></td>
 	</tr>
 	<tr>
-		<th>Growth: <code>0.0</code></th>
-		<th>Growth: <code>0.5</code></th>
+		<th>Growth: <code>0</code></th>
+		<th>Growth: <code>50</code></th>
 	</tr>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth075.png" alt="Example of a 'Growth' value of 0.75"></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth100.png" alt="Example of a 'Growth' value of 1.0"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth075.png" alt="Example of a 'Growth' value of 75"></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_growth100.png" alt="Example of a 'Growth' value of 100"></td>
 	</tr>
 	<tr>
-		<th>Growth: <code>0.75</code></th>
-		<th>Growth: <code>1.0</code></th>
+		<th>Growth: <code>75</code></th>
+		<th>Growth: <code>100</code></th>
 	</tr>
 </table>
 <!-- END -->

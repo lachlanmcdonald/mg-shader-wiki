@@ -2,6 +2,7 @@
 > 
 > Since the addition of the shader UI, default parameters and error-checking has been removed from the scripts. All arguments are required.
 
+- [treemap](#treemap)
 - [gradient](#gradient)
 - [cellular2D](#cellular2D)
 - [cellular3D](#cellular3D)
@@ -41,6 +42,28 @@
 - [slice_z](#slice_z)
 - [soil](#soil)
 - [soil_replace](#soil_replace)
+# treemap
+
+```
+xs brush/treemap [Mode] [Direction] [Iterations] [Min Size] [Bias] [Edge] [Seed]
+```
+
+ID | Argument | Type | Range
+-- | -------- | ---- | -----
+`0` | **Mode** | Integer | 0-2
+`1` | **Direction** | Integer | 0-5
+`2` | **Iterations** | Integer | 2-32
+`3` | **Min Size** | Integer | 0-100
+`4` | **Bias** | Integer | 0-100
+`5` | **Edge** | Integer | 0-100
+`6` | **Seed** | Integer | 1-100
+
+Example:
+
+```
+xs brush/treemap 0 0 8 10 50 0 1
+```
+[Top](#)
 # gradient
 
 ```
@@ -211,13 +234,13 @@ ID | Argument | Type | Range
 `0` | **Direction** | Integer | 0-1
 `1` | **Mode** | Integer | 0-4
 `2` | **Density** | Integer | 1-256
-`3` | **Growth** | Float | -1-1
+`3` | **Growth** | Integer | 0-100
 `4` | **Seed** | Integer | 1-100
 
 Example:
 
 ```
-xs brush/grass 0 0 2 0.5 1
+xs brush/grass 0 0 2 50 1
 ```
 [Top](#)
 # grid
@@ -788,4 +811,4 @@ xs soil_replace 1 1
 ```
 [Top](#)
 
-<sub>This page was last generated: 2021-08-10 21:53:47.856398</sub>
+<sub>This page was last generated: 2021-08-28 16:06:48.222145</sub>

@@ -3,15 +3,15 @@
 > There are two shaders, **`bricks`** and **`bricks_vert`**, that are functionally identical except bricks are offset horizontally for `bricks` and vertically for `bricks_vert`.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Mode](#mode)
 - [Grout Size](#grout-size)
 - [Noise](#noise)
 - [Threshold](#threshold)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Direction** | Facing direction of the bricks
@@ -68,14 +68,14 @@ Argument | Description
 <!-- SAMPLE brick_noise 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_0.png" alt="Example of a 'noise' value of 0.0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_25.png" alt="Example of a 'noise' value of 0.25"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_75.png" alt="Example of a 'noise' value of 0.75"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_0.png" alt="Example of a 'noise' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_25.png" alt="Example of a 'noise' value of 25"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_75.png" alt="Example of a 'noise' value of 75"></td>
 	</tr>
 	<tr>
-		<th>noise: <code>0.0</code></th>
-		<th>noise: <code>0.25</code></th>
-		<th>noise: <code>0.75</code></th>
+		<th>noise: <code>0</code></th>
+		<th>noise: <code>25</code></th>
+		<th>noise: <code>75</code></th>
 	</tr>
 </table>
 <!-- END -->
@@ -85,14 +85,14 @@ Argument | Description
 <!-- SAMPLE brick_threshold 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_100.png" alt="Example of a 'Threshold' value of 1.0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_80.png" alt="Example of a 'Threshold' value of 0.8"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_60.png" alt="Example of a 'Threshold' value of 0.6"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_100.png" alt="Example of a 'Threshold' value of 100"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_80.png" alt="Example of a 'Threshold' value of 80"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_60.png" alt="Example of a 'Threshold' value of 60"></td>
 	</tr>
 	<tr>
-		<th>Threshold: <code>1.0</code></th>
-		<th>Threshold: <code>0.8</code></th>
-		<th>Threshold: <code>0.6</code></th>
+		<th>Threshold: <code>100</code></th>
+		<th>Threshold: <code>80</code></th>
+		<th>Threshold: <code>60</code></th>
 	</tr>
 </table>
 <!-- END -->

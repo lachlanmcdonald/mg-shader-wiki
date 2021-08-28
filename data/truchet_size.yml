@@ -1,0 +1,9 @@
+- label: Size
+  src: /0.11.2/truchet_size5_compressed.jpg
+  value: 5
+- label: Size
+  src: /0.11.2/truchet_size10_compressed.jpg
+  value: 10
+- label: Size
+  src: /0.11.2/truchet_size20_compressed.jpg
+  value: 20

@@ -1,0 +1,12 @@
+- label: Noise
+  src: /0.11.2/truchet_noise0_compressed.jpg
+  value: '0'
+- label: Noise
+  src: /0.11.2/truchet_noise15_compressed.jpg
+  value: '15'
+- label: Noise
+  src: /0.11.2/truchet_noise40_compressed.jpg
+  value: '40'
+- label: Noise
+  src: /0.11.2/truchet_noise50_compressed.jpg
+  value: '50'

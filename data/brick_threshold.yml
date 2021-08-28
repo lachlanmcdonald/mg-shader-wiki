@@ -1,9 +1,9 @@
 - label: Threshold
   src: /0.11.0/brick_threshold_100.png
-  value: '1.0'
+  value: '100'
 - label: Threshold
   src: /0.11.0/brick_threshold_80.png
-  value: '0.8'
+  value: '80'
 - label: Threshold
   src: /0.11.0/brick_threshold_60.png
-  value: '0.6'
+  value: '60'

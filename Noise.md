@@ -1,13 +1,15 @@
-> The **`noise`** shader replaces all voxels which match a specified color with a randomly chosen color from the selected colors in the palette.
+> **noise** replaces all voxels which match a specified color with a randomly chosen color from the selected colors in the palette.
+> 
+> See also the [Random](Random) shader and the [Noise brush shaders](Noise-Brushes).
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Sizes](#sizes)
 - [Axis Modes](#axis-modes)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Target Color** | Color index to replace
 **Size X** | Size of the noise on the X-axis
@@ -34,7 +36,7 @@ Argument | Description
 
 ## Axis Modes
 
-[Axis Modes](Terms#axis-modes) can use used ensure voxels are only generated on certain axes:
+Axis modes can use used to only add noise on certain axes:
 
 <!-- SAMPLE noise_axis 3 -->
 <table>

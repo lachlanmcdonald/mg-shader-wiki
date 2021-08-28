@@ -1,15 +1,15 @@
 > The **`tiles_uneven`** [brush](Brush-Shaders) generates a uneven pattern of tiles; where the dimensions of the tiles varies.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Min & Max](#min--max)
 - [Line Width](#line-width)
 - [Noise](#noise)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Min** | Minimum tile width and height
@@ -63,14 +63,14 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 <!-- SAMPLE tiles_uneven_variations 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x4.png" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x12.png" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_4x8.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x4.png" alt="Example of a '' value of 2x4"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x12.png" alt="Example of a '' value of 2x12"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_4x8.png" alt="Example of a '' value of 4x8"></td>
 	</tr>
 	<tr>
-		<td valign="top">2x4</td>
-		<td valign="top">2x12</td>
-		<td valign="top">4x8</td>
+		<th><code>2x4</code></th>
+		<th><code>2x12</code></th>
+		<th><code>4x8</code></th>
 	</tr>
 </table>
 <!-- END -->
@@ -97,14 +97,19 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 <!-- SAMPLE tiles_uneven_noise 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_0.png" alt="Example of a 'Noise' value of 0.0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_25.png" alt="Example of a 'Noise' value of 0.25"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_50.png" alt="Example of a 'Noise' value of 0.5"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_0.png" alt="Example of a 'Noise' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_25.png" alt="Example of a 'Noise' value of 25"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_50.png" alt="Example of a 'Noise' value of 50"></td>
 	</tr>
 	<tr>
-		<th>Noise: <code>0.0</code></th>
-		<th>Noise: <code>0.25</code></th>
-		<th>Noise: <code>0.5</code></th>
+		<th>Noise: <code>0</code></th>
+		<th>Noise: <code>25</code></th>
+		<th>Noise: <code>50</code></th>
+	</tr>
+	<tr>
+		<td valign="top">Tiles are colored at random between the selected colors.</td>
+		<td valign="top">Tiles are colored between depending on their size between the selected colors.</td>
+		<td valign="top">Tiles are colored between the selected colors in a repeating pattern along the X-axis</td>
 	</tr>
 </table>
 <!-- END -->

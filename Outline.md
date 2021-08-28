@@ -3,12 +3,12 @@
 > `outline` and `outline2` are similar, except `outline2`  produces thinner lines.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Color** | Color index to replace voxels (setting the index to `0` will remove voxels)
 

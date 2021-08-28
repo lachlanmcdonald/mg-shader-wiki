@@ -1,0 +1,9 @@
+- label: Scale
+  src: /0.11.2/cellular3D_scale10_compressed.jpg
+  value: '10'
+- label: Scale
+  src: /0.11.2/cellular3D_scale20_compressed.jpg
+  value: '20'
+- label: Scale
+  src: /0.11.2/cellular3D_scale40_compressed.jpg
+  value: '40'

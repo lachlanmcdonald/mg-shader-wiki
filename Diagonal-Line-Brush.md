@@ -1,13 +1,13 @@
 > The **`diagonal`** [brush](Brush-Shaders) generates repeating diagonal (45° lines) of varying thicknesses determined by the selected colors in the palette.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Directions](#directions)
 - [Notes](#notes)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Direction** | Direction of the lines on the Z-axis (see below)
 **Width A** | Width of the 4-<em>nth</em> line
@@ -23,7 +23,7 @@ The widths of the lines are independant of the number of selected colours from t
 - If a width is set to `0`, it is skipped from the pattern. For example:
 	- widths of `1 0 0 0` is the same as `1 1 1 1`
 	- widths of `1 0 2 0` is the same as `1 2 0 0` or `1 2 1 2`
-- The colors and line widths repeat over and over, and can be adjusted with the **Shuffle** and **Offset** arguments, respectively.
+- The colors and line widths repeat over and over, and can be adjusted with the **Shuffle** and **Offset** parameters, respectively.
 
 <!-- SAMPLE diagonal_examples 3 -->
 <table>

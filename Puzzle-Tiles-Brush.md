@@ -1,16 +1,16 @@
 > The **`tiles_puzzle`** [brush](Brush-Shaders) generates a puzzle-like pattern of tiles.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Size X & Y](#size-x--y)
 - [Line Width](#line-width)
 - [Noise](#noise)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Size X** | Tile width
@@ -67,14 +67,14 @@ There are 5 distinct color modes for generating patterns:
 <!-- SAMPLE tiles_puzzle_variations 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_4x4.png" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_2x8.png" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_8x8.png" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_4x4.png" alt="Example of a '' value of 4x4"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_2x8.png" alt="Example of a '' value of 2x8"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_8x8.png" alt="Example of a '' value of 8x8"></td>
 	</tr>
 	<tr>
-		<td valign="top">4x4</td>
-		<td valign="top">2x8</td>
-		<td valign="top">8x8</td>
+		<th><code>4x4</code></th>
+		<th><code>2x8</code></th>
+		<th><code>8x8</code></th>
 	</tr>
 </table>
 <!-- END -->
@@ -101,14 +101,14 @@ There are 5 distinct color modes for generating patterns:
 <!-- SAMPLE tiles_puzzle_noise 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_0.png" alt="Example of a 'Noise' value of 0.0"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_25.png" alt="Example of a 'Noise' value of 0.25"></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_50.png" alt="Example of a 'Noise' value of 0.5"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_0.png" alt="Example of a 'Noise' value of 0"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_25.png" alt="Example of a 'Noise' value of 25"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_50.png" alt="Example of a 'Noise' value of 50"></td>
 	</tr>
 	<tr>
-		<th>Noise: <code>0.0</code></th>
-		<th>Noise: <code>0.25</code></th>
-		<th>Noise: <code>0.5</code></th>
+		<th>Noise: <code>0</code></th>
+		<th>Noise: <code>25</code></th>
+		<th>Noise: <code>50</code></th>
 	</tr>
 </table>
 <!-- END -->

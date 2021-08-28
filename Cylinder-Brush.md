@@ -1,15 +1,15 @@
 > The **`cylinder`** [primitive brush](Brush-Shaders) generates a cylinder or tube.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Rotation](#rotation)
 - [Thickness](#thickness)
 - [Volume Sizes](#volume-sizes)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Rotation** | See below
 **Thickness** | Thickness of the tube (or `100` for a cylinder)
@@ -59,14 +59,14 @@ Argument | Description
 <!-- SAMPLE cylinder_volumes 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x10x30.jpg" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x20x30.jpg" alt=""></td>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x30x30.jpg" alt=""></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x10x30.jpg" alt="30x10x30"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x20x30.jpg" alt="30x20x30"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x30x30.jpg" alt="30x30x30"></td>
 	</tr>
 	<tr>
-		<td valign="top">30x10x30</td>
-		<td valign="top">30x20x30</td>
-		<td valign="top">30x30x30</td>
+		<th><code>30x10x30</code></th>
+		<th><code>30x20x30</code></th>
+		<th><code>30x30x30</code></th>
 	</tr>
 </table>
 <!-- END -->

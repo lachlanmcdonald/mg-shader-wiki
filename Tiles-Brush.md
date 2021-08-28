@@ -1,12 +1,12 @@
 > The **`tiles`** [brush](Brush-Shaders) generates a tile pattern using the first and last selected color from the palette.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Example](#example)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Width** | Width of the tile
 **Height** | Height of the tile

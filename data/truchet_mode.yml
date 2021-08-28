@@ -1,0 +1,12 @@
+- label: Mode
+  text: Tiles are colored in pairs
+  src: /0.11.2/truchet_mode0_compressed.jpg
+  value: '0'
+- label: Mode
+  text: Tiles are colored randomly
+  src: /0.11.2/truchet_mode1_compressed.jpg
+  value: '1'
+- label: Mode
+  text: Tiles are colored randomly (in reverse)
+  src: /0.11.2/truchet_mode2_compressed.jpg
+  value: '2'

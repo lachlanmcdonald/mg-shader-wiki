@@ -1,16 +1,16 @@
 > The **`prism`** [primitive brush](Brush-Shaders) generates a prism; pyramid or tetrahedron with straight or curved angles.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Sizes](#sizes)
   - [Mode: `0`](#mode-0)
   - [Mode: `1`](#mode-1)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Mode (see below)
 **Size X** | Size of the incline on the X-axis (the _step_)
