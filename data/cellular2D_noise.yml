@@ -1,0 +1,16 @@
+- label: Noise
+  text: Generate mounds and peaks
+  src: /0.11.2/cellular2D_noise0_compressed.jpg
+  value: '0'
+- label: Noise
+  text: Generate dips
+  src: /0.11.2/cellular2D_noise25_compressed.jpg
+  value: '25'
+- label: Noise
+  text: Generate mounds and peaks (using the second closest point)
+  src: /0.11.2/cellular2D_noise50_compressed.jpg
+  value: '50'
+- label: Noise
+  text: Generate dips (using the second closest point)
+  src: /0.11.2/cellular2D_noise75_compressed.jpg
+  value: '75'
