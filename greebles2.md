@@ -1,14 +1,14 @@
 > **greebles2** is a **[greeble brush](Greeble-Brushes)** that generates greebles by randomly generating an uneven grid and then randomly intruding each cell.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Axis Modes](#axis-modes)
 - [Width, Height & Depth](#width-height--depth)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Mode (see below)
 **Min** | Minimum cell size

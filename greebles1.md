@@ -1,16 +1,16 @@
 > **greebles1** is a **[greeble brush](Greeble-Brushes)** that generates greebles by randomly generating cuboids and subtracting voxels that overlap.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Axis Modes](#axis-modes)
 - [Count](#count)
 - [Width, Height & Depth](#width-height--depth)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Mode (see below)
 **Count** | Number of cuboids to generate (higher values results in more greebles)

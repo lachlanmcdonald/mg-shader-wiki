@@ -1,13 +1,13 @@
 > **zigzag_range** is a **[Zigzag brush](Zigzag-Brushes)** that generates zigzag patterns between a range of colors; with a line for each color in the range.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Direction](#direction)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Direction** | Direction of the pattern (see below)
 **Width** | Width of the lines

@@ -1,13 +1,13 @@
 > The **Weave [brush](Brush-Shaders)** generates a weave pattern using the selected colors.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Line Width](#line-width)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Size** | Size of the tiles

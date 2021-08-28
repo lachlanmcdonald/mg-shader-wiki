@@ -3,16 +3,16 @@
 > The color of the voxels is determined by the selected colors in the palette.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Mode](#mode)
 - [Density](#density)
 - [Growth](#growth)
 - [Examples](#examples)
 - [Notes](#notes)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Direction** | When `0`, line extends upwards. When `1`, line hangs downwards
 **Mode** | Color mode (see below)

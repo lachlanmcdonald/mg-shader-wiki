@@ -3,13 +3,13 @@
 > See also the [Random](Random) shader and the [Noise brush shaders](Noise-Brushes).
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Sizes](#sizes)
 - [Axis Modes](#axis-modes)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Target Color** | Color index to replace
 **Size X** | Size of the noise on the X-axis

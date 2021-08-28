@@ -2,9 +2,9 @@
 > 
 > This shader is similar to the [`cover`](Cover) shader, except `cover` adds a layer to all voxels, where these shaders only works on the selected colours.
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Color** | Color index
 **Headroom** | The number of voxels of space that must be available above the surface voxel. Setting to a higher value will stop voxels from forming in gaps

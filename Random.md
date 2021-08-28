@@ -3,13 +3,13 @@
 > See also the [Noise](Noise) shader and the [Noise brush shaders](Noise-Brushes).
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Threshold](#threshold)
 - [Axis modes](#axis-modes)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Threshold** | Threshold of noise, lower values produce replace less voxels and higher values replace more voxels
 **Color** | Color index to replace voxels (setting the index to `0` will remove voxels)

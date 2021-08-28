@@ -1,16 +1,16 @@
 > The **pyramid** shader add a layer of voxel on top of voxels matching the selected colors. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Axis Modes](#axis-modes)
 - [Noise](#noise)
 - [Notes](#notes)
 
-## Arguments
+## Parameters
 
-Voxels are added on top of voxels matching the selected colors. The color of the new voxel matches the voxel beneath, but this can be varied with the *Noise* argument.
+Voxels are added on top of voxels matching the selected colors. The color of the new voxel matches the voxel beneath, but this can be varied with the *Noise* parameter.
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Noise** | Amount of randomness to introduce when picking a color for new voxels. When `0`, the new voxel will match the color of the voxel underneath. Values closer to `1` will increase the chance the voxel color is chosen at random from the selected colors.
 **Seed** | Global seed

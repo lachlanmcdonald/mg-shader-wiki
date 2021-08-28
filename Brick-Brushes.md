@@ -3,15 +3,15 @@
 > There are two shaders, **`bricks`** and **`bricks_vert`**, that are functionally identical except bricks are offset horizontally for `bricks` and vertically for `bricks_vert`.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Mode](#mode)
 - [Grout Size](#grout-size)
 - [Noise](#noise)
 - [Threshold](#threshold)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Direction** | Facing direction of the bricks

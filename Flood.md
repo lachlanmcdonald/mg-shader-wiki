@@ -3,13 +3,13 @@
 > `flood2` is similar to `flood`, except flooding stops when a voxel is encountered so that exclosed spaces aren't filled.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Shaders](#shaders)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Height** | Height of the flood
 

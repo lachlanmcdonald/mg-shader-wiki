@@ -1,16 +1,16 @@
 > The **tiles_puzzle** [brush](Brush-Shaders) generates a puzzle-like pattern of tiles.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Size X & Y](#size-x--y)
 - [Line Width](#line-width)
 - [Noise](#noise)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Size X** | Tile width

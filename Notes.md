@@ -23,7 +23,7 @@ Shader files are written in _OpenGL Shader Language_ (GLSL), version _1.10_. [Th
 
 Each shader has a `map` function which is executed once per voxel:
 
-- It recieves the location of the voxel as its only argument
+- It recieves the location of the voxel as its only parameter
 - Should return a float between `0.0` and `255.0` representing the voxel color in the palette.
 
 For example, the following shader will fill the entire volume with voxels colored from palette index `1`.
@@ -37,7 +37,7 @@ float map(vec3 v) {
 	return 1.0;
 }
 ```
-- Shaders must contain the header (`xs_begin` and `xs_end`), even if there are no arguments.
+- Shaders must contain the header (`xs_begin` and `xs_end`), even if there are no parameters.
 - `author` is optional. Whilst there is no standard for it value, a URL or Twitter handle is customary.
 - As shaders return a `float`, the value is rounded-up. For instance, `0.4999` will result in a voxel palette of `1.0`.
 - Return values are clamped between `0.0` and `255.0`, so it is safe to return a value outside of this range.

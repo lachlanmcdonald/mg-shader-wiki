@@ -1,15 +1,15 @@
 > The **tiles_uneven** [brush](Brush-Shaders) generates a uneven pattern of tiles; where the dimensions of the tiles varies.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Modes](#modes)
 - [Min & Max](#min--max)
 - [Line Width](#line-width)
 - [Noise](#noise)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
 **Min** | Minimum tile width and height

@@ -1,15 +1,15 @@
 > The **cylinder [primitive brush](Brush-Shaders)** generates a cylinder or tube.
 
 <!-- TOC -->
-- [Arguments](#arguments)
+- [Parameters](#parameters)
 - [Rotation](#rotation)
 - [Thickness](#thickness)
 - [Volume Sizes](#volume-sizes)
 - [Examples](#examples)
 
-## Arguments
+## Parameters
 
-Argument | Description
+Parameter | Description
 --------- | -----------
 **Rotation** | See below
 **Thickness** | Thickness of the tube (or `100` for a cylinder)
