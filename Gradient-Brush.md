@@ -5,7 +5,6 @@
 - [Mode](#mode)
 - [Direction](#direction)
 - [Noise](#noise)
-- [License](#license)
 
 ## Parameters
 
@@ -118,12 +117,3 @@ Parameter | Description
 	</tr>
 </table>
 <!-- END -->
-
-## License
-
-This script utilises or modifies code from other projects or publications.
-Please see the attributions below for more information:
-
-1. Interweaved gradient noise adapted from "_Next Generation Post Processing in Call of Duty Advanced Warfare_"  
-   by Jorge Jimenez (Graphics R&D Technical Director - Activision Blizzard)  
-   http://advances.realtimerendering.com/s2014/index.html

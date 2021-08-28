@@ -8,7 +8,6 @@
 - [Noise](#noise)
 - [Power](#power)
 - [Cavity](#cavity)
-- [License](#license)
 
 ## Parameters
 
@@ -154,12 +153,3 @@ Parameter | Description
 	</tr>
 </table>
 <!-- END -->
-
-## License
-
-This script utilises or modifies code from other projects or publications.
-Please see the attributions below for more information:
-
-1. https://github.com/ashima/webgl-noise  
-   Copyright (c) 2011 Stefan Gustavson  
-   MIT License (MIT)
