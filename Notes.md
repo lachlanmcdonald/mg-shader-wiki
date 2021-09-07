@@ -12,7 +12,7 @@
   - [Determine if a axis mode is set](#determine-if-a-axis-mode-is-set)
   - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
   - [`mix()` for selected colours](#mix-for-selected-colours)
-  - [Determine if the provided color is one of the selected colors](#determine-if-the-provided-color-is-one-of-the-selected-colors)
+  - [Determine if the provided colour is one of the selected colors](#determine-if-the-provided-color-is-one-of-the-selected-colors)
 - [Editing](#editing)
   - [Testing shaders in MagicaVoxel](#testing-shaders-in-magicavoxel)
   - [Visual Studio Code](#visual-studio-code)
@@ -23,10 +23,10 @@ Shader files are written in _OpenGL Shader Language_ (GLSL), version _1.10_. [Th
 
 Each shader has a `map` function which is executed once per voxel:
 
-- It recieves the location of the voxel as its only parameter
-- Should return a float between `0.0` and `255.0` representing the voxel color in the palette.
+- It receives the location of the voxel as its only parameter
+- Should return a float between `0.0` and `255.0` representing the voxel colour in the palette.
 
-For example, the following shader will fill the entire volume with voxels colored from palette index `1`.
+For example, the following shader will fill the entire volume with voxels coloured from palette index `1`.
 
 ```glsl
 // xs_begin
@@ -41,6 +41,30 @@ float map(vec3 v) {
 - `author` is optional. Whilst there is no standard for it value, a URL or Twitter handle is customary.
 - As shaders return a `float`, the value is rounded-up. For instance, `0.4999` will result in a voxel palette of `1.0`.
 - Return values are clamped between `0.0` and `255.0`, so it is safe to return a value outside of this range.
+
+### Parameters
+
+> Note that the shader itself uses the word **arg** (short for **argument**) when referring to the shader inputs. However, to avoid confusion between a *shader argument* and a *function argument*, the former is referred to instead as a **parameter** throughout this documentation.
+
+- All parameters are passed through to the shader as a `float`.
+- The order that the **arg** tags are defined is the order that they appear within the UI.
+- In previous versions of MagicaVoxel, there was a limit to the number of parameters which could be passed to a shader. In current versions, this limit no longer applies.
+
+Key | Description
+--- | ---
+`name` | The label of the parameter as it appears within the UI.
+`var` | Exposes the parameter as a variable. For instance, a `var` of `m_size` will expose the variable `m_size` throughout the shader. Any valid GLSL variable name is accepted, it is conventional to use snake-case and prefix the variable name with `m_`
+`range` | The minimum and maximum value accepted by the field, separated by a space. For instance, `'0 100'` would enforce a minimum and maximum value of `0` and `100`, respectively. If the user enters a value outside of this range, it will be clamped.
+`value` | The default value of the parameter
+`step` | The number to increase or decrease the value as the user scrubs the field. Users can still manually enter numbers which are not dividable by the `step`
+`precision` | The number of fractional digits allowed when entering a number. A value of `0` only accepts whole numbers. A value of `2` would allow numbers as small as `0.01`
+
+The following keys are deprecated but included for backward compatibility:
+
+Key | Description
+--- | ---
+`id` | The index of the parameter, used to populate `i_args`. Replaced by `var`.
+`decimal` | Used to indicate whether the field should accept a whole (`0`) or fractional number (`1`). Regardless of this value, the field is always exposed to the shader as a `float`. This was replaced by the `precision` key to fix an issue where the field only accepted 1 significant digit, making it impossible to provide values smaller than `0.1`.
 
 ## Observations
 
@@ -66,7 +90,7 @@ int imod(int a, int b) {
 
 ### Type casting
 
-Some hardware cannot coercion betwen `int` and `float`, and instead require an explicit command. You should always explicity cast from `int` to `float` and vice versa.
+Some hardware cannot coercion between `int` and `float`, and instead require an explicit command. You should always explicitly cast from `int` to `float` and vice versa.
 
 i.e.
 
@@ -90,7 +114,7 @@ float a() {
 
 ### Voxel coordinates
 
-The `map` function is passed the center-point of the voxel. So, a voxel as position `0`, `0`, `0` will be passed to the `map` function as `vec3(0.5, 0.5, 0.5)`.
+The `map` function is passed the centre-point of the voxel. So, a voxel as position `0`, `0`, `0` will be passed to the `map` function as `vec3(0.5, 0.5, 0.5)`.
 
 If this is undesirable, you can floor the entire `vec3` in one operation:
 
@@ -144,11 +168,11 @@ float map(vec3 v) {
 
 There are platform-dependant limits on the size of arrays. When an array size exceeds this limit, MagicaVoxel will not display an error but no voxels will be added by the shader. However, in some circumstances random voxels will appear.
 
-It is best not to initaialise arrays with more than 255 elements. 
+It is best not to initialise arrays with more than 255 elements. 
 
 ### Using the `voxel` function beyond the volume size
 
-`voxel()` for retrieving a color index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check wether the `x`, `y` or `z` co-ordinates will be out-of-bounds before calling `voxel`.
+`voxel()` for retrieving a colour index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check whether the `x`, `y` or `z` co-ordinates will be out-of-bounds before calling `voxel`.
 
 ```glsl
 voxel(500.0, 500.0, 500.0); // 0.0
