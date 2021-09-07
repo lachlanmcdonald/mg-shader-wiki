@@ -115,20 +115,12 @@ Parameter | Description
 		<th>Noise: <code>25</code></th>
 	</tr>
 	<tr>
-		<td valign="top">Generate mounds and peaks</td>
-		<td valign="top">Generate dips</td>
-	</tr>
-	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_noise50_compressed.jpg" alt="Example of a 'Noise' value of 50"></td>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_noise75_compressed.jpg" alt="Example of a 'Noise' value of 75"></td>
 	</tr>
 	<tr>
 		<th>Noise: <code>50</code></th>
 		<th>Noise: <code>75</code></th>
-	</tr>
-	<tr>
-		<td valign="top">Generate mounds and peaks (using the second closest point)</td>
-		<td valign="top">Generate dips (using the second closest point)</td>
 	</tr>
 </table>
 <!-- END -->
