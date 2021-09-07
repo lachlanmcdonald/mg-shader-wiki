@@ -66,6 +66,46 @@ Key | Description
 `id` | The index of the parameter, used to populate `i_args`. Replaced by `var`.
 `decimal` | Used to indicate whether the field should accept a whole (`0`) or fractional number (`1`). Regardless of this value, the field is always exposed to the shader as a `float`. This was replaced by the `precision` key to fix an issue where the field only accepted 1 significant digit, making it impossible to provide values smaller than `0.1`.
 
+### Shader inputs
+
+MagicaVoxel provides shaders a number of variables which can be accessed by the shader during execution, these are:
+
+Variable | Type | Purpose
+--- | --- | --- 
+`i_volume_size` | `vec3`	|	Size of the volume (1-256)
+`i_color_index` | `float` |	The selected colour (0-255). This is provided for backward compatibility, as in later versions the user can select multiple colours
+`i_num_color_sels` | `int` | The number of selected colours
+`i_axis` | `vec3` | The selected axis mode. Each component corresponds to the selected axis mode. If a mode is selected, the value will be `1.0`, otherwise it will be `0.0`. If all components are `0.0` or `1.0`, an axis-mode is not selected.
+`i_mirror` | `vec3` | The selected mirror mode. Each component corresponds to the selected mirror mode. If a mode is selected, the value will be `1.0`, otherwise it will be `0.0`. If all components are `0.0` or `1.0`, an mirror mode is not selected.
+`i_iter` | `vec3` | The current iteration, which is normally `0.0` unless the user has set a higher value when running the shader. This value only applies when the shader is run over the volume, and not used as a brush.
+
+ - In previous versions of MagicaVoxel, prior to the introduction of the *shader UI*, shaders could only be executed via the console. MagicaVoxel provided the `i_args` variable (`float[]`) with each index corresponding to the provided parameters. This is provided for backward compatibility but should not be used. Instead, parameters should be defined within the shader header and assigned to a variable using `var`.
+ - In previous versions of MagicaVoxel, these variables were written in camel-case not snake-case; i.e. `iArgs` instead of `i_args`. The camel-case variables are still provided for backward compatibility, but you should use the variables above to future-proof your shader.
+
+### Built-in functions
+
+MagicaVoxel also provides a number of additional functions:
+
+#### `float voxel (vec3 v)`
+
+Returns the color of the voxel at the position `v`, in the range of `1-255`, or `0` if there is no voxel at that position. These correspond to the X, Y and Z coordinates shown in the toolbar of the MagicaVoxel editor.
+
+- Providing an invalid position, such as one greater than the volume size, will return `0`
+- `voxel()` can only be called when the shader is run over the entire volume, otherwise it will always return `0` (even when voxels are present)
+
+#### `float color_sel(float k);`
+
+Returns the *k*-th selected color. 
+
+- The first colour is index `0`
+- The number of selected colours is defined by `i_num_color_sels`
+
+#### `vec4 palette(float k)`
+
+Returns information about the colour the *k*-th index in the palette. The `rgb` components correspond to the RGB values of the colour, in the range of 0-1. The `a` component appears to be unused.
+
+> Note: Vector components in GLSL can be accessed with either `xyzw` or `rgba`. These behave identically but are useful to use when working with coordinates and textures/colours, respectively.
+
 ## Observations
 
 ### Overloading existing functions
