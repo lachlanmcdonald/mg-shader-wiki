@@ -94,7 +94,7 @@ MagicaVoxel also provides a number of additional functions:
 
 #### `float voxel (vec3 v)`
 
-Returns the color of the voxel at the position `v`, in the range of `1-255`, or `0` if there is no voxel at that position. These correspond to the X, Y and Z coordinates shown in the toolbar of the MagicaVoxel editor.
+Returns the colour of the voxel at the position `v`, in the range of `1-255`, or `0` if there is no voxel at that position. These correspond to the X, Y and Z coordinates shown in the toolbar of the MagicaVoxel editor.
 
 - Providing an invalid position, such as one greater than the volume size, will return `0`
 - `voxel()` can only be called when the shader is run over the entire volume, otherwise it will always return `0` (even when voxels are present)
@@ -273,7 +273,7 @@ By default, shaders are loaded from MagicaVoxel's `shader` director. However, yo
 i.e.
 
 ```
-dir_xs_shader		: "/Users/lachlan/magicavoxel-shaders/shader"
+dir_xs_shader : "/Users/lachlan/magicavoxel-shaders/shader"
 ```
 
 ### Visual Studio Code
