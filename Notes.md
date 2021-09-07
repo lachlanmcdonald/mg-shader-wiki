@@ -153,8 +153,13 @@ Similarly, a function must always return the expected _return type_ (the value i
 
 ```glsl
 float a() {
+	return 1; // will not work
+}
+```
+
+```glsl
+float a() {
 	return float(1); // will work
-	return 1;        // will not work
 }
 ```
 
@@ -166,14 +171,6 @@ If this is undesirable, you can floor the entire `vec3` in one operation:
 
 ```glsl
 vec3 v = floor(v);
-```
-
-Which is the same as below but more concise:
-
-```glsl
-v.x = floor(v.x);
-v.y = floor(v.y);
-v.z = floor(v.z);
 ```
 
 ### `voxel` always refers to original model
