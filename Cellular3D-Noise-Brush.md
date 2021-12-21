@@ -24,7 +24,7 @@ Parameter | Description
 **Tile Y** | Tile offet on the Y-axis
 **Tile z** | Tile offet on the Z-axis
 
-**Tile X**, **Tile Y**, and **Tile Z** parameters are used to generate noise over multiple adjacent volumes. For instance, to create a terrain that exceeds past the 256<sup>2</sup> size limit.
+**Tile X**, **Tile Y**, and **Tile Z** parameters are used to generate noise over multiple adjacent volumes. For instance, to create a terrain that exceeds the 256<sup>2</sup> size limit.
 
 ## Mode
 
