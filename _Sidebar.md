@@ -31,5 +31,5 @@
   - [Flood](flood)
 - [Commands](Commands)
 - [Terms](terms)
-- [Notes](notes)
+- [Shaders in MagicaVoxel](Shaders-in-MagicaVoxel)
 <!-- END -->

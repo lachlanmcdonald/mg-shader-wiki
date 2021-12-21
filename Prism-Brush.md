@@ -3,9 +3,8 @@
 <!-- TOC -->
 - [Parameters](#parameters)
 - [Modes](#modes)
-- [Sizes](#sizes)
-  - [Mode: `0`](#mode-0)
-  - [Mode: `1`](#mode-1)
+- [Mode: `0`](#mode-0)
+- [Mode: `1`](#mode-1)
 - [Examples](#examples)
 
 ## Parameters
