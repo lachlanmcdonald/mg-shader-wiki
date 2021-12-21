@@ -39,9 +39,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Sizes
-
-### Mode: `0`
+## Mode: `0`
 
 <!-- SAMPLE prism_mode0_sizes 2 -->
 <table>
@@ -64,7 +62,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-### Mode: `1`
+## Mode: `1`
 
 <!-- SAMPLE prism_mode1_sizes 2 -->
 <table>
