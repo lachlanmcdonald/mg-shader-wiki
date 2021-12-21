@@ -211,13 +211,13 @@ float map(vec3 v) {
 
 ### Limit on array size
 
-There are platform-dependant limits on the size of arrays. When an array size exceeds this limit, MagicaVoxel will not display an error but no voxels will be added by the shader. However, in some circumstances random voxels will appear.
+There are platform-dependant limits on the size of arrays. When an array size exceeds this limit, MagicaVoxel won't display an error and voxels will not be added by the shader. However, in some circumstances random voxels will appear.
 
-It is best not to initialise arrays with more than 255 elements. 
+It is best to initialise arrays with fewer than 255 elements. 
 
 ### Using the `voxel` function beyond the volume size
 
-`voxel()` for retrieving a colour index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check whether the `x`, `y` or `z` co-ordinates will be out-of-bounds before calling `voxel`.
+`voxel()` for retrieving a colour index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check whether the co-ordinates are out-of-bounds before calling `voxel`.
 
 ```glsl
 voxel(500.0, 500.0, 500.0); // 0.0
@@ -266,9 +266,23 @@ bool is_sel_color(float p) {
 }
 ```
 
+## Logging
+
+MagicaVoxel provides a simple logging tool which can be used to identify issues with a shader. To access the log output, you will need to run MagicaVoxel from within a terminal:
+
+#### MacOS
+
+In **Terminal**, navigate to your MagicaVoxel installation and run:
+
+```sh
+./MagicaVoxel.app/Contents/MacOS/MagicaVoxel
+```
+
+Compile errors will be logged whenever the shader is selected in the UI. At the moment, the line numbers do not correspond to the source file.
+
 ## Editing
 
-### Testing shaders in MagicaVoxel
+### Changing MagicaVoxel's default shader directory
 
 By default, shaders are loaded from MagicaVoxel's `shader` director. However, you can set a new path by changing the `dir_xs_shader` parameter within `config/config.txt` and specifying the new path:
 
