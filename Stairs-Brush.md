@@ -1,1 +1,1 @@
-See: **[Stairs Brushes](Stairs-Brushes)**
+This page has been moved to: **[Stairs Brushes](Stairs-Brushes)**

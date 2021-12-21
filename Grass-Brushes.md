@@ -1,1 +1,1 @@
-See: **[Grass Brush](Grass-Brush)**
+This page has been moved to: **[Grass Brush](Grass-Brush)**
