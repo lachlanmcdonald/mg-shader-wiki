@@ -1,4 +1,4 @@
-> The **terrain** [brush](Brush-Shaders) generates a terrain topography.
+> The **terrain** [brush](Brush-Shaders) generates a terrain topography by combining different types of noise and [fBm](https://en.wikipedia.org/wiki/Fractional_Brownian_motion). 
 
 <!-- TOC -->
 - [Parameters](#parameters)
