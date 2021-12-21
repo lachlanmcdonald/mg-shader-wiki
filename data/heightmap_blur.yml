@@ -1,0 +1,12 @@
+- src: /TODO/heightmap-blur-0.png
+  label: Blur
+  value: '0'
+- src: /TODO/heightmap-blur-3.png
+  label: Blur
+  value: 3
+- src: /TODO/heightmap-blur-6.png
+  label: Blur
+  value: 6
+- src: /TODO/heightmap-blur-10.png
+  label: Blur
+  value: 10
