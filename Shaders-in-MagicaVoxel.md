@@ -7,7 +7,7 @@
     - [`float color_sel(float k);`](#float-color_selfloat-k)
     - [`vec4 palette(float k)`](#vec4-palettefloat-k)
 - [Observations](#observations)
-  - [Overloading existing functions](#overloading-existing-functions)
+  - [Overloading internal functions](#overloading-internal-functions)
   - [Type casting](#type-casting)
   - [Voxel coordinates](#voxel-coordinates)
   - [`voxel` always refers to original model](#voxel-always-refers-to-original-model)
@@ -19,8 +19,10 @@
   - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
   - [`mix()` for selected colours](#mix-for-selected-colours)
   - [Determine if the provided color is one of the selected colors](#determine-if-the-provided-color-is-one-of-the-selected-colors)
+- [Logging](#logging)
+    - [MacOS](#macos)
 - [Editing](#editing)
-  - [Testing shaders in MagicaVoxel](#testing-shaders-in-magicavoxel)
+  - [Changing MagicaVoxel's default shader directory](#changing-magicavoxels-default-shader-directory)
   - [Visual Studio Code](#visual-studio-code)
 
 ## Writing shaders

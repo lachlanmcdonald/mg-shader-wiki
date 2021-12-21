@@ -24,11 +24,11 @@ Parameter | Description
 <!-- SAMPLE greebles1_modes 2 -->
 <table>
 	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode0.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode0.jpg" alt="Example of a 'Mode' value of 0"></td>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode1.jpg" alt="Example of a 'Mode' value of 1"></td>
 	</tr>
 	<tr>
-		<th>Mode</th>
+		<th>Mode: <code>0</code></th>
 		<th>Mode: <code>1</code></th>
 	</tr>
 	<tr>
