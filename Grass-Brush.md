@@ -1,6 +1,8 @@
 > The **Grass [brush](Brush-Shaders)** generates random lines of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
 >
 > The color of the voxels is determined by the selected colors in the palette.
+>
+> This shader is similar to the [Grass Fit shader](Grass-Brush), which it is applied to the entire volume (or a selected voxels within that volume)
 
 <!-- TOC -->
 - [Parameters](#parameters)
