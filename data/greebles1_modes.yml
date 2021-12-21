@@ -1,6 +1,6 @@
 - src: /0.10.6/greebles1_mode0.jpg
   label: Mode
-  value: 0
+  value: '0'
   text: Voxels overlapping cuboids are removed
 - src: /0.10.6/greebles1_mode1.jpg
   label: Mode

@@ -1,6 +1,6 @@
 - src: /0.10.6/greebles2_mode0.jpg
   label: Mode
-  value: 0
+  value: '0'
   text: Cells are intruded from the surface
 - src: /0.10.6/greebles2_mode1.jpg
   label: Mode
