@@ -7,7 +7,7 @@
 Parameter | Description
 --------- | -----------
 **Headroom** | The number of voxels of space that must be available above the surface voxel. Setting to a higher value will stop voxels from forming in gaps
-**Noise** | Chance that a voxel will not be added. When `0`, no voxels are skipped. Values closer to `1` will cause voxels to be skipped at random.
+**Noise** | Chance that a voxel will not be added. When `0`, no voxels are skipped. Values closer to `100` will cause voxels to be skipped at random.
 **Seed** | Global seed
 
 <!-- SAMPLE cover_variations 2 -->

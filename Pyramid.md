@@ -12,7 +12,7 @@ Voxels are added on top of voxels matching the selected colors. The color of the
 
 Parameter | Description
 --------- | -----------
-**Noise** | Amount of randomness to introduce when picking a color for new voxels. When `0`, the new voxel will match the color of the voxel underneath. Values closer to `1` will increase the chance the voxel color is chosen at random from the selected colors.
+**Noise** | Amount of randomness to introduce when picking a color for new voxels. When `0`, the new voxel will match the color of the voxel underneath. Values closer to `100` will increase the chance the voxel color is chosen at random from the selected colors.
 **Seed** | Global seed
 
 ## Axis Modes

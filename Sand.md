@@ -14,7 +14,7 @@ Voxels are added on top of voxels matching the selected color. Voxels are added 
 Parameter | Description
 --------- | -----------
 **Mode** | Color mode (see below)
-**Threshold** | Skews how often sand is added. Values closer to `0` quickly create peaks, where as values closer to `1` will add many more voxels.
+**Threshold** | Skews how often sand is added. Values closer to `0` quickly create peaks, where as values closer to `100` will add many more voxels.
 
 ## Mode
 
