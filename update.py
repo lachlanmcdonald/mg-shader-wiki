@@ -65,6 +65,7 @@ with open(path.join(path.dirname(__file__), 'templates', 'sidebar.hbs')) as f:
 # Load YAML data
 DATA_DIR = path.join(path.dirname(__file__), 'data')
 YAML_DATA = {}
+SEEN_YAML_DATA = []
 
 print("=> Reading YAML")
 for fp in listdir(DATA_DIR):
@@ -86,6 +87,8 @@ def list_repl(match):
 	width = match.group(2)
 	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
 
+	SEEN_YAML_DATA.append(k)
+
 	contents = LIST_TEMPLATE({
 		'image_base': IMAGE_BASE_URL,
 		'args': ' '.join(['LIST', k, width]),
@@ -99,6 +102,8 @@ def arg_sample_repl(match):
 	k = match.group(1)
 	per_row = int(match.group(2))
 	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
+
+	SEEN_YAML_DATA.append(k)
 
 	contents = SAMPLES_TEMPLATE({
 		'image_base': IMAGE_BASE_URL,
@@ -126,7 +131,6 @@ def sidebar_repl(match):
 		]
 	}).strip()
 	return '\n\n' + contents + '\n\n'
-
 
 # Process markdown files
 for f in listdir(path.dirname(path.realpath(sys.argv[0]))):
@@ -161,3 +165,8 @@ for f in listdir(path.dirname(path.realpath(sys.argv[0]))):
 
 		with open(f, 'w', newline='\n') as h:
 			h.write(new_contents.strip() + '\n')
+
+# Check for unused YAML files
+for x in YAML_DATA.keys():
+	if x not in SEEN_YAML_DATA:
+		print("=> Data not used: {}".format(x))
