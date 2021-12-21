@@ -1,4 +1,4 @@
-> The **Grid** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
+> The **`grid`** [brush](Brush-Shaders) generates a grid pattern with variable thickness and spacing.
 
 <!-- TOC -->
 - [Parameters](#parameters)
@@ -44,7 +44,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
 
 ## Axis Modes
 
-Axis Modes can be used to only generate a grid on a particular axis. When no Axis Mode is set, a grid is generated on all axes.
+[Axis Modes](Terms#axis-modes) can use used ensure voxels are only generated on certain axes:
 
 <!-- SAMPLE grid_axis 3 -->
 <table>

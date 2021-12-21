@@ -3,7 +3,6 @@
 <!-- TOC -->
 - [Parameters](#parameters)
 - [Mode](#mode)
-- [License](#license)
 
 ## Parameters
 
@@ -39,15 +38,3 @@ Parameter | Description
 	</tr>
 </table>
 <!-- END -->
-
-## License
-
-This script utilises or modifies code from other projects or publications. Please see the attributions below for more information:
-
-1. https://github.com/ValgoBoi/clover-noise  
-   Copyright (c) 2020 ValgoBoi  
-   MIT License (MIT)
-
-2. https://github.com/msfeldstein/glsl-map  
-   Copyright (c) 2015 Michael Feldstein  
-   MIT License (MIT)

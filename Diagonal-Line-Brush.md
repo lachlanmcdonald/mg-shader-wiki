@@ -1,4 +1,4 @@
-> The **Diagonal Line [brush](Brush-Shaders)** generates repeating diagonal (45° lines) of varying thicknesses determined by the selected colors in the palette.
+> The **`diagonal`** [brush](Brush-Shaders) generates repeating diagonal (45° lines) of varying thicknesses determined by the selected colors in the palette.
 
 <!-- TOC -->
 - [Parameters](#parameters)
@@ -10,10 +10,10 @@
 Parameter | Description
 --------- | -----------
 **Direction** | Direction of the lines on the Z-axis (see below)
-**Width A** | Width of the 4-<em>nth</em> line (see below)
-**Width B** | Width of the 4-<em>nth</em> + 1 line (see below)
-**Width C** | Width of the 4-<em>nth</em> + 2 line (see below)
-**Width D** | Width of the 4-<em>nth</em> + 3 line (see below)
+**Width A** | Width of the 4-<em>nth</em> line
+**Width B** | Width of the 4-<em>nth</em> + 1 line
+**Width C** | Width of the 4-<em>nth</em> + 2 line
+**Width D** | Width of the 4-<em>nth</em> + 3 line
 **Offset** | Adjusts the offset of the lines
 **Shuffle** | Adjusts the colors of the lines
 

@@ -23,9 +23,9 @@ Parameter | Description
         <td width="33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/caf97416-2a0d-4bde-a839-8f3f2d50e5a5/rand_075.png" alt=""></td>
     </tr>
 	<tr>
-		<th>Threshold: <code>0.25</code></th>
-		<th>Threshold: <code>0.5</code></th>
-		<th>Threshold: <code>0.75</code></th>
+		<th>Threshold: <code>25</code></th>
+		<th>Threshold: <code>50</code></th>
+		<th>Threshold: <code>75</code></th>
 	</tr>
 </table>
 

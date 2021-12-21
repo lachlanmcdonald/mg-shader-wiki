@@ -29,5 +29,7 @@
   - [Noise](noise)
   - [Random](random)
   - [Flood](flood)
-- [Notes](notes)
+- [Commands](Commands)
+- [Terms](terms)
+- [Shaders in MagicaVoxel](Shaders-in-MagicaVoxel)
 <!-- END -->

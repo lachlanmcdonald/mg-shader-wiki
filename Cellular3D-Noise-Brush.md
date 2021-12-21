@@ -8,7 +8,6 @@
 - [Noise](#noise)
 - [Power](#power)
 - [Cavity](#cavity)
-- [License](#license)
 
 ## Parameters
 
@@ -25,7 +24,7 @@ Parameter | Description
 **Tile Y** | Tile offet on the Y-axis
 **Tile z** | Tile offet on the Z-axis
 
-**Tile X**, **Tile Y**, and **Tile Z** parameters are used to generate noise over multiple adjacent volumes. For instance, to create a terrain that exceeds past the 256<sup>2</sup> size limit.
+**Tile X**, **Tile Y**, and **Tile Z** parameters are used to generate noise over multiple adjacent volumes. For instance, to create a terrain that exceeds the 256<sup>2</sup> size limit.
 
 ## Mode
 
@@ -154,12 +153,3 @@ Parameter | Description
 	</tr>
 </table>
 <!-- END -->
-
-## License
-
-This script utilises or modifies code from other projects or publications.
-Please see the attributions below for more information:
-
-1. https://github.com/ashima/webgl-noise  
-   Copyright (c) 2011 Stefan Gustavson  
-   MIT License (MIT)

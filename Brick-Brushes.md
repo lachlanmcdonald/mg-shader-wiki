@@ -21,8 +21,8 @@ Parameter | Description
 **Grout Size** | Width of the grout between bricks, or `0` for no grout (see below)
 **Grout Color** | Color index for the grout color, or `0` for gaps.
 **Offset** | Misalignment of bricks per row (a value of `0` will determine the misalignment automatically)
-**Noise** | Randomness of the colors within each brick. Values closer to `0` produce solid colored bricks, where as values closer to `1` produce noisy bricks (see below)
-**Threshold** | Likelihood of a brick being placed. The default of `1.0` means all bricks are placed, and lower values will result in missing bricks (see below)
+**Noise** | Randomness of the colors within each brick. Values closer to `0` produce solid colored bricks, where as values closer to `100` produce noisy bricks (see below)
+**Threshold** | Likelihood of a brick being placed. The default of `100` means all bricks are placed, and lower values will result in missing bricks (see below)
 
 ## Mode
 

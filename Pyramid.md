@@ -1,4 +1,4 @@
-> The **pyramid** shader add a layer of voxel on top of voxels matching the selected colors. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
+> The **`pyramid`** shader add a layer of voxel on top of voxels matching the selected colors. A voxel is only added when the voxel beneath has adjacent voxels, creating the effect of a pyramid.
 
 <!-- TOC -->
 - [Parameters](#parameters)
@@ -12,12 +12,12 @@ Voxels are added on top of voxels matching the selected colors. The color of the
 
 Parameter | Description
 --------- | -----------
-**Noise** | Amount of randomness to introduce when picking a color for new voxels. When `0`, the new voxel will match the color of the voxel underneath. Values closer to `1` will increase the chance the voxel color is chosen at random from the selected colors.
+**Noise** | Amount of randomness to introduce when picking a color for new voxels. When `0`, the new voxel will match the color of the voxel underneath. Values closer to `100` will increase the chance the voxel color is chosen at random from the selected colors.
 **Seed** | Global seed
 
 ## Axis Modes
 
-When no axis modes are set, the shader will form a square pyramid. However, if either X or Y-axis modes are set, the shader will form a pyramid with the slope facing the X or Y axis, respectively. Setting the Z-axis mode has no effect.
+When no [Axis Modes](Terms#axis-modes) are set, the shader will form a square pyramid. However, if either X or Y-Axis Modes are set, the shader will form a pyramid with the slope facing the X or Y axis, respectively. Setting the Z-axis mode has no effect.
 
 <!-- SAMPLE pyramid_axis 3 -->
 <table>
