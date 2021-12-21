@@ -31,8 +31,8 @@ However, the **Paint** mode can also be used to replace only selected voxels. Fo
 
 1. Right-click the chosen color and select **Inverse**
 2. Right-click any of the selected colors and select **Voxel Selection by Color**
-2. Select **Voxel Shader Mode** [C]
-3. Select **Paint**
+3. Select **Voxel Shader Mode** [C]
+4. Select **Paint**
 5. Select the shader in the **Shader List**
 6. Draw a box over the volume — only the selected voxels will be updated.
 

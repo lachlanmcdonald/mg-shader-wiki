@@ -23,9 +23,9 @@
 
 Parameter | Description
 --------- | -----------
-**Blur**       | Blurs the height-map by the number of voxels to smooth any noise in the original texture. The default value of `0` does not blurring, and values up to `10` increase the blurring and the smoothness of the result.
-**Auto Balance**  | When `1`, the range is remapped according to the selected colours in the palette. When `0`, the range is not changed by the palette. See below for more information.
-**Reverse**      | When `0`, the luminance of a voxel determines how far it is extruded. When `1`, this is reversed and darker voxels are extruded.
+**Blur** | Blurs the height-map by the number of voxels to smooth any noise in the original texture. The default value of `0` does not blurring, and values up to `10` increase the blurring and the smoothness of the result.
+**Auto Balance** | When `1`, the range is remapped according to the selected colours in the palette. When `0`, the range is not changed by the palette. See below for more information.
+**Reverse** | When `0`, the luminance of a voxel determines how far it is extruded. When `1`, this is reversed and darker voxels are extruded.
 
 ## Blur
 
