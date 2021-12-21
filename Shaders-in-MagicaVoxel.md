@@ -116,9 +116,9 @@ Returns information about the colour the *k*-th index in the palette. The `rgb` 
 
 ## Observations
 
-### Overloading existing functions
+### Overloading internal functions
 
-Some hardware will not allow the extension of exiting functions with a different signature. For maximum portability, a function's name should never match an existing function.
+Some hardware will not allow the extension of internal functions with a different signature. For maximum portability, a function's name should never match an internal function.
 
 For instance, the following code (which attempts to create a new version of `mod` to work with only `int`s) will not work on all systems:
 
