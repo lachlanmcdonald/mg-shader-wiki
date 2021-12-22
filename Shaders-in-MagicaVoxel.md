@@ -300,6 +300,8 @@ In **Visual Studio Code**, GLSL shader syntax-highlighting can be enabled with t
 
 `.txt` files are not automatically detected as shaders. The following snippet can be added to the workspace settings to override the associations for `.txt` files:
 
+**Preferences: Open Workspace Settings (JSON)**
+
 ```json
 {
 	"files.associations": {
