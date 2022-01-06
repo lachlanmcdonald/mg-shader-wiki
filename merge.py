@@ -100,20 +100,18 @@ MAPPING = [
 # Load YAML data
 BASE_DIR = path.dirname(__file__)
 DATA_DIR = path.join(BASE_DIR, 'data')
-YAML_DATA = {}
 
+YAML_DATA = {}
 print("=> Reading YAML")
 for fp in listdir(DATA_DIR):
 	if path.splitext(fp)[1] == '.yml':
-
 		with open(path.join(DATA_DIR, fp), 'r') as fh:
 			k = path.basename(fp)
 			YAML_DATA[k] = yaml.safe_load(fh)
 
 MERGED_DATA = {}
-
 for output_file, yaml_file in MAPPING:
-	if yaml_file in MERGED_DATA:
+	if yaml_file in YAML_DATA:
 		key = path.splitext(yaml_file)[0].replace(output_file + "_", "")
 
 		if output_file not in MERGED_DATA:
