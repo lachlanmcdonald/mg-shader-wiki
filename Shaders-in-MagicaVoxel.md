@@ -14,6 +14,7 @@
   - [Functions must be declared before they are used](#functions-must-be-declared-before-they-are-used)
   - [Limit on array size](#limit-on-array-size)
   - [Using the `voxel` function beyond the volume size](#using-the-voxel-function-beyond-the-volume-size)
+  - [_Marquee tool_](#_marquee-tool_)
 - [Snippets](#snippets)
   - [Determine if a axis mode is set](#determine-if-a-axis-mode-is-set)
   - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
@@ -225,6 +226,10 @@ It is best to initialise arrays with fewer than 255 elements.
 voxel(500.0, 500.0, 500.0); // 0.0
 voxel(-1.0, -1.0, -1.0); // 0.0
 ```
+
+### _Marquee tool_
+
+MagicaVoxel's _Marquee tool_ (where you can select voxels to limit your drawing) also applies to shaders. Shaders can only access the selected voxels. MagicaVoxel treats unselected voxels the same as an empty location, which can cause issues with shaders.
 
 ## Snippets
 
