@@ -18,7 +18,7 @@ Parameter | Description
 
 ## Modes
 
-<!-- SAMPLE greebles2_modes 3 -->
+<!-- SAMPLE greebles2 modes 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_mode0.jpg" alt="Example of a 'Mode' value of 0"></td>
@@ -40,7 +40,7 @@ Parameter | Description
 
 ## Width, Height & Depth
 
-<!-- SAMPLE greebles2_variations 3 -->
+<!-- SAMPLE greebles2 variations 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_1x3x4.jpg" alt="1x3x4"></td>
@@ -59,7 +59,7 @@ Parameter | Description
 
 [Axis Modes](Terms#axis-modes) can use used ensure voxels are only generated on certain axes:
 
-<!-- SAMPLE greebles2_axis 2 -->
+<!-- SAMPLE greebles2 axis 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles2_axis_x.jpg" alt="Example of X-axis mode"></td>

@@ -20,7 +20,7 @@ Setting either of the colors to `0` will result in empty voxels.
 
 ## Direction
 
-<!-- SAMPLE zigzag_range_directions 2 -->
+<!-- SAMPLE zigzag range_directions 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/zigzag_range_direction0.png" alt="Example of a 'Direction' value of 0"></td>
@@ -43,7 +43,7 @@ Setting either of the colors to `0` will result in empty voxels.
 
 ## Examples
 
-<!-- SAMPLE zigzag_range_examples 3 -->
+<!-- SAMPLE zigzag range_examples 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.2/zigzag_range_example0.png" alt="Example"></td>

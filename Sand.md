@@ -20,7 +20,7 @@ Parameter | Description
 
 There are 3 distinct color modes for generating voxels, as outlined below:
 
-<!-- SAMPLE sand_modes 3 -->
+<!-- SAMPLE sand modes 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/sand_mode0.png" alt="Example of a 'Mode' value of 0"></td>
@@ -42,7 +42,7 @@ There are 3 distinct color modes for generating voxels, as outlined below:
 
 ## Examples
 
-<!-- SAMPLE sand_examples 3 -->
+<!-- SAMPLE sand examples 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/sand_example00.png" alt=""></td>

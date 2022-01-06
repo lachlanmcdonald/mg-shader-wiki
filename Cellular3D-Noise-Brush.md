@@ -28,7 +28,7 @@ Parameter | Description
 
 ## Mode
 
-<!-- SAMPLE cellular3D_mode 2 -->
+<!-- SAMPLE cellular3D mode 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular3D_mode0_compressed.jpg" alt="Example of a 'Mode' value of 0"></td>
@@ -59,7 +59,7 @@ Parameter | Description
 
 ## Scale
 
-<!-- SAMPLE cellular3D_scale 3 -->
+<!-- SAMPLE cellular3D scale 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular3D_scale10_compressed.jpg" alt="Example of a 'Scale' value of 10"></td>
@@ -76,7 +76,7 @@ Parameter | Description
 
 ## Jitter
 
-<!-- SAMPLE cellular3D_jitter 3 -->
+<!-- SAMPLE cellular3D jitter 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular3D_jitter-100_compressed.jpg" alt="Example of a 'Jitter' value of -100"></td>
@@ -93,7 +93,7 @@ Parameter | Description
 
 ## Noise
 
-<!-- SAMPLE cellular3D_noise 3 -->
+<!-- SAMPLE cellular3D noise 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular3D_noise0_compressed.jpg" alt="Example of a 'Noise' value of 0"></td>
@@ -110,7 +110,7 @@ Parameter | Description
 
 ## Power
 
-<!-- SAMPLE cellular3D_power 2 -->
+<!-- SAMPLE cellular3D power 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular3D_power050_compressed.jpg" alt="Example of a 'Power' value of 0.50"></td>
@@ -133,7 +133,7 @@ Parameter | Description
 
 ## Cavity
 
-<!-- SAMPLE cellular3D_cavity 2 -->
+<!-- SAMPLE cellular3D cavity 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular3D_cavity20_compressed.jpg" alt="Example of a 'Cavity' value of 20"></td>

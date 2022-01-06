@@ -1,0 +1,8 @@
+headroom:
+- raw: A <strong>Headroom</strong> of <code>1</code> checks that 1 voxel higher to
+    make sure there is room.
+  src: /0.11.0/soil_headroom_1.png
+- raw: A <strong>Headroom</strong> of <code>10</code> checks that 10 voxels higher
+    to make sure there is room. Resulting in gaps where there is overhang from other
+    voxels.
+  src: /0.11.0/soil_headroom_10.png

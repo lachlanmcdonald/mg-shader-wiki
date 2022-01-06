@@ -19,7 +19,7 @@ Parameter | Description
 
 When no [Axis Modes](Terms#axis-modes) are set, the shader will form a square pyramid. However, if either X or Y-Axis Modes are set, the shader will form a pyramid with the slope facing the X or Y axis, respectively. Setting the Z-axis mode has no effect.
 
-<!-- SAMPLE pyramid_axis 3 -->
+<!-- SAMPLE pyramid axis 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_rect.png" alt=""></td>
@@ -48,7 +48,7 @@ When no [Axis Modes](Terms#axis-modes) are set, the shader will form a square py
 
 Noise will accumulate. For example, for a value of `0.1`, the original pattern is almost completely lost after 10 iterations.
 
-<!-- SAMPLE pyramid_noise 2 -->
+<!-- SAMPLE pyramid noise 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/pyramid_noise_0.png" alt="Example of a 'Noise' value of 0"></td>

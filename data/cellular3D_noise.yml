@@ -1,9 +1,0 @@
-- label: Noise
-  src: /0.11.2/cellular3D_noise0_compressed.jpg
-  value: '0'
-- label: Noise
-  src: /0.11.2/cellular3D_noise25_compressed.jpg
-  value: '25'
-- label: Noise
-  src: /0.11.2/cellular3D_noise50_compressed.jpg
-  value: '50'

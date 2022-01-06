@@ -1,0 +1,23 @@
+directions:
+- label: Direction
+  src: /0.10.3/stairs_direction0.png
+  value: '0'
+- label: Direction
+  src: /0.10.3/stairs_direction1.png
+  value: 1
+- label: Direction
+  src: /0.10.3/stairs_direction2.png
+  value: 2
+- label: Direction
+  src: /0.10.3/stairs_direction3.png
+  value: 3
+height:
+- label: Height
+  src: /0.10.3/stairs_height1.png
+  value: 1
+- label: Height
+  src: /0.10.3/stairs_height2.png
+  value: 2
+- label: Height
+  src: /0.10.3/stairs_height3.png
+  value: 3

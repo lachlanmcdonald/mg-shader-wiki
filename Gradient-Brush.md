@@ -17,7 +17,7 @@ Parameter | Description
 
 ## Mode
 
-<!-- SAMPLE gradient_mode 2 -->
+<!-- SAMPLE gradient mode 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/gradient_mode0_compressed.jpg" alt="Example of a 'Mode' value of 0"></td>
@@ -60,7 +60,7 @@ Parameter | Description
 
 ## Direction
 
-<!-- SAMPLE gradient_direction 3 -->
+<!-- SAMPLE gradient direction 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/gradient_direction0_compressed.jpg" alt="Example of a 'Direction' value of 0"></td>
@@ -97,7 +97,7 @@ Parameter | Description
 
 ## Noise
 
-<!-- SAMPLE gradient_noise 2 -->
+<!-- SAMPLE gradient noise 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/gradient_noise00_compressed.jpg" alt="Example of a 'Noise' value of 0"></td>

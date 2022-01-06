@@ -1,0 +1,20 @@
+axis:
+- src: /0.11.0/pyramid_rect.png
+  text: Original
+- src: /0.11.0/pyramid_rect_no_axis.png
+  text: No axis mode
+- src: /0.11.0/pyramid_rect_x.png
+  text: X-axis mode
+- src: /0.11.0/pyramid_circle.png
+  text: Original
+- src: /0.11.0/pyramid_circle_no_axis.png
+  text: No axis mode
+- src: /0.11.0/pyramid_circle_x_axis.png
+  text: X-axis mode
+noise:
+- label: Noise
+  src: /0.11.0/pyramid_noise_0.png
+  value: '0'
+- label: Noise
+  src: /0.11.0/pyramid_noise_50.png
+  value: '50'

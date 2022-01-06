@@ -27,7 +27,7 @@ Parameter | Description
 
 ## Mode
 
-<!-- SAMPLE cellular2D_mode 2 -->
+<!-- SAMPLE cellular2D mode 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_mode0_compressed.jpg" alt="Example of a 'Mode' value of 0"></td>
@@ -70,7 +70,7 @@ Parameter | Description
 
 ## Scale
 
-<!-- SAMPLE cellular2D_scale 3 -->
+<!-- SAMPLE cellular2D scale 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_scale20_compressed.jpg" alt="Example of a 'Scale' value of 20"></td>
@@ -87,7 +87,7 @@ Parameter | Description
 
 ## Jitter
 
-<!-- SAMPLE cellular2D_jitter 3 -->
+<!-- SAMPLE cellular2D jitter 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_jitter-100_compressed.jpg" alt="Example of a 'Jitter' value of -100"></td>
@@ -104,7 +104,7 @@ Parameter | Description
 
 ## Noise
 
-<!-- SAMPLE cellular2D_noise 2 -->
+<!-- SAMPLE cellular2D noise 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_noise0_compressed.jpg" alt="Example of a 'Noise' value of 0"></td>
@@ -127,7 +127,7 @@ Parameter | Description
 
 ## Power
 
-<!-- SAMPLE cellular2D_power 2 -->
+<!-- SAMPLE cellular2D power 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_power050_compressed.jpg" alt="Example of a 'Power' value of 0.50"></td>
@@ -150,7 +150,7 @@ Parameter | Description
 
 ## Steps
 
-<!-- SAMPLE cellular2D_steps 3 -->
+<!-- SAMPLE cellular2D steps 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/cellular2D_steps0_compressed.jpg" alt="Example of a 'Steps' value of 0"></td>

@@ -21,7 +21,7 @@ Parameter | Description
 
 ## Modes
 
-<!-- SAMPLE prism_modes 2 -->
+<!-- SAMPLE prism modes 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0.png" alt="Example of a 'Mode' value of 0"></td>
@@ -40,7 +40,7 @@ Parameter | Description
 
 ## Mode: `0`
 
-<!-- SAMPLE prism_mode0_sizes 2 -->
+<!-- SAMPLE prism mode0_sizes 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode0_width8.png" alt="Example of mode of 0 and size 8"></td>
@@ -63,7 +63,7 @@ Parameter | Description
 
 ## Mode: `1`
 
-<!-- SAMPLE prism_mode1_sizes 2 -->
+<!-- SAMPLE prism mode1_sizes 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_mode1_width8.png" alt="Example of mode of 0 and size 8"></td>
@@ -86,7 +86,7 @@ Parameter | Description
 
 ## Examples
 
-<!-- SAMPLE prism_examples 2 -->
+<!-- SAMPLE prism examples 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/prism_example0.jpg" alt=""></td>

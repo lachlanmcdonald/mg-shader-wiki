@@ -19,7 +19,7 @@ Parameter | Description
 
 **Mode** determines how the pattern is colored:
 
-<!-- SAMPLE weave_modes 3 -->
+<!-- SAMPLE weave modes 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/weave_mode_0.png" alt="Example of a 'Mode' value of 0"></td>
@@ -41,7 +41,7 @@ Parameter | Description
 
 ## Line Width
 
-<!-- SAMPLE weave_line_widths 3 -->
+<!-- SAMPLE weave line_widths 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/weave_line_width_0.png" alt="Example of a 'Line Width' value of 0"></td>

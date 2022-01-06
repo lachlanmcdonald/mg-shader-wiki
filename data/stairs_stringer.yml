@@ -1,0 +1,23 @@
+directions:
+- label: Direction
+  src: /0.10.3/stairs_stringer_direction0.png
+  value: '0'
+- label: Direction
+  src: /0.10.3/stairs_stringer_direction1.png
+  value: 1
+- label: Direction
+  src: /0.10.3/stairs_stringer_direction2.png
+  value: 2
+- label: Direction
+  src: /0.10.3/stairs_stringer_direction3.png
+  value: 3
+stringers:
+- label: Stringer
+  src: /0.10.3/stairs_stringer_stringer1.png
+  value: 1
+- label: Stringer
+  src: /0.10.3/stairs_stringer_stringer2.png
+  value: 2
+- label: Stringer
+  src: /0.10.3/stairs_stringer_stringer4.png
+  value: 4

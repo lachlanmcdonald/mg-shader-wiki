@@ -1,0 +1,43 @@
+grout:
+- label: Grout
+  src: /0.11.0/brick_grout_0.png
+  value: '0'
+- label: Grout
+  src: /0.11.0/brick_grout_1.png
+  value: '1'
+- label: Grout
+  src: /0.11.0/brick_grout_2.png
+  value: '2'
+mode:
+- label: Mode
+  src: /0.11.0/brick_mode_0.png
+  text: Brick colors are chosen at random
+  value: '0'
+- label: Mode
+  src: /0.11.0/brick_mode_1.png
+  text: Brick are colored as a gradient of the selected colors along the z-axis
+  value: '1'
+- label: Mode
+  raw: Same as mode <code>1</code> but in reverse
+  src: /0.11.0/brick_mode_2.png
+  value: '2'
+noise:
+- label: noise
+  src: /0.11.0/brick_noise_0.png
+  value: '0'
+- label: noise
+  src: /0.11.0/brick_noise_25.png
+  value: '25'
+- label: noise
+  src: /0.11.0/brick_noise_75.png
+  value: '75'
+threshold:
+- label: Threshold
+  src: /0.11.0/brick_threshold_100.png
+  value: '100'
+- label: Threshold
+  src: /0.11.0/brick_threshold_80.png
+  value: '80'
+- label: Threshold
+  src: /0.11.0/brick_threshold_60.png
+  value: '60'

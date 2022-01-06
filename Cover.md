@@ -10,7 +10,7 @@ Parameter | Description
 **Noise** | Chance that a voxel will not be added. When `0`, no voxels are skipped. Values closer to `100` will cause voxels to be skipped at random.
 **Seed** | Global seed
 
-<!-- SAMPLE cover_variations 2 -->
+<!-- SAMPLE cover variations 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/cover.png" alt=""></td>
@@ -33,7 +33,7 @@ Parameter | Description
 
 ## Examples
 
-<!-- SAMPLE cover_examples 2 -->
+<!-- SAMPLE cover examples 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/cover_example0.jpg" alt=""></td>

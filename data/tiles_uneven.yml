@@ -1,0 +1,59 @@
+line_width:
+- label: Line Width
+  src: /0.11.0/tiles_uneven_line_0.png
+  value: '0'
+- label: Line Width
+  src: /0.11.0/tiles_uneven_line_1.png
+  value: 1
+- label: Line Width
+  src: /0.11.0/tiles_uneven_line_2.png
+  value: 2
+modes:
+- label: Mode
+  src: /0.11.0/tiles_uneven_mode_0.png
+  text: Tiles are colored at random between the selected colors.
+  value: '0'
+- label: Mode
+  src: /0.11.0/tiles_uneven_mode_1.png
+  text: Tiles are colored between depending on their size between the selected colors.
+  value: 1
+- label: Mode
+  src: /0.11.0/tiles_uneven_mode_2.png
+  text: Tiles are colored between the selected colors in a repeating pattern along
+    the X-axis
+  value: 2
+- label: Mode
+  src: /0.11.0/tiles_uneven_mode_3.png
+  text: Tiles are colored between the selected colors in a repeating pattern along
+    the Y-axis
+  value: 3
+- label: Mode
+  src: /0.11.0/tiles_uneven_mode_4.png
+  text: Tiles are colored at random using only the first and last selected color
+  value: 4
+- label: Mode
+  src: /0.11.0/tiles_uneven_mode_5.png
+  text: Tiles are colored in an alternating pattern using only the first and last
+    selected color
+  value: 5
+noise:
+- label: Noise
+  src: /0.11.0/tiles_uneven_noise_0.png
+  text: Tiles are colored at random between the selected colors.
+  value: '0'
+- label: Noise
+  src: /0.11.0/tiles_uneven_noise_25.png
+  text: Tiles are colored between depending on their size between the selected colors.
+  value: '25'
+- label: Noise
+  src: /0.11.0/tiles_uneven_noise_50.png
+  text: Tiles are colored between the selected colors in a repeating pattern along
+    the X-axis
+  value: '50'
+variations:
+- src: /0.11.0/tiles_uneven_2x4.png
+  value: 2x4
+- src: /0.11.0/tiles_uneven_2x12.png
+  value: 2x12
+- src: /0.11.0/tiles_uneven_4x8.png
+  value: 4x8

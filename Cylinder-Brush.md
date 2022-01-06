@@ -16,7 +16,7 @@ Parameter | Description
 
 ## Rotation
 
-<!-- SAMPLE cylinder_rotation 3 -->
+<!-- SAMPLE cylinder rotation 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_rotation0.jpg" alt="Example of a 'Rotation' value of 0"></td>
@@ -33,7 +33,7 @@ Parameter | Description
 
 ## Thickness
 
-<!-- SAMPLE cylinder_thickness 2 -->
+<!-- SAMPLE cylinder thickness 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_thickness025.jpg" alt="Example of a 'Thickness' value of 25"></td>
@@ -56,7 +56,7 @@ Parameter | Description
 
 ## Volume Sizes
 
-<!-- SAMPLE cylinder_volumes 3 -->
+<!-- SAMPLE cylinder volumes 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_30x10x30.jpg" alt="30x10x30"></td>
@@ -73,7 +73,7 @@ Parameter | Description
 
 ## Examples
 
-<!-- SAMPLE cylinder_examples 1 -->
+<!-- SAMPLE cylinder examples 1 -->
 <table>
 	<tr>
 		<td width="100%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/cylinder_example0.jpg" alt="Example"></td>

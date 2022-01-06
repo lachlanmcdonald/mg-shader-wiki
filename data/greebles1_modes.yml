@@ -1,8 +1,0 @@
-- src: /0.10.6/greebles1_mode0.jpg
-  label: Mode
-  value: '0'
-  text: Voxels overlapping cuboids are removed
-- src: /0.10.6/greebles1_mode1.jpg
-  label: Mode
-  value: 1
-  text: Only voxels overlapping cuboids are kept

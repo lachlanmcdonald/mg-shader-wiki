@@ -1,9 +1,0 @@
-- label: Steps
-  src: /0.11.2/cellular2D_steps0_compressed.jpg
-  value: '0'
-- label: Steps
-  src: /0.11.2/cellular2D_steps8_compressed.jpg
-  value: '8'
-- label: Steps
-  src: /0.11.2/cellular2D_steps16_compressed.jpg
-  value: '16'

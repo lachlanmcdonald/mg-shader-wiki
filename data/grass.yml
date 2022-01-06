@@ -1,0 +1,53 @@
+density:
+- label: Density
+  src: /0.10.3/grass_density1.png
+  value: 1
+- label: Density
+  src: /0.10.3/grass_density2.png
+  value: 2
+- label: Density
+  src: /0.10.3/grass_density3.png
+  value: 3
+- label: Density
+  src: /0.10.3/grass_density4.png
+  value: 4
+examples:
+- alt: Example
+  src: /0.10.3/grass_example0.png
+- alt: Example
+  src: /0.10.3/grass_example1.png
+- alt: Example
+  src: /0.10.3/grass_example2.png
+- alt: Example
+  src: /0.10.3/grass_example3.png
+growth:
+- label: Growth
+  src: /0.10.3/grass_growth000.png
+  value: '0'
+- label: Growth
+  src: /0.10.3/grass_growth050.png
+  value: '50'
+- label: Growth
+  src: /0.10.3/grass_growth075.png
+  value: '75'
+- label: Growth
+  src: /0.10.3/grass_growth100.png
+  value: '100'
+modes:
+- label: Mode
+  raw: The color of the line is dependant on its height.
+  src: /0.10.3/grass_mode0.png
+  value: '0'
+- label: Mode
+  raw: The color of each voxel in the line is chosen at random.
+  src: /0.10.3/grass_mode1.png
+  value: 1
+- label: Mode
+  raw: The color of the line is chosen at random.
+  src: /0.10.3/grass_mode2.png
+  value: 2
+- label: Mode
+  raw: The color of the line is a gradient between <strong>Color A</strong> and<strong>
+    Color B</strong> (regardless of height.)
+  src: /0.10.3/grass_mode3.png
+  value: 3

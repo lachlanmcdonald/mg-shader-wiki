@@ -1,0 +1,23 @@
+line_widths:
+- label: Line Width
+  src: /0.11.0/weave_line_width_0.png
+  value: '0'
+- label: Line Width
+  src: /0.11.0/weave_line_width_1.png
+  value: 1
+- label: Line Width
+  src: /0.11.0/weave_line_width_2.png
+  value: 2
+modes:
+- label: Mode
+  src: /0.11.0/weave_mode_0.png
+  text: Tiles are colored at random
+  value: '0'
+- label: Mode
+  src: /0.11.0/weave_mode_1.png
+  text: Tiles are colored in a repeating zig-zag pattern
+  value: 1
+- label: Mode
+  src: /0.11.0/weave_mode_2.png
+  text: Tiles are alterated between the first and last selected color
+  value: 2

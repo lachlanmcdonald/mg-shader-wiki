@@ -1,0 +1,36 @@
+axis:
+- alt: Example of X-axis mode
+  label: X-axis mode
+  src: /0.10.6/greebles2_axis_x.jpg
+- alt: Example of Y-axis mode
+  label: Y-axis mode
+  src: /0.10.6/greebles2_axis_y.jpg
+- alt: Example of X & Y-axis mode
+  label: X & Y-axis mode
+  src: /0.10.6/greebles2_axis_xy.jpg
+- alt: Example of Z-axis mode
+  label: Z-axis mode
+  src: /0.10.6/greebles2_axis_z.jpg
+modes:
+- label: Mode
+  src: /0.10.6/greebles2_mode0.jpg
+  text: Cells are intruded from the surface
+  value: '0'
+- label: Mode
+  src: /0.10.6/greebles2_mode1.jpg
+  text: Cells are added instead of intruded, creating a hollow shell
+  value: 1
+- label: Mode
+  src: /0.10.6/greebles2_mode2.jpg
+  text: Only cells at the edges are removed
+  value: 2
+variations:
+- alt: 1x3x4
+  src: /0.10.6/greebles2_axis_1x3x4.jpg
+  value: 1x3x4
+- alt: 4x4x4
+  src: /0.10.6/greebles2_axis_4x4x4.jpg
+  value: 4x4x4
+- alt: 4x1x7
+  src: /0.10.6/greebles2_axis_mode2_4x1x7.jpg
+  value: 4x1x7

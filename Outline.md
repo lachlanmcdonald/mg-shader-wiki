@@ -14,7 +14,7 @@ Parameter | Description
 
 ## Examples
 
-<!-- SAMPLE outline_examples 3 -->
+<!-- SAMPLE outline examples 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/outline_base.png" alt=""></td>

@@ -17,7 +17,7 @@ Parameter | Description
 
 ## Modes
 
-<!-- SAMPLE truchet_mode 3 -->
+<!-- SAMPLE truchet mode 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/truchet_mode0_compressed.jpg" alt="Example of a 'Mode' value of 0"></td>
@@ -39,7 +39,7 @@ Parameter | Description
 
 ## Size
 
-<!-- SAMPLE truchet_size 3 -->
+<!-- SAMPLE truchet size 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/truchet_size5_compressed.jpg" alt="Example of a 'Size' value of 5"></td>
@@ -56,7 +56,7 @@ Parameter | Description
 
 ## Noise
 
-<!-- SAMPLE truchet_noise 2 -->
+<!-- SAMPLE truchet noise 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.2/truchet_noise0_compressed.jpg" alt="Example of a 'Noise' value of 0"></td>

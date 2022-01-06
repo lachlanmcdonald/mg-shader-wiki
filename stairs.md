@@ -25,7 +25,7 @@ Mode | Description
 
 ## Direction
 
-<!-- SAMPLE stairs_directions 3 -->
+<!-- SAMPLE stairs directions 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_direction0.png" alt="Example of a 'Direction' value of 0"></td>
@@ -48,7 +48,7 @@ Mode | Description
 
 ## Height
 
-<!-- SAMPLE stairs_height 3 -->
+<!-- SAMPLE stairs height 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_height1.png" alt="Example of a 'Height' value of 1"></td>

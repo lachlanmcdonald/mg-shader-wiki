@@ -19,7 +19,7 @@ Parameter | Description
 
 ## Sizes
 
-<!-- SAMPLE noise_sizes 3 -->
+<!-- SAMPLE noise sizes 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_size_1_1_1.png" alt="Example of a size of 1x1x1"></td>
@@ -38,7 +38,7 @@ Parameter | Description
 
 Axis modes can use used to only add noise on certain axes:
 
-<!-- SAMPLE noise_axis 3 -->
+<!-- SAMPLE noise axis 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/noise_no_axis.png" alt="Example of no set axis mode"></td>

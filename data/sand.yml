@@ -1,0 +1,20 @@
+examples:
+- src: /0.10.5/sand_example00.png
+- src: /0.10.5/sand_example01.png
+- src: /0.10.5/sand_example02.png
+- src: /0.10.5/sand_example10.png
+- src: /0.10.5/sand_example11.png
+- src: /0.10.5/sand_example12.png
+modes:
+- label: Mode
+  raw: The color is chosen at random from the selected colours.
+  src: /0.11.0/sand_mode0.png
+  value: '0'
+- label: Mode
+  raw: The color of each voxel depends on how many adjacent neighbours it has.
+  src: /0.11.0/sand_mode1.png
+  value: 1
+- label: Mode
+  raw: Reverse of Mode 1.
+  src: /0.11.0/sand_mode2.png
+  value: 2

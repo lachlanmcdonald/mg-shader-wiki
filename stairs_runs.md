@@ -30,7 +30,7 @@ Mode | Description
 
 ## Count
 
-<!-- SAMPLE stairs_runs_count 2 -->
+<!-- SAMPLE stairs_runs count 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_count_2.png" alt="Example of a 'Count' value of 2"></td>
@@ -53,7 +53,7 @@ Mode | Description
 
 ## Height
 
-<!-- SAMPLE stairs_runs_height 2 -->
+<!-- SAMPLE stairs_runs height 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_height_1.png" alt="Example of a 'Height' value of 1"></td>
@@ -76,7 +76,7 @@ Mode | Description
 
 ## X/Y Gap
 
-<!-- SAMPLE stairs_runs_xy_gap 2 -->
+<!-- SAMPLE stairs_runs xy_gap 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_xy_gap_0.png" alt="Example of a X/Y Gap of 0"></td>
@@ -99,7 +99,7 @@ Mode | Description
 
 ## Z Gap
 
-<!-- SAMPLE stairs_runs_z_gap 2 -->
+<!-- SAMPLE stairs_runs z_gap 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/stairs_z_gap_0.png" alt="Example of a Z Gap of 0"></td>
