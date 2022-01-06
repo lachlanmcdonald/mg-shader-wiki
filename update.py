@@ -20,6 +20,8 @@ SAMPLE_PATTERN = re.compile(r"""
 	[\s\n]*<!--\s+SAMPLE\s+  # Start of marker
 	([a-z0-9_]+)             # YAML file
 	\s+                      # Mandatory whitespace
+	([a-z0-9_]+)             # Dictionary key in YAML
+	\s+                      # Mandatory whitespace
 	(\d+)                    # Items per row
 	\s+-->                   # End of marker
 	.*?                      # HTML
@@ -99,18 +101,22 @@ def list_repl(match):
 
 
 def arg_sample_repl(match):
-	k = match.group(1)
-	per_row = int(match.group(2))
-	assert k in YAML_DATA, '{} not in data ({})'.format(k, f)
+	yaml_file = match.group(1)
+	key = match.group(2)
+	per_row = int(match.group(3))
+	assert yaml_file in YAML_DATA, '{} not in data ({})'.format(yaml_file, f)
+	assert key in YAML_DATA[yaml_file], "{} not in data ({})".format(k, yaml_file)
 
-	SEEN_YAML_DATA.append(k)
+	data = YAML_DATA[yaml_file][key]
+
+	SEEN_YAML_DATA.append(yaml_file)
 
 	contents = SAMPLES_TEMPLATE({
 		'image_base': IMAGE_BASE_URL,
-		'args': ' '.join(['SAMPLE', k, str(per_row)]),
-		"has_value_label": any([ 'value' in j or 'label' in j for j in YAML_DATA[k]]),
-		"has_text": any([ 'raw' in j or 'text' in j for j in YAML_DATA[k]]),
-		'rows': list(chunks(YAML_DATA[k], per_row)),
+		'args': ' '.join(['SAMPLE', yaml_file, key, str(per_row)]),
+		"has_value_label": any([ 'value' in j or 'label' in j for j in data]),
+		"has_text": any([ 'raw' in j or 'text' in j for j in data]),
+		'rows': list(chunks(data, per_row)),
 		'width': re.sub(r'\.?0+%$', '%', "{:.2f}%".format(100 / per_row))
 	}).strip()
 	return '\n\n' + contents + '\n\n'

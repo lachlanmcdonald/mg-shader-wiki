@@ -6,8 +6,7 @@
 - [Parameters](#parameters)
 - [Mode](#mode)
 - [Density](#density)
-- [Growth](#growth)
-- [Examples](#examples)
+- [Height](#height)
 - [Notes](#notes)
 
 ## Parameters
