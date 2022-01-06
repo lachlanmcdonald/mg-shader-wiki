@@ -1,0 +1,20 @@
+directions:
+- label: Direction
+  src: /0.10.4/zigzag3_direction0.png
+  value: '0'
+- label: Direction
+  src: /0.10.4/zigzag3_direction1.png
+  value: 1
+- label: Direction
+  src: /0.10.4/zigzag3_direction2.png
+  value: 2
+- label: Direction
+  src: /0.10.4/zigzag3_direction3.png
+  value: 3
+examples:
+- alt: Example
+  src: /0.10.2/zigzag3_example0.png
+- alt: Example
+  src: /0.10.2/zigzag3_example1.png
+- alt: Example
+  src: /0.10.2/zigzag3_example2.png

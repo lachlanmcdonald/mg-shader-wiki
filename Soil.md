@@ -11,7 +11,7 @@ Parameter | Description
 
 ## Headroom
 
-<!-- SAMPLE soil_headroom 2 -->
+<!-- SAMPLE soil headroom 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/soil_headroom_1.png" alt=""></td>

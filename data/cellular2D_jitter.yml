@@ -1,9 +1,0 @@
-- label: Jitter
-  src: /0.11.2/cellular2D_jitter-100_compressed.jpg
-  value: '-100'
-- label: Jitter
-  src: /0.11.2/cellular2D_jitter0_compressed.jpg
-  value: '0'
-- label: Jitter
-  src: /0.11.2/cellular2D_jitter100_compressed.jpg
-  value: '100'

@@ -1,0 +1,82 @@
+jitter:
+- label: Jitter
+  src: /0.11.2/cellular2D_jitter-100_compressed.jpg
+  value: '-100'
+- label: Jitter
+  src: /0.11.2/cellular2D_jitter0_compressed.jpg
+  value: '0'
+- label: Jitter
+  src: /0.11.2/cellular2D_jitter100_compressed.jpg
+  value: '100'
+mode:
+- label: Mode
+  src: /0.11.2/cellular2D_mode0_compressed.jpg
+  text: Generate mounds and peaks
+  value: '0'
+- label: Mode
+  src: /0.11.2/cellular2D_mode1_compressed.jpg
+  text: Generate dips
+  value: '1'
+- label: Mode
+  src: /0.11.2/cellular2D_mode2_compressed.jpg
+  text: Generate mounds and peaks (using the second closest point)
+  value: '2'
+- label: Mode
+  src: /0.11.2/cellular2D_mode3_compressed.jpg
+  text: Generate dips (using the second closest point)
+  value: '3'
+- label: Mode
+  src: /0.11.2/cellular2D_mode4_compressed.jpg
+  text: Generates the noise pattern and ignores the Z-axis
+  value: '4'
+- label: Mode
+  src: /0.11.2/cellular2D_mode5_compressed.jpg
+  text: Generates the noise pattern and ignores the Z-axis (using the second closest
+    point)
+  value: '5'
+noise:
+- label: Noise
+  src: /0.11.2/cellular2D_noise0_compressed.jpg
+  value: '0'
+- label: Noise
+  src: /0.11.2/cellular2D_noise25_compressed.jpg
+  value: '25'
+- label: Noise
+  src: /0.11.2/cellular2D_noise50_compressed.jpg
+  value: '50'
+- label: Noise
+  src: /0.11.2/cellular2D_noise75_compressed.jpg
+  value: '75'
+power:
+- label: Power
+  src: /0.11.2/cellular2D_power050_compressed.jpg
+  value: '0.50'
+- label: Power
+  src: /0.11.2/cellular2D_power100_compressed.jpg
+  value: '1.00'
+- label: Power
+  src: /0.11.2/cellular2D_power150_compressed.jpg
+  value: '1.50'
+- label: Power
+  src: /0.11.2/cellular2D_power200_compressed.jpg
+  value: '2.00'
+scale:
+- label: Scale
+  src: /0.11.2/cellular2D_scale20_compressed.jpg
+  value: '20'
+- label: Scale
+  src: /0.11.2/cellular2D_scale40_compressed.jpg
+  value: '40'
+- label: Scale
+  src: /0.11.2/cellular2D_scale80_compressed.jpg
+  value: '80'
+steps:
+- label: Steps
+  src: /0.11.2/cellular2D_steps0_compressed.jpg
+  value: '0'
+- label: Steps
+  src: /0.11.2/cellular2D_steps8_compressed.jpg
+  value: '8'
+- label: Steps
+  src: /0.11.2/cellular2D_steps16_compressed.jpg
+  value: '16'

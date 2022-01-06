@@ -23,7 +23,7 @@ Parameter | Description
 
 There are 4 distinct color modes for generating voxels, as outlined below:
 
-<!-- SAMPLE grass_modes 2 -->
+<!-- SAMPLE grass modes 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/grass_mode0.png" alt="Example of a 'Mode' value of 0"></td>

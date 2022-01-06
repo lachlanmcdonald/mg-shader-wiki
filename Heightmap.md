@@ -1,6 +1,6 @@
 > The **heightmap** shader treats the first layer of voxels as a 2D height-map texture and extrudes upwards to create a 3D volume. Height is determined by the _perceived luminance_ of each voxel.
 
-<!-- SAMPLE heightmap_usage 2 -->
+<!-- SAMPLE heightmap usage 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/TODO/heightmap-base.png" alt=""></td>
@@ -29,7 +29,7 @@ Parameter | Description
 
 ## Blur
 
-<!-- SAMPLE heightmap_blur 2 -->
+<!-- SAMPLE heightmap blur 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/TODO/heightmap-blur-0.png" alt="Example of a 'Blur' value of 0"></td>
@@ -52,7 +52,7 @@ Parameter | Description
 
 ## Auto Balance
 
-<!-- SAMPLE heightmap_autobalance 3 -->
+<!-- SAMPLE heightmap autobalance 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/TODO/heightmap-autobalance.png" alt=""></td>
@@ -87,7 +87,7 @@ If **Auto Balance** is `1` and you haven't selected ever colour used by the heig
 
 ## Reverse
 
-<!-- SAMPLE heightmap_reverse 2 -->
+<!-- SAMPLE heightmap reverse 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/TODO/heightmap-reverse0.png" alt="Example of a 'Reverse' value of 0"></td>

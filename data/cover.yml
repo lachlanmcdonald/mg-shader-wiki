@@ -1,0 +1,15 @@
+examples:
+- src: /0.10.5/cover_example0.jpg
+  text: Original
+- raw: Using <code>cover</code> to create the effect of a layer of snow
+  src: /0.10.5/cover_example1.jpg
+variations:
+- src: /0.11.0/cover.png
+  text: Original
+- raw: <code>cover</code> with a single selected color
+  src: /0.11.0/cover_1.png
+- raw: <code>cover</code> with multiple selected colors
+  src: /0.11.0/cover_4.png
+- raw: <code>cover</code> with multiple selected colors and a <code>noise</code> value
+    of <code>0.5</code>
+  src: /0.11.0/cover_noise_50.png

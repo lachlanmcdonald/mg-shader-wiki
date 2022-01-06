@@ -21,7 +21,7 @@ Parameter | Description
 
 ## Modes
 
-<!-- SAMPLE greebles1_modes 2 -->
+<!-- SAMPLE greebles1 modes 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_mode0.jpg" alt="Example of a 'Mode' value of 0"></td>
@@ -40,7 +40,7 @@ Parameter | Description
 
 ## Count
 
-<!-- SAMPLE greebles1_count 2 -->
+<!-- SAMPLE greebles1 count 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_count16.jpg" alt="Example of a 'Count' value of 16"></td>
@@ -63,7 +63,7 @@ Parameter | Description
 
 ## Width, Height & Depth
 
-<!-- SAMPLE greebles1_variations 2 -->
+<!-- SAMPLE greebles1 variations 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_depth1.jpg" alt="Example of a 'Depth' value of 1"></td>
@@ -102,7 +102,7 @@ Parameter | Description
 
 ## Examples
 
-<!-- SAMPLE greebles1_examples 1 -->
+<!-- SAMPLE greebles1 examples 1 -->
 <table>
 	<tr>
 		<td width="100%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_example0.jpg" alt="Example"></td>
@@ -117,7 +117,7 @@ Parameter | Description
 
 [Axis Modes](Terms#axis-modes) can use used ensure voxels are only generated on certain axes:
 
-<!-- SAMPLE greebles1_axis 2 -->
+<!-- SAMPLE greebles1 axis 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.6/greebles1_axis_x.jpg" alt="Example of X-axis mode"></td>

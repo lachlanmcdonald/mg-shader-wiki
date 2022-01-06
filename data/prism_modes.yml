@@ -1,8 +1,0 @@
-- label: Mode
-  src: /0.10.5/prism_mode0.png
-  text: Linear interpolation (straight edge)
-  value: '0'
-- label: Mode
-  src: /0.10.5/prism_mode1.png
-  text: Sine interpolation (curved edge)
-  value: 1

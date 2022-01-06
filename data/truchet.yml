@@ -1,0 +1,36 @@
+mode:
+- label: Mode
+  src: /0.11.2/truchet_mode0_compressed.jpg
+  text: Tiles are colored in pairs
+  value: '0'
+- label: Mode
+  src: /0.11.2/truchet_mode1_compressed.jpg
+  text: Tiles are colored randomly
+  value: '1'
+- label: Mode
+  src: /0.11.2/truchet_mode2_compressed.jpg
+  text: Tiles are colored randomly (in reverse)
+  value: '2'
+noise:
+- label: Noise
+  src: /0.11.2/truchet_noise0_compressed.jpg
+  value: '0'
+- label: Noise
+  src: /0.11.2/truchet_noise15_compressed.jpg
+  value: '15'
+- label: Noise
+  src: /0.11.2/truchet_noise40_compressed.jpg
+  value: '40'
+- label: Noise
+  src: /0.11.2/truchet_noise50_compressed.jpg
+  value: '50'
+size:
+- label: Size
+  src: /0.11.2/truchet_size5_compressed.jpg
+  value: 5
+- label: Size
+  src: /0.11.2/truchet_size10_compressed.jpg
+  value: 10
+- label: Size
+  src: /0.11.2/truchet_size20_compressed.jpg
+  value: 20

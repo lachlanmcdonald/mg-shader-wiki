@@ -1,0 +1,34 @@
+autobalance:
+- src: /TODO/heightmap-autobalance.png
+  text: Height-map texture
+- label: Auto Balance
+  src: /TODO/heightmap-autobalance-0.png
+  value: '0'
+- label: Auto Balance
+  src: /TODO/heightmap-autobalance-1.png
+  value: 1
+blur:
+- label: Blur
+  src: /TODO/heightmap-blur-0.png
+  value: '0'
+- label: Blur
+  src: /TODO/heightmap-blur-3.png
+  value: 3
+- label: Blur
+  src: /TODO/heightmap-blur-6.png
+  value: 6
+- label: Blur
+  src: /TODO/heightmap-blur-10.png
+  value: 10
+reverse:
+- label: Reverse
+  src: /TODO/heightmap-reverse0.png
+  value: '0'
+- label: Reverse
+  src: /TODO/heightmap-reverse1.png
+  value: 1
+usage:
+- src: /TODO/heightmap-base.png
+  text: Height-map texture
+- src: /TODO/heightmap-blur-0.png
+  text: Results

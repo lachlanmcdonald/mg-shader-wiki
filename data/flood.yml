@@ -1,0 +1,14 @@
+examples:
+- src: /0.10.5/flood_example0.jpg
+  text: Original
+- raw: Using <code>flood</code> to submerge models in water using a glass material
+  src: /0.10.5/flood_example1.jpg
+- raw: Using <code>flood</code> to engulf in fog using cloud materials
+  src: /0.10.5/flood_example2.jpg
+shaders:
+- alt: Example of the flood shader
+  src: /caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_1.png
+  value: flood
+- alt: Example of the flood2 shader
+  src: /caf97416-2a0d-4bde-a839-8f3f2d50e5a5/flood_2.png
+  value: flood2

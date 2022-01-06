@@ -1,0 +1,75 @@
+cavity:
+- label: Cavity
+  src: /0.11.2/cellular3D_cavity20_compressed.jpg
+  value: '20'
+- label: Cavity
+  src: /0.11.2/cellular3D_cavity40_compressed.jpg
+  value: '400'
+- label: Cavity
+  src: /0.11.2/cellular3D_cavity60_compressed.jpg
+  value: '60'
+- label: Cavity
+  src: /0.11.2/cellular3D_cavity80_compressed.jpg
+  value: '80'
+jitter:
+- label: Jitter
+  src: /0.11.2/cellular3D_jitter-100_compressed.jpg
+  value: '-100'
+- label: Jitter
+  src: /0.11.2/cellular3D_jitter0_compressed.jpg
+  value: '0'
+- label: Jitter
+  src: /0.11.2/cellular3D_jitter100_compressed.jpg
+  value: '100'
+mode:
+- label: Mode
+  src: /0.11.2/cellular3D_mode0_compressed.jpg
+  value: '0'
+- label: Mode
+  src: /0.11.2/cellular3D_mode1_compressed.jpg
+  value: '1'
+- label: Mode
+  src: /0.11.2/cellular3D_mode2_compressed.jpg
+  value: '2'
+- label: Mode
+  src: /0.11.2/cellular3D_mode3_compressed.jpg
+  value: '3'
+- label: Mode
+  src: /0.11.2/cellular3D_mode4_compressed.jpg
+  value: '4'
+- label: Mode
+  src: /0.11.2/cellular3D_mode5_compressed.jpg
+  value: '5'
+noise:
+- label: Noise
+  src: /0.11.2/cellular3D_noise0_compressed.jpg
+  value: '0'
+- label: Noise
+  src: /0.11.2/cellular3D_noise25_compressed.jpg
+  value: '25'
+- label: Noise
+  src: /0.11.2/cellular3D_noise50_compressed.jpg
+  value: '50'
+power:
+- label: Power
+  src: /0.11.2/cellular3D_power050_compressed.jpg
+  value: '0.50'
+- label: Power
+  src: /0.11.2/cellular3D_power100_compressed.jpg
+  value: '1.00'
+- label: Power
+  src: /0.11.2/cellular3D_power150_compressed.jpg
+  value: '1.50'
+- label: Power
+  src: /0.11.2/cellular3D_power200_compressed.jpg
+  value: '2.00'
+scale:
+- label: Scale
+  src: /0.11.2/cellular3D_scale10_compressed.jpg
+  value: '10'
+- label: Scale
+  src: /0.11.2/cellular3D_scale20_compressed.jpg
+  value: '20'
+- label: Scale
+  src: /0.11.2/cellular3D_scale40_compressed.jpg
+  value: '40'

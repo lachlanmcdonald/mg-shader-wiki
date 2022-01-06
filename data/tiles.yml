@@ -1,0 +1,7 @@
+examples:
+- raw: 2x2x2
+  src: /0.11.0/tiles_2_2_2.png
+- raw: 2x4x2
+  src: /0.11.0/tiles_2_4_2.png
+- raw: 10x5x1
+  src: /0.11.0/tiles_10_5_1.png

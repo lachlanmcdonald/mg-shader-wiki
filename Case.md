@@ -15,7 +15,7 @@ Parameter | Description
 
 [Axis Modes](Terms#axis-modes) can use used ensure voxels are only added to certain axes:
 
-<!-- SAMPLE case_axis 3 -->
+<!-- SAMPLE case axis 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/case.png" alt="Original"></td>
@@ -42,7 +42,7 @@ Parameter | Description
 
 ## Examples
 
-<!-- SAMPLE case_examples 3 -->
+<!-- SAMPLE case examples 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/case_example0.jpg" alt=""></td>

@@ -1,8 +1,0 @@
-- src: /TODO/heightmap-autobalance.png
-  text: Height-map texture
-- src: /TODO/heightmap-autobalance-0.png
-  label: Auto Balance
-  value: '0'
-- src: /TODO/heightmap-autobalance-1.png
-  label: Auto Balance
-  value: 1

@@ -1,0 +1,37 @@
+examples:
+- alt: Example
+  src: /0.10.6/cylinder_example0.jpg
+  text: Warp Pipe
+rotation:
+- label: Rotation
+  src: /0.10.6/cylinder_rotation0.jpg
+  value: '0'
+- label: Rotation
+  src: /0.10.6/cylinder_rotation1.jpg
+  value: 1
+- label: Rotation
+  src: /0.10.6/cylinder_rotation2.jpg
+  value: 2
+thickness:
+- label: Thickness
+  src: /0.10.6/cylinder_thickness025.jpg
+  value: 25
+- label: Thickness
+  src: /0.10.6/cylinder_thickness050.jpg
+  value: 50
+- label: Thickness
+  src: /0.10.6/cylinder_thickness075.jpg
+  value: 75
+- label: Thickness
+  src: /0.10.6/cylinder_thickness100.jpg
+  value: 100
+volumes:
+- alt: 30x10x30
+  src: /0.10.6/cylinder_30x10x30.jpg
+  value: 30x10x30
+- alt: 30x20x30
+  src: /0.10.6/cylinder_30x20x30.jpg
+  value: 30x20x30
+- alt: 30x30x30
+  src: /0.10.6/cylinder_30x30x30.jpg
+  value: 30x30x30

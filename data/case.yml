@@ -1,0 +1,26 @@
+axis:
+- alt: Original
+  label: Original
+  src: /0.11.0/case.png
+- alt: Example of no set axis mode
+  label: No set axis mode
+  src: /0.11.0/case_all.png
+- alt: Example of X-axis mode
+  label: X-axis mode
+  src: /0.11.0/case_x.png
+- alt: Example of X & Y-axis mode
+  label: X & Y-axis mode
+  src: /0.11.0/case_xy.png
+- alt: Example of Y-axis mode
+  label: Y-axis mode
+  src: /0.11.0/case_y.png
+- alt: Example of Z-axis mode
+  label: Z-axis mode
+  src: /0.11.0/case_z.png
+examples:
+- src: /0.10.5/case_example0.jpg
+  text: Original
+- raw: Using <code>case</code> and cloud materials to create eerie glows
+  src: /0.10.5/case_example1.jpg
+- raw: Using <code>case</code> and SSR materials to create a plastic/rubber texture
+  src: /0.10.5/case_example2.jpg

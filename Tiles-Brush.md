@@ -17,7 +17,7 @@ Parameter | Description
 
 ## Example
 
-<!-- SAMPLE tiles_examples 3 -->
+<!-- SAMPLE tiles examples 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_2_2_2.png" alt=""></td>

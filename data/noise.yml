@@ -1,0 +1,26 @@
+axis:
+- alt: Example of no set axis mode
+  label: No set axis mode
+  src: /0.11.0/noise_no_axis.png
+- alt: Example of X-axis mode
+  label: X-axis mode
+  src: /0.11.0/noise_no_axis.png
+- alt: Example of X & Y-axis mode
+  label: X & Y-axis mode
+  src: /0.11.0/noise_xy_axis.png
+- alt: Example of Y-axis mode
+  label: Y-axis mode
+  src: /0.11.0/noise_y_axis.png
+- alt: Example of Z-axis mode
+  label: Z-axis mode
+  src: /0.11.0/noise_z_axis.png
+sizes:
+- alt: Example of a size of 1x1x1
+  label: Example of a size of 1x1x1
+  src: /0.11.0/noise_size_1_1_1.png
+- alt: Example of a size of 2x2x8
+  label: Example of a size of 2x2x8
+  src: /0.11.0/noise_size_2_2_8.png
+- alt: Example of a size of 4x10x1
+  label: Example of a size of 4x10x1
+  src: /0.11.0/noise_size_4_10_1.png

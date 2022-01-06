@@ -27,7 +27,7 @@ Mode | Description
 
 ## Direction
 
-<!-- SAMPLE stairs_stringer_directions 2 -->
+<!-- SAMPLE stairs_stringer directions 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_direction0.png" alt="Example of a 'Direction' value of 0"></td>
@@ -50,7 +50,7 @@ Mode | Description
 
 ## Stringer
 
-<!-- SAMPLE stairs_stringer_stringers 3 -->
+<!-- SAMPLE stairs_stringer stringers 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.3/stairs_stringer_stringer1.png" alt="Example of a 'Stringer' value of 1"></td>

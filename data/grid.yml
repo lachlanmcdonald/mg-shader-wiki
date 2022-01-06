@@ -1,0 +1,34 @@
+axis:
+- alt: Example of no set axis mode
+  label: No set axis mode
+  src: /5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XYZ.png
+- alt: Example of X-axis mode
+  label: X-axis mode
+  src: /5efad020-561b-4086-866d-40868862311e/magica_grid_axis_X.png
+- alt: Example of Y-axis mode
+  label: Y-axis mode
+  src: /5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Y.png
+- alt: Example of X & Y-axis mode
+  label: X & Y-axis mode
+  src: /5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XY.png
+- alt: Example of Z-axis mode
+  label: Z-axis mode
+  src: /5efad020-561b-4086-866d-40868862311e/magica_grid_axis_Z.png
+examples:
+- src: /239ce726-a6bd-4d08-b68b-21e125a27337/magica_grid_1.png
+- src: /239ce726-a6bd-4d08-b68b-21e125a27337/magica_grid_2.png
+- src: /239ce726-a6bd-4d08-b68b-21e125a27337/magica_grid_3.png
+- src: /239ce726-a6bd-4d08-b68b-21e125a27337/magica_grid_4.png
+thickness:
+- label: Thickness
+  src: /5efad020-561b-4086-866d-40868862311e/grid_thickness_1.png
+  value: 1
+- label: Thickness
+  src: /5efad020-561b-4086-866d-40868862311e/grid_thickness_2.png
+  value: 2
+- label: Thickness
+  src: /5efad020-561b-4086-866d-40868862311e/grid_thickness_3.png
+  value: 3
+- label: Thickness
+  src: /5efad020-561b-4086-866d-40868862311e/grid_thickness_4.png
+  value: 4

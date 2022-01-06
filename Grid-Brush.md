@@ -21,7 +21,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
 
 ## Thickness
 
-<!-- SAMPLE grid_thickness 2 -->
+<!-- SAMPLE grid thickness 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/grid_thickness_1.png" alt="Example of a 'Thickness' value of 1"></td>
@@ -46,7 +46,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
 
 [Axis Modes](Terms#axis-modes) can use used ensure voxels are only generated on certain axes:
 
-<!-- SAMPLE grid_axis 3 -->
+<!-- SAMPLE grid axis 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/5efad020-561b-4086-866d-40868862311e/magica_grid_axis_XYZ.png" alt="Example of no set axis mode"></td>
@@ -71,7 +71,7 @@ Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, set
 
 ## Examples
 
-<!-- SAMPLE grid_examples 2 -->
+<!-- SAMPLE grid examples 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/239ce726-a6bd-4d08-b68b-21e125a27337/magica_grid_1.png" alt=""></td>

@@ -1,0 +1,13 @@
+mode:
+- label: Mode
+  src: /0.11.2/treemap_mode0_compressed.jpg
+  text: Clusters height and colors are generated at random
+  value: '0'
+- label: Mode
+  src: /0.11.2/treemap_mode1_compressed.jpg
+  text: Clusters height and colors are based on the cluster area
+  value: '1'
+- label: Mode
+  raw: Same as mode <code>1</code> but in reverse
+  src: /0.11.2/treemap_mode2_compressed.jpg
+  value: '2'

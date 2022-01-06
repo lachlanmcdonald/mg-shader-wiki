@@ -24,7 +24,7 @@ Parameter | Description
 
 There are 5 distinct color modes for generating patterns:
 
-<!-- SAMPLE tiles_puzzle_mode 2 -->
+<!-- SAMPLE tiles_puzzle mode 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_mode_0.png" alt="Example of a 'Mode' value of 0"></td>
@@ -64,7 +64,7 @@ There are 5 distinct color modes for generating patterns:
 
 ## Size X & Y
 
-<!-- SAMPLE tiles_puzzle_variations 3 -->
+<!-- SAMPLE tiles_puzzle variations 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_4x4.png" alt="Example of a '' value of 4x4"></td>
@@ -81,7 +81,7 @@ There are 5 distinct color modes for generating patterns:
 
 ## Line Width
 
-<!-- SAMPLE tiles_puzzle_line_width 3 -->
+<!-- SAMPLE tiles_puzzle line_width 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_line_0.png" alt="Example of a 'Line Width' value of 0"></td>
@@ -98,7 +98,7 @@ There are 5 distinct color modes for generating patterns:
 
 ## Noise
 
-<!-- SAMPLE tiles_puzzle_noise 3 -->
+<!-- SAMPLE tiles_puzzle noise 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_puzzle_noise_0.png" alt="Example of a 'Noise' value of 0"></td>
@@ -115,7 +115,7 @@ There are 5 distinct color modes for generating patterns:
 
 ## Examples
 
-<!-- SAMPLE tiles_puzzle_examples 2 -->
+<!-- SAMPLE tiles_puzzle examples 2 -->
 <table>
 	<tr>
 		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.5/tiles_puzzle_example0.jpg" alt="Example"></td>

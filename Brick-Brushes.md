@@ -26,7 +26,7 @@ Parameter | Description
 
 ## Mode
 
-<!-- SAMPLE brick_mode 3 -->
+<!-- SAMPLE brick mode 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_mode_0.png" alt="Example of a 'Mode' value of 0"></td>
@@ -48,7 +48,7 @@ Parameter | Description
 
 ## Grout Size
 
-<!-- SAMPLE brick_grout 3 -->
+<!-- SAMPLE brick grout 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_grout_0.png" alt="Example of a 'Grout' value of 0"></td>
@@ -65,7 +65,7 @@ Parameter | Description
 
 ## Noise
 
-<!-- SAMPLE brick_noise 3 -->
+<!-- SAMPLE brick noise 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_noise_0.png" alt="Example of a 'noise' value of 0"></td>
@@ -82,7 +82,7 @@ Parameter | Description
 
 ## Threshold
 
-<!-- SAMPLE brick_threshold 3 -->
+<!-- SAMPLE brick threshold 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/brick_threshold_100.png" alt="Example of a 'Threshold' value of 100"></td>

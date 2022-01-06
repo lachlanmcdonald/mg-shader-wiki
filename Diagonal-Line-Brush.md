@@ -25,7 +25,7 @@ The widths of the lines are independant of the number of selected colours from t
 	- widths of `1 0 2 0` is the same as `1 2 0 0` or `1 2 1 2`
 - The colors and line widths repeat over and over, and can be adjusted with the **Shuffle** and **Offset** parameters, respectively.
 
-<!-- SAMPLE diagonal_examples 3 -->
+<!-- SAMPLE diagonal examples 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/diagonal_1_0_0_0.png" alt=""></td>
@@ -42,7 +42,7 @@ The widths of the lines are independant of the number of selected colours from t
 
 ## Directions
 
-<!-- SAMPLE diagonal_directions 3 -->
+<!-- SAMPLE diagonal directions 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.10.4/diagonal3_direction0.png" alt="Example of a 'Direction' value of 0"></td>

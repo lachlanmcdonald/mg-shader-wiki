@@ -1,0 +1,57 @@
+examples:
+- alt: Example
+  src: /0.10.5/tiles_puzzle_example0.jpg
+- alt: Example
+  src: /0.10.5/tiles_puzzle_example1.jpg
+line_width:
+- label: Line Width
+  src: /0.11.0/tiles_puzzle_line_0.png
+  value: '0'
+- label: Line Width
+  src: /0.11.0/tiles_puzzle_line_1.png
+  value: 1
+- label: Line Width
+  src: /0.11.0/tiles_puzzle_line_2.png
+  value: 2
+mode:
+- label: Mode
+  raw: Tiles are colored at random between the selected colors.
+  src: /0.11.0/tiles_puzzle_mode_0.png
+  value: '0'
+- label: Mode
+  raw: Tiles are colored at random using only the first and last selected color.
+  src: /0.11.0/tiles_puzzle_mode_1.png
+  value: 1
+- label: Mode
+  raw: Similar to mode <code>0</code>, but only tiles directed towards the X-axis
+    are colored. Remaining tiles become <strong>Line Color</strong>.
+  src: /0.11.0/tiles_puzzle_mode_2.png
+  value: 2
+- label: Mode
+  raw: Similar to mode <code>0</code>, but only tiles directed towards the Y-axis
+    are colored. Remaining tiles become <strong>Line Color</strong>.
+  src: /0.11.0/tiles_puzzle_mode_3.png
+  value: 3
+- label: Mode
+  raw: Similar to mode <code>0</code>, but tiles directed towards the X-axis selected
+    from the first half of the selected colors, and Y-axis the selected from the second
+    half of the selected colours.
+  src: /0.11.0/tiles_puzzle_mode_4.png
+  value: 4
+noise:
+- label: Noise
+  src: /0.11.0/tiles_puzzle_noise_0.png
+  value: '0'
+- label: Noise
+  src: /0.11.0/tiles_puzzle_noise_25.png
+  value: 25
+- label: Noise
+  src: /0.11.0/tiles_puzzle_noise_50.png
+  value: 50
+variations:
+- src: /0.11.0/tiles_puzzle_4x4.png
+  value: 4x4
+- src: /0.11.0/tiles_puzzle_2x8.png
+  value: 2x8
+- src: /0.11.0/tiles_puzzle_8x8.png
+  value: 8x8

@@ -1,9 +1,0 @@
-- label: noise
-  src: /0.11.0/brick_noise_0.png
-  value: '0'
-- label: noise
-  src: /0.11.0/brick_noise_25.png
-  value: '25'
-- label: noise
-  src: /0.11.0/brick_noise_75.png
-  value: '75'

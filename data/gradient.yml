@@ -1,0 +1,63 @@
+direction:
+- label: Direction
+  src: /0.11.2/gradient_direction0_compressed.jpg
+  text: Gradient across the Z-axis
+  value: '0'
+- label: Direction
+  src: /0.11.2/gradient_direction1_compressed.jpg
+  text: Gradient across the Z-axis (in reverse)
+  value: '1'
+- label: Direction
+  src: /0.11.2/gradient_direction2_compressed.jpg
+  text: Gradient across the Y-axis
+  value: '2'
+- label: Direction
+  src: /0.11.2/gradient_direction3_compressed.jpg
+  text: Gradient across the Y-axis (in reverse)
+  value: '3'
+- label: Direction
+  src: /0.11.2/gradient_direction4_compressed.jpg
+  text: Gradient across the X-axis
+  value: '4'
+- label: Direction
+  src: /0.11.2/gradient_direction5_compressed.jpg
+  text: Gradient across the X-axis (in reverse)
+  value: '5'
+mode:
+- label: Mode
+  src: /0.11.2/gradient_mode0_compressed.jpg
+  text: Interweaved noise
+  value: '0'
+- label: Mode
+  src: /0.11.2/gradient_mode1_compressed.jpg
+  text: Random noise
+  value: '1'
+- label: Mode
+  src: /0.11.2/gradient_mode2_compressed.jpg
+  text: Randomised scanlines
+  value: '2'
+- label: Mode
+  src: /0.11.2/gradient_mode3_compressed.jpg
+  text: Even scanlines
+  value: '3'
+- label: Mode
+  src: /0.11.2/gradient_mode4_compressed.jpg
+  text: Waveform noise
+  value: '4'
+- label: Mode
+  src: /0.11.2/gradient_mode5_compressed.jpg
+  text: Ordered Dithering (using a 4x4 Bayer Matrix)
+  value: '5'
+noise:
+- label: Noise
+  src: /0.11.2/gradient_noise00_compressed.jpg
+  value: '0'
+- label: Noise
+  src: /0.11.2/gradient_noise05_compressed.jpg
+  value: '5'
+- label: Noise
+  src: /0.11.2/gradient_noise20_compressed.jpg
+  value: '20'
+- label: Noise
+  src: /0.11.2/gradient_noise40_compressed.jpg
+  value: '40'

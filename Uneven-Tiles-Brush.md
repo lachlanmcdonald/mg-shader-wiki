@@ -23,7 +23,7 @@ Parameter | Description
 
 There are 5 distinct color modes for generating patterns, as outlined below:
 
-<!-- SAMPLE tiles_uneven_modes 3 -->
+<!-- SAMPLE tiles_uneven modes 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_mode_0.png" alt="Example of a 'Mode' value of 0"></td>
@@ -60,7 +60,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 
 ## Min & Max
 
-<!-- SAMPLE tiles_uneven_variations 3 -->
+<!-- SAMPLE tiles_uneven variations 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_2x4.png" alt="Example of a '' value of 2x4"></td>
@@ -77,7 +77,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 
 ## Line Width
 
-<!-- SAMPLE tiles_uneven_line_width 3 -->
+<!-- SAMPLE tiles_uneven line_width 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_line_0.png" alt="Example of a 'Line Width' value of 0"></td>
@@ -94,7 +94,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 
 ## Noise
 
-<!-- SAMPLE tiles_uneven_noise 3 -->
+<!-- SAMPLE tiles_uneven noise 3 -->
 <table>
 	<tr>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.11.0/tiles_uneven_noise_0.png" alt="Example of a 'Noise' value of 0"></td>
