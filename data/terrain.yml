@@ -1,0 +1,105 @@
+contrast:
+  - src: /0.13.0/terrain_contrast30.jpg
+    label: Contrast
+    value: '30'
+  - src: /0.13.0/terrain_contrast50.jpg
+    label: Contrast
+    value: '50'
+  - src: /0.13.0/terrain_contrast70.jpg
+    label: Contrast
+    value: '70'
+gain:
+  - src: /0.13.0/terrain_gain50.jpg
+    label: Gain
+    value: '50'
+  - src: /0.13.0/terrain_gain65.jpg
+    label: Gain
+    value: '65'
+  - src: /0.13.0/terrain_gain80.jpg
+    label: Gain
+    value: '80'
+iterations:
+  - src: /0.13.0/terrain_iterations1.jpg
+    label: Iterations
+    value: '1'
+  - src: /0.13.0/terrain_iterations2.jpg
+    label: Iterations
+    value: '2'
+  - src: /0.13.0/terrain_iterations3.jpg
+    label: Iterations
+    value: '3'
+lucanarity:
+  - src: /0.13.0/terrain_lucanarity0.jpg
+    label: Lucanarity
+    value: '0'
+  - src: /0.13.0/terrain_lucanarity100.jpg
+    label: Lucanarity
+    value: '100'
+  - src: /0.13.0/terrain_lucanarity200.jpg
+    label: Lucanarity
+    value: '200'
+  - src: /0.13.0/terrain_lucanarity300.jpg
+    label: Lucanarity
+    value: '300'
+mode:
+  - src: /0.13.0/terrain_mode0.jpg
+    label: Mode
+    value: '0'
+  - src: /0.13.0/terrain_mode1.jpg
+    label: Mode
+    value: '1'
+noise:
+  - src: /0.13.0/terrain_noise0.jpg
+    label: Noise
+    value: '0'
+  - src: /0.13.0/terrain_noise50.jpg
+    label: Noise
+    value: '50'
+  - src: /0.13.0/terrain_noise100.jpg
+    label: Noise
+    value: '100'
+octaves:
+  - src: /0.13.0/terrain_octaves1.jpg
+    label: Octaves
+    value: '1'
+  - src: /0.13.0/terrain_octaves2.jpg
+    label: Octaves
+    value: '2'
+  - src: /0.13.0/terrain_octaves3.jpg
+    label: Octaves
+    value: '3'
+  - src: /0.13.0/terrain_octaves4.jpg
+    label: Octaves
+    value: '4'
+  - src: /0.13.0/terrain_octaves5.jpg
+    label: Octaves
+    value: '5'
+  - src: /0.13.0/terrain_octaves6.jpg
+    label: Octaves
+    value: '6'
+scale:
+  - src: /0.13.0/terrain_scale25.jpg
+    label: Scale
+    value: '25'
+  - src: /0.13.0/terrain_scale50.jpg
+    label: Scale
+    value: '50'
+  - src: /0.13.0/terrain_scale75.jpg
+    label: Scale
+    value: '75'
+shift:
+  - src: /0.13.0/terrain_shift0.jpg
+    label: Shift
+    value: '0'
+  - src: /0.13.0/terrain_shift20.jpg
+    label: Shift
+    value: '20'
+  - src: /0.13.0/terrain_shift40.jpg
+    label: Shift
+    value: '40'
+  - src: /0.13.0/terrain_shift60.jpg
+    label: Shift
+    value: '60'
+  - src: /0.13.0/terrain_shift80.jpg
+    label: Shift
+    value: '80'
