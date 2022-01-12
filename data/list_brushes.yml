@@ -14,6 +14,11 @@
   href: Gradient-Brush
   preview: /icons2/gradient.png
 - cache: 203
+  content: Generates different styles of radial gradients
+  heading: Radial Gradient Brush
+  href: Radial-Gradient-Brush
+  preview: /icons2/gradient_radial.png
+- cache: 203
   content: Generates generates randomly protruding lines of voxels with a constant distribution
   heading: Grass Brush
   href: Grass-Brush
