@@ -104,8 +104,8 @@ def arg_sample_repl(match):
 	yaml_file = match.group(1)
 	key = match.group(2)
 	per_row = int(match.group(3))
-	assert yaml_file in YAML_DATA, '{} not in data ({})'.format(yaml_file, f)
-	assert key in YAML_DATA[yaml_file], "{} not in data ({})".format(k, yaml_file)
+	assert yaml_file in YAML_DATA, '"{}" not in data ("{}")'.format(yaml_file, f)
+	assert key in YAML_DATA[yaml_file], '"{}" not in data ("{}")'.format(key, yaml_file)
 
 	data = YAML_DATA[yaml_file][key]
 
