@@ -73,8 +73,8 @@ However, the **Paint** mode can also be used to replace only selected voxels. Fo
 		<td valign="center">Generates different styles of gradients</td>
 	</tr>
 	<tr>
-		<td valign="center" align="left"><a href="Radial-Gradient-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons2/gradient_radial.png?cache=203" alt=""></a></td>
-		<th valign="center" align="left"><a href="Radial-Gradient-Brush">Radial Gradient Brush</a></th>
+		<td valign="center" align="left"><a href="Gradient-Radial-Brush"><img width="80" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons2/gradient_radial.png?cache=203" alt=""></a></td>
+		<th valign="center" align="left"><a href="Gradient-Radial-Brush">Radial Gradient Brush</a></th>
 		<td valign="center">Generates different styles of radial gradients</td>
 	</tr>
 	<tr>

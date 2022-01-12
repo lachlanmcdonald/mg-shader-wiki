@@ -4,7 +4,7 @@
   - [Brick Brushes](Brick-Brushes)
   - [Noise Brushes](Noise-Brushes)
   - [Gradient Brush](Gradient-Brush)
-  - [Radial Gradient Brush](Radial-Gradient-Brush)
+  - [Radial Gradient Brush](Gradient-Radial-Brush)
   - [Grass Brush](Grass-Brush)
   - [Grid Brush](Grid-Brush)
   - [Tiles Brush](Tiles-Brush)
