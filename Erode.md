@@ -19,7 +19,7 @@ Parameter | Description
 
 > The seed is automatically randomised when on each iteration.
 
-## Example
+## Examples
 
 <!-- SAMPLE erode exmaples 2 -->
 <table>
@@ -34,7 +34,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Threshold
+### Threshold
 
 Each voxel has 26 neighbouring voxels:
 
@@ -54,7 +54,7 @@ Each voxel has 26 neighbouring voxels:
 </table>
 <!-- END -->
 
-## Scale
+### Scale
 
 <!-- SAMPLE erode scale 3 -->
 <table>
@@ -71,7 +71,7 @@ Each voxel has 26 neighbouring voxels:
 </table>
 <!-- END -->
 
-## Seed
+### Seed
 
 The **Seed** affects the generation of the 3D noise used to erode the volume. However, unless you update the **Seed** each time you run the shader, the same texture will continue to be used. However, when the shader is run with _Iterations_, the Seed is updated automatically.
 

@@ -16,7 +16,7 @@ Parameter | Description
 **Height** | The height of each run
 **Stringer** | The height of the stringer (the area extending beneath each run)
 
-## Mode
+### Mode
 
 Mode | Description
 ---- | -----------
@@ -25,7 +25,7 @@ Mode | Description
 `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** and **Stringer** can still be adjusted
 `3` | **Stringer** is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Height** can still be adjusted
 
-## Direction
+### Direction
 
 <!-- SAMPLE stairs_stringer directions 2 -->
 <table>
@@ -48,7 +48,7 @@ Mode | Description
 </table>
 <!-- END -->
 
-## Stringer
+### Stringer
 
 <!-- SAMPLE stairs_stringer stringers 3 -->
 <table>

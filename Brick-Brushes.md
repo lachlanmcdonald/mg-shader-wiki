@@ -4,10 +4,10 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Grout Size](#grout-size)
-- [Noise](#noise)
-- [Threshold](#threshold)
+  - [Mode](#mode)
+  - [Grout Size](#grout-size)
+  - [Noise](#noise)
+  - [Threshold](#threshold)
 
 ## Parameters
 
@@ -24,7 +24,7 @@ Parameter | Description
 **Noise** | Randomness of the colors within each brick. Values closer to `0` produce solid colored bricks, where as values closer to `100` produce noisy bricks (see below)
 **Threshold** | Likelihood of a brick being placed. The default of `100` means all bricks are placed, and lower values will result in missing bricks (see below)
 
-## Mode
+### Mode
 
 <!-- SAMPLE brick mode 3 -->
 <table>
@@ -46,7 +46,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Grout Size
+### Grout Size
 
 <!-- SAMPLE brick grout 3 -->
 <table>
@@ -63,7 +63,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Noise
+### Noise
 
 <!-- SAMPLE brick noise 3 -->
 <table>
@@ -80,7 +80,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Threshold
+### Threshold
 
 <!-- SAMPLE brick threshold 3 -->
 <table>

@@ -14,7 +14,7 @@ Parameter | Description
 **Threshold** | Threshold of noise, lower values produce replace less voxels and higher values replace more voxels
 **Color** | Color index to replace voxels (setting the index to `0` will remove voxels)
 
-## Threshold
+### Threshold
 
 <table>
     <tr>
@@ -29,7 +29,7 @@ Parameter | Description
 	</tr>
 </table>
 
-## Axis modes
+## Axis Modes
 
 By default, voxels are replaced across all axes. But this can be restricted to the X, Y, or Z-axis (or a combination) with the axis modes:
 

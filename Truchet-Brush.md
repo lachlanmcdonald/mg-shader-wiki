@@ -15,7 +15,7 @@ Parameter | Description
 **Noise** | Additional color noise on each tile
 **Seed** | Global seed 
 
-## Modes
+### Modes
 
 <!-- SAMPLE truchet mode 3 -->
 <table>
@@ -37,7 +37,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Size
+### Size
 
 <!-- SAMPLE truchet size 3 -->
 <table>
@@ -54,7 +54,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Noise
+### Noise
 
 <!-- SAMPLE truchet noise 2 -->
 <table>

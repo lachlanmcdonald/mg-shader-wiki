@@ -17,7 +17,7 @@ Parameter | Description
 **Seed**  | Global seed
 
 
-## Mode
+### Mode
 
 <!-- SAMPLE treemap mode 3 -->
 <table>

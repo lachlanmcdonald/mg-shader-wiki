@@ -40,7 +40,7 @@ The widths of the lines are independant of the number of selected colors from th
 </table>
 <!-- END -->
 
-## Directions
+### Directions
 
 <!-- SAMPLE diagonal directions 3 -->
 <table>

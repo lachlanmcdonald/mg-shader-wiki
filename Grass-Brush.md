@@ -22,7 +22,7 @@ Parameter | Description
 **Growth** | Affects the growth of the lines. `50` is a evenly-distributed growth. Higher or lower values will overgrow or stymied the growth, respectively
 **Seed** | Global seed
 
-## Mode
+### Mode
 
 There are 4 distinct color modes for generating voxels, as outlined below:
 
@@ -55,7 +55,7 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 </table>
 <!-- END -->
 
-## Density
+### Density
 
 <!-- SAMPLE grass density 2 -->
 <table>
@@ -78,7 +78,7 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 </table>
 <!-- END -->
 
-## Growth
+### Growth
 
 <!-- SAMPLE grass growth 2 -->
 <table>

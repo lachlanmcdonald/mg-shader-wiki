@@ -17,7 +17,7 @@ Parameter | Description
 **Size Z** | Size of the noise on the Z-axis
 **Seed** | Global seed
 
-## Sizes
+### Sizes
 
 <!-- SAMPLE noise sizes 3 -->
 <table>

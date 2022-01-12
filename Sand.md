@@ -16,7 +16,7 @@ Parameter | Description
 **Mode** | Color mode (see below)
 **Threshold** | Skews how often sand is added. Values closer to `0` quickly create peaks, where as values closer to `100` will add many more voxels.
 
-## Mode
+### Mode
 
 There are 3 distinct color modes for generating voxels, as outlined below:
 

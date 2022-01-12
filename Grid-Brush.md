@@ -19,7 +19,7 @@ Parameter | Description
 
 Setting **Color A** to `0` will result in gaps, instead of lines. Similarly, setting **Color B** to `0` will only produce lines (with no boxes in between).
 
-## Thickness
+### Thickness
 
 <!-- SAMPLE grid thickness 2 -->
 <table>

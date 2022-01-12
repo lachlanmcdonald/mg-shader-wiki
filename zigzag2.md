@@ -19,7 +19,7 @@ Setting either of the colors to `0` will result in empty voxels.
 
 > **Note:** Zigzag brushes have not yet been updated to use the new color selection system.
 
-## Direction
+### Direction
 
 <!-- SAMPLE zigzag2 directions 2 -->
 <table>

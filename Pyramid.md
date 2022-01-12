@@ -44,7 +44,7 @@ When no [Axis Modes](Terms#axis-modes) are set, the shader will form a square py
 </table>
 <!-- END -->
 
-## Noise
+### Noise
 
 Noise will accumulate. For example, for a value of `0.1`, the original pattern is almost completely lost after 10 iterations.
 

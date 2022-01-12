@@ -17,7 +17,7 @@ Parameter | Description
 **Dither**    | Amount of dithering between each of the selected colors
 **Seed**      | Global seed (not all modes are affected)
 
-## Mode
+### Mode
 
 <!-- SAMPLE gradient mode 2 -->
 <table>
@@ -60,7 +60,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Direction
+### Direction
 
 <!-- SAMPLE gradient direction 3 -->
 <table>
@@ -97,7 +97,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Noise
+### Noise
 
 <!-- SAMPLE gradient noise 2 -->
 <table>

@@ -26,7 +26,7 @@ Parameter | Description
 
 **Tile X**, **Tile Y**, and **Tile Z** parameters are used to generate noise over multiple adjacent volumes. For instance, to create a terrain that exceeds the 256<sup>2</sup> size limit.
 
-## Mode
+### Mode
 
 <!-- SAMPLE cellular3D mode 2 -->
 <table>
@@ -57,7 +57,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Scale
+### Scale
 
 <!-- SAMPLE cellular3D scale 3 -->
 <table>
@@ -74,7 +74,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Jitter
+### Jitter
 
 <!-- SAMPLE cellular3D jitter 3 -->
 <table>
@@ -91,7 +91,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Noise
+### Noise
 
 <!-- SAMPLE cellular3D noise 3 -->
 <table>
@@ -108,7 +108,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Power
+### Power
 
 <!-- SAMPLE cellular3D power 2 -->
 <table>
@@ -131,7 +131,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Cavity
+### Cavity
 
 <!-- SAMPLE cellular3D cavity 2 -->
 <table>

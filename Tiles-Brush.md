@@ -15,7 +15,7 @@ Parameter | Description
 **Offset Y** | Offset of the tiles on the Y-axis
 **Offset Z** | Offset of the tiles on the Z-axis
 
-## Example
+## Examples
 
 <!-- SAMPLE tiles examples 3 -->
 <table>

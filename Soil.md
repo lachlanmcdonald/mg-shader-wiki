@@ -9,7 +9,7 @@ Parameter | Description
 **Color** | Color index
 **Headroom** | The number of voxels of space that must be available above the surface voxel. Setting to a higher value will stop voxels from forming in gaps
 
-## Headroom
+### Headroom
 
 <!-- SAMPLE soil headroom 2 -->
 <table>

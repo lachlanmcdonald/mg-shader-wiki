@@ -14,7 +14,7 @@ Parameter | Description
 **Rotation** | See below
 **Thickness** | Thickness of the tube (or `100` for a cylinder)
 
-## Rotation
+### Rotation
 
 <!-- SAMPLE cylinder rotation 3 -->
 <table>
@@ -31,7 +31,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Thickness
+### Thickness
 
 <!-- SAMPLE cylinder thickness 2 -->
 <table>
@@ -54,7 +54,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Volume Sizes
+### Volume Sizes
 
 <!-- SAMPLE cylinder volumes 3 -->
 <table>

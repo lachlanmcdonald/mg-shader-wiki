@@ -25,7 +25,7 @@ Parameter | Description
 **Dither**     | Amount of dithering between each of the selected colors
 **Seed**       | Global seed (not all modes are affected)
 
-## Mode
+### Mode
 
 <!-- SAMPLE gradient_radial mode 3 -->
 <table>
@@ -62,7 +62,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Direction
+### Direction
 
 <!-- SAMPLE gradient_radial direction 3 -->
 <table>
@@ -79,7 +79,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Flip
+### Flip
 
 <!-- SAMPLE gradient_radial flip 2 -->
 <table>
@@ -94,7 +94,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Scale
+### Scale
 
 <!-- SAMPLE gradient_radial scale 3 -->
 <table>
@@ -111,7 +111,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Power
+### Power
 
 <!-- SAMPLE gradient_radial power 3 -->
 <table>
@@ -128,7 +128,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Dither
+### Dither
 
 <!-- SAMPLE gradient_radial dither 3 -->
 <table>

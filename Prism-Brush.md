@@ -19,7 +19,7 @@ Parameter | Description
 - Setting either **Size X** or **Size Y** to `0` and the other greater than `0` will result in a prism.
 - Setting both to `0` will result in a cube.
 
-## Modes
+### Modes
 
 <!-- SAMPLE prism modes 2 -->
 <table>
@@ -38,7 +38,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Mode: `0`
+### Mode: `0`
 
 <!-- SAMPLE prism mode0_sizes 2 -->
 <table>
@@ -61,7 +61,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Mode: `1`
+### Mode: `1`
 
 <!-- SAMPLE prism mode1_sizes 2 -->
 <table>

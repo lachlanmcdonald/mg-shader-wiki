@@ -19,7 +19,7 @@ Parameter | Description
 **X/Y Gap**   | The distance between each run of adjacent stairs
 **Z Gap**     | The distance between each run and the next run above it (also known as the _rise._)
 
-## Mode
+### Mode
 
 Mode | Description
 ---- | -----------
@@ -28,7 +28,7 @@ Mode | Description
 `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** and **Z Gap** can still be adjusted
 `3` | **Z Gap** is adjusted to fill the available space (the value of the parameter is ignored). **Count** and **Height** can still be adjusted
 
-## Count
+### Count
 
 <!-- SAMPLE stairs_runs count 2 -->
 <table>
@@ -51,7 +51,7 @@ Mode | Description
 </table>
 <!-- END -->
 
-## Height
+### Height
 
 <!-- SAMPLE stairs_runs height 2 -->
 <table>
@@ -74,7 +74,7 @@ Mode | Description
 </table>
 <!-- END -->
 
-## X/Y Gap
+### X/Y Gap
 
 <!-- SAMPLE stairs_runs xy_gap 2 -->
 <table>
@@ -97,7 +97,7 @@ Mode | Description
 </table>
 <!-- END -->
 
-## Z Gap
+### Z Gap
 
 <!-- SAMPLE stairs_runs z_gap 2 -->
 <table>

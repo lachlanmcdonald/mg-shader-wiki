@@ -15,7 +15,7 @@ Parameter | Description
 **Line Width** | Width of the outline between tiles
 **Seed** | Global seed
 
-## Modes
+### Modes
 
 **Mode** determines how the pattern is colored:
 
@@ -39,7 +39,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Line Width
+### Line Width
 
 <!-- SAMPLE weave line_widths 3 -->
 <table>

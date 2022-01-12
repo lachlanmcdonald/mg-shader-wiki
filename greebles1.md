@@ -19,7 +19,7 @@ Parameter | Description
 **Depth** | Maximum depth of the randomly generated cuboids
 **Seed** | Global seed
 
-## Modes
+### Modes
 
 <!-- SAMPLE greebles1 modes 2 -->
 <table>
@@ -38,7 +38,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Count
+### Count
 
 <!-- SAMPLE greebles1 count 2 -->
 <table>
@@ -61,7 +61,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Width, Height & Depth
+### Width, Height & Depth
 
 <!-- SAMPLE greebles1 variations 2 -->
 <table>

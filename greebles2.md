@@ -16,7 +16,7 @@ Parameter | Description
 **Depth** | Maximum depth
 **Seed** | Global seed
 
-## Modes
+### Modes
 
 <!-- SAMPLE greebles2 modes 3 -->
 <table>
@@ -38,7 +38,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Width, Height & Depth
+### Width, Height & Depth
 
 <!-- SAMPLE greebles2 variations 3 -->
 <table>

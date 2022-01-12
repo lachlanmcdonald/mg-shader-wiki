@@ -19,7 +19,7 @@ Parameter | Description
 **Noise** | Randomness of the colors within each tile. Values closer to `0` produce solid colored tiles, where as values closer to `1` produce noisy tiles (see below)
 **Seed** | Global seed
 
-## Modes
+### Modes
 
 There are 5 distinct color modes for generating patterns, as outlined below:
 
@@ -58,7 +58,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 </table>
 <!-- END -->
 
-## Min & Max
+### Min & Max
 
 <!-- SAMPLE tiles_uneven variations 3 -->
 <table>
@@ -75,7 +75,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 </table>
 <!-- END -->
 
-## Line Width
+### Line Width
 
 <!-- SAMPLE tiles_uneven line_width 3 -->
 <table>
@@ -92,7 +92,7 @@ There are 5 distinct color modes for generating patterns, as outlined below:
 </table>
 <!-- END -->
 
-## Noise
+### Noise
 
 <!-- SAMPLE tiles_uneven noise 3 -->
 <table>

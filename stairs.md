@@ -15,7 +15,7 @@ Parameter | Description
 **Count** | The number of runs to fit within the brushes dimensions. If the box's dimensions are not divisible by the count, the depth of each run will be inconsistent
 **Height** | The height of each run
 
-## Mode
+### Mode
 
 Mode | Description
 ---- | -----------
@@ -23,7 +23,7 @@ Mode | Description
 `1` |  The **Height** of each run is adjusted to fill the available space (the value of the parameter is ignored). **Count** can still be adjusted
 `2` | **Count** is adjusted to fill the available space (the value of the parameter is ignored). **Height** can still be adjusted
 
-## Direction
+### Direction
 
 <!-- SAMPLE stairs directions 3 -->
 <table>
@@ -46,7 +46,7 @@ Mode | Description
 </table>
 <!-- END -->
 
-## Height
+### Height
 
 <!-- SAMPLE stairs height 3 -->
 <table>

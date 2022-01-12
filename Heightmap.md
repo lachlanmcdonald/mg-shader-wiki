@@ -15,7 +15,7 @@ Parameter | Description
 **Auto Balance** | When `1`, the range is remapped according to the selected colors in the palette. When `0`, the range is not changed by the palette. See below for more information.
 **Reverse** | When `0`, the luminance of a voxel determines how far it is extruded. When `1`, this is reversed and darker voxels are extruded instead.
 
-## Example
+## Examples
 
 <!-- SAMPLE heightmap usage 2 -->
 <table>
@@ -30,7 +30,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Blur
+### Blur
 
 <!-- SAMPLE heightmap blur 2 -->
 <table>
@@ -53,7 +53,7 @@ Parameter | Description
 </table>
 <!-- END -->
 
-## Auto Balance
+### Auto Balance
 
 <!-- SAMPLE heightmap autobalance 3 -->
 <table>
@@ -81,7 +81,7 @@ For example, if you import a height-map texture that ranges from black (`0.0`) t
 
 If **Auto Balance** is `1`, any unselected colors that were used by the texture are ignored when generating the volume. This can lead to odd results.
 
-## Reverse
+### Reverse
 
 <!-- SAMPLE heightmap reverse 2 -->
 <table>
