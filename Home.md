@@ -113,9 +113,14 @@
 <!-- LIST list_volumes 120 -->
 <table>
 	<tr>
-		<td valign="center" align="left"><a href="heightmap"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/heightmap.png" alt=""></a></td>
-		<th valign="center" align="left"><a href="heightmap">Height-map</a></th>
+		<td valign="center" align="left"><a href="Heightmap"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/heightmap.png" alt=""></a></td>
+		<th valign="center" align="left"><a href="Heightmap">Height-map</a></th>
 		<td valign="center">Transforms a 2D height-map texture into a 3D volume</td>
+	</tr>
+	<tr>
+		<td valign="center" align="left"><a href="Erode"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/heightmap.png" alt=""></a></td>
+		<th valign="center" align="left"><a href="Erode">Erode</a></th>
+		<td valign="center">Erodes selected colors using a noise texture</td>
 	</tr>
 	<tr>
 		<td valign="center" align="left"><a href="slices"><img width="120" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons1/slice.png" alt=""></a></td>

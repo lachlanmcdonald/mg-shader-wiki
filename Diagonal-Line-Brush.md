@@ -17,7 +17,7 @@ Parameter | Description
 **Offset** | Adjusts the offset of the lines
 **Shuffle** | Adjusts the colors of the lines
 
-The widths of the lines are independant of the number of selected colours from the palette:
+The widths of the lines are independant of the number of selected colors from the palette:
 
 - Up to 4 different widths can be selected.
 - If a width is set to `0`, it is skipped from the pattern. For example:

@@ -1,6 +1,6 @@
 > The **`cover`** shader adds a layer of voxels of the selected colors on top of all voxels in the volume.
 >
-> This shader is similar to the [`soil`](Soil) shader, except `cover` adds a layer to all voxels, where `soil` only works on the selected colours.
+> This shader is similar to the [`soil`](Soil) shader, except `cover` adds a layer to all voxels, where `soil` only works on the selected colors.
 
 ## Parameters
 

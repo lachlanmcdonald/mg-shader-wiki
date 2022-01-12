@@ -35,7 +35,7 @@ mode:
 - label: Mode
   raw: Similar to mode <code>0</code>, but tiles directed towards the X-axis selected
     from the first half of the selected colors, and Y-axis the selected from the second
-    half of the selected colours.
+    half of the selected colors.
   src: /0.11.0/tiles_puzzle_mode_4.png
   value: 4
 noise:

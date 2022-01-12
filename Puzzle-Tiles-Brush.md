@@ -57,7 +57,7 @@ There are 5 distinct color modes for generating patterns:
 		<th>Mode: <code>4</code></th>
 	</tr>
 	<tr>
-		<td valign="top">Similar to mode <code>0</code>, but tiles directed towards the X-axis selected from the first half of the selected colors, and Y-axis the selected from the second half of the selected colours.</td>
+		<td valign="top">Similar to mode <code>0</code>, but tiles directed towards the X-axis selected from the first half of the selected colors, and Y-axis the selected from the second half of the selected colors.</td>
 	</tr>
 </table>
 <!-- END -->

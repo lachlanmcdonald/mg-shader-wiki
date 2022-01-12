@@ -12,7 +12,7 @@
 Parameter | Description
 --------- | -----------
 **Blur** | Blurs the height-map by the number of voxels specified. Used to smoothes any noise in the original texture. The default value of `0` does not blur, and values up to `10` increase the blurring and the smoothness of the result.
-**Auto Balance** | When `1`, the range is remapped according to the selected colours in the palette. When `0`, the range is not changed by the palette. See below for more information.
+**Auto Balance** | When `1`, the range is remapped according to the selected colors in the palette. When `0`, the range is not changed by the palette. See below for more information.
 **Reverse** | When `0`, the luminance of a voxel determines how far it is extruded. When `1`, this is reversed and darker voxels are extruded instead.
 
 ## Example
@@ -76,10 +76,10 @@ The **heightmap** shader uses the [_relative luminance_](https://en.wikipedia.or
 
 For example, if you import a height-map texture that ranges from black (`0.0`) to 50% grey (`0.5`), the heightmap shaders can do two things:
 
-- If **Auto Balance** is `1` and you select the colors in the palette used by the height-map texture, the shader will treat the colours relatively and calculate a new maximum and minimum ranges for you.
+- If **Auto Balance** is `1` and you select the colors in the palette used by the height-map texture, the shader will treat the colors relatively and calculate a new maximum and minimum ranges for you.
 - If **Auto Balance** is `0`, the shader will treat values absolutely (no changes), meaning the highest point will be 50% of the volume.
 
-If **Auto Balance** is `1`, any unselected colours that were used by the texture are ignored when generating the volume. This can lead to odd results.
+If **Auto Balance** is `1`, any unselected colors that were used by the texture are ignored when generating the volume. This can lead to odd results.
 
 ## Reverse
 

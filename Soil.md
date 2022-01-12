@@ -1,6 +1,6 @@
 > The **`soil`**, **`soil_replace`** shaders adds a layer of voxels of a color on top of voxels matching the selected colors. `soil` adds the voxels on top, and `soil_replace` replaces the voxels.
 > 
-> This shader is similar to the [`cover`](Cover) shader, except `cover` adds a layer to all voxels, where these shaders only works on the selected colours.
+> This shader is similar to the [`cover`](Cover) shader, except `cover` adds a layer to all voxels, where these shaders only works on the selected colors.
 
 ## Parameters
 

@@ -33,7 +33,7 @@ There are 3 distinct color modes for generating voxels, as outlined below:
 		<th>Mode: <code>2</code></th>
 	</tr>
 	<tr>
-		<td valign="top">The color is chosen at random from the selected colours.</td>
+		<td valign="top">The color is chosen at random from the selected colors.</td>
 		<td valign="top">The color of each voxel depends on how many adjacent neighbours it has.</td>
 		<td valign="top">Reverse of Mode 1.</td>
 	</tr>

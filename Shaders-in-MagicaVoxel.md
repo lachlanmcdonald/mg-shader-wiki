@@ -18,7 +18,7 @@
 - [Snippets](#snippets)
   - [Determine if a axis mode is set](#determine-if-a-axis-mode-is-set)
   - [Determine which axis mode is set](#determine-which-axis-mode-is-set)
-  - [`mix()` for selected colours](#mix-for-selected-colours)
+  - [`mix()` for selected colors](#mix-for-selected-colors)
   - [Determine if the provided color is one of the selected colors](#determine-if-the-provided-color-is-one-of-the-selected-colors)
 - [Logging](#logging)
     - [MacOS](#macos)
@@ -33,9 +33,9 @@ Shader files are written in _OpenGL Shader Language_ (GLSL), version _1.10_. [Th
 Each shader has a `map` function which is executed once per voxel:
 
 - It receives the location of the voxel as its only parameter
-- Should return a float between `0.0` and `255.0` representing the voxel colour in the palette.
+- Should return a float between `0.0` and `255.0` representing the voxel color in the palette.
 
-For example, the following shader will fill the entire volume with voxels coloured from palette index `1`.
+For example, the following shader will fill the entire volume with voxels colored from palette index `1`.
 
 ```glsl
 // xs_begin
@@ -84,8 +84,8 @@ MagicaVoxel provides shaders a number of variables which can be accessed by the 
 Variable | Type | Purpose
 --- | --- | --- 
 `i_volume_size` | `vec3`	|	Size of the volume (1-256)
-`i_color_index` | `float` |	The selected colour (0-255). This is provided for backward compatibility, as in later versions the user can select multiple colours
-`i_num_color_sels` | `int` | The number of selected colours
+`i_color_index` | `float` |	The selected color (0-255). This is provided for backward compatibility, as in later versions the user can select multiple colors
+`i_num_color_sels` | `int` | The number of selected colors
 `i_axis` | `vec3` | The selected axis mode. Each component corresponds to the selected axis mode. If a mode is selected, the value will be `1.0`, otherwise it will be `0.0`. If all components are `0.0` or `1.0`, an axis-mode is not selected.
 `i_mirror` | `vec3` | The selected mirror mode. Each component corresponds to the selected mirror mode. If a mode is selected, the value will be `1.0`, otherwise it will be `0.0`. If all components are `0.0` or `1.0`, an mirror mode is not selected.
 `i_iter` | `vec3` | The current iteration, which is normally `0.0` unless the user has set a higher value when running the shader. This value only applies when the shader is run over the volume, and not used as a brush.
@@ -99,7 +99,7 @@ MagicaVoxel also provides a number of additional functions:
 
 #### `float voxel (vec3 v)`
 
-Returns the colour of the voxel at the position `v`, in the range of `1-255`, or `0` if there is no voxel at that position. These correspond to the X, Y and Z coordinates shown in the toolbar of the MagicaVoxel editor.
+Returns the color of the voxel at the position `v`, in the range of `1-255`, or `0` if there is no voxel at that position. These correspond to the X, Y and Z coordinates shown in the toolbar of the MagicaVoxel editor.
 
 - Providing an invalid position, such as one greater than the volume size, will return `0`
 - `voxel()` can only be called when the shader is run over the entire volume, otherwise it will always return `0` (even when voxels are present)
@@ -108,14 +108,14 @@ Returns the colour of the voxel at the position `v`, in the range of `1-255`, or
 
 Returns the *k*-th selected color. 
 
-- The first colour is index `0`
-- The number of selected colours is defined by `i_num_color_sels`
+- The first color is index `0`
+- The number of selected colors is defined by `i_num_color_sels`
 
 #### `vec4 palette(float k)`
 
-Returns information about the colour the *k*-th index in the palette. The `rgb` components correspond to the RGB values of the colour, in the range of 0-1. The `a` component appears to be unused.
+Returns information about the color the *k*-th index in the palette. The `rgb` components correspond to the RGB values of the color, in the range of 0-1. The `a` component appears to be unused.
 
-> Note: Vector components in GLSL can be accessed with either `xyzw` or `rgba`. These behave identically but are useful to use when working with coordinates and textures/colours, respectively.
+> Note: Vector components in GLSL can be accessed with either `xyzw` or `rgba`. These behave identically but are useful to use when working with coordinates and textures/colors, respectively.
 
 ## Observations
 
@@ -220,7 +220,7 @@ It is best to initialise arrays with fewer than 255 elements.
 
 ### Using the `voxel` function beyond the volume size
 
-`voxel()` for retrieving a colour index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check whether the co-ordinates are out-of-bounds before calling `voxel`.
+`voxel()` for retrieving a color index will return `0.0` when addressing beyond the volume size. Therefore, it is not necessary to check whether the co-ordinates are out-of-bounds before calling `voxel`.
 
 ```glsl
 voxel(500.0, 500.0, 500.0); // 0.0
@@ -251,7 +251,7 @@ bvec3 axis_mode = equal(ivec3(i_axis), ivec3(1));
 
 **For example:** `axis_mode.x` will be `true` if the X-axis mode is set.
 
-### `mix()` for selected colours
+### `mix()` for selected colors
 
 ```glsl
 float pal_mix(float p) {
