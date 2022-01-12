@@ -2,7 +2,7 @@
 >
 >  The height of the grass is affected by the brush height and the color of the voxels is determined by the selected colors in the palette.
 >
-> This shader is similar to the [Grass Fit shader](Grass-Brush), which it is applied to the entire volume.
+> This shader is similar to the [Grass Fit shader](Grass-Fit-Brush), which it is applied to the entire volume.
 
 <!-- TOC -->
 - [Parameters](#parameters)
