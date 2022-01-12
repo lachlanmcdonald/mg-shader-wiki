@@ -8,7 +8,7 @@
   preview: /icons2/erode.png
 - content: Generates generates randomly protruding lines of voxels with a constant distribution
   heading: Grass Fit
-  href: Grass Fit
+  href: Grass-Fit
   preview: /icons2/grass_fit.png
 - content: Removes a segment of the volume and shuffles voxels to fill its place
   heading: Slices
