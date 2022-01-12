@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Example](#example)
+- [Examples](#examples)
 
 ## Parameters
 

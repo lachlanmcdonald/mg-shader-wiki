@@ -2,10 +2,10 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Example](#example)
-- [Blur](#blur)
-- [Auto Balance](#auto-balance)
-- [Reverse](#reverse)
+  - [Blur](#blur)
+  - [Auto Balance](#auto-balance)
+  - [Reverse](#reverse)
+- [Examples](#examples)
 
 ## Parameters
 
@@ -14,21 +14,6 @@ Parameter | Description
 **Blur** | Blurs the height-map by the number of voxels specified. Used to smoothes any noise in the original texture. The default value of `0` does not blur, and values up to `10` increase the blurring and the smoothness of the result.
 **Auto Balance** | When `1`, the range is remapped according to the selected colors in the palette. When `0`, the range is not changed by the palette. See below for more information.
 **Reverse** | When `0`, the luminance of a voxel determines how far it is extruded. When `1`, this is reversed and darker voxels are extruded instead.
-
-## Examples
-
-<!-- SAMPLE heightmap usage 2 -->
-<table>
-	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/heightmap-base.png" alt=""></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/heightmap-blur0.png" alt=""></td>
-	</tr>
-	<tr>
-		<td valign="top">Height-map texture</td>
-		<td valign="top">Results</td>
-	</tr>
-</table>
-<!-- END -->
 
 ### Blur
 
@@ -92,6 +77,21 @@ If **Auto Balance** is `1`, any unselected colors that were used by the texture 
 	<tr>
 		<th>Reverse: <code>0</code></th>
 		<th>Reverse: <code>1</code></th>
+	</tr>
+</table>
+<!-- END -->
+
+## Examples
+
+<!-- SAMPLE heightmap usage 2 -->
+<table>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/heightmap-base.png" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/heightmap-blur0.png" alt=""></td>
+	</tr>
+	<tr>
+		<td valign="top">Height-map texture</td>
+		<td valign="top">Results</td>
 	</tr>
 </table>
 <!-- END -->

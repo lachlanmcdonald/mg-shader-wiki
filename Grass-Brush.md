@@ -6,9 +6,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Density](#density)
-- [Growth](#growth)
+  - [Mode](#mode)
+  - [Density](#density)
+  - [Growth](#growth)
 - [Examples](#examples)
 - [Notes](#notes)
 

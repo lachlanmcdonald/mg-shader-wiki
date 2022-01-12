@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
+  - [Mode](#mode)
 
 ## Parameters
 

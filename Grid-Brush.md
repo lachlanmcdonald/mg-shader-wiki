@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Thickness](#thickness)
+  - [Thickness](#thickness)
 - [Axis Modes](#axis-modes)
 - [Examples](#examples)
 

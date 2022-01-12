@@ -2,7 +2,7 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Directions](#directions)
+  - [Directions](#directions)
 - [Notes](#notes)
 
 ## Parameters

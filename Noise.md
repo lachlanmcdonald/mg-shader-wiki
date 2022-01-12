@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Sizes](#sizes)
+  - [Sizes](#sizes)
 - [Axis Modes](#axis-modes)
 
 ## Parameters

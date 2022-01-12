@@ -2,12 +2,12 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Scale](#scale)
-- [Jitter](#jitter)
-- [Noise](#noise)
-- [Power](#power)
-- [Cavity](#cavity)
+  - [Mode](#mode)
+  - [Scale](#scale)
+  - [Jitter](#jitter)
+  - [Noise](#noise)
+  - [Power](#power)
+  - [Cavity](#cavity)
 
 ## Parameters
 

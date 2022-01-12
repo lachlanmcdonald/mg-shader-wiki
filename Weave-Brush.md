@@ -2,8 +2,8 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Modes](#modes)
-- [Line Width](#line-width)
+  - [Modes](#modes)
+  - [Line Width](#line-width)
 
 ## Parameters
 

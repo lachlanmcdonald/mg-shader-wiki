@@ -4,7 +4,7 @@
 - [Volume Shaders](#volume-shaders)
 - [Notes](#notes)
 
-### Brush Shaders
+## Brush Shaders
 
 > See: [How to use Brush Shaders](brush-shaders)
 
@@ -78,7 +78,7 @@
 </table>
 <!-- END -->
 
-### Primitive Brush Shaders
+## Primitive Brush Shaders
 
 > See: [How to use Brush Shaders](brush-shaders)
 
@@ -107,7 +107,7 @@
 </table>
 <!-- END -->
 
-### Volume Shaders
+## Volume Shaders
 - [How to use Volume Shaders](volume-shaders)
 
 <!-- LIST list_volumes 120 -->

@@ -4,12 +4,12 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Direction](#direction)
-- [Flip](#flip)
-- [Scale](#scale)
-- [Power](#power)
-- [Dither](#dither)
+  - [Mode](#mode)
+  - [Direction](#direction)
+  - [Flip](#flip)
+  - [Scale](#scale)
+  - [Power](#power)
+  - [Dither](#dither)
 
 ## Parameters
 

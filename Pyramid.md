@@ -3,7 +3,7 @@
 <!-- TOC -->
 - [Parameters](#parameters)
 - [Axis Modes](#axis-modes)
-- [Noise](#noise)
+  - [Noise](#noise)
 - [Notes](#notes)
 
 ## Parameters

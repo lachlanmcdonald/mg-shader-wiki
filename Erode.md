@@ -4,10 +4,10 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Example](#example)
-- [Threshold](#threshold)
-- [Scale](#scale)
-- [Seed](#seed)
+  - [Threshold](#threshold)
+  - [Scale](#scale)
+  - [Seed](#seed)
+- [Examples](#examples)
 
 ## Parameters
 
@@ -18,21 +18,6 @@ Parameter | Description
 **Seed**   | Global seed
 
 > The seed is automatically randomised when on each iteration.
-
-## Examples
-
-<!-- SAMPLE erode exmaples 2 -->
-<table>
-	<tr>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/erosion_base.jpg" alt=""></td>
-		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/erosion_scale6.jpg" alt=""></td>
-	</tr>
-	<tr>
-		<td valign="top">Befrore</td>
-		<td valign="top">After</td>
-	</tr>
-</table>
-<!-- END -->
 
 ### Threshold
 
@@ -84,6 +69,21 @@ The **Seed** affects the generation of the 3D noise used to erode the volume. Ho
 	<tr>
 		<td valign="top">The shader run 4 times</td>
 		<td valign="top">The shader run with 4 iterations</td>
+	</tr>
+</table>
+<!-- END -->
+
+## Examples
+
+<!-- SAMPLE erode exmaples 2 -->
+<table>
+	<tr>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/erosion_base.jpg" alt=""></td>
+		<td width="50%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/erosion_scale6.jpg" alt=""></td>
+	</tr>
+	<tr>
+		<td valign="top">Befrore</td>
+		<td valign="top">After</td>
 	</tr>
 </table>
 <!-- END -->

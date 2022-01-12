@@ -2,9 +2,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Modes](#modes)
-- [Size](#size)
-- [Noise](#noise)
+  - [Modes](#modes)
+  - [Size](#size)
+  - [Noise](#noise)
 
 ## Parameters
 

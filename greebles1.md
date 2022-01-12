@@ -2,9 +2,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Modes](#modes)
-- [Count](#count)
-- [Width, Height & Depth](#width-height--depth)
+  - [Modes](#modes)
+  - [Count](#count)
+  - [Width, Height & Depth](#width-height--depth)
 - [Examples](#examples)
 - [Axis Modes](#axis-modes)
 

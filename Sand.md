@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
+  - [Mode](#mode)
 - [Examples](#examples)
 
 ## Parameters

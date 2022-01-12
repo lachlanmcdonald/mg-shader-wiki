@@ -2,9 +2,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Rotation](#rotation)
-- [Thickness](#thickness)
-- [Volume Sizes](#volume-sizes)
+  - [Rotation](#rotation)
+  - [Thickness](#thickness)
+  - [Volume Sizes](#volume-sizes)
 - [Examples](#examples)
 
 ## Parameters

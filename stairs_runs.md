@@ -2,11 +2,11 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Count](#count)
-- [Height](#height)
-- [X/Y Gap](#xy-gap)
-- [Z Gap](#z-gap)
+  - [Mode](#mode)
+  - [Count](#count)
+  - [Height](#height)
+  - [X/Y Gap](#xy-gap)
+  - [Z Gap](#z-gap)
 
 ## Parameters
 

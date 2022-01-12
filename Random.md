@@ -4,8 +4,8 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Threshold](#threshold)
-- [Axis modes](#axis-modes)
+  - [Threshold](#threshold)
+- [Axis Modes](#axis-modes)
 
 ## Parameters
 

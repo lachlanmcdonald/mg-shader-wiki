@@ -4,9 +4,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Direction](#direction)
-- [Noise](#noise)
+  - [Mode](#mode)
+  - [Direction](#direction)
+  - [Noise](#noise)
 
 ## Parameters
 

@@ -2,9 +2,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Direction](#direction)
-- [Stringer](#stringer)
+  - [Mode](#mode)
+  - [Direction](#direction)
+  - [Stringer](#stringer)
 
 ## Parameters
 

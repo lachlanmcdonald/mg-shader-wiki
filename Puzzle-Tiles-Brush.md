@@ -2,10 +2,10 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Modes](#modes)
-- [Size X & Y](#size-x--y)
-- [Line Width](#line-width)
-- [Noise](#noise)
+  - [Modes](#modes)
+  - [Size X & Y](#size-x--y)
+  - [Line Width](#line-width)
+  - [Noise](#noise)
 - [Examples](#examples)
 
 ## Parameters

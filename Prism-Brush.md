@@ -2,9 +2,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Modes](#modes)
-- [Mode: `0`](#mode-0)
-- [Mode: `1`](#mode-1)
+  - [Modes](#modes)
+  - [Mode: `0`](#mode-0)
+  - [Mode: `1`](#mode-1)
 - [Examples](#examples)
 
 ## Parameters

@@ -2,9 +2,9 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Mode](#mode)
-- [Direction](#direction)
-- [Height](#height)
+  - [Mode](#mode)
+  - [Direction](#direction)
+  - [Height](#height)
 
 ## Parameters
 

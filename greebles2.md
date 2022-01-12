@@ -2,8 +2,8 @@
 
 <!-- TOC -->
 - [Parameters](#parameters)
-- [Modes](#modes)
-- [Width, Height & Depth](#width-height--depth)
+  - [Modes](#modes)
+  - [Width, Height & Depth](#width-height--depth)
 - [Axis Modes](#axis-modes)
 
 ## Parameters
