@@ -21,7 +21,7 @@
   - [Stairs Brushes](Stairs-Brushes)
   - [Greeble Brushes](Greeble-Brushes)
 - [Volume Shaders](Volume-Shaders)
-  - [Height-map](Heightmap)
+  - [Heightmap](Heightmap)
   - [Erode](Erode)
   - [Grass Fit](Grass-Fit)
   - [Slices](slices)

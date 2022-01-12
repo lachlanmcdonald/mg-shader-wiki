@@ -1,5 +1,5 @@
 - content: Transforms a 2D height-map texture into a 3D volume
-  heading: Height-map
+  heading: Heightmap
   href: Heightmap
   preview: /icons2/heightmap.png
 - content: Erodes selected colors using a noise texture

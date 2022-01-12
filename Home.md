@@ -119,7 +119,7 @@
 <table>
 	<tr>
 		<td valign="center" align="left"><a href="Heightmap"><img width="140" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/icons2/heightmap.png" alt=""></a></td>
-		<th valign="center" align="left"><a href="Heightmap">Height-map</a></th>
+		<th valign="center" align="left"><a href="Heightmap">Heightmap</a></th>
 		<td valign="center">Transforms a 2D height-map texture into a 3D volume</td>
 	</tr>
 	<tr>
