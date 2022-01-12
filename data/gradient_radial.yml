@@ -1,0 +1,72 @@
+direction:
+  - src: /0.13.0/gradient_radial_direction0.png
+    label: Direction
+    value: '0'
+  - src: /0.13.0/gradient_radial_direction1.png
+    label: Direction
+    value: '1'
+  - src: /0.13.0/gradient_radial_direction2.png
+    label: Direction
+    value: '2'
+dither:
+  - src: /0.13.0/gradient_radial_dither0.png
+    label: Dither
+    value: '0'
+  - src: /0.13.0/gradient_radial_dither20.png
+    label: Dither
+    value: '20'
+  - src: /0.13.0/gradient_radial_dither40.png
+    label: Dither
+    value: '40'
+flip:
+  - src: /0.13.0/gradient_radial_flip0.png
+    label: Flip
+    value: '0'
+  - src: /0.13.0/gradient_radial_flip1.png
+    label: Flip
+    value: '1'
+mode:
+  - src: /0.13.0/gradient_radial_mode0.png
+    text: Interweaved noise
+    label: Mode
+    value: '0'
+  - src: /0.13.0/gradient_radial_mode1.png
+    text: Random noise
+    label: Mode
+    value: '1'
+  - src: /0.13.0/gradient_radial_mode2.png
+    text: Randomised scanlines
+    label: Mode
+    value: '2'
+  - src: /0.13.0/gradient_radial_mode3.png
+    text: Even scanlines
+    label: Mode
+    value: '3'
+  - src: /0.13.0/gradient_radial_mode4.png
+    text: Waveform noise
+    label: Mode
+    value: '4'
+  - src: /0.13.0/gradient_radial_mode5.png
+    text: Ordered Dithering (using a 4x4 Bayer Matrix)
+    label: Mode
+    value: '5'
+power:
+  - src: /0.13.0/gradient_radial_power050.png
+    label: Power
+    value: '0.5'
+  - src: /0.13.0/gradient_radial_power100.png
+    label: Power
+    value: '1.0'
+  - src: /0.13.0/gradient_radial_power200.png
+    label: Power
+    value: '2.0'
+scale:
+  - src: /0.13.0/gradient_radial_scale150.png
+    label: Scale
+    value: '150'
+  - src: /0.13.0/gradient_radial_scale200.png
+    label: Scale
+    value: '200'
+  - src: /0.13.0/gradient_radial_scale300.png
+    label: Scale
+    value: '300'

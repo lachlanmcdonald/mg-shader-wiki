@@ -1,4 +1,6 @@
-> **gradient** is a **[brush](Brush-Shaders)** which generates different styles of gradients from the selected colors.
+> The **gradient** **[brush](Brush-Shaders)** which generates different styles of gradients from the colors selected from the palette.
+>
+> To generate radial (circular) gradients, see the [**Radial Gradient**](Gradient-Radial-Brush) brush.
 
 <!-- TOC -->
 - [Parameters](#parameters)
@@ -12,7 +14,7 @@ Parameter | Description
 --------- | -----------
 **Mode**      | Gradient mode (see below)
 **Direction** | Direction of the gradient (see below)
-**Noise**     | Amount of noise to introduce between each of the selected.
+**Dither**    | Amount of dithering between each of the selected colors
 **Seed**      | Global seed (not all modes are affected)
 
 ## Mode
