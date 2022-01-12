@@ -20,6 +20,7 @@
   - [Stairs Brushes](Stairs-Brushes)
   - [Greeble Brushes](Greeble-Brushes)
 - [Volume Shaders](Volume-Shaders)
+  - [Height-map](heightmap)
   - [Slices](slices)
   - [Case](case)
   - [Pyramid](pyramid)
