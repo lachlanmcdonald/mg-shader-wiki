@@ -1,8 +1,8 @@
-> The **Grass [brush](Brush-Shaders)** generates random columns of voxels with a constant distribution; similar to grass or small plants. The height of the grass is affected by the brushes height.
+> The **Grass [brush](Brush-Shaders)** generates random columns of voxels with a constant distribution; similar to grass or small plants.
 >
-> The color of the voxels is determined by the selected colors in the palette.
+>  The height of the grass is affected by the brush height and the color of the voxels is determined by the selected colors in the palette.
 >
-> This shader is similar to the [Grass Fit shader](Grass-Brush), which it is applied to the entire volume (or a selected voxels within that volume)
+> This shader is similar to the [Grass Fit shader](Grass-Brush), which it is applied to the entire volume.
 
 <!-- TOC -->
 - [Parameters](#parameters)
@@ -118,4 +118,4 @@ There are 4 distinct color modes for generating voxels, as outlined below:
 
 ## Notes
 
-- The `grass_inv` shader has been replaced by the **Direction** parameter
+- The `grass_inv` shader was replaced by the **Direction** parameter

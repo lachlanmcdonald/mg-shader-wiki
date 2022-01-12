@@ -1,0 +1,5 @@
+examples:
+- alt: Before
+  src: /0.13.0/grass_fit0.jpg
+- alt: After
+  src: /0.13.0/grass_fit1.jpg
