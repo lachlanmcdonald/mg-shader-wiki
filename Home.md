@@ -6,7 +6,7 @@
 
 ## Brush Shaders
 
-- [How to use Brush Shaders](brush-shaders)
+> See: [How to use Brush Shaders](brush-shaders)
 
 <!-- LIST list_brushes 140 -->
 <table>
@@ -80,7 +80,7 @@
 
 ## Primitive Brush Shaders
 
-- [How to use Brush Shaders](brush-shaders)
+> See: [How to use Brush Shaders](brush-shaders)
 
 <!-- LIST list_primitives 120 -->
 <table>
