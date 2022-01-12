@@ -1,6 +1,10 @@
 - content: Transforms a 2D height-map texture into a 3D volume
   heading: Height-map
-  href: heightmap
+  href: Heightmap
+  preview: /icons1/heightmap.png
+- content: Erodes selected colors using a noise texture
+  heading: Erode
+  href: Erode
   preview: /icons1/heightmap.png
 - content: Removes a segment of the volume and shuffles voxels to fill its place
   heading: Slices

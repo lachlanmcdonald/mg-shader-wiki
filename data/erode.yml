@@ -1,0 +1,27 @@
+exmaples:
+  - src: /0.13.0/erosion_base.jpg
+    text: Befrore
+  - src: /0.13.0/erosion_scale6.jpg
+    text: After
+scale:
+  - label: Scale
+    value: '3'
+    src: /0.13.0/erosion_scale3.jpg
+  - label: Scale
+    value: '6'
+    src: /0.13.0/erosion_scale6.jpg
+  - label: Scale
+    value: '20'
+    src: /0.13.0/erosion_scale20.jpg
+threshold:
+  - label: Threshold
+    value: 1
+    src: /0.13.0/erosion_threshold1.jpg
+  - label: Threshold
+    value: 18
+    src: /0.13.0/erosion_threshold18.jpg
+iterations:
+  - src: /0.13.0/erosions_runs4.jpg
+    text: The shader run 4 times
+  - src: /0.13.0/erosion_iterations4.jpg
+    text: The shader run with 4 iterations
