@@ -129,21 +129,19 @@ Parameter | Description
 <!-- SAMPLE terrain shift 3 -->
 <table>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/terrain_shift0.jpg" alt="Example of a 'Shift' value of 0"></td>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/terrain_shift20.jpg" alt="Example of a 'Shift' value of 20"></td>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/terrain_shift40.jpg" alt="Example of a 'Shift' value of 40"></td>
+		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/terrain_shift60.jpg" alt="Example of a 'Shift' value of 60"></td>
 	</tr>
 	<tr>
-		<th>Shift: <code>0</code></th>
 		<th>Shift: <code>20</code></th>
 		<th>Shift: <code>40</code></th>
+		<th>Shift: <code>60</code></th>
 	</tr>
 	<tr>
-		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/terrain_shift60.jpg" alt="Example of a 'Shift' value of 60"></td>
 		<td width="33.33%"><img width="100%" src="https://s3.amazonaws.com/misc.lachlanmcdonald.com/magicavoxel-shaders/0.13.0/terrain_shift80.jpg" alt="Example of a 'Shift' value of 80"></td>
 	</tr>
 	<tr>
-		<th>Shift: <code>60</code></th>
 		<th>Shift: <code>80</code></th>
 	</tr>
 </table>

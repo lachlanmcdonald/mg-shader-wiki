@@ -88,9 +88,6 @@ scale:
     label: Scale
     value: '75'
 shift:
-  - src: /0.13.0/terrain_shift0.jpg
-    label: Shift
-    value: '0'
   - src: /0.13.0/terrain_shift20.jpg
     label: Shift
     value: '20'
