@@ -17,7 +17,7 @@ Parameter | Description
 **Scale** | Size of erosion texture. Larger values producer smaller clusters of erotion.
 **Seed**   | Global seed
 
-> The seed is automatically randomised when on each iteration.
+> The seed is automatically randomised on each iteration.
 
 ### Threshold
 
