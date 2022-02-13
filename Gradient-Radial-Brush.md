@@ -1,4 +1,4 @@
-> The **gradient_radial** **[brush](Brush-Shaders)** which generates different styles of gradients from the colors selected from the palette in a radial (circular) pattern.
+> The **gradient_radial** **[brush](Brush-Shaders)** generates different styles of gradients from the colors selected from the palette in a radial (circular) pattern.
 >
 > To generate linear gradients, see the [**Gradient**](Gradient-Brush) brush.
 
