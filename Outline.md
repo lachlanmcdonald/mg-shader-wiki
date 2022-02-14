@@ -10,7 +10,7 @@
 
 Parameter | Description
 --------- | -----------
-**Color** | Color index to replace voxels (setting the index to `0` will remove voxels)
+**Color** | Color index for the outline (`0` will remove voxels)
 
 ## Examples
 
